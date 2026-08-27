@@ -1,0 +1,40 @@
+# Firebase App Hosting config — deploys this Next.js app (incl. API routes
+# like the Flow webhook) to a *.web.app domain with full SSR support.
+# Set the actual secret values via `firebase apphosting:secrets:set <NAME>`
+# and reference them here; see README "Deployment" section.
+
+runConfig:
+  minInstances: 0
+  maxInstances: 2
+
+env:
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    secret: NEXT_PUBLIC_FIREBASE_API_KEY
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    secret: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    secret: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    secret: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    secret: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    secret: NEXT_PUBLIC_FIREBASE_APP_ID
+  - variable: FIREBASE_ADMIN_PROJECT_ID
+    secret: FIREBASE_ADMIN_PROJECT_ID
+  - variable: FIREBASE_ADMIN_CLIENT_EMAIL
+    secret: FIREBASE_ADMIN_CLIENT_EMAIL
+  - variable: FIREBASE_ADMIN_PRIVATE_KEY
+    secret: FIREBASE_ADMIN_PRIVATE_KEY
+  - variable: FLOW_API_KEY
+    secret: FLOW_API_KEY
+  - variable: FLOW_SECRET_KEY
+    secret: FLOW_SECRET_KEY
+  - variable: FLOW_API_BASE_URL
+    secret: FLOW_API_BASE_URL
+  - variable: FLOW_PLAN_AMOUNT
+    secret: FLOW_PLAN_AMOUNT
+  - variable: FLOW_PLAN_NAME
+    secret: FLOW_PLAN_NAME
+  - variable: NEXT_PUBLIC_APP_URL
+    secret: NEXT_PUBLIC_APP_URL

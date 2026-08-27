@@ -1,0 +1,247 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: ui-monospace, monospace;
+  --font-heading: var(--font-sans);
+
+  /* New sibling-violet brand scale */
+  --color-brand-violet: var(--brand-violet);
+  --color-brand-violet-strong: var(--brand-violet-strong);
+  --color-brand-violet-ink: var(--brand-violet-ink);
+  --color-brand-periwinkle: var(--brand-periwinkle);
+  --color-brand-teal: var(--brand-teal);
+  --color-brand-teal-strong: var(--brand-teal-strong);
+  --color-tint: var(--tint);
+  --color-tint-strong: var(--tint-strong);
+  --color-ink: var(--ink);
+  --color-heading-slate: var(--heading-slate);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+
+  /* Legacy brand aliases — kept so existing components compile during the
+     migration; remapped onto the new palette. Removed in the component pass. */
+  --color-brand-yellow: var(--brand-yellow);
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-coral: var(--brand-coral);
+  --color-brand-orange: var(--brand-orange);
+  --color-brand-paleblue: var(--brand-paleblue);
+
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+
+  /* Radius scale — base bumped to 0.75rem so rounded-xl lands ~16px (standard
+     cards) and rounded-4xl ~31px (large feature cards), per the report. */
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* Motion system (mirrors the report's :root tokens) */
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
+  --ease-accelerate: cubic-bezier(0.4, 0, 1, 1);
+  --ease-spring: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+:root {
+  /* === Sibling-violet brand palette ===
+     Same family/mood as the reference, shifted purpler in the brand hue with a
+     teal accent swapped in where the reference used magenta/coral. */
+  --brand-violet: #6c4be6; /* primary */
+  --brand-violet-strong: #5836cc; /* hover / active */
+  --brand-violet-ink: #4527a8; /* puffy button inset bottom */
+  --brand-periwinkle: #9a86f2; /* secondary */
+  --brand-teal: #14b8a6; /* swapped accent */
+  --brand-teal-strong: #0e9488;
+  --tint: #f5f3ff; /* faint lilac surface */
+  --tint-strong: #eae6fe; /* stronger lilac surface */
+  --ink: #1a1530; /* near-black violet text */
+  --heading-slate: #33304d; /* card-title slate, violet-shifted */
+  --success: #1fb573;
+  --warning: #f2a93c;
+
+  /* Legacy aliases → new palette (retired in the component pass) */
+  --brand-yellow: var(--tint-strong);
+  --brand-navy: var(--ink);
+  --brand-coral: var(--brand-violet);
+  --brand-orange: var(--brand-teal);
+  --brand-paleblue: var(--tint);
+
+  --background: #f6f5fb; /* neutral page, faintly cool-violet */
+  --foreground: var(--ink);
+  --card: #ffffff;
+  --card-foreground: var(--ink);
+  --popover: #ffffff;
+  --popover-foreground: var(--ink);
+  --primary: var(--brand-violet);
+  --primary-foreground: #ffffff;
+  --secondary: var(--tint-strong);
+  --secondary-foreground: var(--brand-violet-strong);
+  --muted: #f1eff8;
+  --muted-foreground: #5b5772;
+  --accent: var(--brand-teal);
+  --accent-foreground: #ffffff;
+  --destructive: #e5484d;
+  --border: #e6e3f0;
+  --input: #e6e3f0;
+  --ring: var(--brand-violet);
+  --chart-1: var(--brand-violet);
+  --chart-2: var(--brand-periwinkle);
+  --chart-3: var(--brand-teal);
+  --chart-4: var(--warning);
+  --chart-5: var(--success);
+  --radius: 0.75rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--brand-violet);
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: var(--tint);
+  --sidebar-accent-foreground: var(--brand-violet-strong);
+  --sidebar-border: var(--border);
+  --sidebar-ring: var(--brand-violet);
+}
+
+.dark {
+  /* Dark mode re-derived into the violet family (the report is light-only). */
+  --brand-violet: #8b73f5;
+  --brand-violet-strong: #7c61f0;
+  --brand-violet-ink: #2a1c5c;
+  --brand-periwinkle: #b3a3f8;
+  --brand-teal: #2dd4bf;
+  --brand-teal-strong: #14b8a6;
+  --tint: #211c3a;
+  --tint-strong: #2c2550;
+  --ink: #f3f1fb;
+  --heading-slate: #d8d4ee;
+  --success: #34d399;
+  --warning: #f8c06a;
+
+  --brand-yellow: var(--tint-strong);
+  --brand-navy: var(--ink);
+  --brand-coral: var(--brand-violet);
+  --brand-orange: var(--brand-teal);
+  --brand-paleblue: var(--tint);
+
+  --background: #14101f;
+  --foreground: var(--ink);
+  --card: #1c172e;
+  --card-foreground: var(--ink);
+  --popover: #1c172e;
+  --popover-foreground: var(--ink);
+  --primary: var(--brand-violet);
+  --primary-foreground: #14101f;
+  --secondary: var(--tint-strong);
+  --secondary-foreground: var(--ink);
+  --muted: #241e3c;
+  --muted-foreground: #a59fc4;
+  --accent: var(--brand-teal);
+  --accent-foreground: #0c2a26;
+  --destructive: #f0686d;
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: var(--brand-violet);
+  --chart-1: var(--brand-violet);
+  --chart-2: var(--brand-periwinkle);
+  --chart-3: var(--brand-teal);
+  --chart-4: var(--warning);
+  --chart-5: var(--success);
+  --sidebar: #1c172e;
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--brand-violet);
+  --sidebar-primary-foreground: #14101f;
+  --sidebar-accent: var(--tint);
+  --sidebar-accent-foreground: var(--ink);
+  --sidebar-border: var(--border);
+  --sidebar-ring: var(--brand-violet);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply inline-flex items-center gap-1.5 text-xs font-semibold tracking-[0.14em] text-muted-foreground uppercase;
+  }
+
+  /* Soft violet hero surface (replaces the neo-brutalist yellow panel). */
+  .hero-panel {
+    @apply relative rounded-[2rem] border border-border bg-tint-strong;
+  }
+
+  /* Two-tone display headline: solid ink line + gradient-clipped accent line,
+     mirroring the report's hero treatment. */
+  .text-gradient-brand {
+    background-image: linear-gradient(
+      to right,
+      var(--brand-violet) 0%,
+      var(--brand-periwinkle) 50%,
+      var(--brand-teal) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Puffy / 3D primary pill (report's layered inset shadow), retinted. */
+  .shadow-puffy {
+    box-shadow:
+      inset 0 2px 2px rgba(255, 255, 255, 0.25),
+      inset 0 -2px 0 var(--brand-violet-ink),
+      0 0 0 1px var(--brand-violet);
+  }
+
+  /* Soft multi-layer shadow for white CTA / elevated surfaces. */
+  .shadow-cta {
+    box-shadow:
+      0 53px 32px rgba(26, 21, 48, 0.02),
+      0 6px 13px rgba(26, 21, 48, 0.04),
+      0 1px 3px rgba(108, 75, 230, 0.12),
+      0 0 0 1px var(--border);
+  }
+}
