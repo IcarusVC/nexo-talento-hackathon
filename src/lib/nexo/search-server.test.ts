@@ -159,5 +159,7 @@ else: raise AssertionError('Must respect robots')
 assert blocked.calls == []
 print('offline parser checks passed')
 `;
-  expect(execFileSync(python, ["-I", "-X", "utf8", "-c", source], { encoding: "utf8" })).toContain("offline parser checks passed");
-});
+  // Cold Python imports can exceed Vitest's 5 s default under parallel Windows builds.
+  // Bound the subprocess itself as well, so a hung connector still fails promptly.
+  expect(execFileSync(python, ["-I", "-X", "utf8", "-c", source], { encoding: "utf8", timeout: 15_000 })).toContain("offline parser checks passed");
+}, 20_000);

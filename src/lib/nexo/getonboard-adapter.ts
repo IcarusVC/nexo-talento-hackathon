@@ -10,6 +10,7 @@ const text = (value: unknown) => typeof value === "string" ? value : "";
 const relation = (value: unknown) => obj(obj(obj(value).data).attributes);
 const list = (value: unknown): unknown[] => Array.isArray(value) ? value : [];
 const fold = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const positiveInteger = (value: unknown): number | null => typeof value === "number" && Number.isSafeInteger(value) && value > 0 ? value : null;
 
 function categoryField(value: unknown): Opportunity["field"] {
   // Exact published categories/translation equivalents only; neither title nor generic
@@ -39,9 +40,17 @@ export function publicText(value: unknown): string {
 export function adaptGetOnBoard(payload: unknown, capturedAt: string) {
   const data = obj(payload).data;
   if (!Array.isArray(data)) throw new Error("La API no devolvió un listado de ofertas reconocible.");
+  const meta = obj(obj(payload).meta);
+  const page = positiveInteger(meta.page) ?? 1;
+  const pageSize = positiveInteger(meta.per_page) ?? 30;
+  const declaredTotalPages = positiveInteger(meta.total_pages) ?? (meta.total_pages === 0 && data.length === 0 ? 0 : null);
+  const totalPages = declaredTotalPages !== null && (declaredTotalPages >= page || declaredTotalPages === 0) ? declaredTotalPages : null;
+  const hasMore = totalPages === null ? null : totalPages > page;
+  const received = Math.min(data.length, 30);
   const warnings: string[] = [];
   const opportunities: Opportunity[] = [];
   const seen = new Set<string>();
+  let duplicates = 0;
   for (const raw of data.slice(0, 30)) {
     const item = obj(raw);
     const a = obj(item.attributes);
@@ -53,8 +62,13 @@ export function adaptGetOnBoard(payload: unknown, capturedAt: string) {
       source.username || source.password || source.port || !source.pathname.startsWith("/jobs/") || !text(a.title).trim()) {
       warnings.push("Se omitió una oferta sin título y enlace público válidos de Get on Board."); continue;
     }
-    if (seen.has(source.href)) continue;
-    seen.add(source.href);
+    // Normalize identity before counting. Tracking links are the same publication.
+    source.hash = "";
+    source.hostname = "www.getonbrd.com";
+    source.pathname = source.pathname.replace(/\/+$/, "");
+    for (const key of [...source.searchParams.keys()]) if (/^(utm_|fbclid|gclid)/i.test(key)) source.searchParams.delete(key);
+    source.searchParams.sort();
+    if (seen.has(source.href)) { duplicates++; continue; }
     const cities = list(obj(a.location_cities).data).map((city) => obj(obj(city).attributes))
       .map((city) => [text(city.name), text(city.country)].filter(Boolean).join(", ")).filter(Boolean);
     const countries = list(a.countries).filter((value): value is string => typeof value === "string");
@@ -88,11 +102,15 @@ export function adaptGetOnBoard(payload: unknown, capturedAt: string) {
         ...(!country ? ["El filtro country_code=cl es alcance de búsqueda; una oferta remota no confirma elegibilidad desde Chile."] : [])],
     }));
     if (!parsed.opportunities[0]) { warnings.push("Se omitió una oferta que no pudo normalizarse."); continue; }
+    seen.add(source.href);
     const offer = parsed.opportunities[0];
     opportunities.push({ ...offer, id: offer.id.replace(/^luk-/, "getonboard-"), field: categoryField(a.category_name),
       scheduleText: schedule || offer.scheduleText, limits: [...new Set(offer.limits)] });
   }
   if (data.length && !opportunities.length) throw new Error("Ninguna oferta incluyó título y URL pública verificables.");
-  return { opportunities, warnings: [...new Set(warnings)], captured: Math.min(data.length, 30),
-    enriched: opportunities.filter((offer) => offer.description.length > 0).length };
+  return { opportunities, warnings: [...new Set(warnings)], captured: opportunities.length,
+    enriched: opportunities.filter((offer) => offer.description.length > 0).length,
+    coverage: { page, pageSize, totalPages, hasMore, limitReached: hasMore === true || data.length >= 30,
+      received, unique: opportunities.length, matched: opportunities.length, duplicates,
+      omitted: received - opportunities.length - duplicates, locationFilter: "none" as "none" | "text_on_page" } };
 }

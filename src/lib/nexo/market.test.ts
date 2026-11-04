@@ -1,9 +1,26 @@
 import { describe, expect, it } from "vitest";
-import { assessAccess, parseLukImport } from "./engine";
-import { getCareerSeed, getLearningCourses, getSalaryGroups, getSkillSignals, recommendLearning } from "./market";
+import { assessAccess, extractRequirements, getResearchOpportunities, parseLukImport } from "./engine";
+import { connectsToObjective, getCareerSeed, getLearningCourses, getSalaryGroups, getSkillSignals, recommendLearning } from "./market";
 import type { Opportunity } from "./types";
 
 describe("market evidence", () => {
+  it("requires a specific skill connection rather than only broad area or soft skills", () => {
+    const base = getCareerSeed()[0];
+    const target = { ...base, field: "computacion" as const, skills: extractRequirements("SQL. Comunicación. Inglés.").skills };
+    const candidate = (text: string, field: Opportunity["field"] = "computacion") => ({ ...base, field, skills: extractRequirements(text).skills });
+    expect(connectsToObjective(candidate("Comunicación. Inglés."), target)).toBe(false);
+    expect(connectsToObjective(candidate("Python."), target)).toBe(false);
+    expect(connectsToObjective(candidate("SQL."), target)).toBe(true);
+    expect(connectsToObjective(candidate("SQL.", "general"), target)).toBe(true);
+    expect(connectsToObjective(candidate("SQL.", "medicina"), target)).toBe(false);
+  });
+
+  it("does not recommend the KPMG audit practice to Signant data analyst based on communication alone", () => {
+    const target = getCareerSeed().find((o) => o.title === "Data Analyst I")!;
+    const audit = getResearchOpportunities().find((o) => /kpmg/i.test(o.company) && o.kind === "internship")!;
+    expect(target).toBeDefined(); expect(audit).toBeDefined();
+    expect(connectsToObjective(audit, target)).toBe(false);
+  });
   it("keeps seven actual sourced salary observations and explicit uncertainty", () => {
     const jobs = getCareerSeed();
     expect(jobs).toHaveLength(7);

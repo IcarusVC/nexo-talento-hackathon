@@ -37,6 +37,8 @@ describe("extracción conservadora de requisitos", () => {
     expect(extractRequirements("Sin mínimo de años publicado.").experienceMinYears).toBeNull();
     expect(extractRequirements("No se fija número previo.").experienceMinYears).toBeNull();
     expect(extractRequirements("No se requieren 3 años de experiencia.").experienceMinYears).toBeNull();
+    expect(extractRequirements("3 years of experience are not required.").experienceMinYears).toBeNull();
+    expect(extractRequirements("3 años de experiencia no son obligatorios.").experienceMinYears).toBeNull();
   });
   it("extrae rango de experiencia con cero sin perderlo", () => {
     expect(extractRequirements("Requisito: 0–2 años de experiencia.")).toMatchObject({ experienceMinYears: 0, experienceIsRequired: true });
@@ -62,6 +64,54 @@ describe("extracción conservadora de requisitos", () => {
     const r = extractRequirements("Matrícula vigente. Se aceptan proyectos académicos como experiencia deseable.");
     expect(r.studentRequired).toBe(true); expect(r.acceptsProjects).toBe(true); expect(r.experienceMinYears).toBeNull();
   });
+  it("no convierte negaciones explícitas en demanda de una habilidad", () => {
+    for (const text of ["No es obligatorio Python.", "Python no es obligatorio.", "Python is not required.", "No se requiere SQL, Python obligatorio."]) {
+      const skills = extractRequirements(text).skills;
+      if (text.includes("SQL")) {
+        expect(skills.find((s) => s.id === "sql")).toBeUndefined();
+        expect(skills.find((s) => s.id === "python")?.level).toBe("required");
+      } else expect(skills.find((s) => s.id === "python")).toBeUndefined();
+    }
+    expect(extractRequirements("Python deseable, no obligatorio.").skills[0]?.level).toBe("preferred");
+  });
+  it("conserva calificadores de encabezados y reinicia al cambiar de sección", () => {
+    const skills = extractRequirements("Requisitos obligatorios:\nSQL\nPython\nDeseables:\nExcel\nFunciones:\nTrabajo con Power BI").skills;
+    expect(skills.find((s) => s.id === "sql")?.level).toBe("required");
+    expect(skills.find((s) => s.id === "python")?.evidence).toContain("Requisitos obligatorios:");
+    expect(skills.find((s) => s.id === "excel")?.level).toBe("preferred");
+    expect(skills.find((s) => s.id === "power-bi")?.level).toBe("mentioned");
+    expect(extractRequirements("<h2>Requirements</h2><ul><li>SQL</li><li>Python</li></ul>").skills.every((s) => s.level === "required")).toBe(true);
+  });
+  it("conserva duración decimal y unidades sin partir 1.5 en cinco años", () => {
+    for (const value of ["1.5", "1,5"]) {
+      expect(extractRequirements(`Requisito: ${value} años de experiencia.`)).toMatchObject({ experienceMinYears: 1.5, experienceIsRequired: true });
+    }
+    expect(extractRequirements("Requisito: 18 meses de experiencia.").experienceMinYears).toBe(1.5);
+  });
+  it("no depende del orden para priorizar mínimos obligatorios y mantiene preferencias", () => {
+    const required = "Requisito: 3 años de experiencia.";
+    const preferred = "Deseable 5 años de experiencia en Python.";
+    for (const text of [required + preferred, preferred + required]) {
+      const extracted = extractRequirements(text);
+      expect(extracted).toMatchObject({ experienceMinYears: 3, experienceIsRequired: true });
+      expect(extracted.experienceRequirements).toHaveLength(2);
+    }
+    for (const text of ["Uso de SQL. SQL deseable.", "SQL deseable. Uso de SQL."]) {
+      expect(extractRequirements(text).skills[0]?.level).toBe("preferred");
+    }
+    expect(extractRequirements("3 years of experience required.").experienceIsRequired).toBe(true);
+    expect(extractRequirements("3 years of experience preferred.").experienceIsRequired).toBe(false);
+  });
+  it("conserva varios ámbitos y no suma períodos que podrían superponerse", () => {
+    const text = "Requisito: más de 5 años de experiencia en desarrollo de software backend. Además exige al menos 3 años en proyectos productivos de machine learning y 2 años operando cloud para IA.";
+    const extracted = extractRequirements(text);
+    expect(extracted).toMatchObject({ experienceMinYears: 5, experienceStrictMinimum: true, experienceIsRequired: true });
+    expect(extracted.experienceRequirements?.map((r) => [r.minYears, r.isRequired])).toEqual([[5, true], [3, true], [2, true]]);
+    expect(extracted.experienceRequirements?.map((r) => r.scope)).toEqual(["en desarrollo de software backend", "en proyectos productivos de machine learning", "operando cloud para ia"]);
+    const fit = assessAccess(opportunity({ ...extracted }), { ...student, yearsExperience: 6 });
+    expect(fit.matched.some((r) => r.label === "Experiencia declarada")).toBe(false);
+    expect(fit.unknown.some((r) => r.label === "Experiencia por ámbito pendiente")).toBe(true);
+  });
 });
 
 describe("importador Luk", () => {
@@ -82,6 +132,27 @@ describe("importador Luk", () => {
     expect(o.country).toBe("Chile"); expect(o.location).toContain("Región Metropolitana");
     expect(o.scheduleText).toBe("Jornada Parcial"); expect(o.hoursPerWeek).toBeNull();
     expect(o.observedAt).toBe("2026-11-03T10:00:00Z"); expect(o.limits.join(" ")).toContain("2026-12-01");
+  });
+  it("conserva horario y horas al reimportar una Opportunity sin hacer crecer su descripción", () => {
+    const original = opportunity({ kind: "job", description: "SQL requerido.", scheduleText: "20 horas semanales", hoursPerWeek: 20 });
+    const first = parseLukImport(JSON.stringify(original)).opportunities[0];
+    const second = parseLukImport(JSON.stringify(first)).opportunities[0];
+    for (const parsed of [first, second]) {
+      expect(parsed.scheduleText).toBe(original.scheduleText);
+      expect(parsed.hoursPerWeek).toBe(20);
+      expect(parsed.description).toBe(original.description);
+    }
+    const captured = parseLukImport(JSON.stringify(row({ work_hours: "40 horas semanales" }))).opportunities[0];
+    expect(parseLukImport(JSON.stringify(captured)).opportunities[0]).toMatchObject({ description: captured.description, hoursPerWeek: 40, scheduleText: "40 horas semanales" });
+  });
+  it("no usa el enum de tipo de oportunidad como horario ni inventa horas de jornada completa", () => {
+    const missing = parseLukImport(JSON.stringify(row({ kind: "job", hoursPerWeek: 40 }))).opportunities[0];
+    expect(missing.scheduleText).toBe("Horario no publicado");
+    expect(missing.hoursPerWeek).toBeNull();
+    expect(parseLukImport(JSON.stringify(row({ kind: "job", scheduleText: "job" }))).opportunities[0].scheduleText).toBe("Horario no publicado");
+    const fullTime = parseLukImport(JSON.stringify(row({ scheduleText: "Jornada completa" }))).opportunities[0];
+    expect(fullTime.scheduleText).toBe("Jornada completa");
+    expect(fullTime.hoursPerWeek).toBeNull();
   });
   it("admite JSONL y conserva errores de línea sin perder filas válidas", () => {
     const r = parseLukImport(JSON.stringify(row()) + "\ninvalid\n" + JSON.stringify(row({ url: "https://www.takealuk.com/job_offers/otra" })));
@@ -132,6 +203,15 @@ describe("comparación curricular", () => {
 });
 
 describe("acceso y datos de investigación", () => {
+  it("distingue autodeclaración de documentos y no afirma ausencia de evidencia", () => {
+    const job = opportunity({ skills: extractRequirements("SQL requerido").skills });
+    const unmarked = assessAccess(job, student).unknown.find((r) => r.label.startsWith("SQL"));
+    expect(unmarked?.label).toBe("SQL: respaldo por confirmar");
+    expect(unmarked?.detail).not.toContain("No hay evidencia");
+    const marked = assessAccess(job, { ...student, demonstratedSkills: ["sql"] }).matched.find((r) => r.label === "SQL");
+    expect(marked?.detail).toContain("Autodeclarada");
+    expect(marked?.detail).toContain("pendiente de revisión");
+  });
   it("cambiar 20 a 40 horas elimina barrera horaria sin prometer selección", () => {
     const o = opportunity({ hoursPerWeek: 40 });
     expect(assessAccess(o, student).status).toBe("incompatible");

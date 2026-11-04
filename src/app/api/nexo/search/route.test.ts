@@ -3,6 +3,7 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 const search = vi.hoisted(() => vi.fn());
 vi.mock("@/lib/nexo/search-server", async (original) => ({ ...await original<typeof import("@/lib/nexo/search-server")>(), searchJobs: search }));
 import { POST } from "./route";
+import { SearchError } from "@/lib/nexo/search-server";
 
 const request = (body = JSON.stringify({ query: "analista" }), headers = {}) => new Request("http://127.0.0.1:3000/api/nexo/search", {
   method: "POST", headers: { origin: "http://127.0.0.1:3000", "content-type": "application/json", ...headers }, body,
@@ -55,5 +56,29 @@ describe("local search route (mocked connector)", () => {
     expect((await POST(request("x".repeat(2049)))).status).toBe(413);
     expect((await POST(request(JSON.stringify({ query: "analista", executable: "cmd" })))).status).toBe(400);
     expect(search).not.toHaveBeenCalled();
+  });
+
+  it("returns the actual provider cooldown instead of a fixed retry interval", async () => {
+    search.mockRejectedValue(new SearchError("RATE_LIMITED", "Espera del proveedor.", 429, 3000));
+    const response = await POST(request());
+    expect(response.status).toBe(429);
+    expect(response.headers.get("retry-after")).toBe("3000");
+    expect(await response.json()).toMatchObject({ code: "RATE_LIMITED", retryAfterSeconds: 3000 });
+  });
+
+  it("does not invent a wait time for an in-flight capture or permanent refusal", async () => {
+    for (const failure of [new SearchError("BUSY", "Consulta en curso.", 429), new SearchError("ACCESS_BLOCKED", "Fuente detenida.")]) {
+      search.mockRejectedValue(failure);
+      const response = await POST(request());
+      expect(response.headers.get("retry-after")).toBeNull();
+      expect(await response.json()).not.toHaveProperty("retryAfterSeconds");
+    }
+  });
+
+  it("preserves a body-read timeout status without exposing raw upstream errors", async () => {
+    search.mockRejectedValue(new SearchError("TIMEOUT", "La lectura superó el tiempo permitido.", 504));
+    const response = await POST(request());
+    expect(response.status).toBe(504);
+    expect(await response.json()).toMatchObject({ code: "TIMEOUT" });
   });
 });

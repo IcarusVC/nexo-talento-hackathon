@@ -13,6 +13,14 @@ export interface SkillRequirement {
   evidence: string;
   level: "required" | "preferred" | "mentioned";
 }
+export interface ExperienceRequirement {
+  minYears: number;
+  strictMinimum: boolean;
+  isRequired: boolean | null;
+  /** Normalized scope explicitly stated in the posting, not an inferred taxonomy. */
+  scope: string | null;
+  evidence: string;
+}
 export interface CurriculumEvidence {
   competency: string;
   course: string | null;
@@ -47,6 +55,7 @@ export interface Opportunity {
   experienceMinYears: number | null;
   experienceStrictMinimum?: boolean;
   experienceIsRequired: boolean | null;
+  experienceRequirements?: ExperienceRequirement[];
   acceptsProjects: boolean | null;
   acceptsGraduates: boolean | null;
   studentRequired: boolean | null;
@@ -83,6 +92,7 @@ export interface ExtractedRequirements {
   experienceMinYears: number | null;
   experienceStrictMinimum?: boolean;
   experienceIsRequired: boolean | null;
+  experienceRequirements?: ExperienceRequirement[];
   acceptsProjects: boolean | null;
   acceptsGraduates: boolean | null;
   studentRequired: boolean | null;

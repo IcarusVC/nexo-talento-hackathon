@@ -87,6 +87,7 @@ export function NexoWorkspace() {
   const [storageIssue, setStorageIssue] = useState("");
   const [message, setMessage] = useState("");
   const [selectedId, setSelectedId] = useState(() => getCareerSeed()[0]?.id || seed.find((o) => o.company.toLowerCase().includes("prize"))?.id || seed[0]?.id || "");
+  const [hasRouteObjective, setHasRouteObjective] = useState(false);
   const [programId, setProgramId] = useState(() => programs.find((p) => p.id === "COM-CL-UCH")?.id || programs[0]?.id || "");
   const [search, setSearch] = useState("");
   const [field, setField] = useState("all");
@@ -108,6 +109,7 @@ export function NexoWorkspace() {
   const [actionOwner, setActionOwner] = useState("");
   const [actionDate, setActionDate] = useState("");
   const detailRef = useRef<HTMLElement>(null);
+  const mainRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     let active = true;
@@ -123,8 +125,16 @@ export function NexoWorkspace() {
             const p = s.profile as Record<string, unknown>;
             setProfile({ hoursPerWeek: typeof p.hoursPerWeek === "number" && p.hoursPerWeek >= 1 && p.hoursPerWeek <= 80 ? p.hoursPerWeek : 20, yearsExperience: typeof p.yearsExperience === "number" && p.yearsExperience >= 0 && p.yearsExperience <= 60 ? p.yearsExperience : 0, isStudent: typeof p.isStudent === "boolean" ? p.isStudent : true, country: clean(p.country, 80) || "Chile", demonstratedSkills: Array.isArray(p.demonstratedSkills) ? p.demonstratedSkills.filter((v): v is string => typeof v === "string").slice(0, 100) : [] });
           }
-          if (Array.isArray(s.imports)) setImportBatches(s.imports.filter((v): v is string => typeof v === "string" && v.length <= MAX_IMPORT).slice(0, 5));
-          if (Array.isArray(s.careerOffers)) setCareerOffers(parseLukImport(JSON.stringify(s.careerOffers.slice(0, 100))).opportunities.filter((offer) => offer.provenance !== "illustrative" && offer.status !== "closed"));
+          const savedImports = Array.isArray(s.imports) ? s.imports.filter((v): v is string => typeof v === "string" && v.length <= MAX_IMPORT).slice(0, 5) : [];
+          const savedCareerOffers = Array.isArray(s.careerOffers) ? parseLukImport(JSON.stringify(s.careerOffers.slice(0, 100))).opportunities.filter((offer) => offer.provenance !== "illustrative" && offer.status !== "closed") : [];
+          setImportBatches(savedImports);
+          setCareerOffers(savedCareerOffers);
+          const savedSelectedId = clean(s.selectedId, 200);
+          const available = dedupeOpportunities([...savedCareerOffers, ...savedImports.flatMap((batch) => parseLukImport(batch).opportunities), ...seed]);
+          if (available.some((offer) => offer.id === savedSelectedId)) {
+            setSelectedId(savedSelectedId);
+            setHasRouteObjective(s.hasRouteObjective !== false);
+          }
           if (Array.isArray(s.evidences)) setEvidences(s.evidences.filter((v) => v && typeof v === "object").slice(0, 100).map((v) => ({ id: clean(v.id, 100), title: clean(v.title, 160), detail: clean(v.detail, 1600), url: clean(v.url, 2000), skillId: clean(v.skillId, 100) })).filter((v) => v.id && v.title));
           if (Array.isArray(s.actions)) setActions(s.actions.filter((v) => v && typeof v === "object").slice(0, 100).map((v) => ({ id: clean(v.id, 100), programId: clean(v.programId, 100), opportunityId: clean(v.opportunityId, 100), title: clean(v.title, 300), owner: clean(v.owner, 160), due: clean(v.due, 10), status: (["pending", "active", "done"].includes(v.status) ? v.status : "pending") as Action["status"] })).filter((v) => v.id && v.title));
         }
@@ -133,17 +143,17 @@ export function NexoWorkspace() {
     setReady(true);
     });
     return () => { active = false; };
-  }, []);
+  }, [seed]);
   useEffect(() => {
     if (!ready) return;
     let active = true;
     queueMicrotask(() => {
     if (!active) return;
-    try { localStorage.setItem(STORAGE, JSON.stringify({ profile, imports: importBatches, actions, evidences, careerOffers })); setStorageIssue(""); }
+    try { localStorage.setItem(STORAGE, JSON.stringify({ profile, imports: importBatches, actions, evidences, careerOffers, selectedId, hasRouteObjective })); setStorageIssue(""); }
     catch { setStorageIssue("El navegador no permite guardar más datos. Esta sesión sigue disponible hasta cerrar la página; exporta tu diagnóstico."); }
     });
     return () => { active = false; };
-  }, [ready, profile, importBatches, actions, evidences, careerOffers]);
+  }, [ready, profile, importBatches, actions, evidences, careerOffers, selectedId, hasRouteObjective]);
 
   const imported = useMemo(() => dedupeOpportunities(importBatches.flatMap((text) => parseLukImport(text).opportunities)), [importBatches]);
   const opportunities = useMemo(() => dedupeOpportunities([...careerOffers, ...imported, ...seed]), [careerOffers, imported, seed]);
@@ -157,26 +167,34 @@ export function NexoWorkspace() {
   const comparison = useMemo(() => selected && program ? compareCurriculum(program, selected) : [], [program, selected]);
   const fit = useMemo(() => selected ? assessAccess(selected, profile) : null, [selected, profile]);
 
-  function jump(next: Section) { setSection(next); setMessage(""); window.scrollTo({ top: 0, behavior: "auto" }); }
+  function jump(next: Section) {
+    setSection(next); setMessage("");
+    requestAnimationFrame(() => {
+      const heading = Array.from(mainRef.current?.querySelectorAll("h1") || []).find((element) => !element.closest("[hidden]"));
+      if (heading) { heading.tabIndex = -1; heading.focus({ preventScroll: true }); }
+      window.scrollTo({ top: 0, behavior: "auto" });
+    });
+  }
   const selectCareerOpportunity = useCallback((offer: Opportunity) => {
     if (offer.provenance === "illustrative" || offer.status === "closed") return;
     setCareerOffers((previous) => dedupeOpportunities([offer, ...previous]).slice(0, 100));
     setSelectedId(offer.id);
+    setHasRouteObjective(true);
     setMessage("");
   }, []);
-  function selectOpportunity(o: Opportunity) { setSelectedId(o.id); setMessage(""); if (window.matchMedia("(max-width: 720px)").matches) requestAnimationFrame(() => detailRef.current?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" })); }
+  function selectOpportunity(o: Opportunity) { setSelectedId(o.id); setHasRouteObjective(true); setMessage(""); if (window.matchMedia("(max-width: 720px)").matches) requestAnimationFrame(() => detailRef.current?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" })); }
   function importOffers() {
     if (!importText.trim()) { setImportErrors(["Pega un archivo JSON o JSONL antes de importar."]); return; }
     const result = parseLukImport(importText);
     setImportErrors(result.errors); setImportWarnings(result.warnings);
     if (!result.opportunities.length) return;
     if (importBatches.length >= 5 || importBatches.reduce((total, batch) => total + batch.length, 0) + importText.length > MAX_IMPORT * 2) { setImportErrors((prev) => [...prev, "Llegaste al límite de importaciones locales. Exporta el diagnóstico y vacía las importaciones para continuar."]); return; }
-    setImportBatches((old) => [...old, importText]); setSelectedId(result.opportunities[0].id);
+    setImportBatches((old) => [...old, importText]);
     setMessage(`${result.opportunities.length} registros válidos incorporados. Las URLs repetidas se muestran una sola vez.`);
   }
   async function upload(file: File | undefined) { if (!file) return; if (file.size > MAX_IMPORT) { setImportErrors(["El archivo supera 2 MB. Importa una muestra más pequeña."]); return; } try { setImportText(await file.text()); setImportErrors([]); setMessage(`Archivo ${file.name} listo para revisar e importar.`); } catch { setImportErrors(["No se pudo leer el archivo. Prueba pegar su contenido."]); } }
   function exportDiagnosis() { saveJson("nexo-diagnostico.json", { schemaVersion: 1, exportedAt: new Date().toISOString(), scope: "Piloto documental; capacidades del perfil autodeclaradas, sin certificación", researchCutoff: "2026-11-01", selectedOpportunity: selected, selectedProgram: program, comparison, profile, access: fit, evidences, actions, importedOpportunities: imported, careerOpportunities: careerOffers }); setMessage("Diagnóstico exportado con fuentes, comparación, perfil y plan de acción."); }
-  function addEvidence() { if (!evidenceTitle.trim() || !evidenceDetail.trim()) { setMessage("Completa el título y explica tu aporte antes de guardar la evidencia."); return; } if (evidenceUrl && !externalUrl(evidenceUrl)) { setMessage("El enlace de evidencia debe comenzar con https:// o http://."); return; } setEvidences((old) => [...old, { id: key(), title: evidenceTitle.trim(), detail: evidenceDetail.trim(), url: evidenceUrl.trim(), skillId: evidenceSkill }]); if (evidenceSkill) setProfile((p) => ({ ...p, demonstratedSkills: [...new Set([...p.demonstratedSkills, evidenceSkill])] })); setEvidenceTitle(""); setEvidenceDetail(""); setEvidenceUrl(""); setMessage("Evidencia guardada localmente como autodeclarada. Falta revisión de un docente o supervisor."); }
+  function addEvidence() { if (!evidenceTitle.trim() || !evidenceDetail.trim()) { setMessage("Completa el título y explica tu aporte antes de guardar la evidencia."); return; } if (evidenceUrl && !externalUrl(evidenceUrl)) { setMessage("El enlace de evidencia debe comenzar con https:// o http://."); return; } setEvidences((old) => [...old, { id: key(), title: evidenceTitle.trim(), detail: evidenceDetail.trim(), url: evidenceUrl.trim(), skillId: evidenceSkill }]); setEvidenceTitle(""); setEvidenceDetail(""); setEvidenceUrl(""); setMessage("Evidencia guardada localmente como autodeclarada. Falta revisión de un docente o supervisor."); }
   function addAction() { if (!actionTitle.trim() || !actionOwner.trim() || !actionDate) { setMessage("Completa acción, responsable y fecha para guardar el plan."); return; } setActions((old) => [...old, { id: key(), programId: program.id, opportunityId: selected.id, title: actionTitle.trim(), owner: actionOwner.trim(), due: actionDate, status: "pending" }]); setActionTitle(""); setMessage("Acción guardada en este navegador, vinculada al programa y oportunidad seleccionados."); }
 
   return <div className={styles.workspace}>
@@ -191,12 +209,12 @@ export function NexoWorkspace() {
         <div className={styles.baseCard}><span className={styles.baseIcon}><BookOpen size={18} /></span><strong>Una base con trazabilidad</strong><p>{programs.length} programas de cuatro países. Cada hallazgo conserva su fuente y alcance.</p><span>Revisión: 1 nov 2026</span></div>
         <div className={styles.builtOn}>Construido sobre<br /><strong>TurboTrabajo + Luk</strong><p>Datos personales y acciones guardados sólo en este navegador.</p></div>
       </aside>
-      <main className={styles.main}>
+      <main ref={mainRef} className={styles.main}>
         <div className={styles.breadcrumb}>Mi espacio <ChevronRight size={13} /><span>{NAV.find((n) => n.id === section)?.label}</span></div>
         {section !== "journey" && <><div className={styles.pageHeader}><div><div className={styles.eyebrow}>DEL REQUISITO A LA OPORTUNIDAD</div><h1>{section === "opportunities" ? "El trabajo, con todo su contexto." : section === "university" ? "Conecta la malla con tareas reales." : section === "route" ? "Tu experiencia empieza con un paso." : "Convierte ofertas en evidencia."}</h1><p>{section === "opportunities" ? "Explora qué se pide, qué puedes comprobar y dónde hay una vía de entrada." : section === "university" ? "Revisa la formación declarada y convierte cada pregunta en una acción concreta." : section === "route" ? "Relaciona lo que puedes respaldar con condiciones que realmente puedes cumplir." : "Incorpora exportaciones de Luk y conserva la fuente de cada requisito."}</p></div><div className={styles.cornerIcon}>{section === "university" ? <GraduationCap size={30} /> : section === "route" ? <UserRound size={30} /> : section === "import" ? <FileJson size={30} /> : <BriefcaseBusiness size={30} />}</div></div><div className={styles.pipeline} aria-label="Recorrido del producto"><button onClick={() => jump("opportunities")}><span>01</span>Necesidad laboral</button><ArrowRight size={14} /><button onClick={() => jump("university")}><span>02</span>Evidencia formativa</button><ArrowRight size={14} /><button onClick={() => jump("route")}><span>03</span>Acceso a experiencia</button></div></>}
         <div aria-live="polite" className={styles.liveMessages}>{message && <div className={styles.successMessage}><Check size={16} /><span>{message}</span><button onClick={() => setMessage("")} aria-label="Cerrar mensaje"><X size={15} /></button></div>}{storageIssue && <p className={styles.errorMessage}>{storageIssue}</p>}</div>
         {selected?.provenance === "illustrative" && section !== "import" && section !== "journey" && <div className={styles.syntheticNotice}><FileJson size={15} /><span>La oportunidad seleccionada es un ejemplo ficticio para probar el recorrido. No es una vacante real.</span></div>}
-        <div hidden={section !== "journey"}><CareerJourney profile={profile} workspaceReady={ready} onProfileChange={setProfile} onSelectOpportunity={selectCareerOpportunity} onCompareCurriculum={() => jump("university")} onViewRoute={() => jump("route")} /></div>
+        <div hidden={section !== "journey"}><CareerJourney profile={profile} documentedSkillIds={evidences.map((evidence) => evidence.skillId).filter(Boolean)} workspaceReady={ready} routeObjectiveId={hasRouteObjective ? selected?.id || "" : ""} onProfileChange={setProfile} onSelectOpportunity={selectCareerOpportunity} onCompareCurriculum={() => jump("university")} onViewRoute={() => jump("route")} /></div>
 
         {section === "opportunities" && <>
           <div className={styles.summaryLine}><span><strong>{opportunities.length}</strong> ofertas y vías documentadas</span><span><strong>{countryCount}</strong> países en las fuentes</span><span><strong>{imported.length}</strong> registros importados en esta sesión</span></div>
@@ -223,7 +241,7 @@ export function NexoWorkspace() {
         </>}
 
         {section === "route" && selected && fit && <>
-          <div className={styles.routeGrid}><section className={styles.profilePanel}><div className={styles.panelTitle}><span className={styles.profileIcon}><UserRound size={22} /></span><div><h2>Mi punto de partida</h2><p>Perfil local y autodeclarado</p></div></div><div className={styles.profileFields}><label className={styles.field} htmlFor="available-hours"><span>Horas disponibles por semana</span><Input id="available-hours" type="number" min={1} max={80} value={profile.hoursPerWeek} onChange={(e) => setProfile((p) => ({ ...p, hoursPerWeek: Math.max(1, Math.min(80, Number(e.target.value) || 1)) }))} /></label><label className={styles.field} htmlFor="experience-years"><span>Años de experiencia</span><Input id="experience-years" type="number" min={0} max={60} step={0.5} value={profile.yearsExperience} onChange={(e) => setProfile((p) => ({ ...p, yearsExperience: Math.max(0, Math.min(60, Number(e.target.value) || 0)) }))} /></label><SelectField id="profile-country" label="País donde busco" value={profile.country} onChange={(v) => setProfile((p) => ({ ...p, country: v }))}>{[...new Set(["Chile", "Brasil", "México", "Colombia", "Perú", ...countries])].map((c) => <option key={c}>{c}</option>)}</SelectField><SelectField id="student-status" label="Situación académica" value={profile.isStudent ? "student" : "graduate"} onChange={(v) => setProfile((p) => ({ ...p, isStudent: v === "student" }))}><option value="student">Estudiante con matrícula</option><option value="graduate">Egresado / sin matrícula</option></SelectField></div><h3 className={styles.subheading}>Capacidades que puedo respaldar</h3><p className={styles.muted}>Marca sólo las que puedes explicar con un trabajo o experiencia. Requieren revisión.</p><div className={styles.skillChecks}>{skillOptions.map((s) => <label key={s.id}><input type="checkbox" checked={profile.demonstratedSkills.includes(s.id)} onChange={(e) => setProfile((p) => ({ ...p, demonstratedSkills: e.target.checked ? [...p.demonstratedSkills, s.id] : p.demonstratedSkills.filter((id) => id !== s.id) }))} /><span>{s.label}</span></label>)}</div></section>
+          <div className={styles.routeGrid}><section className={styles.profilePanel}><div className={styles.panelTitle}><span className={styles.profileIcon}><UserRound size={22} /></span><div><h2>Mi punto de partida</h2><p>Perfil local y autodeclarado</p></div></div><div className={styles.profileFields}><label className={styles.field} htmlFor="available-hours"><span>Horas disponibles por semana</span><Input id="available-hours" type="number" min={1} max={80} value={profile.hoursPerWeek} onChange={(e) => setProfile((p) => ({ ...p, hoursPerWeek: Math.max(1, Math.min(80, Number(e.target.value) || 1)) }))} /></label><label className={styles.field} htmlFor="experience-years"><span>Años de experiencia</span><Input id="experience-years" type="number" min={0} max={60} step={0.5} value={profile.yearsExperience} onChange={(e) => setProfile((p) => ({ ...p, yearsExperience: Math.max(0, Math.min(60, Number(e.target.value) || 0)) }))} /></label><SelectField id="profile-country" label="País donde busco" value={profile.country} onChange={(v) => setProfile((p) => ({ ...p, country: v }))}>{[...new Set(["Chile", "Brasil", "México", "Colombia", "Perú", ...countries])].map((c) => <option key={c}>{c}</option>)}</SelectField><SelectField id="student-status" label="Situación académica" value={profile.isStudent ? "student" : "graduate"} onChange={(v) => setProfile((p) => ({ ...p, isStudent: v === "student" }))}><option value="student">Estudiante con matrícula</option><option value="graduate">Egresado / sin matrícula</option></SelectField></div><h3 className={styles.subheading}>Capacidades que puedo respaldar</h3><p className={styles.muted}>Estas casillas son autodeclaraciones. Agrega los trabajos en tu carpeta de evidencias para que puedan revisarse.</p><div className={styles.skillChecks}>{skillOptions.map((s) => <label key={s.id}><input type="checkbox" checked={profile.demonstratedSkills.includes(s.id)} onChange={(e) => setProfile((p) => ({ ...p, demonstratedSkills: e.target.checked ? [...p.demonstratedSkills, s.id] : p.demonstratedSkills.filter((id) => id !== s.id) }))} /><span>{s.label}</span></label>)}</div></section>
           <section className={styles.fitPanel}><span className={styles.eyebrow}>TU PERFIL + ESTA OPORTUNIDAD</span><h2>{selected.title}</h2><p className={styles.muted}>{selected.company} · {selected.country}</p><button className={styles.inlineButton} onClick={() => jump("opportunities")}>Elegir otra oportunidad<ArrowRight size={14} /></button><FitSummary fit={fit} /><Note>Una incompatibilidad de horario o matrícula es una condición de acceso. Las habilidades marcadas aquí no están certificadas.</Note></section></div>
           <section className={styles.evidenceSection}><div className={styles.sectionHeading}><div><h2>Mi carpeta de evidencias</h2><p>Proyectos académicos, experiencias y trabajos que puedas explicar.</p></div><span>{evidences.length} registros locales</span></div><div className={styles.evidenceGrid}><form onSubmit={(e) => { e.preventDefault(); addEvidence(); }} className={styles.evidenceForm}><label className={styles.field} htmlFor="evidence-title"><span>Nombre del trabajo</span><Input id="evidence-title" value={evidenceTitle} onChange={(e) => setEvidenceTitle(e.target.value)} placeholder="Análisis de datos de mi proyecto final" maxLength={160} required /></label><label className={styles.field} htmlFor="evidence-detail"><span>Qué hiciste y qué resultado puedes mostrar</span><Textarea id="evidence-detail" value={evidenceDetail} onChange={(e) => setEvidenceDetail(e.target.value)} placeholder="Mi aporte fue… Lo revisó… El resultado fue…" maxLength={1600} required /></label><label className={styles.field} htmlFor="evidence-url"><span>Enlace autorizado (opcional)</span><Input id="evidence-url" type="url" value={evidenceUrl} onChange={(e) => setEvidenceUrl(e.target.value)} placeholder="https://…" maxLength={2000} /></label><SelectField id="evidence-skill" label="Capacidad relacionada" value={evidenceSkill} onChange={setEvidenceSkill}><option value="">Seleccionar después</option>{skillOptions.map((s) => <option key={s.id} value={s.id}>{s.label}</option>)}</SelectField><Button type="submit"><Plus />Guardar evidencia</Button></form><div className={styles.evidenceItems}>{evidences.length ? evidences.map((ev) => <Card key={ev.id} className={styles.evidenceCard}><CardContent><div className={styles.matchHeader}><span className={styles.eyebrow}>AUTODECLARADA · POR REVISAR</span><button onClick={() => setEvidences((old) => old.filter((e) => e.id !== ev.id))} aria-label={`Eliminar evidencia ${ev.title}`}><X size={16} /></button></div><h3>{ev.title}</h3><p>{ev.detail}</p>{ev.skillId && <Badge variant="secondary">{skillOptions.find((s) => s.id === ev.skillId)?.label || ev.skillId}</Badge>}{ev.url && <SourceLink url={ev.url}>Consultar trabajo</SourceLink>}</CardContent></Card>) : <Empty title="Tu primera evidencia cuenta">Un proyecto puede mostrar capacidades relevantes. Describe tu aporte y conserva su contexto.</Empty>}</div></div></section>
         </>}

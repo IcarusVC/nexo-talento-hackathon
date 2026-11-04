@@ -12,6 +12,15 @@ export function getLearningCourses(): LearningCourse[] {
   return learningData.courses as LearningCourse[];
 }
 
+const TRANSVERSAL_SKILLS = new Set(["communication", "collaboration", "documentation", "english", "ethics"]);
+
+/** A documented connection, not a guarantee of suitability or eligibility. */
+export function connectsToObjective(offer: Opportunity, target: Opportunity): boolean {
+  if (offer.field !== "general" && target.field !== "general" && offer.field !== target.field) return false;
+  const targetSkills = new Set(target.skills.map((skill) => skill.id));
+  return offer.skills.some((skill) => !TRANSVERSAL_SKILLS.has(skill.id) && targetSkills.has(skill.id));
+}
+
 export function uniqueRealOpportunities(offers: Opportunity[]): Opportunity[] {
   const seen = new Set<string>();
   return offers.filter((offer) => {

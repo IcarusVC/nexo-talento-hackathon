@@ -52,9 +52,11 @@ export async function POST(request: Request) {
     return Response.json(result, { headers });
   } catch (error) {
     const known = error instanceof SearchError;
+    const retryAfterSeconds = known && Number.isFinite(error.retryAfterSeconds) && (error.retryAfterSeconds ?? 0) > 0 ? Math.ceil(error.retryAfterSeconds!) : undefined;
     return Response.json({
       error: known ? error.message : "La consulta no pudo completarse. Intenta más tarde.",
       code: known ? error.code : "SEARCH_ERROR",
-    }, { status: known ? error.status : 503, headers: { ...headers, ...(known && error.status === 429 ? { "Retry-After": "15" } : {}) } });
+      ...(retryAfterSeconds !== undefined ? { retryAfterSeconds } : {}),
+    }, { status: known ? error.status : 503, headers: { ...headers, ...(retryAfterSeconds !== undefined ? { "Retry-After": String(retryAfterSeconds) } : {}) } });
   }
 }

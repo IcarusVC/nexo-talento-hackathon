@@ -19,10 +19,15 @@ export interface SearchResponse {
   cacheHit: boolean;
   stats: { captured: number; enriched: number };
   warnings: string[];
+  coverage?: {
+    page: number; pageSize: number; totalPages: number | null; hasMore: boolean | null; limitReached: boolean;
+    received: number; unique: number; matched: number; duplicates: number; omitted: number;
+    locationFilter: "none" | "text_on_page";
+  };
 }
 
 export class SearchError extends Error {
-  constructor(public code: string, message: string, public status = 503) { super(message); }
+  constructor(public code: string, message: string, public status = 503, public retryAfterSeconds?: number) { super(message); }
 }
 
 export function validateSearchInput(input: unknown): SearchInput {
@@ -185,12 +190,16 @@ export function createPublicSearchService(fetcher: typeof fetch = fetch, now: ()
   let busy = false;
   let finishedAt = -Infinity;
   let retryAt = 0;
+  let accessBlocked = false;
   return async (input: SearchInput): Promise<SearchResponse> => {
     const key = fold(input.query);
     let entry = cache.get(key);
     const cacheHit = Boolean(entry && now() - entry.at < TTL_MS);
     if (!cacheHit) {
-      if (busy || now() - finishedAt < 2000 || now() < retryAt) throw new SearchError("BUSY", "Espera antes de iniciar otra consulta al portal.", 429);
+      if (accessBlocked) throw new SearchError("ACCESS_BLOCKED", "Get on Board rechazó el acceso. La fuente quedó detenida y requiere revisión del equipo antes de nuevas consultas.");
+      if (now() < retryAt) throw new SearchError("RATE_LIMITED", "Get on Board mantiene una pausa de consultas. Conservamos los resultados anteriores.", 429, Math.max(1, Math.ceil((retryAt - now()) / 1000)));
+      if (busy) throw new SearchError("BUSY", "Ya hay una consulta al portal en curso. Espera a que termine.", 429);
+      if (now() - finishedAt < 2000) throw new SearchError("BUSY", "Espera antes de iniciar otra consulta al portal.", 429, Math.max(1, Math.ceil((2000 - (now() - finishedAt)) / 1000)));
       busy = true;
       try {
         const url = new URL("https://www.getonbrd.com/api/v0/search/jobs");
@@ -208,12 +217,16 @@ export function createPublicSearchService(fetcher: typeof fetch = fetch, now: ()
           if (error instanceof Error && /Abort|Timeout/.test(error.name)) throw new SearchError("TIMEOUT", "Get on Board tardó demasiado en responder. No se generaron resultados de reemplazo.", 504);
           throw new SearchError("SOURCE_UNAVAILABLE", "No se pudo conectar con la API pública de Get on Board. Intenta más tarde.");
         }
-        if (response.status === 429 || response.status === 403) {
+        if (response.status === 403) {
+          accessBlocked = true;
+          throw new SearchError("ACCESS_BLOCKED", "Get on Board rechazó el acceso. Se detuvo la fuente; no se reintentará sin revisión del equipo.");
+        }
+        if (response.status === 429) {
           const retryHeader = response.headers.get("retry-after") || "";
           const seconds = Number(retryHeader);
           const wait = /^\d+$/.test(retryHeader) && Number.isFinite(seconds) ? seconds * 1000 : Date.parse(retryHeader) - now();
           retryAt = now() + Math.max(TTL_MS, Number.isFinite(wait) ? wait : 0);
-          throw new SearchError("SOURCE_BLOCKED", "Get on Board pidió detener las consultas. Se respetó la restricción y no se reintentó.");
+          throw new SearchError("RATE_LIMITED", "Get on Board pidió una pausa de consultas. Se respetó la espera y no se reintentó.", 429, Math.max(1, Math.ceil((retryAt - now()) / 1000)));
         }
         if (!response.ok || !response.headers.get("content-type")?.includes("json")) throw new SearchError("SOURCE_UNAVAILABLE", "Get on Board no devolvió una respuesta pública válida.");
         const reader = response.body?.getReader();
@@ -228,6 +241,10 @@ export function createPublicSearchService(fetcher: typeof fetch = fetch, now: ()
             if (size > MAX_OUTPUT_BYTES) { await reader.cancel(); throw new SearchError("OUTPUT_LIMIT", "La respuesta supera el límite de esta demo."); }
             chunks.push(value);
           }
+        } catch (error) {
+          if (error instanceof SearchError) throw error;
+          if (error instanceof Error && /Abort|Timeout/.test(error.name)) throw new SearchError("TIMEOUT", "La lectura de Get on Board superó el tiempo permitido. No se generaron resultados de reemplazo.", 504);
+          throw new SearchError("SOURCE_UNAVAILABLE", "Se interrumpió la respuesta de Get on Board. Conservamos los resultados anteriores.");
         } finally { reader.releaseLock(); }
         let raw: unknown;
         try { raw = JSON.parse(Buffer.concat(chunks).toString("utf8")); }
@@ -237,11 +254,14 @@ export function createPublicSearchService(fetcher: typeof fetch = fetch, now: ()
         try { adapted = adaptGetOnBoard(raw, capturedAt); }
         catch { throw new SearchError("INVALID_RESPONSE", "Las ofertas de Get on Board no tienen el formato público esperado."); }
         const data: SearchResponse = { opportunities: adapted.opportunities, capturedAt, query: input.query, location: "", source: "Get on Board", cacheHit: false,
-          stats: { captured: adapted.captured, enriched: adapted.enriched }, warnings: [
+          stats: { captured: adapted.captured, enriched: adapted.enriched }, coverage: adapted.coverage, warnings: [
             "Fuente: API pública oficial de Get on Board; búsqueda de texto con country_code=cl. Hasta 30 resultados de la primera página.",
             "Esta fuente se concentra en empleos tecnológicos y áreas relacionadas; no representa todas las carreras ni todo el mercado chileno.",
             "La aparición en el portal no confirma contratación ni elegibilidad desde Chile. Revisa requisitos y condiciones en la fuente.",
             "Los rangos salariales sin período explícito permanecen fuera de las comparaciones numéricas; no se realizó conversión monetaria.",
+            ...(adapted.coverage.hasMore ? [`El portal declara ${adapted.coverage.totalPages} páginas; sólo se consultó la primera.`] : []),
+            ...(adapted.coverage.hasMore === null ? ["El portal no aportó un total de páginas verificable; la captura no permite afirmar que se revisaron todos los resultados."] : []),
+            ...(adapted.coverage.duplicates ? [`Se unificaron ${adapted.coverage.duplicates} registros duplicados antes de contar las ofertas.`] : []),
             ...adapted.warnings,
           ] };
         entry = { at: now(), data };
@@ -255,6 +275,7 @@ export function createPublicSearchService(fetcher: typeof fetch = fetch, now: ()
     const opportunities = location && location !== "chile" ? data.opportunities.filter((offer) =>
       location.split(/\s+/).every((word) => fold(`${offer.location} ${offer.country}`).includes(word))) : data.opportunities;
     return { ...data, opportunities, query: input.query, location: input.location, cacheHit,
+      ...(data.coverage ? { coverage: { ...data.coverage, matched: opportunities.length, locationFilter: location && location !== "chile" ? "text_on_page" as const : "none" as const } } : {}),
       warnings: [...data.warnings, ...(location && location !== "chile" ? ["La ciudad o región se filtra por texto en esta página de resultados; no equivale a una búsqueda geográfica exhaustiva."] : [])] };
   };
 }

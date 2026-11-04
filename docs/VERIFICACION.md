@@ -1,5 +1,13 @@
 # Verificación de la entrega
 
+## Actualización del 4 de noviembre de 2026
+
+Se aplicaron las mejoras de captura, interpretación y navegación del [informe de cambios](MEJORAS_2026-11-04.md). La verificación final aprobó 138 pruebas en 11 archivos, TypeScript y la compilación de producción. El análisis de ESLint de los archivos de producción modificados no registró errores; conserva una advertencia anterior por un import sin uso.
+
+El recorrido en producción obtuvo 30 publicaciones reales de la primera de dos páginas declaradas por el proveedor. La selección explícita de un cargo sobrevivió a una nueva búsqueda, recarga y exportación. Se comprobó la separación entre autodeclaraciones y registros de evidencia, la navegación con teclado y móvil, y la consola de producción sin errores ni advertencias. Las capturas y los límites de estas comprobaciones están en el informe enlazado.
+
+## Registro anterior
+
 Revisión local del 3 de noviembre de 2026, zona horaria de Chile continental. Equipo Windows, Node.js y Python en entorno separado. Los registros pueden tener fecha UTC del 4 de noviembre.
 
 ## Resultados comprobados

@@ -74,6 +74,25 @@ describe("official Get on Board adapter", () => {
     expect(() => adaptGetOnBoard({ error: "changed schema" }, stamp)).toThrow();
     expect(adaptGetOnBoard({ data: [] }, stamp).opportunities).toEqual([]);
   });
+
+  it("deduplicates tracking/host/fragment variants before counting valid captures", () => {
+    const base = job();
+    const tracking = { ...base, links: { public_url: base.links.public_url.replace("www.", "") + "/?utm_source=campaign&fbclid=id#apply" } };
+    const invalid = { ...base, links: { public_url: "https://other.example/jobs/invalid" } };
+    const out = adaptGetOnBoard({ data: [base, tracking, invalid], meta: { page: 1, per_page: 30, total_pages: 9 } }, stamp);
+    expect(out.opportunities).toHaveLength(1);
+    expect(out.opportunities[0].sourceUrl).toBe(base.links.public_url);
+    expect(out.captured).toBe(1);
+    expect(out.enriched).toBe(1);
+    expect(out.coverage).toEqual({ page: 1, pageSize: 30, totalPages: 9, hasMore: true, limitReached: true,
+      received: 3, unique: 1, matched: 1, duplicates: 1, omitted: 1, locationFilter: "none" });
+  });
+
+  it("reports unknown page coverage instead of inventing an exhaustive search", () => {
+    expect(adaptGetOnBoard({ data: [job()] }, stamp).coverage).toMatchObject({ page: 1, totalPages: null, hasMore: null });
+    expect(adaptGetOnBoard({ data: [], meta: { page: 1, total_pages: 0 } }, stamp).coverage).toMatchObject({ totalPages: 0, hasMore: false });
+    expect(adaptGetOnBoard({ data: [job()], meta: { page: 3, total_pages: 2 } }, stamp).coverage).toMatchObject({ totalPages: null, hasMore: null });
+  });
 });
 
 describe("Get on Board public search (mocked HTTP)", () => {
@@ -84,6 +103,7 @@ describe("Get on Board public search (mocked HTTP)", () => {
     const first = await search(input);
     expect(first.source).toBe("Get on Board");
     expect(first.stats).toEqual({ captured: 1, enriched: 1 });
+    expect(first.coverage).toMatchObject({ page: 1, totalPages: 9, hasMore: true, received: 1, unique: 1, matched: 1 });
     const [url, options] = fetcher.mock.calls[0] as [URL, RequestInit];
     expect(url.origin + url.pathname).toBe("https://www.getonbrd.com/api/v0/search/jobs");
     expect(Object.fromEntries(url.searchParams)).toMatchObject({ query: "python", country_code: "cl", per_page: "30", page: "1" });
@@ -94,6 +114,10 @@ describe("Get on Board public search (mocked HTTP)", () => {
     expect(cached.cacheHit).toBe(true);
     expect(cached.opportunities).toHaveLength(1);
     expect(fetcher).toHaveBeenCalledTimes(1);
+    const emptyCity = await search({ ...input, location: "Temuco" });
+    expect(emptyCity.opportunities).toEqual([]);
+    expect(emptyCity.coverage).toMatchObject({ totalPages: 9, hasMore: true, unique: 1, matched: 0, locationFilter: "text_on_page" });
+    expect(fetcher).toHaveBeenCalledTimes(1);
     time += 600_000;
     expect((await search(input)).cacheHit).toBe(false);
     expect(fetcher).toHaveBeenCalledTimes(2);
@@ -103,10 +127,32 @@ describe("Get on Board public search (mocked HTTP)", () => {
     let time = Date.parse(stamp);
     const fetcher = vi.fn().mockResolvedValue(new Response(null, { status: 429, headers: { "retry-after": "3600" } }));
     const search = createPublicSearchService(fetcher, () => time);
-    await expect(search(input)).rejects.toMatchObject({ code: "SOURCE_BLOCKED" });
+    await expect(search(input)).rejects.toMatchObject({ code: "RATE_LIMITED", status: 429, retryAfterSeconds: 3600 });
     time += 600_001;
-    await expect(search({ query: "sql", location: "" })).rejects.toMatchObject({ code: "BUSY" });
+    await expect(search({ query: "sql", location: "" })).rejects.toMatchObject({ code: "RATE_LIMITED", status: 429, retryAfterSeconds: 3000 });
     expect(fetcher).toHaveBeenCalledTimes(1);
+  });
+
+  it("respects HTTP-date retry-after and distinguishes permanent access refusal", async () => {
+    let time = Date.parse(stamp);
+    const later = new Date(time + 1_800_000).toUTCString();
+    const rateLimit = createPublicSearchService(vi.fn().mockResolvedValue(new Response(null, { status: 429, headers: { "retry-after": later } })), () => time);
+    await expect(rateLimit(input)).rejects.toMatchObject({ code: "RATE_LIMITED", retryAfterSeconds: 1800 });
+    const fetcher = vi.fn().mockResolvedValue(new Response(null, { status: 403 }));
+    const blocked = createPublicSearchService(fetcher, () => time);
+    await expect(blocked(input)).rejects.toMatchObject({ code: "ACCESS_BLOCKED", status: 503 });
+    time += 86_400_000;
+    await expect(blocked({ query: "different query", location: "" })).rejects.toMatchObject({ code: "ACCESS_BLOCKED" });
+    expect(fetcher).toHaveBeenCalledTimes(1);
+  });
+
+  it("classifies timeouts and interrupted connections while reading the body", async () => {
+    for (const name of ["TimeoutError", "AbortError", "TypeError"]) {
+      const failure = new Error("private upstream detail"); failure.name = name;
+      const body = new ReadableStream<Uint8Array>({ start(controller) { controller.error(failure); } });
+      const search = createPublicSearchService(vi.fn().mockResolvedValue(new Response(body, { headers: { "content-type": "application/json" } })));
+      await expect(search(input)).rejects.toMatchObject(name === "TypeError" ? { code: "SOURCE_UNAVAILABLE", status: 503 } : { code: "TIMEOUT", status: 504 });
+    }
   });
 
   it("rejects redirects/failures, invalid data, oversized data and exposes no fabricated jobs", async () => {
