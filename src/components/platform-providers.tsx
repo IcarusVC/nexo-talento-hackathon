@@ -11,7 +11,7 @@ const OriginalAuthProvider = lazy(() =>
 
 export function PlatformProviders({ children }: { children: ReactNode }) {
   const pathname = usePathname();
-  if (pathname === "/" || pathname === "/nexo" || pathname.startsWith("/nexo/")) {
+  if (pathname === "/" || pathname === "/nexo" || pathname.startsWith("/nexo/") || pathname === "/skill-path" || pathname.startsWith("/skill-path/")) {
     return <>{children}</>;
   }
   return (

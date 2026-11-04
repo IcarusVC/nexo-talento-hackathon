@@ -1,0 +1,493 @@
+Diccionario de datos de mercado laboral
+Prueba 2 Operación MVP  Talent Tech Hack 2026
+Alcance del documento
+Este diccionario define la estructura, interpretación, acceso y relaciones de los cuatro archivos del paquete de mercado laboral. Su objetivo es que los equipos construyan reglas, pantallas y automatizaciones sin inventar significados ni ampliar permisos más allá del alcance entregado.
+Regla obligatoria para campos vacíos
+Un campo vacío no significa que una acción no ocurrió. Significa que no existe información suficiente para confirmarla.
+Por lo tanto, un valor vacío no debe convertirse automáticamente en No, Pendiente, Rechazado, Sin comunicación, Sin requisitos o Sin responsable. La solución debe conservar el vacío, advertir la falta de evidencia y solicitar revisión cuando la decisión pueda afectar a una persona.
+Clasificación operacional de estados
+Clasificación
+Definición
+Tratamiento esperado
+Estado confirmado
+Existe un valor explícito respaldado por la fuente autorizada o por un evento verificable.
+Mostrar como confirmado e indicar fecha y fuente cuando estén disponibles.
+Estado inferido
+Se calcula a partir de reglas o señales, pero la fuente autorizada no lo confirmó expresamente.
+Etiquetar como inferido; nunca sobrescribir el estado confirmado.
+Estado desactualizado
+Existe un estado confirmado, pero su fecha de actualización supera el umbral definido para el proceso.
+Conservar el valor, advertir su antigüedad y solicitar actualización.
+Ausencia de información
+El campo está vacío, es incompleto o no cuenta con evidencia suficiente.
+Mostrar como información no disponible; no asumir un resultado ni ejecutar decisiones adversas.
+Roles utilizados en el paquete
+Candidato; Reclutador; Representante de empresa; Administrador de plataforma; Orientador de empleabilidad; Revisor humano. La autorización efectiva siempre combina el rol con la empresa, cartera, vacantes y postulaciones visibles definidas para la cuenta.
+
+vacantes.csv
+Catálogo de oportunidades laborales ficticias y su estado de publicación.
+Campo
+Definición técnica
+Acceso y privacidad
+Propósito y relación
+vacante_id
+Tipo: Texto
+Formato: VAC-000
+Valores permitidos: Identificador único
+Vacío: No
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: Dato operativo no sensible
+Propósito: Identificar y relacionar la vacante
+Relación: Clave de postulaciones.csv
+empresa_id
+Tipo: Texto
+Formato: EMP-000
+Valores permitidos: Empresa ficticia registrada
+Vacío: No
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: Dato organizacional; no expone personas
+Propósito: Asignar la vacante a una organización
+Relación: Relaciona cartera y visibilidad en usuarios_roles.csv
+reclutador_id
+Tipo: Texto
+Formato: REC-000
+Valores permitidos: Reclutador ficticio registrado
+Vacío: Sí
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Acceso interno; identificador seudónimo
+Propósito: Asignar responsable del proceso
+Relación: Vincula actor y permisos de usuarios_roles.csv
+familia_cargo
+Tipo: Texto controlado
+Formato: Texto UTF-8
+Valores permitidos: Tecnología; Datos; Operaciones; Comercial; Servicio al cliente; Administración y finanzas
+Vacío: No
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: Dato público de la vacante
+Propósito: Agrupar cargos para búsqueda y métricas
+Relación: Clasifica nombre_cargo
+nombre_cargo
+Tipo: Texto
+Formato: Texto UTF-8
+Valores permitidos: Cargo laboral no discriminatorio
+Vacío: No
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: Dato público de la vacante
+Propósito: Nombrar la oportunidad laboral
+Relación: Contextualiza postulaciones y requisitos
+requisitos_esenciales
+Tipo: Texto múltiple
+Formato: Valores separados por |
+Valores permitidos: Competencias verificables
+Vacío: Sí
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: No debe contener atributos sensibles
+Propósito: Definir condiciones mínimas comprobables
+Relación: Se contrasta con requisitos_cumplidos
+modalidad
+Tipo: Texto controlado
+Formato: Texto
+Valores permitidos: Presencial; Híbrida; Remota
+Vacío: No
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: Dato público
+Propósito: Indicar forma de prestación
+Relación: Permite filtros de vacantes
+region
+Tipo: Texto controlado
+Formato: Región de Chile
+Valores permitidos: Metropolitana; Valparaíso; Biobío; Antofagasta; Los Lagos
+Vacío: No
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: No corresponde a domicilio personal
+Propósito: Indicar ubicación de referencia
+Relación: Permite filtros de vacantes
+rango_renta
+Tipo: Texto estructurado
+Formato: CLP mínimo-máximo
+Valores permitidos: Rango expresado en pesos chilenos
+Vacío: Sí
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: Dato público de la vacante
+Propósito: Informar banda de compensación
+Relación: Atributo de búsqueda y comparación
+fecha_publicacion
+Tipo: Fecha
+Formato: AAAA-MM-DD
+Valores permitidos: Fecha válida
+Vacío: No
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: Dato operativo
+Propósito: Registrar inicio de publicación
+Relación: Base para antigüedad y vigencia
+fecha_cierre
+Tipo: Fecha
+Formato: AAAA-MM-DD
+Valores permitidos: Fecha válida posterior o igual a publicación
+Vacío: Sí
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: Dato operativo
+Propósito: Registrar cierre esperado o efectivo
+Relación: Permite detectar cierres vencidos
+estado_vacante
+Tipo: Texto controlado
+Formato: Texto
+Valores permitidos: Activa; Pausada; Cerrada
+Vacío: No
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: Dato operativo
+Propósito: Indicar disponibilidad registrada
+Relación: Condiciona visibilidad y eventos
+ultima_actualizacion
+Tipo: Fecha
+Formato: AAAA-MM-DD
+Valores permitidos: Fecha válida
+Vacío: Sí
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Dato operativo interno
+Propósito: Medir vigencia del registro
+Relación: Permite identificar vacantes desactualizadas
+
+postulaciones.csv
+Registro central de candidaturas y estado confirmado del proceso.
+Campo
+Definición técnica
+Acceso y privacidad
+Propósito y relación
+postulacion_id
+Tipo: Texto
+Formato: POS-0000
+Valores permitidos: Identificador único
+Vacío: No
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: Seudónimo; acceso restringido por alcance
+Propósito: Identificar cada postulación
+Relación: Clave de eventos_proceso.csv
+candidato_id
+Tipo: Texto
+Formato: CAN-0000
+Valores permitidos: Candidato ficticio registrado
+Vacío: No
+Roles autorizados: Candidato propio; Reclutador; Administrador de plataforma; Orientador; Revisor, según alcance
+Privacidad: Identificador seudónimo; no incorporar datos sensibles
+Propósito: Relacionar a la persona sin usar identidad real
+Relación: Vincula actor_id_asociado en usuarios_roles.csv
+vacante_id
+Tipo: Texto
+Formato: VAC-000
+Valores permitidos: Vacante existente
+Vacío: No
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: Dato operativo
+Propósito: Asociar postulación y oportunidad
+Relación: Clave foránea de vacantes.csv
+fecha_postulacion
+Tipo: Fecha
+Formato: AAAA-MM-DD
+Valores permitidos: Fecha válida
+Vacío: No
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: Dato operativo del candidato
+Propósito: Registrar ingreso al proceso
+Relación: Inicio de la trazabilidad
+estado_registrado
+Tipo: Texto controlado
+Formato: Texto
+Valores permitidos: Recibida; En revisión; Preseleccionada; Entrevista; Oferta; Descartada; Contratada
+Vacío: No
+Roles autorizados: Según el alcance definido en usuarios_roles.csv
+Privacidad: Decisión laboral; acceso por necesidad
+Propósito: Representar el estado confirmado en la fuente
+Relación: Debe coincidir con el último evento confirmado
+fecha_actualizacion
+Tipo: Fecha
+Formato: AAAA-MM-DD
+Valores permitidos: Fecha válida posterior o igual a postulación
+Vacío: Sí
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Dato operativo interno
+Propósito: Medir vigencia del estado
+Relación: Permite detectar estado desactualizado
+requisitos_cumplidos
+Tipo: Texto controlado
+Formato: Texto
+Valores permitidos: Sí; Parcial; No
+Vacío: Sí
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: No debe inferirse desde atributos personales
+Propósito: Registrar contraste verificable con requisitos
+Relación: Se contrasta con vacantes.requisitos_esenciales
+fuente_estado
+Tipo: Texto controlado
+Formato: Texto
+Valores permitidos: Empresa; Plataforma; Sistema
+Vacío: Sí
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Dato de trazabilidad
+Propósito: Identificar quién originó el estado
+Relación: Apoya validación del estado y revisión humana
+requiere_revision_humana
+Tipo: Booleano textual
+Formato: Sí/No
+Valores permitidos: Sí; No
+Vacío: No
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: No implica decisión negativa
+Propósito: Derivar excepciones a una persona autorizada
+Relación: Se usa en usuarios_roles y eventos
+fecha_ultima_comunicacion
+Tipo: Fecha
+Formato: AAAA-MM-DD
+Valores permitidos: Fecha válida posterior o igual a postulación
+Vacío: Sí
+Roles autorizados: Candidato propio y roles internos según alcance
+Privacidad: Dato de relación con el candidato
+Propósito: Registrar último contacto confirmado
+Relación: Se contrasta con eventos de comunicación
+canal_comunicacion
+Tipo: Texto controlado
+Formato: Texto
+Valores permitidos: Correo electrónico; Teléfono; Mensajería de plataforma
+Vacío: Sí
+Roles autorizados: Candidato propio y roles internos según alcance
+Privacidad: No contiene la dirección o número real
+Propósito: Registrar el canal utilizado
+Relación: Acompaña fecha_ultima_comunicacion
+
+eventos_proceso.csv
+Bitácora cronológica para reconstruir la trazabilidad de cada postulación.
+Campo
+Definición técnica
+Acceso y privacidad
+Propósito y relación
+evento_id
+Tipo: Texto
+Formato: EVT-00000
+Valores permitidos: Identificador único
+Vacío: No
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Dato operativo
+Propósito: Identificar cada hecho de la bitácora
+Relación: Clave del registro de trazabilidad
+postulacion_id
+Tipo: Texto
+Formato: POS-0000
+Valores permitidos: Postulación existente
+Vacío: No
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Acceso por alcance de postulación
+Propósito: Asociar el evento al proceso
+Relación: Clave foránea de postulaciones.csv
+tipo_evento
+Tipo: Texto controlado
+Formato: Texto
+Valores permitidos: Postulación enviada; Apertura; Revisión; Cambio de etapa; Entrevista programada; Comunicación enviada; Vacante pausada; Vacante cerrada; Corrección manual; Recordatorio automático
+Vacío: No
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Dato de auditoría
+Propósito: Clasificar la acción registrada
+Relación: Explica el cambio o actividad del proceso
+actor_tipo
+Tipo: Texto controlado
+Formato: Texto
+Valores permitidos: Candidato; Reclutador; Sistema; Administrador
+Vacío: No
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Dato de auditoría seudónimo
+Propósito: Identificar la clase de actor
+Relación: Complementa actor_id y origen_evento
+actor_id
+Tipo: Texto
+Formato: Prefijo según actor
+Valores permitidos: CAN; REC; SIS; ADM
+Vacío: Sí
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Seudónimo; vacío obliga a revisar
+Propósito: Individualizar al actor responsable
+Relación: Vincula usuarios_roles.csv cuando aplica
+fecha_evento
+Tipo: Fecha
+Formato: AAAA-MM-DD
+Valores permitidos: Fecha válida
+Vacío: No
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Dato operativo
+Propósito: Ordenar cronológicamente la bitácora
+Relación: Permite reconstruir el proceso
+estado_anterior
+Tipo: Texto controlado
+Formato: Texto
+Valores permitidos: Estados de postulaciones o vacío inicial
+Vacío: Sí
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Dato de decisión laboral
+Propósito: Registrar punto de partida
+Relación: Se compara con evento previo
+estado_nuevo
+Tipo: Texto controlado
+Formato: Texto
+Valores permitidos: Estados de postulaciones
+Vacío: No
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Dato de decisión laboral
+Propósito: Registrar resultado del evento
+Relación: Debe converger con estado_registrado
+origen_evento
+Tipo: Texto controlado
+Formato: Texto
+Valores permitidos: Empresa; Plataforma; Sistema; Manual
+Vacío: No
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Dato de auditoría
+Propósito: Identificar la fuente técnica u operativa
+Relación: Apoya validación y atribución
+comunicado_candidato
+Tipo: Booleano textual
+Formato: Sí/No
+Valores permitidos: Sí; No
+Vacío: No
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: No reemplaza la evidencia del evento
+Propósito: Indicar si existe comunicación confirmada
+Relación: Se contrasta con fecha y canal de comunicación
+requiere_revision
+Tipo: Booleano textual
+Formato: Sí/No
+Valores permitidos: Sí; No
+Vacío: No
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: No equivale a rechazo del candidato
+Propósito: Marcar anomalías de trazabilidad
+Relación: Deriva a Revisor humano
+ultima_actualizacion
+Tipo: Fecha
+Formato: AAAA-MM-DD
+Valores permitidos: Fecha válida
+Vacío: Sí
+Roles autorizados: Reclutador; Representante de empresa; Administrador de plataforma; Orientador; Revisor humano, según alcance
+Privacidad: Dato operativo interno
+Propósito: Registrar modificación del evento
+Relación: Permite detectar registros sin mantenimiento
+
+usuarios_roles.csv
+Matriz de cuentas, alcance visible y permisos de operación.
+Campo
+Definición técnica
+Acceso y privacidad
+Propósito y relación
+usuario_id
+Tipo: Texto
+Formato: USR-000
+Valores permitidos: Identificador único
+Vacío: No
+Roles autorizados: Administrador de plataforma; usuario propietario
+Privacidad: Seudónimo
+Propósito: Identificar la cuenta de prueba
+Relación: Clave de control de acceso
+nombre_ficticio
+Tipo: Texto
+Formato: Nombre y apellido ficticios
+Valores permitidos: Texto de prueba
+Vacío: No
+Roles autorizados: Administrador de plataforma y roles internos autorizados
+Privacidad: No corresponde a una persona real
+Propósito: Facilitar pruebas de interfaz
+Relación: Describe usuario_id
+rol
+Tipo: Texto controlado
+Formato: Texto
+Valores permitidos: Candidato; Reclutador; Representante de empresa; Administrador de plataforma; Orientador de empleabilidad; Revisor humano.
+Vacío: No
+Roles autorizados: Administrador de plataforma y usuario propietario
+Privacidad: Dato de seguridad
+Propósito: Determinar perfil base de acceso
+Relación: Gobierna todos los permisos
+actor_id_asociado
+Tipo: Texto
+Formato: CAN; REC; RPE; ADM; ORI; REV
+Valores permitidos: Actor ficticio existente
+Vacío: No
+Roles autorizados: Administrador de plataforma y usuario propietario
+Privacidad: Seudónimo
+Propósito: Vincular cuenta y actor operacional
+Relación: Relaciona candidatos, reclutadores y eventos
+empresa_o_cartera_asignada
+Tipo: Texto
+Formato: EMP o descripción de cartera
+Valores permitidos: Empresa o cartera ficticia
+Vacío: No
+Roles autorizados: Administrador de plataforma y usuario propietario
+Privacidad: Dato interno de autorización
+Propósito: Limitar alcance organizacional
+Relación: Filtra vacantes y postulaciones visibles
+vacantes_visibles
+Tipo: Texto de regla
+Formato: Descripción de alcance
+Valores permitidos: Reglas definidas para el rol
+Vacío: No
+Roles autorizados: Administrador de plataforma y usuario propietario
+Privacidad: Control de acceso
+Propósito: Definir universo de vacantes consultables
+Relación: Se aplica sobre vacantes.csv
+postulaciones_visibles
+Tipo: Texto de regla
+Formato: Descripción de alcance
+Valores permitidos: Reglas definidas para el rol
+Vacío: No
+Roles autorizados: Administrador de plataforma y usuario propietario
+Privacidad: Control de acceso reforzado
+Propósito: Definir universo de postulaciones consultables
+Relación: Se aplica sobre postulaciones.csv
+puede_cambiar_estados
+Tipo: Booleano textual
+Formato: Sí/No
+Valores permitidos: Sí; No
+Vacío: No
+Roles autorizados: Administrador de plataforma
+Privacidad: Permiso crítico
+Propósito: Autorizar cambios de etapa
+Relación: Afecta estado_registrado y eventos
+puede_corregir_informacion
+Tipo: Booleano textual
+Formato: Sí/No
+Valores permitidos: Sí; No
+Vacío: No
+Roles autorizados: Administrador de plataforma
+Privacidad: Permiso crítico; no habilita acceso adicional
+Propósito: Autorizar correcciones dentro del alcance
+Relación: Genera Corrección manual cuando corresponde
+puede_consultar_metricas
+Tipo: Booleano textual
+Formato: Sí/No
+Valores permitidos: Sí; No
+Vacío: No
+Roles autorizados: Administrador de plataforma
+Privacidad: Preferir datos agregados
+Propósito: Autorizar visualización de indicadores
+Relación: Opera sobre vacantes y postulaciones visibles
+puede_activar_automatizaciones
+Tipo: Booleano textual
+Formato: Sí/No
+Valores permitidos: Sí; No
+Vacío: No
+Roles autorizados: Administrador de plataforma
+Privacidad: Permiso crítico y auditable
+Propósito: Autorizar reglas automáticas
+Relación: Puede generar recordatorios automáticos
+puede_realizar_revision_humana
+Tipo: Booleano textual
+Formato: Sí/No
+Valores permitidos: Sí; No
+Vacío: No
+Roles autorizados: Administrador de plataforma
+Privacidad: Acceso solo a información necesaria
+Propósito: Autorizar resolución de casos derivados
+Relación: Aplica a registros marcados para revisión
+
+Reglas de implementación
+Las relaciones entre archivos deben validarse mediante sus identificadores; no por nombres o textos descriptivos.
+Un permiso Sí habilita una acción únicamente dentro del alcance visible definido para la cuenta.
+Los estados inferidos deben almacenarse y mostrarse separados de los estados confirmados.
+Los registros desactualizados deben generar una advertencia, no una modificación automática del estado.
+Las automatizaciones no pueden rechazar, descartar ni perjudicar a una persona sin revisión humana autorizada.
+No se deben incorporar edad, género, fotografía, nacionalidad, estado civil, discapacidad, dirección ni información médica o familiar.

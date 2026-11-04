@@ -1,0 +1,25 @@
+{
+  "source": "Paquete sintético Prueba 2 Talent Tech Hack 2026 entregado por el usuario",
+  "files": [
+    {
+      "file": "usuarios_roles.csv",
+      "rows": 60,
+      "sha256": "53146594deb2c1863f81d29206c4450a4f4ac88c06277cfe3e772b5c3a3a1b78"
+    },
+    {
+      "file": "vacantes.csv",
+      "rows": 60,
+      "sha256": "e4be2eb2cbdd48ec86a29ef6224c8a8d44cee54d91114247b810be6769b667d5"
+    },
+    {
+      "file": "postulaciones.csv",
+      "rows": 500,
+      "sha256": "5538e1262a933bd409ec6f13c8e082cfb6dc39b055176d32269addf06c5e7b05"
+    },
+    {
+      "file": "eventos_proceso.csv",
+      "rows": 1500,
+      "sha256": "53976a00eba543d9c3ef683a0c7b771c30a2cf88b2744e29885de54bd3a3badd"
+    }
+  ]
+}

@@ -1,6 +1,36 @@
-# Nexo Talento — piloto para la hackatón
+# Skill path
 
-Conecta **ofertas → habilidades → evidencia curricular → oportunidades de experiencia**. Construido sobre TurboTrabajo y Luk Job Assistant, de Diego Ostertag, con historial, código y atribución conservados.
+MVP de seguimiento de postulaciones para la Prueba 2 de Talent Tech Hack 2026. Utiliza exclusivamente los cuatro CSV sintéticos entregados: 60 vacantes, 500 postulaciones, 1.500 eventos y 60 cuentas. Los originales se conservan intactos; las acciones se guardan en una bitácora adicional.
+
+## Abrir Skill path
+
+Con Node.js 22 o posterior: ejecutar `npm ci` y `npm run dev -- --hostname 127.0.0.1`. Abrir [Skill path](http://127.0.0.1:3000/skill-path). La portada redirige a esta ruta. Para compilar: `npm run build` y `npm run start -- --hostname 127.0.0.1`. No requiere claves de Firebase, servicios de IA ni correo.
+
+El selector de cuentas simula la identidad según permite el brief. No es autenticación productiva; el servidor comprueba los permisos y el alcance en cada lectura y acción. Usa una sola instancia para la persistencia local de la demo.
+
+## Recorrido para evaluar Skill path
+
+1. **USR-001, Candidato:** sus postulaciones, estado, fecha, fuente y próximo paso; puede solicitar una corrección propia.
+2. **USR-025, Reclutador:** VAC-001 y sus postulaciones por asignación y empresa. Cambiar una etapa con motivo y confirmación humana; revisar el evento nuevo y recargar.
+3. Consultar alertas de antigüedad, vigencia y revisión. Derivar un caso sin cambiar su estado.
+4. **USR-035, Representante:** ver EMP-001, sus métricas y solicitar pausa/cierre sin ejecutar acciones denegadas.
+5. **USR-047, Administrador**, **USR-051, Orientador** y las cuentas de **Revisor humano:** comprobar alcance y acciones por rol. El administrador no decide selección.
+
+Las anomalías son intencionales. Un vacío no significa rechazo ni falta de contacto. Si la intersección de permisos no contiene registros, se muestra una lista vacía; no se amplía acceso para llenar la pantalla.
+
+La API está bajo `/api/skill-path`. Los originales están en `data/skill-path/source/` y el historial local en `.local/skill-path/ledger.json`, excluido de Git. Versión e idempotencia controlan cambios y reintentos en una sola instancia. No hay envíos reales, scraping, ranking ni decisiones automatizadas en este módulo.
+
+[Arquitectura](docs/skill-path/ARQUITECTURA.md) · [Contrato API](docs/skill-path/API.md) · [Requisitos](docs/skill-path/REQUISITOS.json) · [Verificación](docs/skill-path/VERIFICACION.md)
+
+## Agente framework
+
+El [Guardián de Skill path](.agents/skills/skillpath-guardian/SKILL.md) conecta cada requisito con código y evidencia. Está versionado en el proyecto y referenciado por `AGENTS.md`. Puedes pedir: «Usa el guardián de Skill path para encontrar lo que falta del brief y avanzar con implementación y pruebas».
+
+Ejecutar `npm run skillpath:guard -- --inventory` durante el desarrollo; `npm run skillpath:check` para control documental, tipos y pruebas del módulo; `npm test` para la regresión completa. El guardián no vigila en segundo plano ni sustituye las pruebas funcionales.
+
+## Piloto anterior de investigación
+
+El contenido siguiente corresponde a `/nexo`, conservado como módulo separado. Sus fuentes reales no forman parte de Skill path ni de la demostración evaluada. Construido sobre TurboTrabajo y Luk Job Assistant, de Diego Ostertag, con historial, código y atribución conservados.
 
 ## Iniciar la plataforma
 
@@ -11,7 +41,7 @@ npm ci
 npm run dev
 ```
 
-Abrir http://localhost:3000/nexo. La portada redirige al piloto. Para una presentación con build de producción:
+Abrir http://localhost:3000/nexo para ese módulo histórico. La portada actual abre Skill path. Para una presentación con build de producción:
 
 ```sh
 npm run build

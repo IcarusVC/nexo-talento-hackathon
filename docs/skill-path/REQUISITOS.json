@@ -1,0 +1,298 @@
+{
+  "product": "Skill path",
+  "scope": "Prueba 2 Operación MVP · Talent Tech Hack 2026",
+  "requirements": [
+    {
+      "id": "SP-01",
+      "title": "Cuatro CSV originales unidos por identificadores",
+      "source": "Brief p.5 mínimo 1; p.10 Datos y Relaciones",
+      "acceptance": "60/500/1500/60; hashes idénticos y uniones por IDs sin nombres.",
+      "owner": "Datos y backend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts",
+        "docs/skill-path/FUENTES.json"
+      ]
+    },
+    {
+      "id": "SP-02",
+      "title": "Selector de cuentas y roles reales del paquete",
+      "source": "Brief p.5 mínimo 2; p.10 Acceso",
+      "acceptance": "Candidato, reclutador y control operativos; selector ficticio identificado.",
+      "owner": "Frontend y backend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-03",
+      "title": "Permisos de lectura y acción en servidor",
+      "source": "Brief p.8 reglas 13–14; usuarios_roles.csv",
+      "acceptance": "Bloquear fuera de rol y alcance, incluidos IDs manipulados en API.",
+      "owner": "Backend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-04",
+      "title": "Candidato sólo consulta postulaciones propias",
+      "source": "Brief p.5 flujo candidato; p.9 aceptación",
+      "acceptance": "USR-001 obtiene sólo CAN-0001, sin eventos internos ni otras personas.",
+      "owner": "Backend y frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-05",
+      "title": "Estado con significado, fecha, fuente y próximo paso",
+      "source": "Brief p.5 mínimo 3; p.6 estados",
+      "acceptance": "Ficha legible con estado registrado, procedencia y orientación sin garantía.",
+      "owner": "Frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-06",
+      "title": "Cuatro clases de evidencia separadas",
+      "source": "Brief p.6 clasificación y reglas 9–12",
+      "acceptance": "Confirmado, inferido, desactualizado y ausente con texto; inferencia no cambia estado.",
+      "owner": "Backend y frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-07",
+      "title": "Comunicación ausente no equivale a ausencia de contacto",
+      "source": "Brief p.8 regla 17; diccionario vacíos",
+      "acceptance": "Fecha o canal insuficientes muestran desconocido; no inventar No.",
+      "owner": "Backend y frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-08",
+      "title": "Cambio de etapa con trazabilidad",
+      "source": "Brief p.5 mínimo 5; p.8 reglas 15–16",
+      "acceptance": "Reclutador autorizado registra actor, fecha, antes/después, origen y motivo.",
+      "owner": "Backend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-09",
+      "title": "Corrección manual conserva evidencia",
+      "source": "Brief p.6 corrección de estado; p.5 reclutador",
+      "acceptance": "Corrección autorizada añade evento; no borra historia ni cambia CSV.",
+      "owner": "Backend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-10",
+      "title": "Solicitud de corrección del candidato",
+      "source": "Brief p.5 candidato; tarjeta 1",
+      "acceptance": "Solicitud sobre una postulación propia sin editar decisiones ni estados.",
+      "owner": "Backend y frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-11",
+      "title": "Vigencia y antigüedad sin decisiones automáticas",
+      "source": "Brief p.6 más de 30 días; p.7 vacantes",
+      "acceptance": "Alerta vencimiento y >30 días sin actualización/evento; conservar valores.",
+      "owner": "Backend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-12",
+      "title": "Revisión humana y discrepancias persistentes",
+      "source": "Brief p.8 regla 18; p.9 discrepancia",
+      "acceptance": "Detectar discrepancia, derivar, mantener cola hasta atención autorizada con registro.",
+      "owner": "Backend y frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-13",
+      "title": "Recordatorios seguros y trazables",
+      "source": "Brief p.5 reclutador; p.8 regla 19",
+      "acceptance": "Recordatorio local auditable, sin envío real ni descarte automático.",
+      "owner": "Backend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-14",
+      "title": "Métricas operativas por alcance",
+      "source": "Brief p.5 mínimo 8; p.8 métricas",
+      "acceptance": "Al menos 4 métricas de archivos; usuario sin permiso no recibe indicadores.",
+      "owner": "Backend y frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-15",
+      "title": "Representante solicita pausa o cierre",
+      "source": "Tarjeta 3 y su nota de permisos",
+      "acceptance": "Empresa propia; solicitudes derivadas porque permiso de acción directa es No.",
+      "owner": "Backend y frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-16",
+      "title": "Administración técnica separada de selección",
+      "source": "Brief p.4; tarjeta 4",
+      "acceptance": "Administrador ve integridad y métricas; no decide etapas de candidatos.",
+      "owner": "Backend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-17",
+      "title": "Orientador y revisor respetan subcarteras",
+      "source": "Brief p.4 roles; usuarios_roles.csv",
+      "acceptance": "Orientador rango de candidatos; revisor marca de revisión Y criterio de cartera.",
+      "owner": "Backend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-18",
+      "title": "Fuentes y funciones dentro del alcance",
+      "source": "Brief p.2 fuente exclusiva; p.10 fuera de alcance",
+      "acceptance": "Sin datos externos, scraping, ranking, atributos sensibles ni correo real en Skill path.",
+      "owner": "Arquitectura",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-19",
+      "title": "Vistas claras y adaptables",
+      "source": "Brief p.10 Interfaz y Accesibilidad",
+      "acceptance": "Estados legibles sin depender del color, etiquetas, foco y navegación móvil.",
+      "owner": "Frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/components/skill-path/workspace.tsx",
+        "src/components/skill-path/workspace.module.css",
+        "docs/skill-path/capturas/escritorio.png"
+      ]
+    },
+    {
+      "id": "SP-20",
+      "title": "Persistencia de cambios y control de dobles acciones",
+      "source": "Brief p.10 Arquitectura y Trazabilidad; decisión técnica del equipo",
+      "acceptance": "Bitácora durable aparte de CSV; acciones idempotentes y conflictos de versión explícitos.",
+      "owner": "Backend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "src/lib/skill-path/skill-path.test.ts"
+      ]
+    },
+    {
+      "id": "SP-21",
+      "title": "Entrega ejecutable y documentación",
+      "source": "Brief p.10 entregables 23–28",
+      "acceptance": "Código, arranque, arquitectura, herramientas usadas y casos verificados.",
+      "owner": "Integración",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        "README.md",
+        "docs/skill-path/ARQUITECTURA.md",
+        "docs/skill-path/API.md"
+      ]
+    },
+    {
+      "id": "SP-22",
+      "title": "Nombre y guardián reutilizable",
+      "source": "Solicitud del usuario en este chat",
+      "acceptance": "Marca Skill path, matriz mantenible, habilidad guardián y control ejecutable.",
+      "owner": "Integración",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path/VERIFICACION.md",
+        "docs/skill-path/AUDITORIA.md",
+        ".agents/skills/skillpath-guardian/SKILL.md",
+        "scripts/skill-path-guard.mjs"
+      ]
+    }
+  ]
+}

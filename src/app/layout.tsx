@@ -12,27 +12,27 @@ const outfit = Outfit({
 });
 
 const SITE_DESCRIPTION =
-  "Nexo Talento conecta requisitos laborales, evidencia curricular y oportunidades de experiencia. Piloto construido sobre TurboTrabajo y Luk.";
+  "Skill path permite seguir postulaciones, comprender su evidencia y resolver casos con revisión humana. MVP con datos sintéticos de Talent Tech Hack 2026.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),
   title: {
-    default: "Nexo Talento — Formación y oportunidades",
-    template: "%s · Nexo Talento",
+    default: "Skill path — Procesos claros, decisiones trazables",
+    template: "%s · Skill path",
   },
   description: SITE_DESCRIPTION,
-  applicationName: "Nexo Talento",
+  applicationName: "Skill path",
   openGraph: {
     type: "website",
     locale: "es_CL",
     url: "/",
-    siteName: "Nexo Talento",
-    title: "Nexo Talento — Formación y oportunidades",
+    siteName: "Skill path",
+    title: "Skill path — Seguimiento de postulaciones",
     description: SITE_DESCRIPTION,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nexo Talento — Formación y oportunidades",
+    title: "Skill path — Seguimiento de postulaciones",
     description: SITE_DESCRIPTION,
   },
 };

@@ -1,0 +1,105 @@
+Tarjetas de usuarios de mercado laboral
+Prueba 2 Operación MVP  Talent Tech Hack 2026
+Estas tarjetas representan las necesidades, límites y preguntas de validación de los usuarios del MVP. Los equipos deben utilizarlas para diseñar flujos, pantallas, permisos y mensajes sin ampliar el acceso definido en usuarios_roles.csv.
+TARJETA 1
+Candidato
+Perspectiva del usuario
+Participa en uno o más procesos y necesita comprender su situación sin recibir conclusiones que la evidencia disponible no permite confirmar.
+Necesita
+Consultar el estado de cada postulación.
+Comprender qué significa el estado mostrado.
+Saber cuándo fue actualizado y cuál es su fuente.
+Conocer el siguiente paso esperado.
+Recibir comunicaciones claras y trazables.
+Corregir únicamente la información permitida dentro de su cuenta.
+No debería
+Ser rechazado automáticamente.
+Ser evaluado mediante atributos sensibles.
+Recibir como hecho un estado meramente inferido.
+Visualizar postulaciones o datos de otras personas.
+Preguntas de validación para el MVP
+¿La interfaz diferencia claramente un estado confirmado de uno inferido?
+¿La persona puede identificar la fecha, fuente y próximo paso del proceso?
+¿Una corrección de datos personales evita modificar decisiones o estados del proceso?
+
+TARJETA 2
+Reclutador
+Perspectiva del usuario
+Gestiona vacantes y postulaciones asignadas. Necesita mantener el proceso actualizado, detectar excepciones y conservar evidencia suficiente de cada cambio.
+Necesita
+Visualizar únicamente sus procesos asignados.
+Actualizar estados y dejar registro del cambio.
+Corregir inferencias o información incorrecta.
+Identificar postulaciones atrasadas o sin actividad reciente.
+Recibir recordatorios útiles y configurables.
+Mantener la revisión humana cuando exista incertidumbre o impacto sobre una persona.
+No debería
+Modificar procesos fuera de su cartera.
+Transformar automáticamente un campo vacío en una conclusión.
+Usar una automatización para descartar candidatos.
+Eliminar eventos que formen parte de la trazabilidad.
+Preguntas de validación para el MVP
+¿Cada cambio registra actor, fecha, estado anterior, estado nuevo y origen?
+¿La solución destaca procesos atrasados sin alterar su estado automáticamente?
+¿El reclutador puede enviar casos ambiguos a revisión humana?
+
+TARJETA 3
+Representante de empresa
+Perspectiva del usuario
+Representa a una organización empleadora y requiere visibilidad sobre sus propias vacantes y decisiones, sin acceder a procesos pertenecientes a otras empresas.
+Necesita
+Visualizar las vacantes de su empresa.
+Conocer las postulaciones pendientes y su nivel de avance.
+Confirmar decisiones de la organización.
+Solicitar o ejecutar el cierre y la pausa de vacantes según los permisos asignados.
+Consultar métricas correspondientes únicamente a su empresa.
+No debería
+Ver procesos de otras empresas.
+Aplicar criterios que no fueron publicados en la vacante.
+Rechazar mediante atributos sensibles.
+Modificar información del candidato que no sea necesaria para la decisión.
+Preguntas de validación para el MVP
+¿La visibilidad queda limitada por empresa y vacante?
+¿Las decisiones requieren confirmación y generan un evento trazable?
+¿Si el rol no tiene permiso directo, la solución registra una solicitud para un usuario autorizado?
+Nota de permisos: la tarjeta expresa una necesidad funcional. La acción directa de cerrar o pausar una vacante debe respetar la matriz de usuarios y roles. Cuando el permiso no exista, el sistema debe registrar la solicitud y derivarla a un usuario autorizado.
+
+TARJETA 4
+Administrador de plataforma
+Perspectiva del usuario
+Mantiene el funcionamiento técnico y la calidad de los datos. Su acceso administrativo no lo convierte en responsable de las decisiones de selección.
+Necesita
+Verificar la integridad y trazabilidad de los registros.
+Detectar vacantes vencidas o desactualizadas.
+Gestionar reglas y automatizaciones.
+Consultar métricas agregadas.
+Identificar eventos incompletos, actores faltantes y relaciones inválidas.
+No debería
+Tomar decisiones de selección.
+Modificar resultados para aparentar actividad.
+Usar su acceso global para consultar información sin una necesidad operacional.
+Eliminar evidencia de correcciones o cambios manuales.
+Preguntas de validación para el MVP
+¿La solución diferencia administración técnica de decisión laboral?
+¿Las automatizaciones quedan registradas y pueden auditarse?
+¿Los datos incompletos generan una alerta sin inventar un resultado?
+
+TARJETA 5
+Orientador de empleabilidad
+Perspectiva del usuario
+Acompaña a candidatos de una cartera asignada. Necesita explicar el proceso y orientar acciones sin prometer resultados ni ampliar su acceso.
+Necesita
+Explicar los estados al candidato con lenguaje claro.
+Identificar falta de información o registros desactualizados.
+Orientar los próximos pasos disponibles.
+Distinguir hechos confirmados, inferencias y ausencia de información.
+Consultar únicamente postulaciones de su cartera asignada.
+No debería
+Acceder a información de otras personas.
+Prometer resultados no confirmados.
+Modificar estados o decisiones de selección.
+Presentar una inferencia como si fuera un hecho.
+Preguntas de validación para el MVP
+¿El orientador puede explicar qué se sabe, qué se infiere y qué falta confirmar?
+¿La interfaz protege los procesos fuera de su cartera?
+¿Las recomendaciones se presentan como orientación y no como garantía?

@@ -1,0 +1,359 @@
+PÁGINA 1
+
+Talent Tech Hack 2026  Brief de participantes  Tema Mercado laboral
+
+
+
+
+
+
+
+
+
+
+TECH HACK 2026
+Brief para participantes de mercado laboral
+
+Prueba 2 Operación MVP  Talent Tech Hack 2026
+
+
+
+PÁGINA 2
+
+Talent Tech Hack 2026  Brief de participantes  Tema Mercado laboral
+
+Propósito de la prueba
+En esta etapa cada equipo debe transformar el diagnóstico construido en la Prueba 1 en un MVP funcional. El
+desafío no consiste en diseñar solamente una interfaz: la solución debe utilizar los datos entregados, aplicar
+reglas de negocio, respetar permisos y demostrar trazabilidad.
+Elemento Definición
+Temática Mercado laboral
+Organización ficticia Nexo Laboral Group
+Duración de trabajo 3 horas y 30 minutos
+Modalidad de solución Aplicación web o móvil, prototipo funcional, low code o no code
+Herramientas permitidas Programación, inteligencia artificial, asistentes de código y plataformas no code
+Fuente de información Exclusivamente los archivos sintéticos entregados por la organización
+
+Continuidad de la experiencia
+La prueba continúa la experiencia Operación Punto Ciego. En la etapa anterior todos creían conocer el
+problema, pero nadie tenía la historia completa. Ahora el equipo debe construir una solución que convierta
+datos dispersos y contradictorios en información comprensible, verificable y accionable.
+Contexto del caso
+Nexo Laboral Group administra una plataforma ficticia que conecta empresas, reclutadores y candidatos. La
+plataforma recibe postulaciones y registra eventos, pero los usuarios no siempre pueden determinar qué ocurrió
+realmente. Algunas vacantes continúan visibles después de su fecha de cierre, ciertos procesos no se
+actualizan, existen postulaciones sin comunicación registrada y varios estados requieren revisión humana.
+Las empresas afirman que no encuentran talento. Los candidatos sostienen que nunca reciben respuesta. El
+equipo de la plataforma no cuenta con una única vista que permita distinguir un hecho confirmado, una
+inferencia, un registro desactualizado o una ausencia de información.
+
+
+PÁGINA 3
+
+Talent Tech Hack 2026  Brief de participantes  Tema Mercado laboral
+
+Datos de partida
+Base Volumen Situaciones incluidas
+Vacantes 60 Activas, pausadas, cerradas, vencidas, desactualizadas e incompletas
+Postulaciones 500 Distintas etapas, postulaciones múltiples, falta de comunicación y revisión
+humana
+Eventos del proceso 1.500 Cambios de etapa, comunicaciones, correcciones, pausas, cierres y
+recordatorios
+Cuentas y permisos 60 Seis roles con alcances y autorizaciones diferentes
+
+Las anomalías presentes en los archivos son intencionales. Deben utilizarse para demostrar validaciones,
+alertas, revisión humana y manejo responsable de la incertidumbre.
+Misión del equipo
+Construyan un MVP que permita seguir una postulación desde su ingreso hasta su estado actual, mostrar qué
+información está confirmada, detectar quiebres de trazabilidad y facilitar la intervención de una persona
+autorizada cuando los datos no sean suficientes.
+Resultado esperado: Una demostración funcional basada en datos, no una colección de pantallas estáticas.
+
+
+PÁGINA 4
+
+Talent Tech Hack 2026  Brief de participantes  Tema Mercado laboral
+
+Archivos entregados por separado
+Los siguientes archivos forman parte obligatoria del caso y serán entregados junto con este brief.
+Archivo Contenido Uso esperado
+vacantes.csv 60 oportunidades laborales ficticias Consultar vigencia, responsable, requisitos,
+modalidad, región y estado de publicación.
+postulaciones.csv 500 postulaciones ficticias Mostrar estado, actualización, comunicación,
+requisitos y necesidad de revisión humana.
+eventos_proceso.csv 1.500 eventos de trazabilidad Reconstruir la historia, detectar falta de actividad y
+respaldar cambios de estado.
+usuarios_roles.csv 60 cuentas ficticias y permisos Aplicar visibilidad y acciones según rol, empresa,
+cartera o postulación.
+Diccionario de datos Definiciones, formatos, privacidad y
+relaciones
+Interpretar los campos sin inventar significados ni
+convertir vacíos en conclusiones.
+Tarjetas de usuarios Necesidades y límites de cinco perfiles Diseñar los flujos y validar que cada usuario reciba lo
+que necesita.
+
+Usuarios que debe considerar la solución
+Rol Necesidad central Alcance
+Candidato Comprender sus postulaciones, el estado y el próximo
+paso. Solo información propia.
+Reclutador Gestionar procesos asignados y mantener trazabilidad. Vacantes y postulaciones de su
+cartera.
+Representante de empresa Conocer procesos de su organización y confirmar
+decisiones.
+Solo su empresa; las acciones
+dependen del permiso
+asignado.
+Administrador de plataforma Controlar integridad, reglas, automatizaciones y métricas. Acceso técnico global sin
+decidir selección.
+Orientador de empleabilidad Explicar estados y orientar próximos pasos. Solo candidatos de su cartera.
+Revisor humano Resolver casos derivados y documentar la revisión. Solo postulaciones marcadas
+para revisión.
+
+
+
+PÁGINA 5
+
+Talent Tech Hack 2026  Brief de participantes  Tema Mercado laboral
+
+Alcance mínimo obligatorio del MVP
+1. Utilizar y relacionar los cuatro archivos CSV mediante sus identificadores.
+2. Implementar al menos tres perfiles: Candidato, Reclutador y un tercer rol elegido por el equipo.
+3. Mostrar el estado de una postulación, su fecha de actualización, fuente y próximo paso.
+4. Diferenciar visualmente estado confirmado, inferido, desactualizado y ausencia de información.
+5. Permitir que un reclutador autorizado actualice un estado y genere un evento trazable.
+6. Detectar vacantes vencidas, postulaciones sin actividad reciente y casos que requieren revisión humana.
+7. Aplicar permisos de visualización y acción según usuarios_roles.csv.
+8. Presentar al menos cuatro métricas operativas construidas con los datos entregados.
+Flujos funcionales obligatorios
+Flujo del candidato
+• Seleccionar una cuenta ficticia de candidato y visualizar únicamente sus postulaciones.
+• Consultar el estado confirmado, su significado, la fecha de actualización y el origen.
+• Visualizar la última comunicación cuando exista evidencia suficiente.
+• Distinguir claramente información inferida, desactualizada o ausente.
+• Solicitar o realizar una corrección permitida sin cambiar una decisión de selección.
+Flujo del reclutador
+• Consultar sus vacantes y postulaciones asignadas.
+• Filtrar procesos atrasados, sin comunicación o derivados a revisión humana.
+• Actualizar un estado autorizado y registrar actor, fecha, estado anterior, estado nuevo y origen.
+• Corregir una inferencia o inconsistencia sin borrar la evidencia previa.
+• Generar o visualizar recordatorios sin ejecutar rechazos automáticos.
+Flujo de control
+• Implementar una vista para Representante de empresa, Administrador u Orientador de empleabilidad.
+• Demostrar que la visibilidad queda limitada al alcance de la cuenta.
+• Mostrar alertas de integridad, vigencia o trazabilidad relevantes para el rol elegido.
+• Derivar un caso a revisión humana cuando la información no permita confirmar una decisión.
+
+
+PÁGINA 6
+
+Talent Tech Hack 2026  Brief de participantes  Tema Mercado laboral
+
+Reglas de interpretación de la información
+Clasificación Cuándo aplica Cómo debe mostrarse
+Estado confirmado Existe un valor explícito respaldado por una fuente
+autorizada o evento verificable.
+Mostrar como confirmado e indicar fecha y
+fuente cuando estén disponibles.
+Estado inferido La solución deriva una conclusión desde reglas o
+señales, sin confirmación de la fuente autorizada.
+Etiquetar como inferido y mantenerlo
+separado del estado confirmado.
+Estado desactualizado Existe un estado, pero han transcurrido más de 30
+días sin actualización o evento reciente.
+Conservar el estado y advertir su
+antigüedad; no modificarlo
+automáticamente.
+Ausencia de
+información
+El campo está vacío, incompleto o no existe
+evidencia suficiente.
+Mostrar información no disponible y
+solicitar revisión cuando corresponda.
+
+Regla obligatoria: Un campo vacío no significa que una acción no ocurrió. Significa que no existe
+información suficiente para confirmarla.
+Jerarquía de evidencia
+9. El estado registrado y respaldado por una fuente autorizada se trata como estado confirmado.
+10. La bitácora de eventos permite explicar cómo se llegó al estado y quién intervino.
+11. Una regla del sistema puede producir una alerta o inferencia, pero nunca reemplazar silenciosamente el
+estado confirmado.
+12. Si el último evento y el estado registrado no coinciden, el sistema debe marcar una inconsistencia y solicitar
+revisión.
+Estados de las postulaciones
+Estado Significado operativo Siguiente transición esperable
+Recibida La plataforma registró la postulación. En revisión o Descartada con decisión
+humana documentada.
+En revisión Un responsable está verificando antecedentes y
+requisitos publicados. Preseleccionada o Descartada.
+Preseleccionada La postulación continúa hacia una instancia de
+evaluación. Entrevista o Descartada.
+Entrevista Existe una entrevista programada o realizada. Oferta o Descartada.
+Oferta La empresa registró una propuesta para el candidato. Contratada o Descartada.
+Descartada El proceso terminó sin contratación. Estado final; requiere decisión trazable y no
+automatizada.
+Contratada El proceso terminó con contratación registrada. Estado final.
+
+Una corrección hacia un estado anterior solo puede realizarla un usuario autorizado y debe quedar registrada
+como Corrección manual, con conservación de la historia previa.
+
+PÁGINA 7
+
+Talent Tech Hack 2026  Brief de participantes  Tema Mercado laboral
+
+Estados de las vacantes
+Estado Regla
+Activa Puede recibir y mostrar postulaciones mientras su fecha de cierre no haya vencido.
+Pausada No debe recibir nuevas postulaciones, pero conserva información y trazabilidad.
+Cerrada No recibe nuevas postulaciones. Sus procesos históricos continúan disponibles para roles
+autorizados.
+
+Una vacante activa cuya fecha de cierre ya venció debe aparecer como alerta de vigencia. La solución no debe
+cerrarla sin una acción autorizada.
+
+
+PÁGINA 8
+
+Talent Tech Hack 2026  Brief de participantes  Tema Mercado laboral
+
+Reglas de negocio obligatorias
+13. Toda acción debe respetar simultáneamente el rol y el alcance visible de la cuenta.
+14. Un permiso Sí no concede acceso global; solo habilita la acción dentro de la empresa, cartera, vacante o
+postulación autorizada.
+15. La actualización de un estado debe crear o reflejar un evento de trazabilidad.
+16. Los eventos no se eliminan para ocultar errores. Las correcciones se registran como un nuevo evento.
+17. La falta de fecha o canal no confirma que una comunicación nunca ocurrió.
+18. Una postulación marcada para revisión humana debe permanecer visible en una cola o alerta hasta ser
+atendida.
+19. Las automatizaciones pueden recordar, alertar, clasificar vigencia o derivar casos. No pueden rechazar
+candidatos ni tomar decisiones adversas.
+20. Los requisitos deben contrastarse únicamente con criterios publicados y verificables.
+21. No pueden utilizarse edad, género, fotografía, nacionalidad, estado civil, discapacidad, dirección ni
+información médica o familiar.
+22. Los datos originales no deben alterarse para que la demostración parezca consistente. La solución debe
+reconocer y gestionar las anomalías.
+Métricas mínimas
+La solución debe mostrar al menos cuatro de las siguientes métricas, calculadas desde los archivos
+entregados:
+• Vacantes por estado.
+• Vacantes activas con fecha de cierre vencida.
+• Postulaciones por etapa.
+• Postulaciones sin actualización reciente.
+• Postulaciones sin evidencia suficiente de comunicación.
+• Casos que requieren revisión humana.
+• Tiempo transcurrido desde el último evento.
+• Procesos con discrepancia entre estado registrado y último evento.
+Las métricas deben respetar los permisos. Un representante de empresa no puede visualizar indicadores de
+otras organizaciones.
+
+
+PÁGINA 9
+
+Talent Tech Hack 2026  Brief de participantes  Tema Mercado laboral
+
+Criterios mínimos de aceptación
+Caso de prueba Resultado esperado
+Un candidato ingresa a la solución. Solo visualiza postulaciones asociadas a su actor_id.
+Una fecha de comunicación está vacía. La interfaz indica información no disponible; no afirma que nunca
+hubo contacto.
+Una postulación supera 30 días sin actualización. Mantiene su estado y muestra una advertencia de desactualización.
+Un reclutador cambia una etapa. Se conserva el estado anterior y se registra un nuevo evento con actor
+y fecha.
+Una regla detecta un posible descarte. El caso se deriva a revisión humana; no cambia automáticamente a
+Descartada.
+El último evento no coincide con estado_registrado. La solución marca inconsistencia y solicita revisión.
+Una vacante activa tiene cierre vencido. Se muestra alerta; no se cierra automáticamente.
+Un usuario intenta acceder fuera de su alcance. La información y la acción se bloquean o no se muestran.
+
+
+
+PÁGINA 10
+
+Talent Tech Hack 2026  Brief de participantes  Tema Mercado laboral
+
+Requisitos técnicos y de experiencia
+Dimensión Requisito
+Datos El MVP debe leer, importar o precargar los cuatro CSV sin modificar los archivos originales.
+Relaciones Las uniones se realizan mediante identificadores, no mediante nombres o textos descriptivos.
+Acceso Se acepta un selector de cuentas para la demostración; aun así, la solución debe aplicar el alcance
+y los permisos.
+Trazabilidad Los cambios deben conservar estado anterior, estado nuevo, actor, fecha y origen.
+Interfaz Debe ser comprensible, responsive y utilizable al menos desde un computador.
+Accesibilidad Usar contraste legible, etiquetas claras y no depender exclusivamente del color para comunicar
+estados.
+Arquitectura Puede utilizar CSV, JSON, almacenamiento local, una base simple o servicios no code. No se exige
+infraestructura productiva.
+Seguridad No exponer información fuera del alcance del usuario ni incorporar datos personales reales.
+IA y no code Están autorizados. El equipo debe explicar qué herramienta utilizó y qué parte validó directamente.
+
+Fuera de alcance
+• Integración con plataformas laborales reales.
+• Uso de bases de datos externas o información adicional sobre candidatos y empresas.
+• Autenticación productiva, recuperación de contraseñas o envío real de correos y mensajes.
+• Modelos predictivos de empleabilidad, adecuación cultural o probabilidad de contratación.
+• Ranking automático de personas o decisiones de selección automatizadas.
+• Despliegue productivo con alta disponibilidad.
+Entregables del equipo
+23. MVP ejecutable o enlace de demostración accesible para la evaluación.
+24. Código fuente, proyecto no code o archivo editable utilizado para construir la solución.
+25. Breve esquema de arquitectura que muestre datos, lógica, interfaz y permisos.
+26. Listado de herramientas de inteligencia artificial o no code utilizadas.
+27. Evidencia breve de los casos de aceptación probados por el equipo.
+28. Instrucciones mínimas para ejecutar, abrir o navegar la solución.
+Estructura sugerida para la demostración técnica
+29. Presentar el problema específico que resolvieron y el flujo priorizado.
+30. Ingresar como candidato y demostrar visibilidad limitada, estado y próximo paso.
+31. Ingresar como reclutador, actualizar un estado y mostrar el nuevo evento.
+32. Mostrar una alerta de desactualización, falta de información o inconsistencia.
+33. Derivar un caso a revisión humana.
+34. Explicar la arquitectura, las herramientas utilizadas y una decisión técnica relevante.
+
+PÁGINA 11
+
+Talent Tech Hack 2026  Brief de participantes  Tema Mercado laboral
+
+Plan de trabajo recomendado
+Tiempo Actividad Resultado
+0 a 20 minutos Revisar brief, datos, roles y restricciones. Problema priorizado y reparto de
+responsabilidades.
+20 a 45 minutos Definir flujo, pantallas, modelo de datos y arquitectura. Diseño mínimo y criterios de aceptación
+seleccionados.
+45 a 165 minutos Construir la funcionalidad principal. Flujos de candidato, reclutador y control
+operativos.
+165 a 195 minutos Probar permisos, estados, eventos y excepciones. Errores críticos corregidos y evidencia de
+prueba.
+195 a 210 minutos Preparar entrega y demostración. MVP accesible, relato técnico y respaldo del
+proyecto.
+
+
+
+PÁGINA 12
+
+Talent Tech Hack 2026  Brief de participantes  Tema Mercado laboral
+
+Criterios de evaluación visibles
+Criterio Ponderación Qué se observará
+Funcionamiento del MVP 30 por ciento Flujos ejecutables, uso real de los datos y cumplimiento del
+alcance mínimo.
+Datos y trazabilidad 20 por ciento Relaciones correctas, eventos, manejo de inconsistencias y
+conservación de evidencia.
+Arquitectura y desarrollo 20 por ciento Coherencia técnica, organización del proyecto, lógica y capacidad
+de explicar decisiones.
+Experiencia de usuario 15 por ciento Claridad de estados, navegación, accesibilidad y comprensión por
+rol.
+Privacidad y revisión humana 15 por ciento Permisos, minimización de datos, ausencia de discriminación y
+control de automatizaciones.
+
+Lista de verificación antes de entregar
+☐ La solución utiliza los cuatro CSV y conserva sus identificadores.
+☐ Se pueden demostrar al menos tres perfiles de usuario.
+☐ El candidato no visualiza información de otras personas.
+☐ El estado confirmado se distingue de inferencias, desactualización y ausencia de información.
+☐ Un cambio de estado genera trazabilidad.
+☐ Existe una alerta o cola de revisión humana.
+☐ Las vacantes vencidas y procesos atrasados se detectan sin modificarse automáticamente.
+☐ No se utilizan atributos sensibles ni datos reales.
+☐ Las automatizaciones no rechazan candidatos.
+☐ El equipo puede abrir y demostrar el MVP sin configuraciones de último minuto.
+Principio final
+La solución no debe aparentar certeza donde los datos no la entregan. Un buen MVP transforma la
+incertidumbre en una acción clara, trazable y revisable por una persona autorizada.

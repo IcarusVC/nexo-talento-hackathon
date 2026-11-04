@@ -1,0 +1,501 @@
+﻿postulacion_id,candidato_id,vacante_id,fecha_postulacion,estado_registrado,fecha_actualizacion,requisitos_cumplidos,fuente_estado,requiere_revision_humana,fecha_ultima_comunicacion,canal_comunicacion
+POS-0001,CAN-0001,VAC-018,2026-07-04,Recibida,2026-10-09,Sí,Empresa,No,2026-10-10,Correo electrónico
+POS-0002,CAN-0002,VAC-035,2026-07-28,Recibida,2026-10-10,Sí,Plataforma,No,2026-10-12,Teléfono
+POS-0003,CAN-0003,VAC-052,2026-08-21,Recibida,2026-10-11,Sí,Sistema,No,2026-10-14,Mensajería de plataforma
+POS-0004,CAN-0004,VAC-009,2026-07-16,Recibida,2026-10-12,Parcial,Empresa,Sí,,
+POS-0005,CAN-0005,VAC-026,2026-08-09,Recibida,2026-10-13,Sí,Plataforma,No,2026-10-13,Teléfono
+POS-0006,CAN-0006,VAC-043,2026-09-02,Recibida,2026-10-14,Sí,Sistema,No,2026-10-15,Mensajería de plataforma
+POS-0007,CAN-0007,VAC-060,2026-09-26,Recibida,2026-09-26,Sí,Empresa,No,2026-09-28,Correo electrónico
+POS-0008,CAN-0008,VAC-017,2026-08-21,Recibida,2026-10-16,Parcial,Plataforma,Sí,,
+POS-0009,CAN-0009,VAC-035,2026-09-15,Recibida,2026-10-17,No,Sistema,Sí,2026-10-21,Mensajería de plataforma
+POS-0010,CAN-0010,VAC-052,2026-10-09,Recibida,2026-10-18,Sí,Empresa,No,2026-10-18,Correo electrónico
+POS-0011,CAN-0011,VAC-009,2026-09-03,Recibida,2026-10-19,Sí,Plataforma,No,2026-10-20,Teléfono
+POS-0012,CAN-0012,VAC-026,2026-09-27,Recibida,2026-10-20,Parcial,Sistema,Sí,,
+POS-0013,CAN-0013,VAC-043,2026-10-21,Recibida,2026-10-21,Sí,Empresa,Sí,2026-10-24,Correo electrónico
+POS-0014,CAN-0014,VAC-060,2026-07-01,Recibida,2026-07-17,Sí,Plataforma,No,2026-07-21,Teléfono
+POS-0015,CAN-0015,VAC-017,2026-10-09,Recibida,2026-10-23,Sí,Sistema,No,2026-10-23,Mensajería de plataforma
+POS-0016,CAN-0016,VAC-034,2026-06-19,Recibida,2026-10-24,Parcial,Empresa,Sí,,
+POS-0017,CAN-0017,VAC-051,2026-07-13,Recibida,,Sí,Plataforma,Sí,2026-07-15,Teléfono
+POS-0018,CAN-0018,VAC-009,2026-10-22,Recibida,2026-10-26,No,Sistema,Sí,2026-10-28,Mensajería de plataforma
+POS-0019,CAN-0019,VAC-026,2026-07-02,Recibida,2026-10-27,Sí,Empresa,No,2026-10-28,Correo electrónico
+POS-0020,CAN-0020,VAC-043,2026-07-26,Recibida,2026-10-28,Parcial,Plataforma,Sí,,
+POS-0021,CAN-0021,VAC-060,2026-08-19,Recibida,2026-09-03,Sí,Sistema,No,2026-09-04,Mensajería de plataforma
+POS-0022,CAN-0022,VAC-017,2026-07-14,Recibida,2026-10-09,Sí,Empresa,No,2026-10-11,Correo electrónico
+POS-0023,CAN-0023,VAC-034,2026-08-07,Recibida,2026-10-10,Sí,Plataforma,No,2026-10-13,Teléfono
+POS-0024,CAN-0024,VAC-051,2026-08-31,Recibida,2026-10-11,Parcial,Sistema,Sí,,
+POS-0025,CAN-0025,VAC-008,2026-07-26,Recibida,2026-10-12,Sí,Empresa,No,2026-10-12,Correo electrónico
+POS-0026,CAN-0026,VAC-025,2026-08-19,Recibida,2026-10-13,Sí,Plataforma,Sí,2026-10-14,Teléfono
+POS-0027,CAN-0027,VAC-043,2026-09-13,Recibida,2026-10-14,No,Sistema,Sí,2026-10-16,Mensajería de plataforma
+POS-0028,CAN-0028,VAC-060,2026-10-07,Recibida,2026-10-07,Parcial,Empresa,Sí,,
+POS-0029,CAN-0029,VAC-017,2026-09-01,Recibida,2026-10-16,Sí,Plataforma,No,2026-10-20,Teléfono
+POS-0030,CAN-0030,VAC-034,2026-09-25,Recibida,2026-10-17,Sí,Sistema,No,2026-10-17,Mensajería de plataforma
+POS-0031,CAN-0031,VAC-051,2026-10-19,Recibida,2026-10-19,,Empresa,Sí,2026-10-20,Correo electrónico
+POS-0032,CAN-0032,VAC-008,2026-09-13,Recibida,2026-10-19,Parcial,Plataforma,Sí,,
+POS-0033,CAN-0033,VAC-025,2026-10-07,Recibida,2026-10-20,Sí,Sistema,No,2026-10-23,Mensajería de plataforma
+POS-0034,CAN-0034,VAC-042,2026-06-17,Recibida,2026-10-21,Sí,Empresa,No,2026-10-25,Correo electrónico
+POS-0035,CAN-0035,VAC-059,2026-07-11,Recibida,2026-07-24,Sí,Plataforma,No,2026-07-24,Teléfono
+POS-0036,CAN-0036,VAC-017,2026-10-20,Recibida,2026-10-23,No,Sistema,Sí,,
+POS-0037,CAN-0037,VAC-034,2026-06-30,Recibida,2026-10-24,Sí,Empresa,No,2026-10-26,Correo electrónico
+POS-0038,CAN-0038,VAC-051,2026-07-24,Recibida,2026-10-25,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0039,CAN-0039,VAC-008,2026-06-18,Recibida,2026-10-26,Sí,Sistema,Sí,2026-10-28,Mensajería de plataforma
+POS-0040,CAN-0040,VAC-025,2026-07-12,Recibida,2026-10-27,Parcial,Empresa,Sí,,
+POS-0041,CAN-0041,VAC-042,2026-08-05,Recibida,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0042,CAN-0042,VAC-059,2026-08-29,Recibida,2026-09-10,Sí,Sistema,No,2026-09-12,Mensajería de plataforma
+POS-0043,CAN-0043,VAC-016,2026-07-24,Recibida,2026-10-09,Sí,Empresa,No,2026-10-12,Correo electrónico
+POS-0044,CAN-0044,VAC-033,2026-08-17,Recibida,2026-10-10,Parcial,,Sí,,
+POS-0045,CAN-0045,VAC-051,2026-09-11,Recibida,2026-10-11,No,Sistema,Sí,2026-10-11,Mensajería de plataforma
+POS-0046,CAN-0046,VAC-008,2026-08-06,Recibida,2026-10-12,Sí,Empresa,No,2026-10-13,Correo electrónico
+POS-0047,CAN-0047,VAC-025,2026-08-30,Recibida,2026-10-13,Sí,Plataforma,No,2026-10-15,Teléfono
+POS-0048,CAN-0048,VAC-042,2026-09-23,Recibida,2026-10-14,Parcial,Sistema,Sí,,
+POS-0049,CAN-0049,VAC-059,2026-10-17,Recibida,2026-10-17,Sí,Empresa,No,2026-10-21,Correo electrónico
+POS-0050,CAN-0050,VAC-016,2026-09-11,Recibida,2026-10-16,Sí,Plataforma,No,2026-10-16,Teléfono
+POS-0051,CAN-0051,VAC-033,2026-10-05,Recibida,2026-10-17,Sí,Sistema,No,2026-10-18,Mensajería de plataforma
+POS-0052,CAN-0052,VAC-050,2026-06-15,Recibida,2026-10-18,Parcial,Empresa,Sí,,
+POS-0053,CAN-0053,VAC-007,2026-09-23,Recibida,2026-10-19,Sí,Plataforma,No,2026-10-22,Teléfono
+POS-0054,CAN-0054,VAC-025,2026-10-18,Recibida,2026-10-20,No,Sistema,Sí,2026-10-24,Mensajería de plataforma
+POS-0055,CAN-0055,VAC-042,2026-06-28,Recibida,2026-10-21,Sí,Empresa,No,2026-10-21,Correo electrónico
+POS-0056,CAN-0056,VAC-059,2026-07-22,Recibida,2026-08-01,Parcial,Plataforma,Sí,,
+POS-0057,CAN-0057,VAC-016,2026-06-16,Recibida,2026-10-23,Sí,Sistema,No,2026-10-25,Mensajería de plataforma
+POS-0058,CAN-0058,VAC-033,2026-07-10,Recibida,2026-10-24,Sí,Empresa,No,2026-10-27,Correo electrónico
+POS-0059,CAN-0059,VAC-050,2026-08-03,Recibida,2026-10-25,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0060,CAN-0060,VAC-007,2026-06-28,Recibida,2026-10-26,Parcial,Sistema,Sí,,
+POS-0061,CAN-0061,VAC-024,2026-07-22,Recibida,2026-10-27,Sí,Empresa,No,2026-10-28,Correo electrónico
+POS-0062,CAN-0062,VAC-041,2026-08-15,Recibida,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0063,CAN-0063,VAC-059,2026-09-09,Recibida,2026-09-23,No,Sistema,Sí,2026-09-26,Mensajería de plataforma
+POS-0064,CAN-0064,VAC-016,2026-08-04,Recibida,2026-10-09,Parcial,Empresa,Sí,,
+POS-0065,CAN-0065,VAC-033,2026-08-28,Recibida,2026-10-10,Sí,Plataforma,Sí,2026-10-10,Teléfono
+POS-0066,CAN-0066,VAC-050,2026-09-21,Recibida,2026-10-11,Sí,Sistema,No,2026-10-12,Mensajería de plataforma
+POS-0067,CAN-0067,VAC-007,2026-08-16,Recibida,2026-10-12,Sí,Empresa,No,2026-10-14,Correo electrónico
+POS-0068,CAN-0068,VAC-024,2026-09-09,Recibida,2026-10-13,Parcial,Plataforma,Sí,,
+POS-0069,CAN-0069,VAC-041,2026-10-03,Recibida,2026-10-14,Sí,Sistema,No,2026-10-18,Mensajería de plataforma
+POS-0070,CAN-0070,VAC-058,2026-06-13,Recibida,2026-06-29,Sí,Empresa,No,2026-06-29,Correo electrónico
+POS-0071,CAN-0071,VAC-015,2026-09-21,Recibida,2026-10-16,Sí,Plataforma,No,2026-10-17,Teléfono
+POS-0072,CAN-0072,VAC-033,2026-10-16,Recibida,2026-10-17,No,Sistema,Sí,,
+POS-0073,CAN-0073,VAC-050,2026-06-26,Recibida,2026-10-18,Sí,Empresa,No,2026-10-21,Correo electrónico
+POS-0074,CAN-0074,VAC-007,2026-10-04,Recibida,2026-10-19,Sí,Plataforma,No,2026-10-23,Teléfono
+POS-0075,CAN-0075,VAC-024,2026-06-14,Recibida,2026-10-20,Sí,Sistema,No,2026-10-20,Mensajería de plataforma
+POS-0076,CAN-0076,VAC-041,2026-07-08,Recibida,2026-10-21,Parcial,Empresa,Sí,,
+POS-0077,CAN-0077,VAC-058,2026-08-01,Recibida,2026-08-16,Sí,Plataforma,No,2026-08-18,Teléfono
+POS-0078,CAN-0078,VAC-015,2026-06-26,Recibida,2026-10-23,Sí,Sistema,Sí,2026-10-26,Mensajería de plataforma
+POS-0079,CAN-0079,VAC-032,2026-07-20,Recibida,2026-10-24,Sí,Empresa,No,2026-10-28,Correo electrónico
+POS-0080,CAN-0080,VAC-049,2026-08-13,Recibida,2026-10-25,Parcial,Plataforma,Sí,,
+POS-0081,CAN-0081,VAC-007,2026-07-09,Recibida,2026-10-26,No,Sistema,Sí,2026-10-27,Mensajería de plataforma
+POS-0082,CAN-0082,VAC-024,2026-08-02,Recibida,2026-10-27,Sí,Empresa,No,2026-10-28,Correo electrónico
+POS-0083,CAN-0083,VAC-041,2026-08-26,Recibida,,Sí,Plataforma,Sí,2026-08-29,Teléfono
+POS-0084,CAN-0084,VAC-058,2026-09-19,Recibida,2026-09-23,Parcial,Sistema,Sí,,
+POS-0085,CAN-0085,VAC-015,2026-08-14,Recibida,2026-10-09,Sí,Empresa,No,2026-10-09,Correo electrónico
+POS-0086,CAN-0086,VAC-032,2026-09-07,Recibida,2026-10-10,Sí,Plataforma,No,2026-10-11,Teléfono
+POS-0087,CAN-0087,VAC-049,2026-10-01,Recibida,2026-10-11,Sí,Sistema,No,2026-10-13,Mensajería de plataforma
+POS-0088,CAN-0088,VAC-006,2026-08-26,Recibida,2026-10-12,Parcial,Empresa,Sí,,
+POS-0089,CAN-0089,VAC-023,2026-09-19,Recibida,2026-10-13,Sí,Plataforma,No,2026-10-17,Teléfono
+POS-0090,CAN-0090,VAC-041,2026-10-14,Recibida,2026-10-14,No,Sistema,Sí,2026-10-14,Mensajería de plataforma
+POS-0091,CAN-0091,VAC-058,2026-06-24,Recibida,2026-07-07,Sí,Empresa,Sí,2026-07-08,Correo electrónico
+POS-0092,CAN-0092,VAC-015,2026-10-02,Recibida,2026-10-16,Parcial,Plataforma,Sí,,
+POS-0093,CAN-0093,VAC-032,2026-06-12,Recibida,2026-10-17,Sí,Sistema,No,2026-10-20,Mensajería de plataforma
+POS-0094,CAN-0094,VAC-049,2026-07-06,Recibida,2026-10-18,Sí,Empresa,No,2026-10-22,Correo electrónico
+POS-0095,CAN-0095,VAC-006,2026-10-14,Recibida,2026-10-19,Sí,Plataforma,No,2026-10-19,Teléfono
+POS-0096,CAN-0096,VAC-023,2026-06-24,Recibida,2026-10-20,Parcial,Sistema,Sí,,
+POS-0097,CAN-0097,VAC-040,2026-07-18,Recibida,2026-10-21,Sí,Empresa,No,2026-10-23,Correo electrónico
+POS-0098,CAN-0098,VAC-057,2026-08-11,Recibida,2026-08-23,,Plataforma,Sí,2026-08-26,Teléfono
+POS-0099,CAN-0099,VAC-015,2026-07-07,Recibida,2026-10-23,No,Sistema,Sí,2026-10-27,Mensajería de plataforma
+POS-0100,CAN-0100,VAC-032,2026-07-31,Recibida,2026-10-24,Parcial,Empresa,Sí,,
+POS-0101,CAN-0101,VAC-049,2026-08-24,Recibida,2026-10-25,Sí,Plataforma,No,2026-10-26,Teléfono
+POS-0102,CAN-0102,VAC-006,2026-07-19,Recibida,2026-10-26,Sí,Sistema,No,2026-10-28,Mensajería de plataforma
+POS-0103,CAN-0103,VAC-023,2026-08-12,Recibida,2026-10-27,Sí,Empresa,No,2026-10-28,Correo electrónico
+POS-0104,CAN-0104,VAC-040,2026-09-05,Recibida,2026-10-28,Parcial,Plataforma,Sí,,
+POS-0105,CAN-0105,VAC-057,2026-09-29,Recibida,2026-09-29,Sí,Sistema,No,2026-09-29,Mensajería de plataforma
+POS-0106,CAN-0106,VAC-014,2026-08-24,Recibida,2026-10-09,Sí,Empresa,No,2026-10-10,Correo electrónico
+POS-0107,CAN-0107,VAC-031,2026-09-17,Recibida,2026-10-10,Sí,Plataforma,No,2026-10-12,Teléfono
+POS-0108,CAN-0108,VAC-049,2026-10-12,Recibida,2026-10-12,No,Sistema,Sí,,
+POS-0109,CAN-0109,VAC-006,2026-09-06,Recibida,2026-10-12,Sí,Empresa,No,2026-10-16,Correo electrónico
+POS-0110,CAN-0110,VAC-023,2026-09-30,Recibida,2026-10-13,Sí,Plataforma,No,2026-10-13,Teléfono
+POS-0111,CAN-0111,VAC-040,2026-06-10,En revisión,2026-10-14,Sí,Sistema,No,2026-10-15,Mensajería de plataforma
+POS-0112,CAN-0112,VAC-057,2026-07-04,En revisión,2026-07-14,Parcial,Empresa,Sí,,
+POS-0113,CAN-0113,VAC-014,2026-10-12,En revisión,2026-10-16,Sí,Plataforma,No,2026-10-19,Teléfono
+POS-0114,CAN-0114,VAC-031,2026-06-22,En revisión,2026-10-17,Sí,Sistema,No,2026-10-21,Mensajería de plataforma
+POS-0115,CAN-0115,VAC-048,2026-07-16,En revisión,2026-10-18,Sí,Empresa,No,2026-10-18,Correo electrónico
+POS-0116,CAN-0116,VAC-005,2026-06-10,En revisión,2026-10-19,Parcial,Plataforma,Sí,,
+POS-0117,CAN-0117,VAC-023,2026-07-05,En revisión,2026-10-20,No,Sistema,Sí,2026-10-22,Mensajería de plataforma
+POS-0118,CAN-0118,VAC-040,2026-07-29,En revisión,2026-10-21,Sí,Empresa,No,2026-10-24,Correo electrónico
+POS-0119,CAN-0119,VAC-057,2026-08-22,En revisión,2026-09-08,Sí,Plataforma,No,2026-09-12,Teléfono
+POS-0120,CAN-0120,VAC-014,2026-07-17,En revisión,2026-10-23,Parcial,Sistema,Sí,,
+POS-0121,CAN-0121,VAC-031,2026-08-10,En revisión,2026-10-24,Sí,Empresa,No,2026-10-25,Correo electrónico
+POS-0122,CAN-0122,VAC-048,2026-09-03,En revisión,2026-10-25,Sí,Plataforma,No,2026-10-27,Teléfono
+POS-0123,CAN-0123,VAC-005,2026-07-29,En revisión,2026-10-26,Sí,Sistema,No,2026-10-28,Mensajería de plataforma
+POS-0124,CAN-0124,VAC-022,2026-08-22,En revisión,2026-10-27,Parcial,Empresa,Sí,,
+POS-0125,CAN-0125,VAC-039,2026-09-15,En revisión,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0126,CAN-0126,VAC-057,2026-10-10,En revisión,2026-10-10,No,Sistema,Sí,2026-10-11,Mensajería de plataforma
+POS-0127,CAN-0127,VAC-014,2026-09-04,En revisión,2026-10-09,Sí,Empresa,No,2026-10-11,Correo electrónico
+POS-0128,CAN-0128,VAC-031,2026-09-28,En revisión,2026-10-10,Parcial,Plataforma,Sí,,
+POS-0129,CAN-0129,VAC-048,2026-10-22,En revisión,2026-10-22,Sí,Sistema,No,2026-10-26,Mensajería de plataforma
+POS-0130,CAN-0130,VAC-005,2026-09-16,En revisión,2026-10-12,Sí,Empresa,Sí,2026-10-12,Correo electrónico
+POS-0131,CAN-0131,VAC-022,2026-10-10,En revisión,2026-10-13,Sí,Plataforma,No,2026-10-14,Teléfono
+POS-0132,CAN-0132,VAC-039,2026-06-20,En revisión,2026-10-14,Parcial,Sistema,Sí,,
+POS-0133,CAN-0133,VAC-056,2026-07-14,En revisión,2026-07-29,Sí,,Sí,2026-08-01,Correo electrónico
+POS-0134,CAN-0134,VAC-013,2026-10-22,En revisión,2026-10-22,Sí,Plataforma,No,2026-10-26,Teléfono
+POS-0135,CAN-0135,VAC-031,2026-07-03,En revisión,2026-10-17,No,Sistema,Sí,2026-10-17,Mensajería de plataforma
+POS-0136,CAN-0136,VAC-048,2026-07-27,En revisión,2026-10-18,Parcial,Empresa,Sí,,
+POS-0137,CAN-0137,VAC-005,2026-06-21,En revisión,2026-10-19,Sí,Plataforma,No,2026-10-21,Teléfono
+POS-0138,CAN-0138,VAC-022,2026-07-15,En revisión,2026-10-20,Sí,Sistema,No,2026-10-23,Mensajería de plataforma
+POS-0139,CAN-0139,VAC-039,2026-08-08,En revisión,2026-10-21,Sí,Empresa,No,2026-10-25,Correo electrónico
+POS-0140,CAN-0140,VAC-056,2026-09-01,En revisión,2026-09-15,Parcial,Plataforma,Sí,,
+POS-0141,CAN-0141,VAC-013,2026-07-27,En revisión,2026-10-23,Sí,Sistema,No,2026-10-24,Mensajería de plataforma
+POS-0142,CAN-0142,VAC-030,2026-08-20,En revisión,2026-10-24,Sí,Empresa,No,2026-10-26,Correo electrónico
+POS-0143,CAN-0143,VAC-047,2026-09-13,En revisión,2026-10-25,Sí,Plataforma,Sí,2026-10-28,Teléfono
+POS-0144,CAN-0144,VAC-005,2026-08-09,En revisión,2026-10-26,No,Sistema,Sí,,
+POS-0145,CAN-0145,VAC-022,2026-09-02,En revisión,2026-10-27,Sí,Empresa,No,2026-10-27,Correo electrónico
+POS-0146,CAN-0146,VAC-039,2026-09-26,En revisión,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0147,CAN-0147,VAC-056,2026-10-20,En revisión,2026-10-20,Sí,Sistema,No,2026-10-22,Mensajería de plataforma
+POS-0148,CAN-0148,VAC-013,2026-09-14,En revisión,2026-10-09,Parcial,Empresa,Sí,,
+POS-0149,CAN-0149,VAC-030,2026-10-08,En revisión,,Sí,Plataforma,Sí,2026-10-12,Teléfono
+POS-0150,CAN-0150,VAC-047,2026-06-18,En revisión,2026-10-11,Sí,Sistema,No,2026-10-11,Mensajería de plataforma
+POS-0151,CAN-0151,VAC-004,2026-09-26,En revisión,2026-10-12,Sí,Empresa,No,2026-10-13,Correo electrónico
+POS-0152,CAN-0152,VAC-021,2026-10-20,En revisión,2026-10-20,Parcial,Plataforma,Sí,,
+POS-0153,CAN-0153,VAC-039,2026-07-01,En revisión,2026-10-14,No,Sistema,Sí,2026-10-17,Mensajería de plataforma
+POS-0154,CAN-0154,VAC-056,2026-07-25,En revisión,2026-08-06,Sí,Empresa,No,2026-08-10,Correo electrónico
+POS-0155,CAN-0155,VAC-013,2026-06-19,En revisión,2026-10-16,Sí,Plataforma,No,2026-10-16,Teléfono
+POS-0156,CAN-0156,VAC-030,2026-07-13,En revisión,2026-10-17,Parcial,Sistema,Sí,,
+POS-0157,CAN-0157,VAC-047,2026-08-06,En revisión,2026-10-18,Sí,Empresa,No,2026-10-20,Correo electrónico
+POS-0158,CAN-0158,VAC-004,2026-07-01,En revisión,2026-10-19,Sí,Plataforma,No,2026-10-22,Teléfono
+POS-0159,CAN-0159,VAC-021,2026-07-25,En revisión,2026-10-20,Sí,Sistema,No,2026-10-24,Mensajería de plataforma
+POS-0160,CAN-0160,VAC-038,2026-08-18,En revisión,2026-10-21,Parcial,Empresa,Sí,,
+POS-0161,CAN-0161,VAC-055,2026-09-11,En revisión,2026-09-22,Sí,Plataforma,No,2026-09-23,Teléfono
+POS-0162,CAN-0162,VAC-013,2026-08-07,En revisión,2026-10-23,No,Sistema,Sí,2026-10-25,Mensajería de plataforma
+POS-0163,CAN-0163,VAC-030,2026-08-31,En revisión,2026-10-24,Sí,Empresa,No,2026-10-27,Correo electrónico
+POS-0164,CAN-0164,VAC-047,2026-09-24,En revisión,2026-10-25,,Plataforma,Sí,,
+POS-0165,CAN-0165,VAC-004,2026-08-19,En revisión,2026-10-26,Sí,Sistema,No,2026-10-26,Mensajería de plataforma
+POS-0166,CAN-0166,VAC-021,2026-09-12,En revisión,2026-10-27,Sí,Empresa,No,2026-10-28,Correo electrónico
+POS-0167,CAN-0167,VAC-038,2026-10-06,En revisión,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0168,CAN-0168,VAC-055,2026-06-16,En revisión,2026-06-26,Parcial,Sistema,Sí,,
+POS-0169,CAN-0169,VAC-012,2026-09-24,En revisión,2026-10-09,Sí,Empresa,Sí,2026-10-13,Correo electrónico
+POS-0170,CAN-0170,VAC-029,2026-10-18,En revisión,2026-10-18,Sí,Plataforma,No,2026-10-18,Teléfono
+POS-0171,CAN-0171,VAC-047,2026-06-29,En revisión,2026-10-11,No,Sistema,Sí,2026-10-12,Mensajería de plataforma
+POS-0172,CAN-0172,VAC-004,2026-10-07,En revisión,2026-10-12,Parcial,Empresa,Sí,,
+POS-0173,CAN-0173,VAC-021,2026-06-17,En revisión,2026-10-13,Sí,Plataforma,No,2026-10-16,Teléfono
+POS-0174,CAN-0174,VAC-038,2026-07-11,En revisión,2026-10-14,Sí,Sistema,No,2026-10-18,Mensajería de plataforma
+POS-0175,CAN-0175,VAC-055,2026-08-04,En revisión,2026-08-21,Sí,Empresa,No,2026-08-21,Correo electrónico
+POS-0176,CAN-0176,VAC-012,2026-06-29,En revisión,2026-10-16,Parcial,Plataforma,Sí,,
+POS-0177,CAN-0177,VAC-029,2026-07-23,En revisión,2026-10-17,Sí,Sistema,No,2026-10-19,Mensajería de plataforma
+POS-0178,CAN-0178,VAC-046,2026-08-16,En revisión,2026-10-18,Sí,Empresa,No,2026-10-21,Correo electrónico
+POS-0179,CAN-0179,VAC-003,2026-07-11,En revisión,2026-10-19,Sí,Plataforma,No,2026-10-23,Teléfono
+POS-0180,CAN-0180,VAC-021,2026-08-05,En revisión,2026-10-20,No,Sistema,Sí,,
+POS-0181,CAN-0181,VAC-038,2026-08-29,En revisión,2026-10-21,Sí,Empresa,No,2026-10-22,Correo electrónico
+POS-0182,CAN-0182,VAC-055,2026-09-22,En revisión,2026-09-23,Sí,Plataforma,Sí,2026-09-25,Teléfono
+POS-0183,CAN-0183,VAC-012,2026-08-17,En revisión,2026-10-23,Sí,Sistema,No,2026-10-26,Mensajería de plataforma
+POS-0184,CAN-0184,VAC-029,2026-09-10,En revisión,2026-10-24,Parcial,Empresa,Sí,,
+POS-0185,CAN-0185,VAC-046,2026-10-04,En revisión,2026-10-25,Sí,Plataforma,No,2026-10-25,Teléfono
+POS-0186,CAN-0186,VAC-003,2026-08-29,En revisión,2026-10-26,Sí,Sistema,No,2026-10-27,Mensajería de plataforma
+POS-0187,CAN-0187,VAC-020,2026-09-22,En revisión,2026-10-27,Sí,Empresa,No,2026-10-28,Correo electrónico
+POS-0188,CAN-0188,VAC-037,2026-10-16,En revisión,2026-10-28,Parcial,Plataforma,Sí,,
+POS-0189,CAN-0189,VAC-055,2026-06-27,En revisión,2026-07-12,No,Sistema,Sí,2026-07-16,Mensajería de plataforma
+POS-0190,CAN-0190,VAC-012,2026-10-05,En revisión,2026-10-09,Sí,Empresa,No,2026-10-09,Correo electrónico
+POS-0191,CAN-0191,VAC-029,2026-06-15,En revisión,2026-10-10,Sí,Plataforma,No,2026-10-11,Teléfono
+POS-0192,CAN-0192,VAC-046,2026-07-09,En revisión,2026-10-11,Parcial,Sistema,Sí,,
+POS-0193,CAN-0193,VAC-003,2026-10-17,En revisión,2026-10-17,Sí,Empresa,No,2026-10-20,Correo electrónico
+POS-0194,CAN-0194,VAC-020,2026-06-27,En revisión,2026-10-13,Sí,Plataforma,No,2026-10-17,Teléfono
+POS-0195,CAN-0195,VAC-037,2026-07-21,En revisión,2026-10-14,Sí,Sistema,Sí,2026-10-14,Mensajería de plataforma
+POS-0196,CAN-0196,VAC-054,2026-08-14,En revisión,2026-08-28,Parcial,Empresa,Sí,,
+POS-0197,CAN-0197,VAC-011,2026-07-09,En revisión,2026-10-16,Sí,Plataforma,No,2026-10-18,Teléfono
+POS-0198,CAN-0198,VAC-029,2026-08-03,En revisión,2026-10-17,No,Sistema,Sí,2026-10-20,Mensajería de plataforma
+POS-0199,CAN-0199,VAC-046,2026-08-27,En revisión,2026-10-18,Sí,Empresa,No,2026-10-22,Correo electrónico
+POS-0200,CAN-0200,VAC-003,2026-07-22,En revisión,2026-10-19,Parcial,Plataforma,Sí,,
+POS-0201,CAN-0201,VAC-020,2026-08-15,En revisión,2026-10-20,Sí,Sistema,No,2026-10-21,Mensajería de plataforma
+POS-0202,CAN-0202,VAC-037,2026-09-08,En revisión,2026-10-21,Sí,Empresa,No,2026-10-23,Correo electrónico
+POS-0203,CAN-0203,VAC-054,2026-10-02,En revisión,2026-10-02,Sí,Plataforma,No,2026-10-05,Teléfono
+POS-0204,CAN-0204,VAC-011,2026-08-27,En revisión,2026-10-23,Parcial,Sistema,Sí,,
+POS-0205,CAN-0205,VAC-028,2026-09-20,En revisión,2026-10-24,Sí,Empresa,No,2026-10-24,Correo electrónico
+POS-0206,CAN-0206,VAC-045,2026-10-14,Preseleccionada,2026-10-25,Sí,Plataforma,No,2026-10-26,Teléfono
+POS-0207,CAN-0207,VAC-003,2026-09-09,Preseleccionada,2026-10-26,No,Sistema,Sí,2026-10-28,Mensajería de plataforma
+POS-0208,CAN-0208,VAC-020,2026-10-03,Preseleccionada,2026-10-27,Parcial,Empresa,Sí,,
+POS-0209,CAN-0209,VAC-037,2026-06-13,Preseleccionada,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0210,CAN-0210,VAC-054,2026-07-07,Preseleccionada,2026-07-19,Sí,Sistema,No,2026-07-19,Mensajería de plataforma
+POS-0211,CAN-0211,VAC-011,2026-10-15,Preseleccionada,2026-10-15,Sí,Empresa,No,2026-10-16,Correo electrónico
+POS-0212,CAN-0212,VAC-028,2026-06-25,Preseleccionada,2026-10-10,Parcial,Plataforma,Sí,,
+POS-0213,CAN-0213,VAC-045,2026-07-19,Preseleccionada,2026-10-11,Sí,Sistema,No,2026-10-14,Mensajería de plataforma
+POS-0214,CAN-0214,VAC-002,2026-06-13,Preseleccionada,,Sí,Empresa,Sí,2026-06-17,Correo electrónico
+POS-0215,CAN-0215,VAC-019,2026-07-07,Preseleccionada,2026-10-13,Sí,Plataforma,No,2026-10-13,Teléfono
+POS-0216,CAN-0216,VAC-037,2026-08-01,Preseleccionada,2026-10-14,No,Sistema,Sí,,
+POS-0217,CAN-0217,VAC-054,2026-08-25,Preseleccionada,2026-09-05,Sí,Empresa,No,2026-09-07,Correo electrónico
+POS-0218,CAN-0218,VAC-011,2026-07-20,Preseleccionada,2026-10-16,Sí,Plataforma,No,2026-10-19,Teléfono
+POS-0219,CAN-0219,VAC-028,2026-08-13,Preseleccionada,2026-10-17,Sí,Sistema,No,2026-10-21,Mensajería de plataforma
+POS-0220,CAN-0220,VAC-045,2026-09-06,Preseleccionada,2026-10-18,Parcial,Empresa,Sí,,
+POS-0221,CAN-0001,VAC-002,2026-08-01,Preseleccionada,2026-10-19,Sí,Plataforma,Sí,2026-10-20,Teléfono
+POS-0222,CAN-0002,VAC-019,2026-08-25,Preseleccionada,2026-10-20,Sí,,Sí,2026-10-22,Mensajería de plataforma
+POS-0223,CAN-0003,VAC-036,2026-09-18,Preseleccionada,2026-10-21,Sí,Empresa,No,2026-10-24,Correo electrónico
+POS-0224,CAN-0004,VAC-053,2026-10-12,Preseleccionada,2026-10-12,Parcial,Plataforma,Sí,,
+POS-0225,CAN-0005,VAC-011,2026-09-07,Preseleccionada,2026-10-23,No,Sistema,Sí,2026-10-23,Mensajería de plataforma
+POS-0226,CAN-0006,VAC-028,2026-10-01,Preseleccionada,2026-10-24,Sí,Empresa,No,2026-10-25,Correo electrónico
+POS-0227,CAN-0007,VAC-045,2026-06-11,Preseleccionada,2026-10-25,Sí,Plataforma,No,2026-10-27,Teléfono
+POS-0228,CAN-0008,VAC-002,2026-09-19,Preseleccionada,2026-10-26,Parcial,Sistema,Sí,,
+POS-0229,CAN-0009,VAC-019,2026-10-13,Preseleccionada,2026-10-27,Sí,Empresa,No,2026-10-28,Correo electrónico
+POS-0230,CAN-0010,VAC-036,2026-06-23,Preseleccionada,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0231,CAN-0011,VAC-053,2026-07-17,Preseleccionada,2026-08-03,,Sistema,Sí,2026-08-04,Mensajería de plataforma
+POS-0232,CAN-0012,VAC-010,2026-06-11,Preseleccionada,2026-10-09,Parcial,Empresa,Sí,,
+POS-0233,CAN-0013,VAC-027,2026-07-05,Preseleccionada,2026-10-10,Sí,Plataforma,No,2026-10-13,Teléfono
+POS-0234,CAN-0014,VAC-045,2026-07-30,Preseleccionada,2026-10-11,No,Sistema,Sí,2026-10-15,Mensajería de plataforma
+POS-0235,CAN-0015,VAC-002,2026-06-24,Preseleccionada,2026-10-12,Sí,Empresa,No,2026-10-12,Correo electrónico
+POS-0236,CAN-0016,VAC-019,2026-07-18,Preseleccionada,2026-10-13,Parcial,Plataforma,Sí,,
+POS-0237,CAN-0017,VAC-036,2026-08-11,Preseleccionada,2026-10-14,Sí,Sistema,No,2026-10-16,Mensajería de plataforma
+POS-0238,CAN-0018,VAC-053,2026-09-04,Preseleccionada,2026-09-20,Sí,Empresa,No,2026-09-23,Correo electrónico
+POS-0239,CAN-0019,VAC-010,2026-07-30,Preseleccionada,2026-10-16,Sí,Plataforma,No,2026-10-20,Teléfono
+POS-0240,CAN-0020,VAC-027,2026-08-23,Preseleccionada,2026-10-17,Parcial,Sistema,Sí,,
+POS-0241,CAN-0021,VAC-044,2026-09-16,Preseleccionada,2026-10-18,Sí,Empresa,No,2026-10-19,Correo electrónico
+POS-0242,CAN-0022,VAC-001,2026-08-11,Preseleccionada,2026-10-19,Sí,Plataforma,No,2026-10-21,Teléfono
+POS-0243,CAN-0023,VAC-019,2026-09-05,Preseleccionada,2026-10-20,No,Sistema,Sí,2026-10-23,Mensajería de plataforma
+POS-0244,CAN-0024,VAC-036,2026-09-29,Preseleccionada,2026-10-21,Parcial,Empresa,Sí,,
+POS-0245,CAN-0025,VAC-053,2026-10-23,Preseleccionada,2026-10-23,Sí,Plataforma,No,2026-10-23,Teléfono
+POS-0246,CAN-0026,VAC-010,2026-09-17,Preseleccionada,2026-10-23,Sí,Sistema,No,2026-10-24,Mensajería de plataforma
+POS-0247,CAN-0027,VAC-027,2026-10-11,Preseleccionada,2026-10-24,Sí,Empresa,Sí,2026-10-26,Correo electrónico
+POS-0248,CAN-0028,VAC-044,2026-06-21,Preseleccionada,2026-10-25,Parcial,Plataforma,Sí,,
+POS-0249,CAN-0029,VAC-001,2026-09-29,Preseleccionada,2026-10-26,Sí,Sistema,No,2026-10-28,Mensajería de plataforma
+POS-0250,CAN-0030,VAC-018,2026-10-23,Preseleccionada,2026-10-27,Sí,Empresa,No,2026-10-27,Correo electrónico
+POS-0251,CAN-0031,VAC-035,2026-07-03,Preseleccionada,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0252,CAN-0032,VAC-053,2026-07-28,Preseleccionada,2026-08-11,No,Sistema,Sí,,
+POS-0253,CAN-0033,VAC-010,2026-06-22,Preseleccionada,2026-10-09,Sí,Empresa,No,2026-10-12,Correo electrónico
+POS-0254,CAN-0034,VAC-027,2026-07-16,Preseleccionada,2026-10-10,Sí,Plataforma,No,2026-10-14,Teléfono
+POS-0255,CAN-0035,VAC-044,2026-08-09,Preseleccionada,2026-10-11,Sí,Sistema,No,2026-10-11,Mensajería de plataforma
+POS-0256,CAN-0036,VAC-001,2026-07-04,Preseleccionada,2026-10-12,Parcial,Empresa,Sí,,
+POS-0257,CAN-0037,VAC-018,2026-07-28,Preseleccionada,2026-10-13,Sí,Plataforma,No,2026-10-15,Teléfono
+POS-0258,CAN-0038,VAC-035,2026-08-21,Preseleccionada,2026-10-14,Sí,Sistema,No,2026-10-17,Mensajería de plataforma
+POS-0259,CAN-0039,VAC-052,2026-09-14,Preseleccionada,2026-09-23,Sí,Empresa,No,2026-09-27,Correo electrónico
+POS-0260,CAN-0040,VAC-009,2026-08-09,Preseleccionada,2026-10-16,Parcial,Plataforma,Sí,,
+POS-0261,CAN-0041,VAC-027,2026-09-03,Preseleccionada,2026-10-17,No,Sistema,Sí,2026-10-18,Mensajería de plataforma
+POS-0262,CAN-0042,VAC-044,2026-09-27,Preseleccionada,2026-10-18,Sí,Empresa,No,2026-10-20,Correo electrónico
+POS-0263,CAN-0043,VAC-001,2026-08-22,Preseleccionada,2026-10-19,Sí,Plataforma,No,2026-10-22,Teléfono
+POS-0264,CAN-0044,VAC-018,2026-09-15,Preseleccionada,2026-10-20,Parcial,Sistema,Sí,,
+POS-0265,CAN-0045,VAC-035,2026-10-09,Preseleccionada,2026-10-21,Sí,Empresa,No,2026-10-21,Correo electrónico
+POS-0266,CAN-0046,VAC-052,2026-06-19,Preseleccionada,2026-07-01,Sí,Plataforma,No,2026-07-02,Teléfono
+POS-0267,CAN-0047,VAC-009,2026-09-27,Preseleccionada,2026-10-23,Sí,Sistema,No,2026-10-25,Mensajería de plataforma
+POS-0268,CAN-0048,VAC-026,2026-10-21,Preseleccionada,2026-10-24,Parcial,Empresa,Sí,,
+POS-0269,CAN-0049,VAC-043,2026-07-01,Preseleccionada,2026-10-25,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0270,CAN-0050,VAC-001,2026-10-10,Preseleccionada,2026-10-26,No,Sistema,Sí,2026-10-26,Mensajería de plataforma
+POS-0271,CAN-0051,VAC-018,2026-06-20,Preseleccionada,2026-10-27,Sí,Empresa,No,2026-10-28,Correo electrónico
+POS-0272,CAN-0052,VAC-035,2026-07-14,Preseleccionada,2026-10-28,Parcial,Plataforma,Sí,,
+POS-0273,CAN-0053,VAC-052,2026-08-07,Preseleccionada,2026-08-18,Sí,Sistema,Sí,2026-08-21,Mensajería de plataforma
+POS-0274,CAN-0054,VAC-009,2026-07-02,Preseleccionada,2026-10-09,Sí,Empresa,No,2026-10-13,Correo electrónico
+POS-0275,CAN-0055,VAC-026,2026-07-26,Preseleccionada,2026-10-10,Sí,Plataforma,No,2026-10-10,Teléfono
+POS-0276,CAN-0056,VAC-043,2026-08-19,Preseleccionada,2026-10-11,Parcial,Sistema,Sí,,
+POS-0277,CAN-0057,VAC-060,2026-09-12,Preseleccionada,2026-10-12,Sí,Empresa,No,2026-10-14,Correo electrónico
+POS-0278,CAN-0058,VAC-017,2026-08-07,Preseleccionada,2026-10-13,Sí,Plataforma,No,2026-10-16,Teléfono
+POS-0279,CAN-0059,VAC-035,2026-09-01,Preseleccionada,2026-10-14,No,Sistema,Sí,2026-10-18,Mensajería de plataforma
+POS-0280,CAN-0060,VAC-052,2026-09-25,Preseleccionada,2026-09-25,Parcial,Empresa,Sí,,
+POS-0281,CAN-0061,VAC-009,2026-08-20,Preseleccionada,2026-10-16,Sí,Plataforma,No,2026-10-17,Teléfono
+POS-0282,CAN-0062,VAC-026,2026-09-13,Preseleccionada,2026-10-17,Sí,Sistema,No,2026-10-19,Mensajería de plataforma
+POS-0283,CAN-0063,VAC-043,2026-10-07,Preseleccionada,2026-10-18,Sí,Empresa,No,2026-10-21,Correo electrónico
+POS-0284,CAN-0064,VAC-060,2026-06-17,Preseleccionada,2026-10-19,Parcial,Plataforma,Sí,,
+POS-0285,CAN-0065,VAC-017,2026-09-25,Preseleccionada,2026-10-20,Sí,Sistema,No,2026-10-20,Mensajería de plataforma
+POS-0286,CAN-0066,VAC-034,2026-10-19,Entrevista,2026-10-21,Sí,Empresa,Sí,2026-10-22,Correo electrónico
+POS-0287,CAN-0067,VAC-051,2026-06-29,Entrevista,,Sí,Plataforma,Sí,2026-07-01,Teléfono
+POS-0288,CAN-0068,VAC-009,2026-10-08,Entrevista,2026-10-23,No,Sistema,Sí,,
+POS-0289,CAN-0069,VAC-026,2026-06-18,Entrevista,2026-10-24,Sí,Empresa,No,2026-10-28,Correo electrónico
+POS-0290,CAN-0070,VAC-043,2026-07-12,Entrevista,2026-10-25,Sí,Plataforma,No,2026-10-25,Teléfono
+POS-0291,CAN-0071,VAC-060,2026-08-05,Entrevista,2026-10-26,Sí,Sistema,No,2026-10-27,Mensajería de plataforma
+POS-0292,CAN-0072,VAC-017,2026-06-30,Entrevista,2026-10-27,Parcial,Empresa,Sí,,
+POS-0293,CAN-0073,VAC-034,2026-07-24,Entrevista,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0294,CAN-0074,VAC-051,2026-08-17,Entrevista,2026-09-02,Sí,Sistema,No,2026-09-06,Mensajería de plataforma
+POS-0295,CAN-0075,VAC-008,2026-07-12,Entrevista,2026-10-09,Sí,Empresa,No,2026-10-09,Correo electrónico
+POS-0296,CAN-0076,VAC-025,2026-08-05,Entrevista,2026-10-10,Parcial,Plataforma,Sí,,
+POS-0297,CAN-0077,VAC-043,2026-08-30,Entrevista,2026-10-11,No,Sistema,Sí,2026-10-13,Mensajería de plataforma
+POS-0298,CAN-0078,VAC-060,2026-09-23,Entrevista,2026-10-12,,Empresa,Sí,2026-10-15,Correo electrónico
+POS-0299,CAN-0079,VAC-017,2026-08-18,Entrevista,2026-10-13,Sí,Plataforma,Sí,2026-10-17,Teléfono
+POS-0300,CAN-0080,VAC-034,2026-09-11,Entrevista,2026-10-14,Parcial,Sistema,Sí,,
+POS-0301,CAN-0081,VAC-051,2026-10-05,Entrevista,2026-10-05,Sí,Empresa,No,2026-10-06,Correo electrónico
+POS-0302,CAN-0082,VAC-008,2026-08-30,Entrevista,2026-10-16,Sí,Plataforma,No,2026-10-18,Teléfono
+POS-0303,CAN-0083,VAC-025,2026-09-23,Entrevista,2026-10-17,Sí,Sistema,No,2026-10-20,Mensajería de plataforma
+POS-0304,CAN-0084,VAC-042,2026-10-17,Entrevista,2026-10-18,Parcial,Empresa,Sí,,
+POS-0305,CAN-0085,VAC-059,2026-06-27,Entrevista,2026-10-19,Sí,Plataforma,No,2026-10-19,Teléfono
+POS-0306,CAN-0086,VAC-017,2026-10-06,Entrevista,2026-10-20,No,Sistema,Sí,2026-10-21,Mensajería de plataforma
+POS-0307,CAN-0087,VAC-034,2026-06-16,Entrevista,2026-10-21,Sí,Empresa,No,2026-10-23,Correo electrónico
+POS-0308,CAN-0088,VAC-051,2026-07-10,Entrevista,2026-07-24,Parcial,Plataforma,Sí,,
+POS-0309,CAN-0089,VAC-008,2026-10-18,Entrevista,2026-10-23,Sí,Sistema,No,2026-10-27,Mensajería de plataforma
+POS-0310,CAN-0090,VAC-025,2026-06-28,Entrevista,2026-10-24,Sí,Empresa,No,2026-10-24,Correo electrónico
+POS-0311,CAN-0091,VAC-042,2026-07-22,Entrevista,2026-10-25,Sí,,Sí,2026-10-26,Teléfono
+POS-0312,CAN-0092,VAC-059,2026-08-15,Entrevista,2026-10-26,Parcial,Sistema,Sí,,
+POS-0313,CAN-0093,VAC-016,2026-07-10,Entrevista,2026-10-27,Sí,Empresa,No,2026-10-28,Correo electrónico
+POS-0314,CAN-0094,VAC-033,2026-08-03,Entrevista,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0315,CAN-0095,VAC-051,2026-08-28,Entrevista,2026-09-10,No,Sistema,Sí,2026-09-10,Mensajería de plataforma
+POS-0316,CAN-0096,VAC-008,2026-07-23,Entrevista,2026-10-09,Parcial,Empresa,Sí,,
+POS-0317,CAN-0097,VAC-025,2026-08-16,Entrevista,2026-10-10,Sí,Plataforma,No,2026-10-12,Teléfono
+POS-0318,CAN-0098,VAC-042,2026-09-09,Entrevista,2026-10-11,Sí,Sistema,No,2026-10-14,Mensajería de plataforma
+POS-0319,CAN-0099,VAC-059,2026-10-03,Entrevista,2026-10-12,Sí,Empresa,No,2026-10-16,Correo electrónico
+POS-0320,CAN-0100,VAC-016,2026-08-28,Entrevista,2026-10-13,Parcial,Plataforma,Sí,,
+POS-0321,CAN-0101,VAC-033,2026-09-21,Entrevista,2026-10-14,Sí,Sistema,No,2026-10-15,Mensajería de plataforma
+POS-0322,CAN-0102,VAC-050,2026-10-15,Entrevista,2026-10-15,Sí,Empresa,No,2026-10-17,Correo electrónico
+POS-0323,CAN-0103,VAC-007,2026-09-09,Entrevista,2026-10-16,Sí,Plataforma,No,2026-10-19,Teléfono
+POS-0324,CAN-0104,VAC-025,2026-10-04,Entrevista,2026-10-17,No,Sistema,Sí,,
+POS-0325,CAN-0105,VAC-042,2026-06-14,Entrevista,2026-10-18,Sí,Empresa,Sí,2026-10-18,Correo electrónico
+POS-0326,CAN-0106,VAC-059,2026-07-08,Entrevista,2026-10-19,Sí,Plataforma,No,2026-10-20,Teléfono
+POS-0327,CAN-0107,VAC-016,2026-10-16,Entrevista,2026-10-20,Sí,Sistema,No,2026-10-22,Mensajería de plataforma
+POS-0328,CAN-0108,VAC-033,2026-06-26,Entrevista,2026-10-21,Parcial,Empresa,Sí,,
+POS-0329,CAN-0109,VAC-050,2026-07-20,Entrevista,2026-07-31,Sí,Plataforma,No,2026-08-04,Teléfono
+POS-0330,CAN-0110,VAC-007,2026-06-14,Entrevista,2026-10-23,Sí,Sistema,No,2026-10-23,Mensajería de plataforma
+POS-0331,CAN-0111,VAC-024,2026-07-08,Entrevista,2026-10-24,Sí,Empresa,No,2026-10-25,Correo electrónico
+POS-0332,CAN-0112,VAC-041,2026-08-01,Entrevista,2026-10-25,Parcial,Plataforma,Sí,,
+POS-0333,CAN-0113,VAC-059,2026-08-26,Entrevista,2026-10-26,No,Sistema,Sí,2026-10-28,Mensajería de plataforma
+POS-0334,CAN-0114,VAC-016,2026-07-21,Entrevista,2026-10-27,Sí,Empresa,No,2026-10-28,Correo electrónico
+POS-0335,CAN-0115,VAC-033,2026-08-14,Entrevista,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0336,CAN-0116,VAC-050,2026-09-07,Entrevista,2026-09-17,Parcial,Sistema,Sí,,
+POS-0337,CAN-0117,VAC-007,2026-08-02,Entrevista,2026-10-09,Sí,Empresa,No,2026-10-11,Correo electrónico
+POS-0338,CAN-0118,VAC-024,2026-08-26,Entrevista,2026-10-10,Sí,Plataforma,Sí,2026-10-13,Teléfono
+POS-0339,CAN-0119,VAC-041,2026-09-19,Entrevista,2026-10-11,Sí,Sistema,No,2026-10-15,Mensajería de plataforma
+POS-0340,CAN-0120,VAC-058,2026-10-13,Entrevista,2026-10-13,Parcial,Empresa,Sí,,
+POS-0341,CAN-0121,VAC-015,2026-09-07,Oferta,2026-10-13,Sí,Plataforma,No,2026-10-14,Teléfono
+POS-0342,CAN-0122,VAC-033,2026-10-02,Oferta,2026-10-14,No,Sistema,Sí,2026-10-16,Mensajería de plataforma
+POS-0343,CAN-0123,VAC-050,2026-06-12,Oferta,2026-06-29,Sí,Empresa,No,2026-07-02,Correo electrónico
+POS-0344,CAN-0124,VAC-007,2026-09-20,Oferta,2026-10-16,Parcial,Plataforma,Sí,,
+POS-0345,CAN-0125,VAC-024,2026-10-14,Oferta,2026-10-17,Sí,Sistema,No,2026-10-17,Mensajería de plataforma
+POS-0346,CAN-0126,VAC-041,2026-06-24,Oferta,2026-10-18,Sí,Empresa,No,2026-10-19,Correo electrónico
+POS-0347,CAN-0127,VAC-058,2026-07-18,Oferta,2026-10-19,Sí,Plataforma,No,2026-10-21,Teléfono
+POS-0348,CAN-0128,VAC-015,2026-06-12,Oferta,2026-10-20,Parcial,Sistema,Sí,,
+POS-0349,CAN-0129,VAC-032,2026-07-06,Oferta,2026-10-21,Sí,Empresa,No,2026-10-25,Correo electrónico
+POS-0350,CAN-0130,VAC-049,2026-07-30,Oferta,2026-08-15,Sí,Plataforma,No,2026-08-15,Teléfono
+POS-0351,CAN-0131,VAC-007,2026-06-25,Oferta,2026-10-23,No,Sistema,Sí,2026-10-24,Mensajería de plataforma
+POS-0352,CAN-0132,VAC-024,2026-07-19,Oferta,2026-10-24,Parcial,Empresa,Sí,,
+POS-0353,CAN-0133,VAC-041,2026-08-12,Oferta,2026-10-25,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0354,CAN-0134,VAC-058,2026-09-05,Oferta,2026-10-26,Sí,Sistema,No,2026-10-28,Mensajería de plataforma
+POS-0355,CAN-0135,VAC-015,2026-07-31,Oferta,2026-10-27,Sí,Empresa,No,2026-10-27,Correo electrónico
+POS-0356,CAN-0136,VAC-032,2026-08-24,Oferta,,Parcial,Plataforma,Sí,,
+POS-0357,CAN-0137,VAC-049,2026-09-17,Oferta,2026-09-23,Sí,Sistema,No,2026-09-25,Mensajería de plataforma
+POS-0358,CAN-0138,VAC-006,2026-08-12,Oferta,2026-10-09,Sí,Empresa,No,2026-10-12,Correo electrónico
+POS-0359,CAN-0139,VAC-023,2026-09-05,Oferta,2026-10-10,Sí,Plataforma,No,2026-10-14,Teléfono
+POS-0360,CAN-0140,VAC-041,2026-09-30,Oferta,2026-10-11,No,Sistema,Sí,,
+POS-0361,CAN-0141,VAC-058,2026-06-10,Oferta,2026-10-12,Sí,Empresa,No,2026-10-13,Correo electrónico
+POS-0362,CAN-0142,VAC-015,2026-09-18,Oferta,2026-10-13,Sí,Plataforma,No,2026-10-15,Teléfono
+POS-0363,CAN-0143,VAC-032,2026-10-12,Oferta,2026-10-14,Sí,Sistema,No,2026-10-17,Mensajería de plataforma
+POS-0364,CAN-0144,VAC-049,2026-06-22,Oferta,2026-07-06,Parcial,Empresa,Sí,,
+POS-0365,CAN-0145,VAC-006,2026-09-30,Oferta,2026-10-16,,Plataforma,Sí,2026-10-16,Teléfono
+POS-0366,CAN-0146,VAC-023,2026-06-10,Oferta,2026-10-17,Sí,Sistema,No,2026-10-18,Mensajería de plataforma
+POS-0367,CAN-0147,VAC-040,2026-07-04,Oferta,2026-10-18,Sí,Empresa,No,2026-10-20,Correo electrónico
+POS-0368,CAN-0148,VAC-057,2026-07-28,Oferta,2026-10-19,Parcial,Plataforma,Sí,,
+POS-0369,CAN-0149,VAC-015,2026-06-23,Oferta,2026-10-20,No,Sistema,Sí,2026-10-24,Mensajería de plataforma
+POS-0370,CAN-0150,VAC-032,2026-07-17,Oferta,2026-10-21,Sí,Empresa,No,2026-10-21,Correo electrónico
+POS-0371,CAN-0151,VAC-049,2026-08-10,Oferta,2026-08-23,Sí,Plataforma,No,2026-08-24,Teléfono
+POS-0372,CAN-0152,VAC-006,2026-07-05,Oferta,2026-10-23,Parcial,Sistema,Sí,,
+POS-0373,CAN-0153,VAC-023,2026-07-29,Oferta,2026-10-24,Sí,Empresa,No,2026-10-27,Correo electrónico
+POS-0374,CAN-0154,VAC-040,2026-08-22,Oferta,2026-10-25,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0375,CAN-0155,VAC-057,2026-09-15,Oferta,2026-10-26,Sí,Sistema,No,2026-10-26,Mensajería de plataforma
+POS-0376,CAN-0156,VAC-014,2026-08-10,Oferta,2026-10-27,Parcial,Empresa,Sí,,
+POS-0377,CAN-0157,VAC-031,2026-09-03,Oferta,2026-10-28,Sí,Plataforma,Sí,2026-10-28,Teléfono
+POS-0378,CAN-0158,VAC-049,2026-09-28,Oferta,2026-09-28,No,Sistema,Sí,2026-10-01,Mensajería de plataforma
+POS-0379,CAN-0159,VAC-006,2026-08-23,Oferta,2026-10-09,Sí,Empresa,No,2026-10-13,Correo electrónico
+POS-0380,CAN-0160,VAC-023,2026-09-16,Oferta,2026-10-10,Parcial,Plataforma,Sí,,
+POS-0381,CAN-0161,VAC-040,2026-10-10,Oferta,2026-10-11,Sí,Sistema,No,2026-10-12,Mensajería de plataforma
+POS-0382,CAN-0162,VAC-057,2026-06-20,Oferta,2026-10-12,Sí,Empresa,No,2026-10-14,Correo electrónico
+POS-0383,CAN-0163,VAC-014,2026-09-28,Oferta,2026-10-13,Sí,Plataforma,No,2026-10-16,Teléfono
+POS-0384,CAN-0164,VAC-031,2026-10-22,Oferta,2026-10-22,Parcial,Sistema,Sí,,
+POS-0385,CAN-0165,VAC-048,2026-07-02,Oferta,2026-07-13,Sí,Empresa,No,2026-07-13,Correo electrónico
+POS-0386,CAN-0166,VAC-005,2026-10-10,Descartada,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0387,CAN-0167,VAC-023,2026-06-21,Descartada,2026-07-22,No,Sistema,Sí,2026-07-24,Mensajería de plataforma
+POS-0388,CAN-0168,VAC-040,2026-07-15,Descartada,2026-08-16,Parcial,Empresa,Sí,,
+POS-0389,CAN-0169,VAC-057,2026-08-08,Descartada,2026-09-10,Sí,Plataforma,No,2026-09-14,Teléfono
+POS-0390,CAN-0170,VAC-014,2026-07-03,Descartada,2026-08-06,Sí,Sistema,Sí,2026-08-06,Mensajería de plataforma
+POS-0391,CAN-0171,VAC-031,2026-07-27,Descartada,2026-08-31,Sí,Empresa,No,2026-09-01,Correo electrónico
+POS-0392,CAN-0172,VAC-048,2026-08-20,Descartada,2026-08-28,Parcial,Plataforma,Sí,,
+POS-0393,CAN-0173,VAC-005,2026-07-15,Descartada,2026-07-24,Sí,Sistema,No,2026-07-27,Mensajería de plataforma
+POS-0394,CAN-0174,VAC-022,2026-08-08,Descartada,2026-08-18,Sí,Empresa,No,2026-08-22,Correo electrónico
+POS-0395,CAN-0175,VAC-039,2026-09-01,Descartada,2026-09-12,Sí,Plataforma,No,2026-09-12,Teléfono
+POS-0396,CAN-0176,VAC-057,2026-09-26,Descartada,2026-10-08,No,Sistema,Sí,,
+POS-0397,CAN-0177,VAC-014,2026-08-21,Descartada,2026-09-03,Sí,Empresa,No,2026-09-05,Correo electrónico
+POS-0398,CAN-0178,VAC-031,2026-09-14,Descartada,2026-09-28,Sí,Plataforma,No,2026-10-01,Teléfono
+POS-0399,CAN-0179,VAC-048,2026-10-08,Descartada,2026-10-23,Sí,Sistema,No,2026-10-27,Mensajería de plataforma
+POS-0400,CAN-0180,VAC-005,2026-09-02,Descartada,2026-09-18,Parcial,,Sí,,
+POS-0401,CAN-0181,VAC-022,2026-09-26,Descartada,2026-10-13,Sí,Plataforma,No,2026-10-14,Teléfono
+POS-0402,CAN-0182,VAC-039,2026-10-20,Descartada,2026-10-28,Sí,Sistema,No,2026-10-28,Mensajería de plataforma
+POS-0403,CAN-0183,VAC-056,2026-06-30,Descartada,2026-07-19,Sí,Empresa,Sí,2026-07-22,Correo electrónico
+POS-0404,CAN-0184,VAC-013,2026-10-08,Descartada,2026-10-28,Parcial,Plataforma,Sí,,
+POS-0405,CAN-0185,VAC-031,2026-06-19,Descartada,2026-07-10,No,Sistema,Sí,2026-07-10,Mensajería de plataforma
+POS-0406,CAN-0186,VAC-048,2026-07-13,Descartada,2026-08-04,Sí,Empresa,No,2026-08-05,Correo electrónico
+POS-0407,CAN-0187,VAC-005,2026-10-21,Descartada,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0408,CAN-0188,VAC-022,2026-07-01,Descartada,2026-07-25,Parcial,Sistema,Sí,,
+POS-0409,CAN-0189,VAC-039,2026-07-25,Descartada,2026-08-19,Sí,Empresa,No,2026-08-23,Correo electrónico
+POS-0410,CAN-0190,VAC-056,2026-08-18,Descartada,2026-09-13,Sí,Plataforma,No,2026-09-13,Teléfono
+POS-0411,CAN-0191,VAC-013,2026-07-13,Descartada,2026-08-09,Sí,Sistema,No,2026-08-10,Mensajería de plataforma
+POS-0412,CAN-0192,VAC-030,2026-08-06,Descartada,2026-09-03,Parcial,Empresa,Sí,,
+POS-0413,CAN-0193,VAC-047,2026-08-30,Descartada,2026-09-28,Sí,Plataforma,No,2026-10-01,Teléfono
+POS-0414,CAN-0194,VAC-005,2026-07-26,Descartada,2026-08-25,No,Sistema,Sí,2026-08-29,Mensajería de plataforma
+POS-0415,CAN-0195,VAC-022,2026-08-19,Descartada,2026-09-19,Sí,Empresa,No,2026-09-19,Correo electrónico
+POS-0416,CAN-0196,VAC-039,2026-09-12,Descartada,2026-10-14,Parcial,Plataforma,Sí,,
+POS-0417,CAN-0197,VAC-056,2026-10-06,Descartada,2026-10-28,Sí,Sistema,No,2026-10-28,Mensajería de plataforma
+POS-0418,CAN-0198,VAC-013,2026-08-31,Descartada,2026-10-04,Sí,Empresa,No,2026-10-07,Correo electrónico
+POS-0419,CAN-0199,VAC-030,2026-09-24,Descartada,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0420,CAN-0200,VAC-047,2026-10-18,Descartada,2026-10-26,Parcial,Sistema,Sí,,
+POS-0421,CAN-0201,VAC-004,2026-09-12,Descartada,2026-09-21,Sí,Empresa,No,2026-09-22,Correo electrónico
+POS-0422,CAN-0202,VAC-021,2026-10-06,Descartada,2026-10-16,Sí,Plataforma,No,2026-10-18,Teléfono
+POS-0423,CAN-0203,VAC-039,2026-06-17,Descartada,2026-06-28,No,Sistema,Sí,2026-07-01,Mensajería de plataforma
+POS-0424,CAN-0204,VAC-056,2026-07-11,Descartada,2026-07-23,Parcial,Empresa,Sí,,
+POS-0425,CAN-0205,VAC-013,2026-10-19,Descartada,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0426,CAN-0206,VAC-030,2026-06-29,Descartada,2026-07-13,Sí,Sistema,No,2026-07-14,Mensajería de plataforma
+POS-0427,CAN-0207,VAC-047,2026-07-23,Descartada,2026-08-07,Sí,Empresa,No,2026-08-09,Correo electrónico
+POS-0428,CAN-0208,VAC-004,2026-06-17,Descartada,2026-07-03,Parcial,Plataforma,Sí,,
+POS-0429,CAN-0209,VAC-021,2026-07-11,Descartada,,Sí,Sistema,Sí,2026-07-15,Mensajería de plataforma
+POS-0430,CAN-0210,VAC-038,2026-08-04,Descartada,2026-08-22,Sí,Empresa,No,2026-08-22,Correo electrónico
+POS-0431,CAN-0211,VAC-055,2026-08-28,Descartada,2026-09-16,Sí,Plataforma,No,2026-09-17,Teléfono
+POS-0432,CAN-0212,VAC-013,2026-07-24,Descartada,2026-08-13,,Sistema,Sí,,
+POS-0433,CAN-0213,VAC-030,2026-08-17,Descartada,2026-09-07,Sí,Empresa,No,2026-09-10,Correo electrónico
+POS-0434,CAN-0214,VAC-047,2026-09-10,Descartada,2026-10-02,Sí,Plataforma,No,2026-10-06,Teléfono
+POS-0435,CAN-0215,VAC-004,2026-08-05,Descartada,2026-08-28,Sí,Sistema,No,2026-08-28,Mensajería de plataforma
+POS-0436,CAN-0216,VAC-021,2026-08-29,Descartada,2026-09-22,Parcial,Empresa,Sí,,
+POS-0437,CAN-0217,VAC-038,2026-09-22,Descartada,2026-10-17,Sí,Plataforma,No,2026-10-19,Teléfono
+POS-0438,CAN-0218,VAC-055,2026-10-16,Descartada,2026-10-28,Sí,Sistema,No,2026-10-28,Mensajería de plataforma
+POS-0439,CAN-0219,VAC-012,2026-09-10,Descartada,2026-10-07,Sí,Empresa,No,2026-10-11,Correo electrónico
+POS-0440,CAN-0220,VAC-029,2026-10-04,Descartada,2026-10-28,Parcial,Plataforma,Sí,,
+POS-0441,CAN-0001,VAC-047,2026-06-15,Descartada,2026-07-14,No,Sistema,Sí,2026-07-15,Mensajería de plataforma
+POS-0442,CAN-0002,VAC-004,2026-09-23,Descartada,2026-10-23,Sí,Empresa,Sí,2026-10-25,Correo electrónico
+POS-0443,CAN-0003,VAC-021,2026-10-17,Descartada,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0444,CAN-0004,VAC-038,2026-06-27,Descartada,2026-07-29,Parcial,Sistema,Sí,,
+POS-0445,CAN-0005,VAC-055,2026-07-21,Descartada,2026-08-23,Sí,Empresa,No,2026-08-23,Correo electrónico
+POS-0446,CAN-0006,VAC-012,2026-06-15,Descartada,2026-07-19,Sí,Plataforma,No,2026-07-20,Teléfono
+POS-0447,CAN-0007,VAC-029,2026-07-09,Descartada,2026-08-13,Sí,Sistema,No,2026-08-15,Mensajería de plataforma
+POS-0448,CAN-0008,VAC-046,2026-08-02,Descartada,2026-08-10,Parcial,Empresa,Sí,,
+POS-0449,CAN-0009,VAC-003,2026-06-27,Descartada,2026-07-06,Sí,Plataforma,No,2026-07-10,Teléfono
+POS-0450,CAN-0010,VAC-021,2026-07-22,Descartada,2026-08-01,No,Sistema,Sí,2026-08-01,Mensajería de plataforma
+POS-0451,CAN-0011,VAC-038,2026-08-15,Contratada,2026-08-26,Sí,Empresa,No,2026-08-27,Correo electrónico
+POS-0452,CAN-0012,VAC-055,2026-09-08,Contratada,2026-09-20,Parcial,Plataforma,Sí,,
+POS-0453,CAN-0013,VAC-012,2026-08-03,Contratada,2026-08-16,Sí,Sistema,No,2026-08-19,Mensajería de plataforma
+POS-0454,CAN-0014,VAC-029,2026-08-27,Contratada,2026-09-10,Sí,Empresa,No,2026-09-14,Correo electrónico
+POS-0455,CAN-0015,VAC-046,2026-09-20,Contratada,2026-10-05,Sí,Plataforma,Sí,2026-10-05,Teléfono
+POS-0456,CAN-0016,VAC-003,2026-08-15,Contratada,2026-08-31,Parcial,Sistema,Sí,,
+POS-0457,CAN-0017,VAC-020,2026-09-08,Contratada,2026-09-25,Sí,Empresa,No,2026-09-27,Correo electrónico
+POS-0458,CAN-0018,VAC-037,2026-10-02,Contratada,2026-10-20,Sí,Plataforma,No,2026-10-23,Teléfono
+POS-0459,CAN-0019,VAC-055,2026-06-13,Contratada,2026-07-02,No,Sistema,Sí,2026-07-06,Mensajería de plataforma
+POS-0460,CAN-0020,VAC-012,2026-09-21,Contratada,2026-10-11,Parcial,Empresa,Sí,,
+POS-0461,CAN-0021,VAC-029,2026-10-15,Contratada,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0462,CAN-0022,VAC-046,2026-06-25,Contratada,2026-07-17,Sí,Sistema,No,2026-07-19,Mensajería de plataforma
+POS-0463,CAN-0023,VAC-003,2026-10-03,Contratada,2026-10-26,Sí,Empresa,No,2026-10-28,Correo electrónico
+POS-0464,CAN-0024,VAC-020,2026-06-13,Contratada,2026-07-07,Parcial,Plataforma,Sí,,
+POS-0465,CAN-0025,VAC-037,2026-07-07,Contratada,2026-08-01,Sí,Sistema,No,2026-08-01,Mensajería de plataforma
+POS-0466,CAN-0026,VAC-054,2026-07-31,Contratada,2026-08-26,Sí,Empresa,No,2026-08-27,Correo electrónico
+POS-0467,CAN-0027,VAC-011,2026-06-25,Contratada,2026-07-22,Sí,Plataforma,No,2026-07-24,Teléfono
+POS-0468,CAN-0028,VAC-029,2026-07-20,Contratada,2026-08-17,No,Sistema,Sí,,
+POS-0469,CAN-0029,VAC-046,2026-08-13,Contratada,2026-09-11,Sí,Empresa,No,2026-09-15,Correo electrónico
+POS-0470,CAN-0030,VAC-003,2026-07-08,Contratada,2026-08-07,Sí,Plataforma,No,2026-08-07,Teléfono
+POS-0471,CAN-0031,VAC-020,2026-08-01,Contratada,2026-09-01,Sí,Sistema,No,2026-09-02,Mensajería de plataforma
+POS-0472,CAN-0032,VAC-037,2026-08-25,Contratada,2026-09-26,Parcial,Empresa,Sí,,
+POS-0473,CAN-0033,VAC-054,2026-09-18,Contratada,2026-10-21,Sí,Plataforma,No,2026-10-24,Teléfono
+POS-0474,CAN-0034,VAC-011,2026-08-13,Contratada,2026-09-16,Sí,Sistema,No,2026-09-20,Mensajería de plataforma
+POS-0475,CAN-0035,VAC-028,2026-09-06,Contratada,2026-10-11,Sí,Empresa,No,2026-10-11,Correo electrónico
+POS-0476,CAN-0036,VAC-045,2026-09-30,Contratada,2026-10-08,Parcial,Plataforma,Sí,,
+POS-0477,CAN-0037,VAC-003,2026-08-26,Contratada,2026-09-04,No,Sistema,Sí,2026-09-06,Mensajería de plataforma
+POS-0478,CAN-0038,VAC-020,2026-09-19,Contratada,2026-09-29,Sí,Empresa,No,2026-10-02,Correo electrónico
+POS-0479,CAN-0039,VAC-037,2026-10-13,Contratada,2026-10-24,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0480,CAN-0040,VAC-054,2026-06-23,Contratada,2026-07-05,Parcial,Sistema,Sí,,
+POS-0481,CAN-0041,VAC-011,2026-10-01,Contratada,2026-10-14,Sí,Empresa,Sí,2026-10-15,Correo electrónico
+POS-0482,CAN-0042,VAC-028,2026-06-11,Contratada,2026-06-25,Sí,Plataforma,No,2026-06-27,Teléfono
+POS-0483,CAN-0043,VAC-045,2026-07-05,Contratada,2026-07-20,Sí,Sistema,No,2026-07-23,Mensajería de plataforma
+POS-0484,CAN-0044,VAC-002,2026-10-13,Contratada,2026-10-28,Parcial,Empresa,Sí,,
+POS-0485,CAN-0045,VAC-019,2026-06-23,Contratada,2026-07-10,Sí,Plataforma,No,2026-07-10,Teléfono
+POS-0486,CAN-0046,VAC-037,2026-07-18,Contratada,2026-08-05,No,Sistema,Sí,2026-08-06,Mensajería de plataforma
+POS-0487,CAN-0047,VAC-054,2026-08-11,Contratada,,Sí,Empresa,Sí,2026-08-13,Correo electrónico
+POS-0488,CAN-0048,VAC-011,2026-07-06,Contratada,2026-07-26,Parcial,Plataforma,Sí,,
+POS-0489,CAN-0049,VAC-028,2026-07-30,Contratada,2026-08-20,Sí,,Sí,2026-08-24,Mensajería de plataforma
+POS-0490,CAN-0050,VAC-045,2026-08-23,Contratada,2026-09-14,Sí,Empresa,No,2026-09-14,Correo electrónico
+POS-0491,CAN-0051,VAC-002,2026-07-18,Contratada,2026-08-10,Sí,Plataforma,No,2026-08-11,Teléfono
+POS-0492,CAN-0052,VAC-019,2026-08-11,Contratada,2026-09-04,Parcial,Sistema,Sí,,
+POS-0493,CAN-0053,VAC-036,2026-09-04,Contratada,2026-09-29,Sí,Empresa,No,2026-10-02,Correo electrónico
+POS-0494,CAN-0054,VAC-053,2026-09-28,Contratada,2026-10-24,Sí,Plataforma,Sí,2026-10-28,Teléfono
+POS-0495,CAN-0055,VAC-011,2026-08-24,Contratada,2026-09-20,No,Sistema,Sí,2026-09-20,Mensajería de plataforma
+POS-0496,CAN-0056,VAC-028,2026-09-17,Contratada,2026-10-15,Parcial,Empresa,Sí,,
+POS-0497,CAN-0057,VAC-045,2026-10-11,Contratada,2026-10-28,Sí,Plataforma,No,2026-10-28,Teléfono
+POS-0498,CAN-0058,VAC-002,2026-09-05,Contratada,2026-10-05,Sí,Sistema,No,2026-10-08,Mensajería de plataforma
+POS-0499,CAN-0059,VAC-019,2026-09-29,Contratada,2026-10-28,,Empresa,Sí,2026-10-28,Correo electrónico
+POS-0500,CAN-0060,VAC-036,2026-10-23,Contratada,2026-10-28,Parcial,Plataforma,Sí,,

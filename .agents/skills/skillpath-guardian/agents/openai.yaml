@@ -1,0 +1,4 @@
+interface:
+  display_name: "Guardián de Skill path"
+  short_description: "Requisitos, permisos y evidencia del MVP Skill path"
+  default_prompt: "Usa $skillpath-guardian para revisar los requisitos pendientes de Skill path, implementar los cambios autorizados y verificar su cumplimiento con evidencia."

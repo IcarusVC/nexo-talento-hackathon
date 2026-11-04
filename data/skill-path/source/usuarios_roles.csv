@@ -1,0 +1,61 @@
+﻿usuario_id,nombre_ficticio,rol,actor_id_asociado,empresa_o_cartera_asignada,vacantes_visibles,postulaciones_visibles,puede_cambiar_estados,puede_corregir_informacion,puede_consultar_metricas,puede_activar_automatizaciones,puede_realizar_revision_humana
+USR-001,Ana Garrido,Candidato,CAN-0001,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0001),No,Sí,No,No,No
+USR-002,Bruno Ortega,Candidato,CAN-0002,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0002),No,Sí,No,No,No
+USR-003,Camila Abarca,Candidato,CAN-0003,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0003),No,Sí,No,No,No
+USR-004,Diego Herrera,Candidato,CAN-0004,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0004),No,Sí,No,No,No
+USR-005,Elena Paredes,Candidato,CAN-0005,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0005),No,Sí,No,No,No
+USR-006,Felipe Bustos,Candidato,CAN-0006,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0006),No,Sí,No,No,No
+USR-007,Gabriela Ibarra,Candidato,CAN-0007,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0007),No,Sí,No,No,No
+USR-008,Hugo Rojas,Candidato,CAN-0008,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0008),No,Sí,No,No,No
+USR-009,Isidora Contreras,Candidato,CAN-0009,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0009),No,Sí,No,No,No
+USR-010,Javier Jara,Candidato,CAN-0010,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0010),No,Sí,No,No,No
+USR-011,Karina Silva,Candidato,CAN-0011,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0011),No,Sí,No,No,No
+USR-012,Leonardo Díaz,Candidato,CAN-0012,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0012),No,Sí,No,No,No
+USR-013,María Lagos,Candidato,CAN-0013,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0013),No,Sí,No,No,No
+USR-014,Nicolás Torres,Candidato,CAN-0014,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0014),No,Sí,No,No,No
+USR-015,Olivia Espinoza,Candidato,CAN-0015,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0015),No,Sí,No,No,No
+USR-016,Pablo Molina,Candidato,CAN-0016,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0016),No,Sí,No,No,No
+USR-017,Renata Vega,Candidato,CAN-0017,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0017),No,Sí,No,No,No
+USR-018,Sergio Fuentes,Candidato,CAN-0018,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0018),No,Sí,No,No,No
+USR-019,Teresa Navarro,Candidato,CAN-0019,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0019),No,Sí,No,No,No
+USR-020,Vicente Zúñiga,Candidato,CAN-0020,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0020),No,Sí,No,No,No
+USR-021,Ana Garrido,Candidato,CAN-0021,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0021),No,Sí,No,No,No
+USR-022,Bruno Ortega,Candidato,CAN-0022,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0022),No,Sí,No,No,No
+USR-023,Camila Abarca,Candidato,CAN-0023,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0023),No,Sí,No,No,No
+USR-024,Diego Herrera,Candidato,CAN-0024,Cuenta personal,Vacantes publicadas activas,Solo postulaciones propias (CAN-0024),No,Sí,No,No,No
+USR-025,Elena Paredes,Reclutador,REC-001,EMP-001|EMP-006,Vacantes asignadas a REC-001,Postulaciones asociadas a sus vacantes,Sí,Sí,Sí,Sí,No
+USR-026,Felipe Bustos,Reclutador,REC-002,EMP-002|EMP-007,Vacantes asignadas a REC-002,Postulaciones asociadas a sus vacantes,Sí,Sí,Sí,Sí,No
+USR-027,Gabriela Ibarra,Reclutador,REC-003,EMP-003|EMP-008,Vacantes asignadas a REC-003,Postulaciones asociadas a sus vacantes,Sí,Sí,Sí,Sí,No
+USR-028,Hugo Rojas,Reclutador,REC-004,EMP-004|EMP-009,Vacantes asignadas a REC-004,Postulaciones asociadas a sus vacantes,Sí,Sí,Sí,Sí,No
+USR-029,Isidora Contreras,Reclutador,REC-005,EMP-005|EMP-010,Vacantes asignadas a REC-005,Postulaciones asociadas a sus vacantes,Sí,Sí,Sí,Sí,No
+USR-030,Javier Jara,Reclutador,REC-006,EMP-006|EMP-011,Vacantes asignadas a REC-006,Postulaciones asociadas a sus vacantes,Sí,Sí,Sí,Sí,No
+USR-031,Karina Silva,Reclutador,REC-007,EMP-007|EMP-012,Vacantes asignadas a REC-007,Postulaciones asociadas a sus vacantes,Sí,Sí,Sí,Sí,No
+USR-032,Leonardo Díaz,Reclutador,REC-008,EMP-008|EMP-001,Vacantes asignadas a REC-008,Postulaciones asociadas a sus vacantes,Sí,Sí,Sí,Sí,No
+USR-033,María Lagos,Reclutador,REC-009,EMP-009|EMP-002,Vacantes asignadas a REC-009,Postulaciones asociadas a sus vacantes,Sí,Sí,Sí,Sí,No
+USR-034,Nicolás Torres,Reclutador,REC-010,EMP-010|EMP-003,Vacantes asignadas a REC-010,Postulaciones asociadas a sus vacantes,Sí,Sí,Sí,Sí,No
+USR-035,Olivia Espinoza,Representante de empresa,RPE-001,EMP-001,Vacantes de EMP-001,Postulaciones de EMP-001,No,No,Sí,No,No
+USR-036,Pablo Molina,Representante de empresa,RPE-002,EMP-002,Vacantes de EMP-002,Postulaciones de EMP-002,No,No,Sí,No,No
+USR-037,Renata Vega,Representante de empresa,RPE-003,EMP-003,Vacantes de EMP-003,Postulaciones de EMP-003,No,No,Sí,No,No
+USR-038,Sergio Fuentes,Representante de empresa,RPE-004,EMP-004,Vacantes de EMP-004,Postulaciones de EMP-004,No,No,Sí,No,No
+USR-039,Teresa Navarro,Representante de empresa,RPE-005,EMP-005,Vacantes de EMP-005,Postulaciones de EMP-005,No,No,Sí,No,No
+USR-040,Vicente Zúñiga,Representante de empresa,RPE-006,EMP-006,Vacantes de EMP-006,Postulaciones de EMP-006,No,No,Sí,No,No
+USR-041,Ana Garrido,Representante de empresa,RPE-007,EMP-007,Vacantes de EMP-007,Postulaciones de EMP-007,No,No,Sí,No,No
+USR-042,Bruno Ortega,Representante de empresa,RPE-008,EMP-008,Vacantes de EMP-008,Postulaciones de EMP-008,No,No,Sí,No,No
+USR-043,Camila Abarca,Representante de empresa,RPE-009,EMP-009,Vacantes de EMP-009,Postulaciones de EMP-009,No,No,Sí,No,No
+USR-044,Diego Herrera,Representante de empresa,RPE-010,EMP-010,Vacantes de EMP-010,Postulaciones de EMP-010,No,No,Sí,No,No
+USR-045,Elena Paredes,Representante de empresa,RPE-011,EMP-011,Vacantes de EMP-011,Postulaciones de EMP-011,No,No,Sí,No,No
+USR-046,Felipe Bustos,Representante de empresa,RPE-012,EMP-012,Vacantes de EMP-012,Postulaciones de EMP-012,No,No,Sí,No,No
+USR-047,Gabriela Ibarra,Administrador de plataforma,ADM-001,Plataforma completa,Todas las vacantes,Todas las postulaciones,Sí,Sí,Sí,Sí,No
+USR-048,Hugo Rojas,Administrador de plataforma,ADM-002,Plataforma completa,Todas las vacantes,Todas las postulaciones,Sí,Sí,Sí,Sí,No
+USR-049,Isidora Contreras,Administrador de plataforma,ADM-003,Plataforma completa,Todas las vacantes,Todas las postulaciones,Sí,Sí,Sí,Sí,No
+USR-050,Javier Jara,Administrador de plataforma,ADM-004,Plataforma completa,Todas las vacantes,Todas las postulaciones,Sí,Sí,Sí,Sí,No
+USR-051,Karina Silva,Orientador de empleabilidad,ORI-001,Candidatos CAN-0025 a CAN-0044,Vacantes activas y públicas,Postulaciones de su cartera asignada,No,No,Sí,No,No
+USR-052,Leonardo Díaz,Orientador de empleabilidad,ORI-002,Candidatos CAN-0045 a CAN-0064,Vacantes activas y públicas,Postulaciones de su cartera asignada,No,No,Sí,No,No
+USR-053,María Lagos,Orientador de empleabilidad,ORI-003,Candidatos CAN-0065 a CAN-0084,Vacantes activas y públicas,Postulaciones de su cartera asignada,No,No,Sí,No,No
+USR-054,Nicolás Torres,Orientador de empleabilidad,ORI-004,Candidatos CAN-0085 a CAN-0104,Vacantes activas y públicas,Postulaciones de su cartera asignada,No,No,Sí,No,No
+USR-055,Olivia Espinoza,Orientador de empleabilidad,ORI-005,Candidatos CAN-0105 a CAN-0124,Vacantes activas y públicas,Postulaciones de su cartera asignada,No,No,Sí,No,No
+USR-056,Pablo Molina,Revisor humano,REV-001,Casos con requisitos Parcial,Vacantes vinculadas a casos asignados,Postulaciones con requiere_revision_humana=Sí,No,Sí,No,No,Sí
+USR-057,Renata Vega,Revisor humano,REV-002,Casos con requisitos No,Vacantes vinculadas a casos asignados,Postulaciones con requiere_revision_humana=Sí,No,Sí,No,No,Sí
+USR-058,Sergio Fuentes,Revisor humano,REV-003,Casos con fuente Empresa,Vacantes vinculadas a casos asignados,Postulaciones con requiere_revision_humana=Sí,No,Sí,No,No,Sí
+USR-059,Teresa Navarro,Revisor humano,REV-004,Casos con fuente Plataforma,Vacantes vinculadas a casos asignados,Postulaciones con requiere_revision_humana=Sí,No,Sí,No,No,Sí
+USR-060,Vicente Zúñiga,Revisor humano,REV-005,Casos con fuente Sistema o incompleta,Vacantes vinculadas a casos asignados,Postulaciones con requiere_revision_humana=Sí,No,Sí,No,No,Sí

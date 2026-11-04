@@ -1,0 +1,1501 @@
+﻿evento_id,postulacion_id,tipo_evento,actor_tipo,actor_id,fecha_evento,estado_anterior,estado_nuevo,origen_evento,comunicado_candidato,requiere_revision,ultima_actualizacion
+EVT-00001,POS-0001,Postulación enviada,Candidato,CAN-0001,2026-07-04,,Recibida,Plataforma,No,No,2026-07-04
+EVT-00002,POS-0001,Apertura,Reclutador,REC-002,2026-07-12,Recibida,Recibida,Empresa,No,No,2026-07-12
+EVT-00003,POS-0001,Recordatorio automático,Sistema,SIS-003,2026-10-09,Recibida,Recibida,Sistema,No,No,2026-10-09
+EVT-00004,POS-0002,Postulación enviada,Candidato,CAN-0002,2026-07-28,,Recibida,Plataforma,No,No,2026-07-28
+EVT-00005,POS-0002,Apertura,Reclutador,REC-003,2026-08-06,Recibida,Recibida,Plataforma,No,No,2026-08-06
+EVT-00006,POS-0002,Recordatorio automático,Sistema,SIS-004,2026-10-10,Recibida,Recibida,Sistema,No,No,2026-10-10
+EVT-00007,POS-0003,Postulación enviada,Candidato,CAN-0003,2026-08-21,,Recibida,Plataforma,No,No,2026-08-21
+EVT-00008,POS-0003,Apertura,Reclutador,REC-004,2026-08-31,Recibida,Recibida,Empresa,No,No,2026-08-31
+EVT-00009,POS-0003,Recordatorio automático,Sistema,SIS-001,2026-10-11,Recibida,Recibida,Sistema,No,No,2026-10-11
+EVT-00010,POS-0004,Postulación enviada,Candidato,CAN-0004,2026-07-16,,Recibida,Plataforma,No,No,2026-07-16
+EVT-00011,POS-0004,Apertura,Reclutador,REC-005,2026-07-27,Recibida,Recibida,Empresa,No,No,2026-07-27
+EVT-00012,POS-0004,Recordatorio automático,Sistema,SIS-002,2026-10-12,Recibida,Recibida,Sistema,No,No,2026-10-12
+EVT-00013,POS-0005,Postulación enviada,Candidato,CAN-0005,2026-08-09,,Recibida,Plataforma,No,No,2026-08-09
+EVT-00014,POS-0005,Apertura,Reclutador,REC-006,2026-08-16,Recibida,Recibida,Plataforma,No,No,2026-08-16
+EVT-00015,POS-0005,Recordatorio automático,Sistema,SIS-003,2026-10-13,Recibida,Recibida,Sistema,No,No,2026-10-13
+EVT-00016,POS-0006,Postulación enviada,Candidato,CAN-0006,2026-09-02,,Recibida,Plataforma,No,No,2026-09-02
+EVT-00017,POS-0006,Apertura,Reclutador,REC-007,2026-09-10,Recibida,Recibida,Empresa,No,No,2026-09-10
+EVT-00018,POS-0006,Recordatorio automático,Sistema,SIS-004,2026-10-14,Recibida,Recibida,Sistema,No,No,2026-10-14
+EVT-00019,POS-0007,Postulación enviada,Candidato,CAN-0007,2026-09-26,,Recibida,Plataforma,No,No,2026-09-26
+EVT-00020,POS-0007,Apertura,Reclutador,REC-008,2026-09-26,Recibida,Recibida,Empresa,No,No,2026-09-26
+EVT-00021,POS-0007,Recordatorio automático,Sistema,SIS-001,2026-09-26,Recibida,Recibida,Sistema,No,No,2026-09-26
+EVT-00022,POS-0008,Postulación enviada,Candidato,CAN-0008,2026-08-21,,Recibida,Plataforma,No,No,2026-08-21
+EVT-00023,POS-0008,Apertura,Reclutador,REC-009,2026-08-31,Recibida,Recibida,Plataforma,No,No,2026-08-31
+EVT-00024,POS-0008,Recordatorio automático,Sistema,SIS-002,2026-10-16,Recibida,Recibida,Sistema,No,No,2026-10-16
+EVT-00025,POS-0009,Postulación enviada,Candidato,CAN-0009,2026-09-15,,Recibida,Plataforma,No,No,2026-09-15
+EVT-00026,POS-0009,Apertura,Reclutador,REC-010,2026-09-26,Recibida,Recibida,Empresa,No,No,2026-09-26
+EVT-00027,POS-0009,Recordatorio automático,Sistema,SIS-003,2026-10-17,Recibida,Recibida,Sistema,No,No,2026-10-17
+EVT-00028,POS-0010,Postulación enviada,Candidato,CAN-0010,2026-10-09,,Recibida,Plataforma,No,No,2026-10-09
+EVT-00029,POS-0010,Apertura,Reclutador,REC-001,2026-10-16,Recibida,Recibida,Empresa,No,No,2026-10-16
+EVT-00030,POS-0010,Recordatorio automático,Sistema,SIS-004,2026-10-18,Recibida,Recibida,Sistema,No,No,2026-10-18
+EVT-00031,POS-0011,Postulación enviada,Candidato,CAN-0011,2026-09-03,,Recibida,Plataforma,No,No,2026-09-03
+EVT-00032,POS-0011,Apertura,Reclutador,REC-002,2026-09-11,Recibida,Recibida,Plataforma,No,No,2026-09-11
+EVT-00033,POS-0011,Recordatorio automático,Sistema,SIS-001,2026-10-19,Recibida,Recibida,Sistema,No,No,2026-10-19
+EVT-00034,POS-0012,Postulación enviada,Candidato,CAN-0012,2026-09-27,,Recibida,Plataforma,No,No,2026-09-27
+EVT-00035,POS-0012,Apertura,Reclutador,REC-003,2026-10-06,Recibida,Recibida,Empresa,No,No,2026-10-06
+EVT-00036,POS-0012,Recordatorio automático,Sistema,SIS-002,2026-10-20,Recibida,Recibida,Sistema,No,No,2026-10-20
+EVT-00037,POS-0013,Postulación enviada,Candidato,CAN-0013,2026-10-21,,Recibida,Plataforma,No,No,2026-10-21
+EVT-00038,POS-0013,Apertura,Reclutador,REC-004,2026-10-21,Recibida,Recibida,Empresa,No,No,2026-10-21
+EVT-00039,POS-0013,Recordatorio automático,Sistema,SIS-003,2026-10-21,Recibida,Recibida,Sistema,No,No,2026-10-21
+EVT-00040,POS-0014,Postulación enviada,Candidato,CAN-0014,2026-07-01,,Recibida,Plataforma,No,No,2026-07-01
+EVT-00041,POS-0014,Apertura,Reclutador,REC-005,2026-07-12,Recibida,Recibida,Plataforma,No,No,2026-07-12
+EVT-00042,POS-0014,Recordatorio automático,Sistema,SIS-004,2026-07-17,Recibida,Recibida,Sistema,No,No,2026-07-17
+EVT-00043,POS-0015,Postulación enviada,Candidato,CAN-0015,2026-10-09,,Recibida,Plataforma,No,No,2026-10-09
+EVT-00044,POS-0015,Apertura,Reclutador,REC-006,2026-10-16,Recibida,Recibida,Empresa,No,No,2026-10-16
+EVT-00045,POS-0015,Recordatorio automático,Sistema,SIS-001,2026-10-23,Recibida,Recibida,Sistema,No,No,2026-10-23
+EVT-00046,POS-0016,Postulación enviada,Candidato,CAN-0016,2026-06-19,,Recibida,Plataforma,No,No,2026-06-19
+EVT-00047,POS-0016,Apertura,Reclutador,REC-007,2026-06-27,Recibida,Recibida,Empresa,No,No,2026-06-27
+EVT-00048,POS-0016,Recordatorio automático,Sistema,SIS-002,2026-10-24,Recibida,Recibida,Sistema,No,No,2026-10-24
+EVT-00049,POS-0017,Postulación enviada,Candidato,CAN-0017,2026-07-13,,Recibida,Plataforma,No,No,2026-07-13
+EVT-00050,POS-0017,Apertura,Reclutador,REC-008,2026-07-20,Recibida,Recibida,Plataforma,No,No,2026-07-20
+EVT-00051,POS-0017,Recordatorio automático,Sistema,SIS-003,2026-07-20,Recibida,Recibida,Sistema,No,No,2026-07-20
+EVT-00052,POS-0018,Postulación enviada,Candidato,CAN-0018,2026-10-22,,Recibida,Plataforma,No,No,2026-10-22
+EVT-00053,POS-0018,Apertura,Reclutador,REC-009,2026-10-26,Recibida,Recibida,Empresa,No,No,2026-10-26
+EVT-00054,POS-0018,Recordatorio automático,Sistema,SIS-004,2026-10-26,Recibida,Recibida,Sistema,No,No,2026-10-26
+EVT-00055,POS-0019,Postulación enviada,Candidato,CAN-0019,2026-07-02,,Recibida,Plataforma,No,No,2026-07-02
+EVT-00056,POS-0019,Apertura,Reclutador,REC-010,2026-07-13,Recibida,Recibida,Empresa,No,No,2026-07-13
+EVT-00057,POS-0019,Recordatorio automático,Sistema,SIS-001,2026-10-27,Recibida,Recibida,Sistema,No,No,2026-10-27
+EVT-00058,POS-0020,Postulación enviada,Candidato,CAN-0020,2026-07-26,,Recibida,Plataforma,No,No,2026-07-26
+EVT-00059,POS-0020,Apertura,Reclutador,REC-001,2026-08-02,Recibida,Recibida,Plataforma,No,No,2026-08-02
+EVT-00060,POS-0020,Recordatorio automático,Sistema,SIS-002,2026-10-28,Recibida,Recibida,Sistema,No,No,2026-10-28
+EVT-00061,POS-0021,Postulación enviada,Candidato,CAN-0021,2026-08-19,,Recibida,Plataforma,No,No,2026-08-19
+EVT-00062,POS-0021,Apertura,Reclutador,REC-002,2026-08-27,Recibida,Recibida,Empresa,No,No,2026-08-27
+EVT-00063,POS-0021,Recordatorio automático,Sistema,SIS-003,2026-09-03,Recibida,Recibida,Sistema,No,No,2026-09-03
+EVT-00064,POS-0022,Postulación enviada,Candidato,CAN-0022,2026-07-14,,Recibida,Plataforma,No,No,2026-07-14
+EVT-00065,POS-0022,Apertura,Reclutador,REC-003,2026-07-23,Recibida,Recibida,Empresa,No,No,2026-07-23
+EVT-00066,POS-0022,Recordatorio automático,Sistema,SIS-004,2026-10-09,Recibida,Recibida,Sistema,No,No,2026-10-09
+EVT-00067,POS-0023,Postulación enviada,Candidato,CAN-0023,2026-08-07,,Recibida,Plataforma,No,No,2026-08-07
+EVT-00068,POS-0023,Apertura,Reclutador,REC-004,2026-08-17,Recibida,Recibida,Plataforma,No,No,2026-08-17
+EVT-00069,POS-0023,Recordatorio automático,Sistema,SIS-001,2026-10-10,Recibida,Recibida,Sistema,No,No,2026-10-10
+EVT-00070,POS-0024,Postulación enviada,Candidato,CAN-0024,2026-08-31,,Recibida,Plataforma,No,No,2026-08-31
+EVT-00071,POS-0024,Apertura,Reclutador,REC-005,2026-09-11,Recibida,Recibida,Empresa,No,No,2026-09-11
+EVT-00072,POS-0024,Recordatorio automático,Sistema,SIS-002,2026-10-11,Recibida,Recibida,Sistema,No,No,2026-10-11
+EVT-00073,POS-0025,Postulación enviada,Candidato,CAN-0025,2026-07-26,,Recibida,Plataforma,No,No,2026-07-26
+EVT-00074,POS-0025,Apertura,Reclutador,REC-006,2026-08-02,Recibida,Recibida,Empresa,No,No,2026-08-02
+EVT-00075,POS-0025,Recordatorio automático,Sistema,SIS-003,2026-10-12,Recibida,Recibida,Sistema,No,No,2026-10-12
+EVT-00076,POS-0026,Postulación enviada,Candidato,CAN-0026,2026-08-19,,Recibida,Plataforma,No,No,2026-08-19
+EVT-00077,POS-0026,Apertura,Reclutador,REC-007,2026-08-27,Recibida,Recibida,Plataforma,No,No,2026-08-27
+EVT-00078,POS-0026,Recordatorio automático,Sistema,SIS-004,2026-10-13,Recibida,Recibida,Sistema,No,No,2026-10-13
+EVT-00079,POS-0027,Postulación enviada,Candidato,CAN-0027,2026-09-13,,Recibida,Plataforma,No,No,2026-09-13
+EVT-00080,POS-0027,Apertura,Reclutador,REC-008,2026-09-22,Recibida,Recibida,Empresa,No,No,2026-09-22
+EVT-00081,POS-0027,Recordatorio automático,Sistema,SIS-001,2026-10-14,Recibida,Recibida,Sistema,No,No,2026-10-14
+EVT-00082,POS-0028,Postulación enviada,Candidato,CAN-0028,2026-10-07,,Recibida,Plataforma,No,No,2026-10-07
+EVT-00083,POS-0028,Apertura,Reclutador,REC-009,2026-10-07,Recibida,Recibida,Empresa,No,No,2026-10-07
+EVT-00084,POS-0028,Recordatorio automático,Sistema,SIS-002,2026-10-07,Recibida,Recibida,Sistema,No,No,2026-10-07
+EVT-00085,POS-0029,Postulación enviada,Candidato,CAN-0029,2026-09-01,,Recibida,Plataforma,No,No,2026-09-01
+EVT-00086,POS-0029,Comunicación enviada,Reclutador,REC-010,2026-09-12,Recibida,Recibida,Empresa,Sí,No,2026-09-12
+EVT-00087,POS-0029,Recordatorio automático,Sistema,SIS-003,2026-10-16,Recibida,Recibida,Sistema,No,No,2026-10-16
+EVT-00088,POS-0030,Postulación enviada,Candidato,CAN-0030,2026-09-25,,Recibida,Plataforma,No,No,2026-09-25
+EVT-00089,POS-0030,Apertura,Reclutador,REC-001,2026-10-02,Recibida,Recibida,Empresa,No,No,2026-10-02
+EVT-00090,POS-0030,Recordatorio automático,Sistema,SIS-004,2026-10-17,Recibida,Recibida,Sistema,No,No,2026-10-17
+EVT-00091,POS-0031,Postulación enviada,Candidato,CAN-0031,2026-10-19,,Recibida,Plataforma,No,No,2026-10-19
+EVT-00092,POS-0031,Apertura,Reclutador,REC-002,2026-10-19,Recibida,Recibida,Empresa,No,No,2026-10-19
+EVT-00093,POS-0031,Recordatorio automático,Sistema,SIS-001,2026-10-19,Recibida,Recibida,Sistema,No,No,2026-10-19
+EVT-00094,POS-0032,Postulación enviada,Candidato,CAN-0032,2026-09-13,,Recibida,Plataforma,No,No,2026-09-13
+EVT-00095,POS-0032,Apertura,Reclutador,REC-003,2026-09-22,Recibida,Recibida,Plataforma,No,No,2026-09-22
+EVT-00096,POS-0032,Recordatorio automático,Sistema,SIS-002,2026-10-19,Recibida,Recibida,Sistema,No,No,2026-10-19
+EVT-00097,POS-0033,Postulación enviada,Candidato,,2026-10-07,,Recibida,Plataforma,No,Sí,2026-10-07
+EVT-00098,POS-0033,Apertura,Reclutador,REC-004,2026-10-17,Recibida,Recibida,Empresa,No,No,2026-10-17
+EVT-00099,POS-0033,Recordatorio automático,Sistema,SIS-003,2026-10-20,Recibida,Recibida,Sistema,No,No,2026-10-20
+EVT-00100,POS-0034,Postulación enviada,Candidato,CAN-0034,2026-06-17,,Recibida,Plataforma,No,No,2026-06-17
+EVT-00101,POS-0034,Apertura,Reclutador,REC-005,2026-06-28,Recibida,Recibida,Empresa,No,No,2026-06-28
+EVT-00102,POS-0034,Recordatorio automático,Sistema,SIS-004,2026-10-21,Recibida,Recibida,Sistema,No,No,2026-10-21
+EVT-00103,POS-0035,Postulación enviada,Candidato,CAN-0035,2026-07-11,,Recibida,Plataforma,No,No,2026-07-11
+EVT-00104,POS-0035,Apertura,Reclutador,REC-006,2026-07-18,Recibida,Recibida,Plataforma,No,No,2026-07-18
+EVT-00105,POS-0035,Recordatorio automático,Sistema,SIS-001,2026-07-24,Recibida,Recibida,Sistema,No,No,2026-07-24
+EVT-00106,POS-0036,Postulación enviada,Candidato,CAN-0036,2026-10-20,,Recibida,Plataforma,No,No,2026-10-20
+EVT-00107,POS-0036,Apertura,Reclutador,REC-007,2026-10-23,Recibida,Recibida,Empresa,No,No,2026-10-23
+EVT-00108,POS-0036,Recordatorio automático,Sistema,SIS-002,2026-10-23,Recibida,Recibida,Sistema,No,No,2026-10-23
+EVT-00109,POS-0037,Postulación enviada,Candidato,CAN-0037,2026-06-30,,Recibida,Plataforma,No,No,2026-06-30
+EVT-00110,POS-0037,Vacante pausada,Sistema,SIS-002,2026-07-09,Recibida,Recibida,Sistema,No,Sí,2026-07-09
+EVT-00111,POS-0037,Recordatorio automático,Sistema,SIS-003,2026-10-24,Recibida,Recibida,Sistema,No,No,2026-10-24
+EVT-00112,POS-0038,Postulación enviada,Candidato,CAN-0038,2026-07-24,,Recibida,Plataforma,No,No,2026-07-24
+EVT-00113,POS-0038,Apertura,Reclutador,REC-009,2026-08-03,Recibida,Recibida,Plataforma,No,No,
+EVT-00114,POS-0038,Recordatorio automático,Sistema,SIS-004,2026-10-25,Recibida,Recibida,Sistema,No,No,2026-10-25
+EVT-00115,POS-0039,Postulación enviada,Candidato,CAN-0039,2026-06-18,,Recibida,Plataforma,No,No,2026-06-18
+EVT-00116,POS-0039,Apertura,Reclutador,REC-010,2026-06-29,Recibida,Recibida,Empresa,No,No,2026-06-29
+EVT-00117,POS-0039,Recordatorio automático,Sistema,SIS-001,2026-10-26,Recibida,Recibida,Sistema,No,No,2026-10-26
+EVT-00118,POS-0040,Postulación enviada,Candidato,CAN-0040,2026-07-12,,Recibida,Plataforma,No,No,2026-07-12
+EVT-00119,POS-0040,Apertura,Reclutador,REC-001,2026-07-19,Recibida,Recibida,Empresa,No,No,2026-07-19
+EVT-00120,POS-0040,Recordatorio automático,Sistema,SIS-002,2026-10-27,Recibida,Recibida,Sistema,No,No,2026-10-27
+EVT-00121,POS-0041,Postulación enviada,Candidato,CAN-0041,2026-08-05,,Recibida,Plataforma,No,No,2026-08-05
+EVT-00122,POS-0041,Corrección manual,Administrador,ADM-002,2026-08-13,Recibida,Recibida,Manual,No,Sí,2026-08-13
+EVT-00123,POS-0041,Recordatorio automático,Sistema,SIS-003,2026-10-28,Recibida,Recibida,Sistema,No,No,2026-10-28
+EVT-00124,POS-0042,Postulación enviada,Candidato,CAN-0042,2026-08-29,,Recibida,Plataforma,No,No,2026-08-29
+EVT-00125,POS-0042,Apertura,Reclutador,REC-003,2026-09-07,Recibida,Recibida,Empresa,No,No,2026-09-07
+EVT-00126,POS-0042,Recordatorio automático,Sistema,SIS-004,2026-09-10,Recibida,Recibida,Sistema,No,No,2026-09-10
+EVT-00127,POS-0043,Postulación enviada,Candidato,CAN-0043,2026-07-24,,Recibida,Plataforma,No,No,2026-07-24
+EVT-00128,POS-0043,Apertura,Reclutador,REC-004,2026-08-03,Recibida,Recibida,Empresa,No,No,2026-08-03
+EVT-00129,POS-0043,Recordatorio automático,Sistema,SIS-001,2026-10-09,Recibida,Recibida,Sistema,No,No,2026-10-09
+EVT-00130,POS-0044,Postulación enviada,Candidato,CAN-0044,2026-08-17,,Recibida,Plataforma,No,No,2026-08-17
+EVT-00131,POS-0044,Apertura,Reclutador,REC-005,2026-08-28,Recibida,Recibida,Plataforma,No,No,2026-08-28
+EVT-00132,POS-0044,Recordatorio automático,Sistema,SIS-002,2026-10-10,Recibida,Recibida,Sistema,No,No,2026-10-10
+EVT-00133,POS-0045,Postulación enviada,Candidato,CAN-0045,2026-09-11,,Recibida,Plataforma,No,No,2026-09-11
+EVT-00134,POS-0045,Apertura,Reclutador,REC-006,2026-09-18,Recibida,Recibida,Empresa,No,No,2026-09-18
+EVT-00135,POS-0045,Recordatorio automático,Sistema,SIS-003,2026-10-11,Recibida,Recibida,Sistema,No,No,2026-10-11
+EVT-00136,POS-0046,Postulación enviada,Candidato,CAN-0046,2026-08-06,,Recibida,Plataforma,No,No,2026-08-06
+EVT-00137,POS-0046,Apertura,Reclutador,REC-007,2026-08-14,Recibida,Recibida,Empresa,No,No,2026-08-14
+EVT-00138,POS-0046,Recordatorio automático,Sistema,SIS-004,2026-10-12,Recibida,Recibida,Sistema,No,No,2026-10-12
+EVT-00139,POS-0047,Postulación enviada,Candidato,CAN-0047,2026-08-30,,Recibida,Plataforma,No,No,2026-08-30
+EVT-00140,POS-0047,Apertura,Reclutador,REC-008,2026-09-08,Recibida,Recibida,Plataforma,No,No,2026-09-08
+EVT-00141,POS-0047,Recordatorio automático,Sistema,SIS-001,2026-10-13,Recibida,Recibida,Sistema,No,No,2026-10-13
+EVT-00142,POS-0048,Postulación enviada,Candidato,CAN-0048,2026-09-23,,Recibida,Plataforma,No,No,2026-09-23
+EVT-00143,POS-0048,Apertura,Reclutador,REC-009,2026-10-03,Recibida,Recibida,Empresa,No,No,2026-10-03
+EVT-00144,POS-0048,Recordatorio automático,Sistema,SIS-002,2026-10-14,Recibida,Recibida,Sistema,No,No,2026-10-14
+EVT-00145,POS-0049,Postulación enviada,Candidato,CAN-0049,2026-10-17,,Recibida,Plataforma,No,No,2026-10-17
+EVT-00146,POS-0049,Apertura,Reclutador,REC-010,2026-10-17,Recibida,Recibida,Empresa,No,No,2026-10-17
+EVT-00147,POS-0049,Recordatorio automático,Sistema,SIS-003,2026-10-17,Recibida,Recibida,Sistema,No,No,2026-10-17
+EVT-00148,POS-0050,Postulación enviada,Candidato,CAN-0050,2026-09-11,,Recibida,Plataforma,No,No,2026-09-11
+EVT-00149,POS-0050,Apertura,Reclutador,REC-001,2026-09-18,Recibida,Recibida,Plataforma,No,No,2026-09-18
+EVT-00150,POS-0050,Recordatorio automático,Sistema,SIS-004,2026-10-16,Recibida,Recibida,Sistema,No,No,2026-10-16
+EVT-00151,POS-0051,Postulación enviada,Candidato,CAN-0051,2026-10-05,,Recibida,Plataforma,No,No,2026-10-05
+EVT-00152,POS-0051,Apertura,Reclutador,REC-002,2026-10-13,Recibida,Recibida,Empresa,No,No,2026-10-13
+EVT-00153,POS-0051,Recordatorio automático,Sistema,SIS-001,2026-10-17,Recibida,Recibida,Sistema,No,No,2026-10-17
+EVT-00154,POS-0052,Postulación enviada,Candidato,CAN-0052,2026-06-15,,Recibida,Plataforma,No,No,2026-06-15
+EVT-00155,POS-0052,Apertura,Reclutador,REC-003,2026-06-24,Recibida,Recibida,Empresa,No,No,2026-06-24
+EVT-00156,POS-0052,Recordatorio automático,Sistema,SIS-002,2026-10-18,Recibida,Recibida,Sistema,No,No,2026-10-18
+EVT-00157,POS-0053,Postulación enviada,Candidato,CAN-0053,2026-09-23,,Recibida,Plataforma,No,No,2026-09-23
+EVT-00158,POS-0053,Vacante cerrada,Sistema,SIS-002,2026-10-03,Recibida,Recibida,Sistema,No,Sí,2026-10-03
+EVT-00159,POS-0053,Recordatorio automático,Sistema,SIS-003,2026-10-19,Recibida,Recibida,Sistema,No,No,2026-10-19
+EVT-00160,POS-0054,Postulación enviada,Candidato,CAN-0054,2026-10-18,,Recibida,Plataforma,No,No,2026-10-18
+EVT-00161,POS-0054,Apertura,Reclutador,REC-005,2026-10-20,Recibida,Recibida,Empresa,No,No,2026-10-20
+EVT-00162,POS-0054,Recordatorio automático,Sistema,SIS-004,2026-10-20,Recibida,Recibida,Sistema,No,No,2026-10-20
+EVT-00163,POS-0055,Postulación enviada,Candidato,CAN-0055,2026-06-28,,Recibida,Plataforma,No,No,2026-06-28
+EVT-00164,POS-0055,Apertura,Reclutador,REC-006,2026-07-05,Recibida,Recibida,Empresa,No,No,2026-07-05
+EVT-00165,POS-0055,Recordatorio automático,Sistema,SIS-001,2026-10-21,Recibida,Recibida,Sistema,No,No,2026-10-21
+EVT-00166,POS-0056,Postulación enviada,Candidato,CAN-0056,2026-07-22,,Recibida,Plataforma,No,No,2026-07-22
+EVT-00167,POS-0056,Apertura,Reclutador,REC-007,2026-07-30,Recibida,Recibida,Plataforma,No,No,2026-07-30
+EVT-00168,POS-0056,Recordatorio automático,Sistema,SIS-002,2026-08-01,Recibida,Recibida,Sistema,No,No,2026-08-01
+EVT-00169,POS-0057,Postulación enviada,Candidato,CAN-0057,2026-06-16,,Recibida,Plataforma,No,No,2026-06-16
+EVT-00170,POS-0057,Apertura,Reclutador,REC-008,2026-06-25,Recibida,Recibida,Empresa,No,No,2026-06-25
+EVT-00171,POS-0057,Recordatorio automático,Sistema,SIS-003,2026-10-23,Recibida,Recibida,Sistema,No,No,2026-10-23
+EVT-00172,POS-0058,Postulación enviada,Candidato,CAN-0058,2026-07-10,,Recibida,Plataforma,No,No,2026-07-10
+EVT-00173,POS-0058,Comunicación enviada,Reclutador,REC-009,2026-07-20,Recibida,Recibida,Empresa,Sí,No,2026-07-20
+EVT-00174,POS-0058,Recordatorio automático,Sistema,SIS-004,2026-10-24,Recibida,Recibida,Sistema,No,No,2026-10-24
+EVT-00175,POS-0059,Postulación enviada,Candidato,CAN-0059,2026-08-03,,Recibida,Plataforma,No,No,2026-08-03
+EVT-00176,POS-0059,Apertura,Reclutador,REC-010,2026-08-14,Recibida,Recibida,Plataforma,No,No,2026-08-14
+EVT-00177,POS-0059,Recordatorio automático,Sistema,SIS-001,2026-10-25,Recibida,Recibida,Sistema,No,No,2026-10-25
+EVT-00178,POS-0060,Postulación enviada,Candidato,CAN-0060,2026-06-28,,Recibida,Plataforma,No,No,2026-06-28
+EVT-00179,POS-0060,Apertura,Reclutador,REC-001,2026-07-05,Recibida,Recibida,Empresa,No,No,2026-07-05
+EVT-00180,POS-0060,Recordatorio automático,Sistema,SIS-002,2026-10-26,Recibida,Recibida,Sistema,No,No,2026-10-26
+EVT-00181,POS-0061,Postulación enviada,Candidato,CAN-0061,2026-07-22,,Recibida,Plataforma,No,No,2026-07-22
+EVT-00182,POS-0061,Apertura,Reclutador,REC-002,2026-07-30,Recibida,Recibida,Empresa,No,No,2026-07-30
+EVT-00183,POS-0061,Recordatorio automático,Sistema,SIS-003,2026-10-27,Recibida,Recibida,Sistema,No,No,2026-10-27
+EVT-00184,POS-0062,Postulación enviada,Candidato,CAN-0062,2026-08-15,,Recibida,Plataforma,No,No,2026-08-15
+EVT-00185,POS-0062,Apertura,Reclutador,REC-003,2026-08-24,Recibida,Recibida,Plataforma,No,No,2026-08-24
+EVT-00186,POS-0062,Recordatorio automático,Sistema,SIS-004,2026-10-28,Recibida,Recibida,Sistema,No,No,2026-10-28
+EVT-00187,POS-0063,Postulación enviada,Candidato,CAN-0063,2026-09-09,,Recibida,Plataforma,No,No,2026-09-09
+EVT-00188,POS-0063,Apertura,Reclutador,REC-004,2026-09-19,Recibida,Recibida,Empresa,No,No,2026-09-19
+EVT-00189,POS-0063,Recordatorio automático,Sistema,SIS-001,2026-09-23,Recibida,Recibida,Sistema,No,No,2026-09-23
+EVT-00190,POS-0064,Postulación enviada,Candidato,CAN-0064,2026-08-04,,Recibida,Plataforma,No,No,2026-08-04
+EVT-00191,POS-0064,Apertura,Reclutador,REC-005,2026-08-15,Recibida,Recibida,Empresa,No,No,2026-08-15
+EVT-00192,POS-0064,Recordatorio automático,Sistema,SIS-002,2026-10-09,Recibida,Recibida,Sistema,No,No,2026-10-09
+EVT-00193,POS-0065,Postulación enviada,Candidato,CAN-0065,2026-08-28,,Recibida,Plataforma,No,No,2026-08-28
+EVT-00194,POS-0065,Apertura,Reclutador,,2026-09-04,Recibida,Recibida,Plataforma,No,Sí,2026-09-04
+EVT-00195,POS-0065,Recordatorio automático,Sistema,SIS-003,2026-10-10,Recibida,Recibida,Sistema,No,No,2026-10-10
+EVT-00196,POS-0066,Postulación enviada,Candidato,CAN-0066,2026-09-21,,Recibida,Plataforma,No,No,2026-09-21
+EVT-00197,POS-0066,Apertura,Reclutador,REC-007,2026-09-29,Recibida,Recibida,Empresa,No,No,2026-09-29
+EVT-00198,POS-0066,Recordatorio automático,Sistema,SIS-004,2026-10-11,Recibida,Recibida,Sistema,No,No,2026-10-11
+EVT-00199,POS-0067,Postulación enviada,Candidato,CAN-0067,2026-08-16,,Recibida,Plataforma,No,No,2026-08-16
+EVT-00200,POS-0067,Apertura,Reclutador,REC-008,2026-08-25,Recibida,Recibida,Empresa,No,No,2026-08-25
+EVT-00201,POS-0067,Recordatorio automático,Sistema,SIS-001,2026-10-12,Recibida,Recibida,Sistema,No,No,2026-10-12
+EVT-00202,POS-0068,Postulación enviada,Candidato,CAN-0068,2026-09-09,,Recibida,Plataforma,No,No,2026-09-09
+EVT-00203,POS-0068,Apertura,Reclutador,REC-009,2026-09-19,Recibida,Recibida,Plataforma,No,No,2026-09-19
+EVT-00204,POS-0068,Recordatorio automático,Sistema,SIS-002,2026-10-13,Recibida,Recibida,Sistema,No,No,2026-10-13
+EVT-00205,POS-0069,Postulación enviada,Candidato,CAN-0069,2026-10-03,,Recibida,Plataforma,No,No,2026-10-03
+EVT-00206,POS-0069,Apertura,Reclutador,REC-010,2026-10-14,Recibida,Recibida,Empresa,No,No,2026-10-14
+EVT-00207,POS-0069,Recordatorio automático,Sistema,SIS-003,2026-10-14,Recibida,Recibida,Sistema,No,No,2026-10-14
+EVT-00208,POS-0070,Postulación enviada,Candidato,CAN-0070,2026-06-13,,Recibida,Plataforma,No,No,2026-06-13
+EVT-00209,POS-0070,Apertura,Reclutador,REC-001,2026-06-20,Recibida,Recibida,Empresa,No,No,2026-06-20
+EVT-00210,POS-0070,Recordatorio automático,Sistema,SIS-004,2026-06-29,Recibida,Recibida,Sistema,No,No,2026-06-29
+EVT-00211,POS-0071,Postulación enviada,Candidato,CAN-0071,2026-09-21,,Recibida,Plataforma,No,No,2026-09-21
+EVT-00212,POS-0071,Apertura,Reclutador,REC-002,2026-09-29,Recibida,Recibida,Plataforma,No,No,2026-09-29
+EVT-00213,POS-0071,Recordatorio automático,Sistema,SIS-001,2026-10-16,Recibida,Recibida,Sistema,No,No,2026-10-16
+EVT-00214,POS-0072,Postulación enviada,Candidato,CAN-0072,2026-10-16,,Recibida,Plataforma,No,No,2026-10-16
+EVT-00215,POS-0072,Apertura,Reclutador,REC-003,2026-10-17,Recibida,Recibida,Empresa,No,No,2026-10-17
+EVT-00216,POS-0072,Recordatorio automático,Sistema,SIS-002,2026-10-17,Recibida,Recibida,Sistema,No,No,2026-10-17
+EVT-00217,POS-0073,Postulación enviada,Candidato,CAN-0073,2026-06-26,,Recibida,Plataforma,No,No,2026-06-26
+EVT-00218,POS-0073,Apertura,Reclutador,REC-004,2026-07-06,Recibida,Recibida,Empresa,No,No,2026-07-06
+EVT-00219,POS-0073,Recordatorio automático,Sistema,SIS-003,2026-10-18,Recibida,Recibida,Sistema,No,No,2026-10-18
+EVT-00220,POS-0074,Postulación enviada,Candidato,CAN-0074,2026-10-04,,Recibida,Plataforma,No,No,2026-10-04
+EVT-00221,POS-0074,Vacante pausada,Sistema,SIS-003,2026-10-15,Recibida,Recibida,Sistema,No,Sí,2026-10-15
+EVT-00222,POS-0074,Recordatorio automático,Sistema,SIS-004,2026-10-19,Recibida,Recibida,Sistema,No,No,2026-10-19
+EVT-00223,POS-0075,Postulación enviada,Candidato,CAN-0075,2026-06-14,,Recibida,Plataforma,No,No,2026-06-14
+EVT-00224,POS-0075,Apertura,Reclutador,REC-006,2026-06-21,Recibida,Recibida,Empresa,No,No,2026-06-21
+EVT-00225,POS-0075,Recordatorio automático,Sistema,SIS-001,2026-10-20,Recibida,Recibida,Sistema,No,No,2026-10-20
+EVT-00226,POS-0076,Postulación enviada,Candidato,CAN-0076,2026-07-08,,Recibida,Plataforma,No,No,
+EVT-00227,POS-0076,Apertura,Reclutador,REC-007,2026-07-16,Recibida,Recibida,Empresa,No,No,2026-07-16
+EVT-00228,POS-0076,Recordatorio automático,Sistema,SIS-002,2026-10-21,Recibida,Recibida,Sistema,No,No,2026-10-21
+EVT-00229,POS-0077,Postulación enviada,Candidato,CAN-0077,2026-08-01,,Recibida,Plataforma,No,No,2026-08-01
+EVT-00230,POS-0077,Apertura,Reclutador,REC-008,2026-08-10,Recibida,Recibida,Plataforma,No,No,2026-08-10
+EVT-00231,POS-0077,Recordatorio automático,Sistema,SIS-003,2026-08-16,Recibida,Recibida,Sistema,No,No,2026-08-16
+EVT-00232,POS-0078,Postulación enviada,Candidato,CAN-0078,2026-06-26,,Recibida,Plataforma,No,No,2026-06-26
+EVT-00233,POS-0078,Apertura,Reclutador,REC-009,2026-07-06,Recibida,Recibida,Empresa,No,No,2026-07-06
+EVT-00234,POS-0078,Recordatorio automático,Sistema,SIS-004,2026-10-23,Recibida,Recibida,Sistema,No,No,2026-10-23
+EVT-00235,POS-0079,Postulación enviada,Candidato,CAN-0079,2026-07-20,,Recibida,Plataforma,No,No,2026-07-20
+EVT-00236,POS-0079,Apertura,Reclutador,REC-010,2026-07-31,Recibida,Recibida,Empresa,No,No,2026-07-31
+EVT-00237,POS-0079,Recordatorio automático,Sistema,SIS-001,2026-10-24,Recibida,Recibida,Sistema,No,No,2026-10-24
+EVT-00238,POS-0080,Postulación enviada,Candidato,CAN-0080,2026-08-13,,Recibida,Plataforma,No,No,2026-08-13
+EVT-00239,POS-0080,Apertura,Reclutador,REC-001,2026-08-20,Recibida,Recibida,Plataforma,No,No,2026-08-20
+EVT-00240,POS-0080,Recordatorio automático,Sistema,SIS-002,2026-10-25,Recibida,Recibida,Sistema,No,No,2026-10-25
+EVT-00241,POS-0081,Postulación enviada,Candidato,CAN-0081,2026-07-09,,Recibida,Plataforma,No,No,2026-07-09
+EVT-00242,POS-0081,Apertura,Reclutador,REC-002,2026-07-17,Recibida,Recibida,Empresa,No,No,2026-07-17
+EVT-00243,POS-0081,Recordatorio automático,Sistema,SIS-003,2026-10-26,Recibida,Recibida,Sistema,No,No,2026-10-26
+EVT-00244,POS-0082,Postulación enviada,Candidato,CAN-0082,2026-08-02,,Recibida,Plataforma,No,No,2026-08-02
+EVT-00245,POS-0082,Corrección manual,Administrador,ADM-003,2026-08-11,Recibida,Recibida,Manual,No,Sí,2026-08-11
+EVT-00246,POS-0082,Recordatorio automático,Sistema,SIS-004,2026-10-27,Recibida,Recibida,Sistema,No,No,2026-10-27
+EVT-00247,POS-0083,Postulación enviada,Candidato,CAN-0083,2026-08-26,,Recibida,Plataforma,No,No,2026-08-26
+EVT-00248,POS-0083,Apertura,Reclutador,REC-004,2026-09-05,Recibida,Recibida,Plataforma,No,No,2026-09-05
+EVT-00249,POS-0083,Recordatorio automático,Sistema,SIS-001,2026-09-08,Recibida,Recibida,Sistema,No,No,2026-09-08
+EVT-00250,POS-0084,Postulación enviada,Candidato,CAN-0084,2026-09-19,,Recibida,Plataforma,No,No,2026-09-19
+EVT-00251,POS-0084,Apertura,Reclutador,REC-005,2026-09-23,Recibida,Recibida,Empresa,No,No,2026-09-23
+EVT-00252,POS-0084,Recordatorio automático,Sistema,SIS-002,2026-09-23,Recibida,Recibida,Sistema,No,No,2026-09-23
+EVT-00253,POS-0085,Postulación enviada,Candidato,CAN-0085,2026-08-14,,Recibida,Plataforma,No,No,2026-08-14
+EVT-00254,POS-0085,Apertura,Reclutador,REC-006,2026-08-21,Recibida,Recibida,Empresa,No,No,2026-08-21
+EVT-00255,POS-0085,Recordatorio automático,Sistema,SIS-003,2026-10-09,Recibida,Recibida,Sistema,No,No,2026-10-09
+EVT-00256,POS-0086,Postulación enviada,Candidato,CAN-0086,2026-09-07,,Recibida,Plataforma,No,No,2026-09-07
+EVT-00257,POS-0086,Apertura,Reclutador,REC-007,2026-09-15,Recibida,Recibida,Plataforma,No,No,2026-09-15
+EVT-00258,POS-0086,Recordatorio automático,Sistema,SIS-004,2026-10-10,Recibida,Recibida,Sistema,No,No,2026-10-10
+EVT-00259,POS-0087,Postulación enviada,Candidato,CAN-0087,2026-10-01,,Recibida,Plataforma,No,No,2026-10-01
+EVT-00260,POS-0087,Comunicación enviada,Reclutador,REC-008,2026-10-10,Recibida,Recibida,Empresa,Sí,No,2026-10-10
+EVT-00261,POS-0087,Recordatorio automático,Sistema,SIS-001,2026-10-11,Recibida,Recibida,Sistema,No,No,2026-10-11
+EVT-00262,POS-0088,Postulación enviada,Candidato,CAN-0088,2026-08-26,,Recibida,Plataforma,No,No,2026-08-26
+EVT-00263,POS-0088,Apertura,Reclutador,REC-009,2026-09-05,Recibida,Recibida,Empresa,No,No,2026-09-05
+EVT-00264,POS-0088,Recordatorio automático,Sistema,SIS-002,2026-10-12,Recibida,Recibida,Sistema,No,No,2026-10-12
+EVT-00265,POS-0089,Postulación enviada,Candidato,CAN-0089,2026-09-19,,Recibida,Plataforma,No,No,2026-09-19
+EVT-00266,POS-0089,Apertura,Reclutador,REC-010,2026-09-30,Recibida,Recibida,Plataforma,No,No,2026-09-30
+EVT-00267,POS-0089,Recordatorio automático,Sistema,SIS-003,2026-10-13,Recibida,Recibida,Sistema,No,No,2026-10-13
+EVT-00268,POS-0090,Postulación enviada,Candidato,CAN-0090,2026-10-14,,Recibida,Plataforma,No,No,2026-10-14
+EVT-00269,POS-0090,Apertura,Reclutador,REC-001,2026-10-14,Recibida,Recibida,Empresa,No,No,2026-10-14
+EVT-00270,POS-0090,Recordatorio automático,Sistema,SIS-004,2026-10-14,Recibida,Recibida,Sistema,No,No,2026-10-14
+EVT-00271,POS-0091,Postulación enviada,Candidato,CAN-0091,2026-06-24,,Recibida,Plataforma,No,No,2026-06-24
+EVT-00272,POS-0091,Apertura,Reclutador,REC-002,2026-07-02,Recibida,Recibida,Empresa,No,No,2026-07-02
+EVT-00273,POS-0091,Recordatorio automático,Sistema,SIS-001,2026-07-07,Recibida,Recibida,Sistema,No,No,2026-07-07
+EVT-00274,POS-0092,Postulación enviada,Candidato,CAN-0092,2026-10-02,,Recibida,Plataforma,No,No,2026-10-02
+EVT-00275,POS-0092,Apertura,Reclutador,REC-003,2026-10-11,Recibida,Recibida,Plataforma,No,No,2026-10-11
+EVT-00276,POS-0092,Recordatorio automático,Sistema,SIS-002,2026-10-16,Recibida,Recibida,Sistema,No,No,2026-10-16
+EVT-00277,POS-0093,Postulación enviada,Candidato,CAN-0093,2026-06-12,,Recibida,Plataforma,No,No,2026-06-12
+EVT-00278,POS-0093,Apertura,Reclutador,REC-004,2026-06-22,Recibida,Recibida,Empresa,No,No,2026-06-22
+EVT-00279,POS-0093,Recordatorio automático,Sistema,SIS-003,2026-10-17,Recibida,Recibida,Sistema,No,No,2026-10-17
+EVT-00280,POS-0094,Postulación enviada,Candidato,CAN-0094,2026-07-06,,Recibida,Plataforma,No,No,2026-07-06
+EVT-00281,POS-0094,Apertura,Reclutador,REC-005,2026-07-17,Recibida,Recibida,Empresa,No,No,2026-07-17
+EVT-00282,POS-0094,Recordatorio automático,Sistema,SIS-004,2026-10-18,Recibida,Recibida,Sistema,No,No,2026-10-18
+EVT-00283,POS-0095,Postulación enviada,Candidato,CAN-0095,2026-10-14,,Recibida,Plataforma,No,No,2026-10-14
+EVT-00284,POS-0095,Apertura,Reclutador,REC-006,2026-10-19,Recibida,Recibida,Plataforma,No,No,2026-10-19
+EVT-00285,POS-0095,Recordatorio automático,Sistema,SIS-001,2026-10-19,Recibida,Recibida,Sistema,No,No,2026-10-19
+EVT-00286,POS-0096,Postulación enviada,Candidato,CAN-0096,2026-06-24,,Recibida,Plataforma,No,No,2026-06-24
+EVT-00287,POS-0096,Apertura,Reclutador,REC-007,2026-07-02,Recibida,Recibida,Empresa,No,No,2026-07-02
+EVT-00288,POS-0096,Recordatorio automático,Sistema,SIS-002,2026-10-20,Recibida,Recibida,Sistema,No,No,2026-10-20
+EVT-00289,POS-0097,Postulación enviada,Candidato,CAN-0097,2026-07-18,,Recibida,Plataforma,No,No,2026-07-18
+EVT-00290,POS-0097,Apertura,Reclutador,REC-008,2026-07-27,Recibida,Recibida,Empresa,No,No,2026-07-27
+EVT-00291,POS-0097,Recordatorio automático,Sistema,,2026-10-21,Recibida,Recibida,Sistema,No,Sí,2026-10-21
+EVT-00292,POS-0098,Postulación enviada,Candidato,CAN-0098,2026-08-11,,Recibida,Plataforma,No,No,2026-08-11
+EVT-00293,POS-0098,Apertura,Reclutador,REC-009,2026-08-21,Recibida,Recibida,Plataforma,No,No,2026-08-21
+EVT-00294,POS-0098,Recordatorio automático,Sistema,SIS-004,2026-08-23,Recibida,Recibida,Sistema,No,No,2026-08-23
+EVT-00295,POS-0099,Postulación enviada,Candidato,CAN-0099,2026-07-07,,Recibida,Plataforma,No,No,2026-07-07
+EVT-00296,POS-0099,Apertura,Reclutador,REC-010,2026-07-18,Recibida,Recibida,Empresa,No,No,2026-07-18
+EVT-00297,POS-0099,Recordatorio automático,Sistema,SIS-001,2026-10-23,Recibida,Recibida,Sistema,No,No,2026-10-23
+EVT-00298,POS-0100,Postulación enviada,Candidato,CAN-0100,2026-07-31,,Recibida,Plataforma,No,No,2026-07-31
+EVT-00299,POS-0100,Apertura,Reclutador,REC-001,2026-08-07,Recibida,Recibida,Empresa,No,No,2026-08-07
+EVT-00300,POS-0100,Recordatorio automático,Sistema,SIS-002,2026-10-24,Recibida,Recibida,Sistema,No,No,2026-10-24
+EVT-00301,POS-0101,Postulación enviada,Candidato,CAN-0101,2026-08-24,,Recibida,Plataforma,No,No,2026-08-24
+EVT-00302,POS-0101,Apertura,Reclutador,REC-002,2026-09-01,Recibida,Recibida,Plataforma,No,No,2026-09-01
+EVT-00303,POS-0101,Recordatorio automático,Sistema,SIS-003,2026-10-25,Recibida,Recibida,Sistema,No,No,2026-10-25
+EVT-00304,POS-0102,Postulación enviada,Candidato,CAN-0102,2026-07-19,,Recibida,Plataforma,No,No,2026-07-19
+EVT-00305,POS-0102,Apertura,Reclutador,REC-003,2026-07-28,Recibida,Recibida,Empresa,No,No,2026-07-28
+EVT-00306,POS-0102,Recordatorio automático,Sistema,SIS-004,2026-10-26,Recibida,Recibida,Sistema,No,No,2026-10-26
+EVT-00307,POS-0103,Postulación enviada,Candidato,CAN-0103,2026-08-12,,Recibida,Plataforma,No,No,2026-08-12
+EVT-00308,POS-0103,Apertura,Reclutador,REC-004,2026-08-22,Recibida,Recibida,Empresa,No,No,2026-08-22
+EVT-00309,POS-0103,Recordatorio automático,Sistema,SIS-001,2026-10-27,Recibida,Recibida,Sistema,No,No,2026-10-27
+EVT-00310,POS-0104,Postulación enviada,Candidato,CAN-0104,2026-09-05,,Recibida,Plataforma,No,No,2026-09-05
+EVT-00311,POS-0104,Apertura,Reclutador,REC-005,2026-09-16,Recibida,Recibida,Plataforma,No,No,2026-09-16
+EVT-00312,POS-0104,Recordatorio automático,Sistema,SIS-002,2026-10-28,Recibida,Recibida,Sistema,No,No,2026-10-28
+EVT-00313,POS-0105,Postulación enviada,Candidato,CAN-0105,2026-09-29,,Recibida,Plataforma,No,No,2026-09-29
+EVT-00314,POS-0105,Apertura,Reclutador,REC-006,2026-09-29,Recibida,Recibida,Empresa,No,No,2026-09-29
+EVT-00315,POS-0105,Recordatorio automático,Sistema,SIS-003,2026-09-29,Recibida,Recibida,Sistema,No,No,2026-09-29
+EVT-00316,POS-0106,Postulación enviada,Candidato,CAN-0106,2026-08-24,,Recibida,Plataforma,No,No,2026-08-24
+EVT-00317,POS-0106,Vacante cerrada,Sistema,SIS-003,2026-09-01,Recibida,Recibida,Sistema,No,Sí,2026-09-01
+EVT-00318,POS-0106,Recordatorio automático,Sistema,SIS-004,2026-10-09,Recibida,Recibida,Sistema,No,No,2026-10-09
+EVT-00319,POS-0107,Postulación enviada,Candidato,CAN-0107,2026-09-17,,Recibida,Plataforma,No,No,2026-09-17
+EVT-00320,POS-0107,Apertura,Reclutador,REC-008,2026-09-26,Recibida,Recibida,Plataforma,No,No,2026-09-26
+EVT-00321,POS-0107,Recordatorio automático,Sistema,SIS-001,2026-10-10,Recibida,Recibida,Sistema,No,No,2026-10-10
+EVT-00322,POS-0108,Postulación enviada,Candidato,CAN-0108,2026-10-12,,Recibida,Plataforma,No,No,2026-10-12
+EVT-00323,POS-0108,Apertura,Reclutador,REC-009,2026-10-12,Recibida,Recibida,Empresa,No,No,2026-10-12
+EVT-00324,POS-0108,Recordatorio automático,Sistema,SIS-002,2026-10-12,Recibida,Recibida,Sistema,No,No,2026-10-12
+EVT-00325,POS-0109,Postulación enviada,Candidato,CAN-0109,2026-09-06,,Recibida,Plataforma,No,No,2026-09-06
+EVT-00326,POS-0109,Apertura,Reclutador,REC-010,2026-09-17,Recibida,Recibida,Empresa,No,No,2026-09-17
+EVT-00327,POS-0109,Recordatorio automático,Sistema,SIS-003,2026-10-12,Recibida,Recibida,Sistema,No,No,2026-10-12
+EVT-00328,POS-0110,Postulación enviada,Candidato,CAN-0110,2026-09-30,,Recibida,Plataforma,No,No,2026-09-30
+EVT-00329,POS-0110,Apertura,Reclutador,REC-001,2026-10-07,Recibida,Recibida,Plataforma,No,No,2026-10-07
+EVT-00330,POS-0110,Recordatorio automático,Sistema,SIS-004,2026-10-13,Recibida,Recibida,Sistema,No,No,2026-10-13
+EVT-00331,POS-0111,Postulación enviada,Candidato,CAN-0111,2026-06-10,,Recibida,Plataforma,No,No,2026-06-10
+EVT-00332,POS-0111,Vacante pausada,Sistema,SIS-004,2026-06-18,Recibida,Recibida,Sistema,No,Sí,2026-06-18
+EVT-00333,POS-0111,Revisión,Reclutador,REC-003,2026-10-14,Recibida,En revisión,Empresa,No,No,2026-10-14
+EVT-00334,POS-0112,Postulación enviada,Candidato,CAN-0112,2026-07-04,,Recibida,Plataforma,No,No,2026-07-04
+EVT-00335,POS-0112,Apertura,Reclutador,REC-003,2026-07-13,Recibida,Recibida,Empresa,No,No,2026-07-13
+EVT-00336,POS-0112,Revisión,Reclutador,REC-004,2026-07-14,Recibida,En revisión,Plataforma,No,No,2026-07-14
+EVT-00337,POS-0113,Postulación enviada,Candidato,CAN-0113,2026-10-12,,Recibida,Plataforma,No,No,2026-10-12
+EVT-00338,POS-0113,Apertura,Reclutador,REC-004,2026-10-16,Recibida,Recibida,Plataforma,No,No,2026-10-16
+EVT-00339,POS-0113,Revisión,Reclutador,REC-005,2026-10-16,Recibida,En revisión,Empresa,No,No,
+EVT-00340,POS-0114,Postulación enviada,Candidato,CAN-0114,2026-06-22,,Recibida,Plataforma,No,No,2026-06-22
+EVT-00341,POS-0114,Apertura,Reclutador,REC-005,2026-07-03,Recibida,Recibida,Empresa,No,No,2026-07-03
+EVT-00342,POS-0114,Revisión,Reclutador,REC-006,2026-10-17,Recibida,En revisión,Empresa,No,No,2026-10-17
+EVT-00343,POS-0115,Postulación enviada,Candidato,CAN-0115,2026-07-16,,Recibida,Plataforma,No,No,2026-07-16
+EVT-00344,POS-0115,Apertura,Reclutador,REC-006,2026-07-23,Recibida,Recibida,Empresa,No,No,2026-07-23
+EVT-00345,POS-0115,Revisión,Reclutador,REC-007,2026-10-18,Recibida,En revisión,Plataforma,No,No,2026-10-18
+EVT-00346,POS-0116,Postulación enviada,Candidato,CAN-0116,2026-06-10,,Recibida,Plataforma,No,No,2026-06-10
+EVT-00347,POS-0116,Comunicación enviada,Reclutador,REC-007,2026-06-18,Recibida,Recibida,Empresa,Sí,No,2026-06-18
+EVT-00348,POS-0116,Revisión,Reclutador,REC-008,2026-10-19,Recibida,En revisión,Empresa,No,No,2026-10-19
+EVT-00349,POS-0117,Postulación enviada,Candidato,CAN-0117,2026-07-05,,Recibida,Plataforma,No,No,2026-07-05
+EVT-00350,POS-0117,Apertura,Reclutador,REC-008,2026-07-14,Recibida,Recibida,Empresa,No,No,2026-07-14
+EVT-00351,POS-0117,Revisión,Reclutador,REC-009,2026-10-20,Recibida,En revisión,Empresa,No,No,2026-10-20
+EVT-00352,POS-0118,Postulación enviada,Candidato,CAN-0118,2026-07-29,,Recibida,Plataforma,No,No,2026-07-29
+EVT-00353,POS-0118,Apertura,Reclutador,REC-009,2026-08-08,Recibida,Recibida,Empresa,No,No,2026-08-08
+EVT-00354,POS-0118,Revisión,Reclutador,REC-010,2026-10-21,Recibida,En revisión,Plataforma,No,No,2026-10-21
+EVT-00355,POS-0119,Postulación enviada,Candidato,CAN-0119,2026-08-22,,Recibida,Plataforma,No,No,2026-08-22
+EVT-00356,POS-0119,Apertura,Reclutador,REC-010,2026-09-02,Recibida,Recibida,Plataforma,No,No,2026-09-02
+EVT-00357,POS-0119,Revisión,Reclutador,REC-001,2026-09-08,Recibida,En revisión,Empresa,No,No,2026-09-08
+EVT-00358,POS-0120,Postulación enviada,Candidato,CAN-0120,2026-07-17,,Recibida,Plataforma,No,No,2026-07-17
+EVT-00359,POS-0120,Apertura,Reclutador,REC-001,2026-07-24,Recibida,Recibida,Empresa,No,No,2026-07-24
+EVT-00360,POS-0120,Revisión,Reclutador,REC-002,2026-10-23,Recibida,En revisión,Empresa,No,No,2026-10-23
+EVT-00361,POS-0121,Postulación enviada,Candidato,CAN-0121,2026-08-10,,Recibida,Plataforma,No,No,2026-08-10
+EVT-00362,POS-0121,Apertura,Reclutador,REC-002,2026-08-18,Recibida,Recibida,Empresa,No,No,2026-08-18
+EVT-00363,POS-0121,Revisión,Reclutador,REC-003,2026-10-24,Recibida,En revisión,Plataforma,No,No,2026-10-24
+EVT-00364,POS-0122,Postulación enviada,Candidato,CAN-0122,2026-09-03,,Recibida,Plataforma,No,No,2026-09-03
+EVT-00365,POS-0122,Apertura,Reclutador,REC-003,2026-09-12,Recibida,Recibida,Plataforma,No,No,2026-09-12
+EVT-00366,POS-0122,Revisión,Reclutador,REC-004,2026-10-25,Recibida,En revisión,Empresa,No,No,2026-10-25
+EVT-00367,POS-0123,Postulación enviada,Candidato,CAN-0123,2026-07-29,,Recibida,Plataforma,No,No,2026-07-29
+EVT-00368,POS-0123,Corrección manual,Administrador,ADM-004,2026-08-08,Recibida,Recibida,Manual,No,Sí,2026-08-08
+EVT-00369,POS-0123,Revisión,Reclutador,REC-005,2026-10-26,Recibida,En revisión,Empresa,No,No,2026-10-26
+EVT-00370,POS-0124,Postulación enviada,Candidato,CAN-0124,2026-08-22,,Recibida,Plataforma,No,No,2026-08-22
+EVT-00371,POS-0124,Apertura,Reclutador,REC-005,2026-09-02,Recibida,Recibida,Empresa,No,No,2026-09-02
+EVT-00372,POS-0124,Revisión,Reclutador,REC-006,2026-10-27,Recibida,En revisión,Plataforma,No,No,2026-10-27
+EVT-00373,POS-0125,Postulación enviada,Candidato,CAN-0125,2026-09-15,,Recibida,Plataforma,No,No,2026-09-15
+EVT-00374,POS-0125,Apertura,Reclutador,REC-006,2026-09-22,Recibida,Recibida,Plataforma,No,No,2026-09-22
+EVT-00375,POS-0125,Revisión,Reclutador,REC-007,2026-10-28,Recibida,En revisión,Empresa,No,No,2026-10-28
+EVT-00376,POS-0126,Postulación enviada,Candidato,CAN-0126,2026-10-10,,Recibida,Plataforma,No,No,2026-10-10
+EVT-00377,POS-0126,Apertura,Reclutador,REC-007,2026-10-10,Recibida,Recibida,Empresa,No,No,2026-10-10
+EVT-00378,POS-0126,Revisión,Reclutador,REC-008,2026-10-10,Recibida,En revisión,Empresa,No,No,2026-10-10
+EVT-00379,POS-0127,Postulación enviada,Candidato,CAN-0127,2026-09-04,,Recibida,Plataforma,No,No,2026-09-04
+EVT-00380,POS-0127,Apertura,Reclutador,REC-008,2026-09-13,Recibida,Recibida,Empresa,No,No,2026-09-13
+EVT-00381,POS-0127,Revisión,Reclutador,REC-009,2026-10-09,Recibida,En revisión,Plataforma,No,No,2026-10-09
+EVT-00382,POS-0128,Postulación enviada,Candidato,CAN-0128,2026-09-28,,Recibida,Plataforma,No,No,2026-09-28
+EVT-00383,POS-0128,Apertura,Reclutador,REC-009,2026-10-08,Recibida,Recibida,Plataforma,No,No,2026-10-08
+EVT-00384,POS-0128,Revisión,Reclutador,REC-010,2026-10-10,Recibida,En revisión,Empresa,No,No,2026-10-10
+EVT-00385,POS-0129,Postulación enviada,Candidato,CAN-0129,2026-10-22,,Recibida,Plataforma,No,No,2026-10-22
+EVT-00386,POS-0129,Apertura,Reclutador,REC-010,2026-10-22,Recibida,Recibida,Empresa,No,No,2026-10-22
+EVT-00387,POS-0129,Revisión,Reclutador,REC-001,2026-10-22,Recibida,En revisión,Empresa,No,No,2026-10-22
+EVT-00388,POS-0130,Postulación enviada,Candidato,,2026-09-16,,Recibida,Plataforma,No,Sí,2026-09-16
+EVT-00389,POS-0130,Apertura,Reclutador,REC-001,2026-09-23,Recibida,Recibida,Empresa,No,No,2026-09-23
+EVT-00390,POS-0130,Revisión,Reclutador,REC-002,2026-10-12,Recibida,En revisión,Plataforma,No,No,2026-10-12
+EVT-00391,POS-0131,Postulación enviada,Candidato,CAN-0131,2026-10-10,,Recibida,Plataforma,No,No,2026-10-10
+EVT-00392,POS-0131,Apertura,Reclutador,REC-002,2026-10-13,Recibida,Recibida,Plataforma,No,No,2026-10-13
+EVT-00393,POS-0131,Revisión,Reclutador,REC-003,2026-10-13,Recibida,En revisión,Empresa,No,No,2026-10-13
+EVT-00394,POS-0132,Postulación enviada,Candidato,CAN-0132,2026-06-20,,Recibida,Plataforma,No,No,2026-06-20
+EVT-00395,POS-0132,Apertura,Reclutador,REC-003,2026-06-29,Recibida,Recibida,Empresa,No,No,2026-06-29
+EVT-00396,POS-0132,Revisión,Reclutador,REC-004,2026-10-14,Recibida,En revisión,Empresa,No,No,2026-10-14
+EVT-00397,POS-0133,Postulación enviada,Candidato,CAN-0133,2026-07-14,,Recibida,Plataforma,No,No,2026-07-14
+EVT-00398,POS-0133,Apertura,Reclutador,REC-004,2026-07-24,Recibida,Recibida,Empresa,No,No,2026-07-24
+EVT-00399,POS-0133,Revisión,Reclutador,REC-005,2026-07-29,Recibida,En revisión,Plataforma,No,No,2026-07-29
+EVT-00400,POS-0134,Postulación enviada,Candidato,CAN-0134,2026-10-22,,Recibida,Plataforma,No,No,2026-10-22
+EVT-00401,POS-0134,Apertura,Reclutador,REC-005,2026-10-22,Recibida,Recibida,Plataforma,No,No,2026-10-22
+EVT-00402,POS-0134,Revisión,Reclutador,REC-006,2026-10-22,Recibida,En revisión,Empresa,No,No,2026-10-22
+EVT-00403,POS-0135,Postulación enviada,Candidato,CAN-0135,2026-07-03,,Recibida,Plataforma,No,No,2026-07-03
+EVT-00404,POS-0135,Apertura,Reclutador,REC-006,2026-07-10,Recibida,Recibida,Empresa,No,No,2026-07-10
+EVT-00405,POS-0135,Revisión,Reclutador,REC-007,2026-10-17,Recibida,En revisión,Empresa,No,No,2026-10-17
+EVT-00406,POS-0136,Postulación enviada,Candidato,CAN-0136,2026-07-27,,Recibida,Plataforma,No,No,2026-07-27
+EVT-00407,POS-0136,Apertura,Reclutador,REC-007,2026-08-04,Recibida,Recibida,Empresa,No,No,2026-08-04
+EVT-00408,POS-0136,Revisión,Reclutador,REC-008,2026-10-18,Recibida,En revisión,Plataforma,No,No,2026-10-18
+EVT-00409,POS-0137,Postulación enviada,Candidato,CAN-0137,2026-06-21,,Recibida,Plataforma,No,No,2026-06-21
+EVT-00410,POS-0137,Apertura,Reclutador,REC-008,2026-06-30,Recibida,Recibida,Plataforma,No,No,2026-06-30
+EVT-00411,POS-0137,Revisión,Reclutador,REC-009,2026-10-19,Recibida,En revisión,Empresa,No,No,2026-10-19
+EVT-00412,POS-0138,Postulación enviada,Candidato,CAN-0138,2026-07-15,,Recibida,Plataforma,No,No,2026-07-15
+EVT-00413,POS-0138,Apertura,Reclutador,REC-009,2026-07-25,Recibida,Recibida,Empresa,No,No,2026-07-25
+EVT-00414,POS-0138,Revisión,Reclutador,REC-010,2026-10-20,Recibida,En revisión,Empresa,No,No,2026-10-20
+EVT-00415,POS-0139,Postulación enviada,Candidato,CAN-0139,2026-08-08,,Recibida,Plataforma,No,No,2026-08-08
+EVT-00416,POS-0139,Apertura,Reclutador,REC-010,2026-08-19,Recibida,Recibida,Empresa,No,No,2026-08-19
+EVT-00417,POS-0139,Revisión,Reclutador,REC-001,2026-10-21,Recibida,En revisión,Plataforma,No,No,2026-10-21
+EVT-00418,POS-0140,Postulación enviada,Candidato,CAN-0140,2026-09-01,,Recibida,Plataforma,No,No,2026-09-01
+EVT-00419,POS-0140,Apertura,Reclutador,REC-001,2026-09-08,Recibida,Recibida,Plataforma,No,No,2026-09-08
+EVT-00420,POS-0140,Revisión,Reclutador,REC-002,2026-09-15,Recibida,En revisión,Empresa,No,No,2026-09-15
+EVT-00421,POS-0141,Postulación enviada,Candidato,CAN-0141,2026-07-27,,Recibida,Plataforma,No,No,2026-07-27
+EVT-00422,POS-0141,Apertura,Reclutador,REC-002,2026-08-04,Recibida,Recibida,Empresa,No,No,2026-08-04
+EVT-00423,POS-0141,Revisión,Reclutador,REC-003,2026-10-23,Recibida,En revisión,Empresa,No,No,2026-10-23
+EVT-00424,POS-0142,Postulación enviada,Candidato,CAN-0142,2026-08-20,,Recibida,Plataforma,No,No,2026-08-20
+EVT-00425,POS-0142,Apertura,Reclutador,REC-003,2026-08-29,Recibida,Recibida,Empresa,No,No,2026-08-29
+EVT-00426,POS-0142,Revisión,Reclutador,REC-004,2026-10-24,Recibida,En revisión,Plataforma,No,No,2026-10-24
+EVT-00427,POS-0143,Postulación enviada,Candidato,CAN-0143,2026-09-13,,Recibida,Plataforma,No,No,2026-09-13
+EVT-00428,POS-0143,Apertura,Reclutador,REC-004,2026-09-23,Recibida,Recibida,Plataforma,No,No,2026-09-23
+EVT-00429,POS-0143,Revisión,Reclutador,REC-005,2026-10-25,Recibida,En revisión,Empresa,No,No,2026-10-25
+EVT-00430,POS-0144,Postulación enviada,Candidato,CAN-0144,2026-08-09,,Recibida,Plataforma,No,No,2026-08-09
+EVT-00431,POS-0144,Apertura,Reclutador,REC-005,2026-08-20,Recibida,Recibida,Empresa,No,No,2026-08-20
+EVT-00432,POS-0144,Revisión,Reclutador,REC-006,2026-10-26,Recibida,En revisión,Empresa,No,No,2026-10-26
+EVT-00433,POS-0145,Postulación enviada,Candidato,CAN-0145,2026-09-02,,Recibida,Plataforma,No,No,2026-09-02
+EVT-00434,POS-0145,Comunicación enviada,Reclutador,REC-006,2026-09-09,Recibida,Recibida,Empresa,Sí,No,2026-09-09
+EVT-00435,POS-0145,Revisión,Reclutador,REC-007,2026-10-27,Recibida,En revisión,Plataforma,No,No,2026-10-27
+EVT-00436,POS-0146,Postulación enviada,Candidato,CAN-0146,2026-09-26,,Recibida,Plataforma,No,No,2026-09-26
+EVT-00437,POS-0146,Apertura,Reclutador,REC-007,2026-10-04,Recibida,Recibida,Plataforma,No,No,2026-10-04
+EVT-00438,POS-0146,Revisión,Reclutador,REC-008,2026-10-28,Recibida,En revisión,Empresa,No,No,2026-10-28
+EVT-00439,POS-0147,Postulación enviada,Candidato,CAN-0147,2026-10-20,,Recibida,Plataforma,No,No,2026-10-20
+EVT-00440,POS-0147,Apertura,Reclutador,REC-008,2026-10-20,Recibida,Recibida,Empresa,No,No,2026-10-20
+EVT-00441,POS-0147,Revisión,Reclutador,REC-009,2026-10-20,Recibida,En revisión,Empresa,No,No,2026-10-20
+EVT-00442,POS-0148,Postulación enviada,Candidato,CAN-0148,2026-09-14,,Recibida,Plataforma,No,No,2026-09-14
+EVT-00443,POS-0148,Vacante pausada,Sistema,SIS-001,2026-09-24,Recibida,Recibida,Sistema,No,Sí,2026-09-24
+EVT-00444,POS-0148,Revisión,Reclutador,REC-010,2026-10-09,Recibida,En revisión,Plataforma,No,No,2026-10-09
+EVT-00445,POS-0149,Postulación enviada,Candidato,CAN-0149,2026-10-08,,Recibida,Plataforma,No,No,2026-10-08
+EVT-00446,POS-0149,Apertura,Reclutador,REC-010,2026-10-19,Recibida,Recibida,Plataforma,No,No,2026-10-19
+EVT-00447,POS-0149,Revisión,Reclutador,REC-001,2026-10-27,Recibida,En revisión,Empresa,No,No,2026-10-27
+EVT-00448,POS-0150,Postulación enviada,Candidato,CAN-0150,2026-06-18,,Recibida,Plataforma,No,No,2026-06-18
+EVT-00449,POS-0150,Apertura,Reclutador,REC-001,2026-06-25,Recibida,Recibida,Empresa,No,No,2026-06-25
+EVT-00450,POS-0150,Revisión,Reclutador,REC-002,2026-10-11,Recibida,En revisión,Empresa,No,No,2026-10-11
+EVT-00451,POS-0151,Postulación enviada,Candidato,CAN-0151,2026-09-26,,Recibida,Plataforma,No,No,2026-09-26
+EVT-00452,POS-0151,Apertura,Reclutador,REC-002,2026-10-04,Recibida,Recibida,Empresa,No,No,
+EVT-00453,POS-0151,Revisión,Reclutador,REC-003,2026-10-12,Recibida,En revisión,Plataforma,No,No,2026-10-12
+EVT-00454,POS-0152,Postulación enviada,Candidato,CAN-0152,2026-10-20,,Recibida,Plataforma,No,No,2026-10-20
+EVT-00455,POS-0152,Apertura,Reclutador,REC-003,2026-10-20,Recibida,Recibida,Plataforma,No,No,2026-10-20
+EVT-00456,POS-0152,Revisión,Reclutador,REC-004,2026-10-20,Recibida,En revisión,Empresa,No,No,2026-10-20
+EVT-00457,POS-0153,Postulación enviada,Candidato,CAN-0153,2026-07-01,,Recibida,Plataforma,No,No,2026-07-01
+EVT-00458,POS-0153,Apertura,Reclutador,REC-004,2026-07-11,Recibida,Recibida,Empresa,No,No,2026-07-11
+EVT-00459,POS-0153,Revisión,Reclutador,REC-005,2026-10-14,Recibida,En revisión,Empresa,No,No,2026-10-14
+EVT-00460,POS-0154,Postulación enviada,Candidato,CAN-0154,2026-07-25,,Recibida,Plataforma,No,No,2026-07-25
+EVT-00461,POS-0154,Apertura,Reclutador,REC-005,2026-08-05,Recibida,Recibida,Empresa,No,No,2026-08-05
+EVT-00462,POS-0154,Revisión,Reclutador,REC-006,2026-08-06,Recibida,En revisión,Plataforma,No,No,2026-08-06
+EVT-00463,POS-0155,Postulación enviada,Candidato,CAN-0155,2026-06-19,,Recibida,Plataforma,No,No,2026-06-19
+EVT-00464,POS-0155,Apertura,Reclutador,REC-006,2026-06-26,Recibida,Recibida,Plataforma,No,No,2026-06-26
+EVT-00465,POS-0155,Revisión,Reclutador,REC-007,2026-10-16,Recibida,En revisión,Empresa,No,No,2026-10-16
+EVT-00466,POS-0156,Postulación enviada,Candidato,CAN-0156,2026-07-13,,Recibida,Plataforma,No,No,2026-07-13
+EVT-00467,POS-0156,Apertura,Reclutador,REC-007,2026-07-21,Recibida,Recibida,Empresa,No,No,2026-07-21
+EVT-00468,POS-0156,Revisión,Reclutador,REC-008,2026-10-17,Recibida,En revisión,Empresa,No,No,2026-10-17
+EVT-00469,POS-0157,Postulación enviada,Candidato,CAN-0157,2026-08-06,,Recibida,Plataforma,No,No,2026-08-06
+EVT-00470,POS-0157,Apertura,Reclutador,REC-008,2026-08-15,Recibida,Recibida,Empresa,No,No,2026-08-15
+EVT-00471,POS-0157,Revisión,Reclutador,REC-009,2026-10-18,Recibida,En revisión,Plataforma,No,No,2026-10-18
+EVT-00472,POS-0158,Postulación enviada,Candidato,CAN-0158,2026-07-01,,Recibida,Plataforma,No,No,2026-07-01
+EVT-00473,POS-0158,Apertura,Reclutador,REC-009,2026-07-11,Recibida,Recibida,Plataforma,No,No,2026-07-11
+EVT-00474,POS-0158,Revisión,Reclutador,REC-010,2026-10-19,Recibida,En revisión,Empresa,No,No,2026-10-19
+EVT-00475,POS-0159,Postulación enviada,Candidato,CAN-0159,2026-07-25,,Recibida,Plataforma,No,No,2026-07-25
+EVT-00476,POS-0159,Vacante cerrada,Sistema,SIS-004,2026-08-05,Recibida,Recibida,Sistema,No,Sí,2026-08-05
+EVT-00477,POS-0159,Revisión,Reclutador,REC-001,2026-10-20,Recibida,En revisión,Empresa,No,No,2026-10-20
+EVT-00478,POS-0160,Postulación enviada,Candidato,CAN-0160,2026-08-18,,Recibida,Plataforma,No,No,2026-08-18
+EVT-00479,POS-0160,Apertura,Reclutador,REC-001,2026-08-25,Recibida,Recibida,Empresa,No,No,2026-08-25
+EVT-00480,POS-0160,Revisión,Reclutador,REC-002,2026-10-21,Recibida,En revisión,Plataforma,No,No,2026-10-21
+EVT-00481,POS-0161,Postulación enviada,Candidato,CAN-0161,2026-09-11,,Recibida,Plataforma,No,No,2026-09-11
+EVT-00482,POS-0161,Apertura,Reclutador,REC-002,2026-09-19,Recibida,Recibida,Plataforma,No,No,2026-09-19
+EVT-00483,POS-0161,Revisión,Reclutador,REC-003,2026-09-22,Recibida,En revisión,Empresa,No,No,2026-09-22
+EVT-00484,POS-0162,Postulación enviada,Candidato,CAN-0162,2026-08-07,,Recibida,Plataforma,No,No,2026-08-07
+EVT-00485,POS-0162,Apertura,Reclutador,,2026-08-16,Recibida,Recibida,Empresa,No,Sí,2026-08-16
+EVT-00486,POS-0162,Revisión,Reclutador,REC-004,2026-10-23,Recibida,En revisión,Empresa,No,No,2026-10-23
+EVT-00487,POS-0163,Postulación enviada,Candidato,CAN-0163,2026-08-31,,Recibida,Plataforma,No,No,2026-08-31
+EVT-00488,POS-0163,Apertura,Reclutador,REC-004,2026-09-10,Recibida,Recibida,Empresa,No,No,2026-09-10
+EVT-00489,POS-0163,Revisión,Reclutador,REC-005,2026-10-24,Recibida,En revisión,Plataforma,No,No,2026-10-24
+EVT-00490,POS-0164,Postulación enviada,Candidato,CAN-0164,2026-09-24,,Recibida,Plataforma,No,No,2026-09-24
+EVT-00491,POS-0164,Corrección manual,Administrador,ADM-005,2026-10-05,Recibida,Recibida,Manual,No,Sí,2026-10-05
+EVT-00492,POS-0164,Revisión,Reclutador,REC-006,2026-10-25,Recibida,En revisión,Empresa,No,No,2026-10-25
+EVT-00493,POS-0165,Postulación enviada,Candidato,CAN-0165,2026-08-19,,Recibida,Plataforma,No,No,2026-08-19
+EVT-00494,POS-0165,Apertura,Reclutador,REC-006,2026-08-26,Recibida,Recibida,Empresa,No,No,2026-08-26
+EVT-00495,POS-0165,Revisión,Reclutador,REC-007,2026-10-26,Recibida,En revisión,Empresa,No,No,2026-10-26
+EVT-00496,POS-0166,Postulación enviada,Candidato,CAN-0166,2026-09-12,,Recibida,Plataforma,No,No,2026-09-12
+EVT-00497,POS-0166,Apertura,Reclutador,REC-007,2026-09-20,Recibida,Recibida,Empresa,No,No,2026-09-20
+EVT-00498,POS-0166,Revisión,Reclutador,REC-008,2026-10-27,Recibida,En revisión,Plataforma,No,No,2026-10-27
+EVT-00499,POS-0167,Postulación enviada,Candidato,CAN-0167,2026-10-06,,Recibida,Plataforma,No,No,2026-10-06
+EVT-00500,POS-0167,Apertura,Reclutador,REC-008,2026-10-15,Recibida,Recibida,Plataforma,No,No,2026-10-15
+EVT-00501,POS-0167,Revisión,Reclutador,REC-009,2026-10-28,Recibida,En revisión,Empresa,No,No,2026-10-28
+EVT-00502,POS-0168,Postulación enviada,Candidato,CAN-0168,2026-06-16,,Recibida,Plataforma,No,No,2026-06-16
+EVT-00503,POS-0168,Apertura,Reclutador,REC-009,2026-06-26,Recibida,Recibida,Empresa,No,No,2026-06-26
+EVT-00504,POS-0168,Revisión,Reclutador,REC-010,2026-06-26,Recibida,En revisión,Empresa,No,No,2026-06-26
+EVT-00505,POS-0169,Postulación enviada,Candidato,CAN-0169,2026-09-24,,Recibida,Plataforma,No,No,2026-09-24
+EVT-00506,POS-0169,Apertura,Reclutador,REC-010,2026-10-05,Recibida,Recibida,Empresa,No,No,2026-10-05
+EVT-00507,POS-0169,Revisión,Reclutador,REC-001,2026-10-09,Recibida,En revisión,Plataforma,No,No,2026-10-09
+EVT-00508,POS-0170,Postulación enviada,Candidato,CAN-0170,2026-10-18,,Recibida,Plataforma,No,No,2026-10-18
+EVT-00509,POS-0170,Apertura,Reclutador,REC-001,2026-10-18,Recibida,Recibida,Plataforma,No,No,2026-10-18
+EVT-00510,POS-0170,Revisión,Reclutador,REC-002,2026-10-18,Recibida,En revisión,Empresa,No,No,2026-10-18
+EVT-00511,POS-0171,Postulación enviada,Candidato,CAN-0171,2026-06-29,,Recibida,Plataforma,No,No,2026-06-29
+EVT-00512,POS-0171,Apertura,Reclutador,REC-002,2026-07-07,Recibida,Recibida,Empresa,No,No,2026-07-07
+EVT-00513,POS-0171,Revisión,Reclutador,REC-003,2026-10-11,Recibida,En revisión,Empresa,No,No,2026-10-11
+EVT-00514,POS-0172,Postulación enviada,Candidato,CAN-0172,2026-10-07,,Recibida,Plataforma,No,No,2026-10-07
+EVT-00515,POS-0172,Apertura,Reclutador,REC-003,2026-10-12,Recibida,Recibida,Empresa,No,No,2026-10-12
+EVT-00516,POS-0172,Revisión,Reclutador,REC-004,2026-10-12,Recibida,En revisión,Plataforma,No,No,2026-10-12
+EVT-00517,POS-0173,Postulación enviada,Candidato,CAN-0173,2026-06-17,,Recibida,Plataforma,No,No,2026-06-17
+EVT-00518,POS-0173,Apertura,Reclutador,REC-004,2026-06-27,Recibida,Recibida,Plataforma,No,No,2026-06-27
+EVT-00519,POS-0173,Revisión,Reclutador,REC-005,2026-10-13,Recibida,En revisión,Empresa,No,No,2026-10-13
+EVT-00520,POS-0174,Postulación enviada,Candidato,CAN-0174,2026-07-11,,Recibida,Plataforma,No,No,2026-07-11
+EVT-00521,POS-0174,Comunicación enviada,Reclutador,REC-005,2026-07-22,Recibida,Recibida,Empresa,Sí,No,2026-07-22
+EVT-00522,POS-0174,Revisión,Reclutador,REC-006,2026-10-14,Recibida,En revisión,Empresa,No,No,2026-10-14
+EVT-00523,POS-0175,Postulación enviada,Candidato,CAN-0175,2026-08-04,,Recibida,Plataforma,No,No,2026-08-04
+EVT-00524,POS-0175,Apertura,Reclutador,REC-006,2026-08-11,Recibida,Recibida,Empresa,No,No,2026-08-11
+EVT-00525,POS-0175,Revisión,Reclutador,REC-007,2026-08-21,Recibida,En revisión,Plataforma,No,No,2026-08-21
+EVT-00526,POS-0176,Postulación enviada,Candidato,CAN-0176,2026-06-29,,Recibida,Plataforma,No,No,2026-06-29
+EVT-00527,POS-0176,Apertura,Reclutador,REC-007,2026-07-07,Recibida,Recibida,Plataforma,No,No,2026-07-07
+EVT-00528,POS-0176,Revisión,Reclutador,REC-008,2026-10-16,Recibida,En revisión,Empresa,No,No,2026-10-16
+EVT-00529,POS-0177,Postulación enviada,Candidato,CAN-0177,2026-07-23,,Recibida,Plataforma,No,No,2026-07-23
+EVT-00530,POS-0177,Apertura,Reclutador,REC-008,2026-08-01,Recibida,Recibida,Empresa,No,No,2026-08-01
+EVT-00531,POS-0177,Revisión,Reclutador,REC-009,2026-10-17,Recibida,En revisión,Empresa,No,No,2026-10-17
+EVT-00532,POS-0178,Postulación enviada,Candidato,CAN-0178,2026-08-16,,Recibida,Plataforma,No,No,2026-08-16
+EVT-00533,POS-0178,Apertura,Reclutador,REC-009,2026-08-26,Recibida,Recibida,Empresa,No,No,2026-08-26
+EVT-00534,POS-0178,Revisión,Reclutador,REC-010,2026-10-18,Recibida,En revisión,Plataforma,No,No,2026-10-18
+EVT-00535,POS-0179,Postulación enviada,Candidato,CAN-0179,2026-07-11,,Recibida,Plataforma,No,No,2026-07-11
+EVT-00536,POS-0179,Apertura,Reclutador,REC-010,2026-07-22,Recibida,Recibida,Plataforma,No,No,2026-07-22
+EVT-00537,POS-0179,Revisión,Reclutador,REC-001,2026-10-19,Recibida,En revisión,Empresa,No,No,2026-10-19
+EVT-00538,POS-0180,Postulación enviada,Candidato,CAN-0180,2026-08-05,,Recibida,Plataforma,No,No,2026-08-05
+EVT-00539,POS-0180,Apertura,Reclutador,REC-001,2026-08-12,Recibida,Recibida,Empresa,No,No,2026-08-12
+EVT-00540,POS-0180,Revisión,Reclutador,REC-002,2026-10-20,Recibida,En revisión,Empresa,No,No,2026-10-20
+EVT-00541,POS-0181,Postulación enviada,Candidato,CAN-0181,2026-08-29,,Recibida,Plataforma,No,No,2026-08-29
+EVT-00542,POS-0181,Apertura,Reclutador,REC-002,2026-09-06,Recibida,Recibida,Empresa,No,No,2026-09-06
+EVT-00543,POS-0181,Revisión,Reclutador,REC-003,2026-10-21,Recibida,En revisión,Plataforma,No,No,2026-10-21
+EVT-00544,POS-0182,Postulación enviada,Candidato,CAN-0182,2026-09-22,,Recibida,Plataforma,No,No,2026-09-22
+EVT-00545,POS-0182,Apertura,Reclutador,REC-003,2026-09-23,Recibida,Recibida,Plataforma,No,No,2026-09-23
+EVT-00546,POS-0182,Revisión,Reclutador,REC-004,2026-09-23,Recibida,En revisión,Empresa,No,No,2026-09-23
+EVT-00547,POS-0183,Postulación enviada,Candidato,CAN-0183,2026-08-17,,Recibida,Plataforma,No,No,2026-08-17
+EVT-00548,POS-0183,Apertura,Reclutador,REC-004,2026-08-27,Recibida,Recibida,Empresa,No,No,2026-08-27
+EVT-00549,POS-0183,Revisión,Reclutador,REC-005,2026-10-23,Recibida,En revisión,Empresa,No,No,2026-10-23
+EVT-00550,POS-0184,Postulación enviada,Candidato,CAN-0184,2026-09-10,,Recibida,Plataforma,No,No,2026-09-10
+EVT-00551,POS-0184,Apertura,Reclutador,REC-005,2026-09-21,Recibida,Recibida,Empresa,No,No,2026-09-21
+EVT-00552,POS-0184,Revisión,Reclutador,REC-006,2026-10-24,Recibida,En revisión,Plataforma,No,No,2026-10-24
+EVT-00553,POS-0185,Postulación enviada,Candidato,CAN-0185,2026-10-04,,Recibida,Plataforma,No,No,2026-10-04
+EVT-00554,POS-0185,Vacante pausada,Sistema,SIS-002,2026-10-11,Recibida,Recibida,Sistema,No,Sí,2026-10-11
+EVT-00555,POS-0185,Revisión,Reclutador,REC-007,2026-10-25,Recibida,En revisión,Empresa,No,No,2026-10-25
+EVT-00556,POS-0186,Postulación enviada,Candidato,CAN-0186,2026-08-29,,Recibida,Plataforma,No,No,2026-08-29
+EVT-00557,POS-0186,Apertura,Reclutador,REC-007,2026-09-06,Recibida,Recibida,Empresa,No,No,2026-09-06
+EVT-00558,POS-0186,Revisión,Reclutador,REC-008,2026-10-26,Recibida,En revisión,Empresa,No,No,2026-10-26
+EVT-00559,POS-0187,Postulación enviada,Candidato,CAN-0187,2026-09-22,,Recibida,Plataforma,No,No,2026-09-22
+EVT-00560,POS-0187,Apertura,Reclutador,REC-008,2026-10-01,Recibida,Recibida,Empresa,No,No,2026-10-01
+EVT-00561,POS-0187,Revisión,Reclutador,REC-009,2026-10-27,Recibida,En revisión,Plataforma,No,No,2026-10-27
+EVT-00562,POS-0188,Postulación enviada,Candidato,CAN-0188,2026-10-16,,Recibida,Plataforma,No,No,2026-10-16
+EVT-00563,POS-0188,Apertura,Reclutador,REC-009,2026-10-26,Recibida,Recibida,Plataforma,No,No,2026-10-26
+EVT-00564,POS-0188,Revisión,Reclutador,REC-010,2026-10-28,Recibida,En revisión,Empresa,No,No,2026-10-28
+EVT-00565,POS-0189,Postulación enviada,Candidato,CAN-0189,2026-06-27,,Recibida,Plataforma,No,No,
+EVT-00566,POS-0189,Apertura,Reclutador,REC-010,2026-07-08,Recibida,Recibida,Empresa,No,No,2026-07-08
+EVT-00567,POS-0189,Revisión,Reclutador,REC-001,2026-07-12,Recibida,En revisión,Empresa,No,No,2026-07-12
+EVT-00568,POS-0190,Postulación enviada,Candidato,CAN-0190,2026-10-05,,Recibida,Plataforma,No,No,2026-10-05
+EVT-00569,POS-0190,Apertura,Reclutador,REC-001,2026-10-09,Recibida,Recibida,Empresa,No,No,2026-10-09
+EVT-00570,POS-0190,Revisión,Reclutador,REC-002,2026-10-09,Recibida,En revisión,Plataforma,No,No,2026-10-09
+EVT-00571,POS-0191,Postulación enviada,Candidato,CAN-0191,2026-06-15,,Recibida,Plataforma,No,No,2026-06-15
+EVT-00572,POS-0191,Apertura,Reclutador,REC-002,2026-06-23,Recibida,Recibida,Plataforma,No,No,2026-06-23
+EVT-00573,POS-0191,Revisión,Reclutador,REC-003,2026-10-10,Recibida,En revisión,Empresa,No,No,2026-10-10
+EVT-00574,POS-0192,Postulación enviada,Candidato,CAN-0192,2026-07-09,,Recibida,Plataforma,No,No,2026-07-09
+EVT-00575,POS-0192,Apertura,Reclutador,REC-003,2026-07-18,Recibida,Recibida,Empresa,No,No,2026-07-18
+EVT-00576,POS-0192,Revisión,Reclutador,REC-004,2026-10-11,Recibida,En revisión,Empresa,No,No,2026-10-11
+EVT-00577,POS-0193,Postulación enviada,Candidato,CAN-0193,2026-10-17,,Recibida,Plataforma,No,No,2026-10-17
+EVT-00578,POS-0193,Apertura,Reclutador,REC-004,2026-10-17,Recibida,Recibida,Empresa,No,No,2026-10-17
+EVT-00579,POS-0193,Revisión,Reclutador,REC-005,2026-10-17,Recibida,En revisión,Plataforma,No,No,2026-10-17
+EVT-00580,POS-0194,Postulación enviada,Candidato,CAN-0194,2026-06-27,,Recibida,Plataforma,No,No,2026-06-27
+EVT-00581,POS-0194,Apertura,Reclutador,REC-005,2026-07-08,Recibida,Recibida,Plataforma,No,No,2026-07-08
+EVT-00582,POS-0194,Revisión,Reclutador,,2026-10-13,Recibida,En revisión,Empresa,No,Sí,2026-10-13
+EVT-00583,POS-0195,Postulación enviada,Candidato,CAN-0195,2026-07-21,,Recibida,Plataforma,No,No,2026-07-21
+EVT-00584,POS-0195,Apertura,Reclutador,REC-006,2026-07-28,Recibida,Recibida,Empresa,No,No,2026-07-28
+EVT-00585,POS-0195,Revisión,Reclutador,REC-007,2026-10-14,Recibida,En revisión,Empresa,No,No,2026-10-14
+EVT-00586,POS-0196,Postulación enviada,Candidato,CAN-0196,2026-08-14,,Recibida,Plataforma,No,No,2026-08-14
+EVT-00587,POS-0196,Apertura,Reclutador,REC-007,2026-08-22,Recibida,Recibida,Empresa,No,No,2026-08-22
+EVT-00588,POS-0196,Revisión,Reclutador,REC-008,2026-08-28,Recibida,En revisión,Plataforma,No,No,2026-08-28
+EVT-00589,POS-0197,Postulación enviada,Candidato,CAN-0197,2026-07-09,,Recibida,Plataforma,No,No,2026-07-09
+EVT-00590,POS-0197,Apertura,Reclutador,REC-008,2026-07-18,Recibida,Recibida,Plataforma,No,No,2026-07-18
+EVT-00591,POS-0197,Revisión,Reclutador,REC-009,2026-10-16,Recibida,En revisión,Empresa,No,No,2026-10-16
+EVT-00592,POS-0198,Postulación enviada,Candidato,CAN-0198,2026-08-03,,Recibida,Plataforma,No,No,2026-08-03
+EVT-00593,POS-0198,Apertura,Reclutador,REC-009,2026-08-13,Recibida,Recibida,Empresa,No,No,2026-08-13
+EVT-00594,POS-0198,Revisión,Reclutador,REC-010,2026-10-17,Recibida,En revisión,Empresa,No,No,2026-10-17
+EVT-00595,POS-0199,Postulación enviada,Candidato,CAN-0199,2026-08-27,,Recibida,Plataforma,No,No,2026-08-27
+EVT-00596,POS-0199,Apertura,Reclutador,REC-010,2026-09-07,Recibida,Recibida,Empresa,No,No,2026-09-07
+EVT-00597,POS-0199,Revisión,Reclutador,REC-001,2026-10-18,Recibida,En revisión,Plataforma,No,No,2026-10-18
+EVT-00598,POS-0200,Postulación enviada,Candidato,CAN-0200,2026-07-22,,Recibida,Plataforma,No,No,2026-07-22
+EVT-00599,POS-0200,Apertura,Reclutador,REC-001,2026-07-29,Recibida,Recibida,Plataforma,No,No,2026-07-29
+EVT-00600,POS-0200,Revisión,Reclutador,REC-002,2026-10-19,Recibida,En revisión,Empresa,No,No,2026-10-19
+EVT-00601,POS-0201,Postulación enviada,Candidato,CAN-0201,2026-08-15,,Recibida,Plataforma,No,No,2026-08-15
+EVT-00602,POS-0201,Apertura,Reclutador,REC-002,2026-08-23,Recibida,Recibida,Empresa,No,No,2026-08-23
+EVT-00603,POS-0201,Revisión,Reclutador,REC-003,2026-10-20,Recibida,En revisión,Empresa,No,No,2026-10-20
+EVT-00604,POS-0202,Postulación enviada,Candidato,CAN-0202,2026-09-08,,Recibida,Plataforma,No,No,2026-09-08
+EVT-00605,POS-0202,Apertura,Reclutador,REC-003,2026-09-17,Recibida,Recibida,Empresa,No,No,2026-09-17
+EVT-00606,POS-0202,Revisión,Reclutador,REC-004,2026-10-21,Recibida,En revisión,Plataforma,No,No,2026-10-21
+EVT-00607,POS-0203,Postulación enviada,Candidato,CAN-0203,2026-10-02,,Recibida,Plataforma,No,No,2026-10-02
+EVT-00608,POS-0203,Comunicación enviada,Reclutador,REC-004,2026-10-02,Recibida,Recibida,Empresa,Sí,No,2026-10-02
+EVT-00609,POS-0203,Revisión,Reclutador,REC-005,2026-10-02,Recibida,En revisión,Empresa,No,No,2026-10-02
+EVT-00610,POS-0204,Postulación enviada,Candidato,CAN-0204,2026-08-27,,Recibida,Plataforma,No,No,2026-08-27
+EVT-00611,POS-0204,Apertura,Reclutador,REC-005,2026-09-07,Recibida,Recibida,Empresa,No,No,2026-09-07
+EVT-00612,POS-0204,Revisión,Reclutador,REC-006,2026-10-23,Recibida,En revisión,Empresa,No,No,2026-10-23
+EVT-00613,POS-0205,Postulación enviada,Candidato,CAN-0205,2026-09-20,,Recibida,Plataforma,No,No,2026-09-20
+EVT-00614,POS-0205,Corrección manual,Administrador,ADM-001,2026-09-27,Recibida,Recibida,Manual,No,Sí,2026-09-27
+EVT-00615,POS-0205,Revisión,Reclutador,REC-007,2026-10-24,Recibida,En revisión,Plataforma,No,No,2026-10-24
+EVT-00616,POS-0206,Postulación enviada,Candidato,CAN-0206,2026-10-14,,Recibida,Plataforma,No,No,2026-10-14
+EVT-00617,POS-0206,Revisión,Reclutador,REC-007,2026-10-22,Recibida,En revisión,Plataforma,No,No,2026-10-22
+EVT-00618,POS-0206,Cambio de etapa,Reclutador,REC-008,2026-10-25,En revisión,Preseleccionada,Empresa,No,No,2026-10-25
+EVT-00619,POS-0207,Postulación enviada,Candidato,CAN-0207,2026-09-09,,Recibida,Plataforma,No,No,2026-09-09
+EVT-00620,POS-0207,Revisión,Reclutador,REC-008,2026-09-18,Recibida,En revisión,Empresa,No,No,2026-09-18
+EVT-00621,POS-0207,Cambio de etapa,Reclutador,REC-009,2026-10-26,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-26
+EVT-00622,POS-0208,Postulación enviada,Candidato,CAN-0208,2026-10-03,,Recibida,Plataforma,No,No,2026-10-03
+EVT-00623,POS-0208,Revisión,Reclutador,REC-009,2026-10-13,Recibida,En revisión,Empresa,No,No,2026-10-13
+EVT-00624,POS-0208,Cambio de etapa,Reclutador,REC-010,2026-10-27,En revisión,Preseleccionada,Plataforma,No,No,2026-10-27
+EVT-00625,POS-0209,Postulación enviada,Candidato,CAN-0209,2026-06-13,,Recibida,Plataforma,No,No,2026-06-13
+EVT-00626,POS-0209,Revisión,Reclutador,REC-010,2026-06-24,Recibida,En revisión,Plataforma,No,No,2026-06-24
+EVT-00627,POS-0209,Cambio de etapa,Reclutador,REC-001,2026-10-28,En revisión,Preseleccionada,Empresa,No,No,2026-10-28
+EVT-00628,POS-0210,Postulación enviada,Candidato,CAN-0210,2026-07-07,,Recibida,Plataforma,No,No,2026-07-07
+EVT-00629,POS-0210,Revisión,Reclutador,REC-001,2026-07-14,Recibida,En revisión,Empresa,No,No,2026-07-14
+EVT-00630,POS-0210,Cambio de etapa,Reclutador,REC-002,2026-07-19,En revisión,Preseleccionada,Empresa,Sí,No,2026-07-19
+EVT-00631,POS-0211,Postulación enviada,Candidato,CAN-0211,2026-10-15,,Recibida,Plataforma,No,No,2026-10-15
+EVT-00632,POS-0211,Revisión,Reclutador,REC-002,2026-10-15,Recibida,En revisión,Empresa,No,No,2026-10-15
+EVT-00633,POS-0211,Cambio de etapa,Reclutador,REC-003,2026-10-15,En revisión,Preseleccionada,Plataforma,No,No,2026-10-15
+EVT-00634,POS-0212,Postulación enviada,Candidato,CAN-0212,2026-06-25,,Recibida,Plataforma,No,No,2026-06-25
+EVT-00635,POS-0212,Vacante cerrada,Sistema,SIS-001,2026-07-04,Recibida,Recibida,Sistema,No,Sí,2026-07-04
+EVT-00636,POS-0212,Cambio de etapa,Reclutador,REC-004,2026-10-10,En revisión,Preseleccionada,Empresa,No,No,2026-10-10
+EVT-00637,POS-0213,Postulación enviada,Candidato,CAN-0213,2026-07-19,,Recibida,Plataforma,No,No,2026-07-19
+EVT-00638,POS-0213,Revisión,Reclutador,REC-004,2026-07-29,Recibida,En revisión,Empresa,No,No,2026-07-29
+EVT-00639,POS-0213,Cambio de etapa,Reclutador,REC-005,2026-10-11,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-11
+EVT-00640,POS-0214,Postulación enviada,Candidato,CAN-0214,2026-06-13,,Recibida,Plataforma,No,No,2026-06-13
+EVT-00641,POS-0214,Revisión,Reclutador,REC-005,2026-06-22,Recibida,En revisión,Empresa,No,No,2026-06-22
+EVT-00642,POS-0214,Cambio de etapa,Reclutador,REC-006,2026-06-22,En revisión,Preseleccionada,Plataforma,No,No,2026-06-22
+EVT-00643,POS-0215,Postulación enviada,Candidato,CAN-0215,2026-07-07,,Recibida,Plataforma,No,No,2026-07-07
+EVT-00644,POS-0215,Revisión,Reclutador,REC-006,2026-07-14,Recibida,En revisión,Plataforma,No,No,2026-07-14
+EVT-00645,POS-0215,Cambio de etapa,Reclutador,REC-007,2026-10-13,En revisión,Preseleccionada,Empresa,No,No,2026-10-13
+EVT-00646,POS-0216,Postulación enviada,Candidato,CAN-0216,2026-08-01,,Recibida,Plataforma,No,No,2026-08-01
+EVT-00647,POS-0216,Revisión,Reclutador,REC-007,2026-08-09,Recibida,En revisión,Empresa,No,No,2026-08-09
+EVT-00648,POS-0216,Cambio de etapa,Reclutador,REC-008,2026-10-14,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-14
+EVT-00649,POS-0217,Postulación enviada,Candidato,CAN-0217,2026-08-25,,Recibida,Plataforma,No,No,2026-08-25
+EVT-00650,POS-0217,Revisión,Reclutador,REC-008,2026-09-03,Recibida,En revisión,Empresa,No,No,2026-09-03
+EVT-00651,POS-0217,Cambio de etapa,Reclutador,REC-009,2026-09-05,En revisión,Preseleccionada,Plataforma,No,No,2026-09-05
+EVT-00652,POS-0218,Postulación enviada,Candidato,CAN-0218,2026-07-20,,Recibida,Plataforma,No,No,2026-07-20
+EVT-00653,POS-0218,Revisión,Reclutador,REC-009,2026-07-30,Recibida,En revisión,Plataforma,No,No,2026-07-30
+EVT-00654,POS-0218,Cambio de etapa,Reclutador,REC-010,2026-10-16,En revisión,Preseleccionada,Empresa,No,No,2026-10-16
+EVT-00655,POS-0219,Postulación enviada,Candidato,CAN-0219,2026-08-13,,Recibida,Plataforma,No,No,2026-08-13
+EVT-00656,POS-0219,Revisión,Reclutador,REC-010,2026-08-24,Recibida,En revisión,Empresa,No,No,2026-08-24
+EVT-00657,POS-0219,Cambio de etapa,Reclutador,REC-001,2026-10-17,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-17
+EVT-00658,POS-0220,Postulación enviada,Candidato,CAN-0220,2026-09-06,,Recibida,Plataforma,No,No,2026-09-06
+EVT-00659,POS-0220,Revisión,Reclutador,REC-001,2026-09-13,Recibida,En revisión,Empresa,No,No,2026-09-13
+EVT-00660,POS-0220,Cambio de etapa,Reclutador,REC-002,2026-10-18,En revisión,Preseleccionada,Plataforma,No,No,2026-10-18
+EVT-00661,POS-0221,Postulación enviada,Candidato,CAN-0001,2026-08-01,,Recibida,Plataforma,No,No,2026-08-01
+EVT-00662,POS-0221,Revisión,Reclutador,REC-002,2026-08-09,Recibida,En revisión,Plataforma,No,No,2026-08-09
+EVT-00663,POS-0221,Cambio de etapa,Reclutador,REC-003,2026-10-19,En revisión,Preseleccionada,Empresa,No,No,2026-10-19
+EVT-00664,POS-0222,Postulación enviada,Candidato,CAN-0002,2026-08-25,,Recibida,Plataforma,No,No,2026-08-25
+EVT-00665,POS-0222,Vacante pausada,Sistema,SIS-003,2026-09-03,Recibida,Recibida,Sistema,No,Sí,2026-09-03
+EVT-00666,POS-0222,Cambio de etapa,Reclutador,REC-004,2026-10-20,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-20
+EVT-00667,POS-0223,Postulación enviada,Candidato,CAN-0003,2026-09-18,,Recibida,Plataforma,No,No,2026-09-18
+EVT-00668,POS-0223,Revisión,Reclutador,REC-004,2026-09-28,Recibida,En revisión,Empresa,No,No,2026-09-28
+EVT-00669,POS-0223,Cambio de etapa,Reclutador,REC-005,2026-10-21,En revisión,Preseleccionada,Plataforma,No,No,2026-10-21
+EVT-00670,POS-0224,Postulación enviada,Candidato,CAN-0004,2026-10-12,,Recibida,Plataforma,No,No,2026-10-12
+EVT-00671,POS-0224,Revisión,Reclutador,REC-005,2026-10-12,Recibida,En revisión,Plataforma,No,No,2026-10-12
+EVT-00672,POS-0224,Cambio de etapa,Reclutador,REC-006,2026-10-12,En revisión,Preseleccionada,Empresa,No,No,2026-10-12
+EVT-00673,POS-0225,Postulación enviada,Candidato,CAN-0005,2026-09-07,,Recibida,Plataforma,No,No,2026-09-07
+EVT-00674,POS-0225,Revisión,Reclutador,REC-006,2026-09-14,Recibida,En revisión,Empresa,No,No,2026-09-14
+EVT-00675,POS-0225,Cambio de etapa,Reclutador,REC-007,2026-10-23,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-23
+EVT-00676,POS-0226,Postulación enviada,Candidato,CAN-0006,2026-10-01,,Recibida,Plataforma,No,No,2026-10-01
+EVT-00677,POS-0226,Revisión,Reclutador,REC-007,2026-10-09,Recibida,En revisión,Empresa,No,No,2026-10-09
+EVT-00678,POS-0226,Cambio de etapa,Reclutador,REC-008,2026-10-24,En revisión,Preseleccionada,Plataforma,No,No,
+EVT-00679,POS-0227,Postulación enviada,Candidato,,2026-06-11,,Recibida,Plataforma,No,Sí,2026-06-11
+EVT-00680,POS-0227,Revisión,Reclutador,REC-008,2026-06-20,Recibida,En revisión,Plataforma,No,No,2026-06-20
+EVT-00681,POS-0227,Cambio de etapa,Reclutador,REC-009,2026-10-25,En revisión,Preseleccionada,Empresa,No,No,2026-10-25
+EVT-00682,POS-0228,Postulación enviada,Candidato,CAN-0008,2026-09-19,,Recibida,Plataforma,No,No,2026-09-19
+EVT-00683,POS-0228,Revisión,Reclutador,REC-009,2026-09-29,Recibida,En revisión,Empresa,No,No,2026-09-29
+EVT-00684,POS-0228,Cambio de etapa,Reclutador,REC-010,2026-10-26,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-26
+EVT-00685,POS-0229,Postulación enviada,Candidato,CAN-0009,2026-10-13,,Recibida,Plataforma,No,No,2026-10-13
+EVT-00686,POS-0229,Revisión,Reclutador,REC-010,2026-10-24,Recibida,En revisión,Empresa,No,No,2026-10-24
+EVT-00687,POS-0229,Cambio de etapa,Reclutador,REC-001,2026-10-27,En revisión,Preseleccionada,Plataforma,No,No,2026-10-27
+EVT-00688,POS-0230,Postulación enviada,Candidato,CAN-0010,2026-06-23,,Recibida,Plataforma,No,No,2026-06-23
+EVT-00689,POS-0230,Revisión,Reclutador,REC-001,2026-06-30,Recibida,En revisión,Plataforma,No,No,2026-06-30
+EVT-00690,POS-0230,Cambio de etapa,Reclutador,REC-002,2026-10-28,En revisión,Preseleccionada,Empresa,No,No,2026-10-28
+EVT-00691,POS-0231,Postulación enviada,Candidato,CAN-0011,2026-07-17,,Recibida,Plataforma,No,No,2026-07-17
+EVT-00692,POS-0231,Revisión,Reclutador,REC-002,2026-07-25,Recibida,En revisión,Empresa,No,No,2026-07-25
+EVT-00693,POS-0231,Cambio de etapa,Reclutador,REC-003,2026-08-03,En revisión,Preseleccionada,Empresa,Sí,No,2026-08-03
+EVT-00694,POS-0232,Postulación enviada,Candidato,CAN-0012,2026-06-11,,Recibida,Plataforma,No,No,2026-06-11
+EVT-00695,POS-0232,Comunicación enviada,Reclutador,REC-003,2026-06-20,Recibida,Recibida,Empresa,Sí,No,2026-06-20
+EVT-00696,POS-0232,Cambio de etapa,Reclutador,REC-004,2026-10-09,En revisión,Preseleccionada,Plataforma,No,No,2026-10-09
+EVT-00697,POS-0233,Postulación enviada,Candidato,CAN-0013,2026-07-05,,Recibida,Plataforma,No,No,2026-07-05
+EVT-00698,POS-0233,Revisión,Reclutador,REC-004,2026-07-15,Recibida,En revisión,Plataforma,No,No,2026-07-15
+EVT-00699,POS-0233,Cambio de etapa,Reclutador,REC-005,2026-10-10,En revisión,Preseleccionada,Empresa,No,No,2026-10-10
+EVT-00700,POS-0234,Postulación enviada,Candidato,CAN-0014,2026-07-30,,Recibida,Plataforma,No,No,2026-07-30
+EVT-00701,POS-0234,Revisión,Reclutador,REC-005,2026-08-10,Recibida,En revisión,Empresa,No,No,2026-08-10
+EVT-00702,POS-0234,Cambio de etapa,Reclutador,REC-006,2026-10-11,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-11
+EVT-00703,POS-0235,Postulación enviada,Candidato,CAN-0015,2026-06-24,,Recibida,Plataforma,No,No,2026-06-24
+EVT-00704,POS-0235,Revisión,Reclutador,REC-006,2026-07-01,Recibida,En revisión,Empresa,No,No,2026-07-01
+EVT-00705,POS-0235,Cambio de etapa,Reclutador,REC-007,2026-10-12,En revisión,Preseleccionada,Plataforma,No,No,2026-10-12
+EVT-00706,POS-0236,Postulación enviada,Candidato,CAN-0016,2026-07-18,,Recibida,Plataforma,No,No,2026-07-18
+EVT-00707,POS-0236,Revisión,Reclutador,REC-007,2026-07-26,Recibida,En revisión,Plataforma,No,No,2026-07-26
+EVT-00708,POS-0236,Cambio de etapa,Reclutador,REC-008,2026-10-13,En revisión,Preseleccionada,Empresa,No,No,2026-10-13
+EVT-00709,POS-0237,Postulación enviada,Candidato,CAN-0017,2026-08-11,,Recibida,Plataforma,No,No,2026-08-11
+EVT-00710,POS-0237,Revisión,Reclutador,REC-008,2026-08-20,Recibida,En revisión,Empresa,No,No,2026-08-20
+EVT-00711,POS-0237,Cambio de etapa,Reclutador,REC-009,2026-10-14,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-14
+EVT-00712,POS-0238,Postulación enviada,Candidato,CAN-0018,2026-09-04,,Recibida,Plataforma,No,No,2026-09-04
+EVT-00713,POS-0238,Revisión,Reclutador,REC-009,2026-09-14,Recibida,En revisión,Empresa,No,No,2026-09-14
+EVT-00714,POS-0238,Cambio de etapa,Reclutador,REC-010,2026-09-20,En revisión,Preseleccionada,Plataforma,No,No,2026-09-20
+EVT-00715,POS-0239,Postulación enviada,Candidato,CAN-0019,2026-07-30,,Recibida,Plataforma,No,No,2026-07-30
+EVT-00716,POS-0239,Revisión,Reclutador,REC-010,2026-08-10,Recibida,En revisión,Plataforma,No,No,2026-08-10
+EVT-00717,POS-0239,Cambio de etapa,Reclutador,REC-001,2026-10-16,En revisión,Preseleccionada,Empresa,No,No,2026-10-16
+EVT-00718,POS-0240,Postulación enviada,Candidato,CAN-0020,2026-08-23,,Recibida,Plataforma,No,No,2026-08-23
+EVT-00719,POS-0240,Revisión,Reclutador,REC-001,2026-08-30,Recibida,En revisión,Empresa,No,No,2026-08-30
+EVT-00720,POS-0240,Cambio de etapa,Reclutador,REC-002,2026-10-17,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-17
+EVT-00721,POS-0241,Postulación enviada,Candidato,CAN-0021,2026-09-16,,Recibida,Plataforma,No,No,2026-09-16
+EVT-00722,POS-0241,Revisión,Reclutador,REC-002,2026-09-24,Recibida,En revisión,Empresa,No,No,2026-09-24
+EVT-00723,POS-0241,Cambio de etapa,Reclutador,REC-003,2026-10-18,En revisión,Preseleccionada,Plataforma,No,No,2026-10-18
+EVT-00724,POS-0242,Postulación enviada,Candidato,CAN-0022,2026-08-11,,Recibida,Plataforma,No,No,2026-08-11
+EVT-00725,POS-0242,Revisión,Reclutador,REC-003,2026-08-20,Recibida,En revisión,Plataforma,No,No,2026-08-20
+EVT-00726,POS-0242,Cambio de etapa,Reclutador,REC-004,2026-10-19,En revisión,Preseleccionada,Empresa,No,No,2026-10-19
+EVT-00727,POS-0243,Postulación enviada,Candidato,CAN-0023,2026-09-05,,Recibida,Plataforma,No,No,2026-09-05
+EVT-00728,POS-0243,Revisión,Reclutador,REC-004,2026-09-15,Recibida,En revisión,Empresa,No,No,2026-09-15
+EVT-00729,POS-0243,Cambio de etapa,Reclutador,REC-005,2026-10-20,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-20
+EVT-00730,POS-0244,Postulación enviada,Candidato,CAN-0024,2026-09-29,,Recibida,Plataforma,No,No,2026-09-29
+EVT-00731,POS-0244,Revisión,Reclutador,REC-005,2026-10-10,Recibida,En revisión,Empresa,No,No,2026-10-10
+EVT-00732,POS-0244,Cambio de etapa,Reclutador,REC-006,2026-10-21,En revisión,Preseleccionada,Plataforma,No,No,2026-10-21
+EVT-00733,POS-0245,Postulación enviada,Candidato,CAN-0025,2026-10-23,,Recibida,Plataforma,No,No,2026-10-23
+EVT-00734,POS-0245,Revisión,Reclutador,REC-006,2026-10-23,Recibida,En revisión,Plataforma,No,No,2026-10-23
+EVT-00735,POS-0245,Cambio de etapa,Reclutador,REC-007,2026-10-23,En revisión,Preseleccionada,Empresa,No,No,2026-10-23
+EVT-00736,POS-0246,Postulación enviada,Candidato,CAN-0026,2026-09-17,,Recibida,Plataforma,No,No,2026-09-17
+EVT-00737,POS-0246,Corrección manual,Administrador,ADM-002,2026-09-25,Recibida,Recibida,Manual,No,Sí,2026-09-25
+EVT-00738,POS-0246,Cambio de etapa,Reclutador,REC-008,2026-10-23,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-23
+EVT-00739,POS-0247,Postulación enviada,Candidato,CAN-0027,2026-10-11,,Recibida,Plataforma,No,No,2026-10-11
+EVT-00740,POS-0247,Revisión,Reclutador,REC-008,2026-10-20,Recibida,En revisión,Empresa,No,No,2026-10-20
+EVT-00741,POS-0247,Cambio de etapa,Reclutador,REC-009,2026-10-24,En revisión,Preseleccionada,Plataforma,No,No,2026-10-24
+EVT-00742,POS-0248,Postulación enviada,Candidato,CAN-0028,2026-06-21,,Recibida,Plataforma,No,No,2026-06-21
+EVT-00743,POS-0248,Revisión,Reclutador,REC-009,2026-07-01,Recibida,En revisión,Plataforma,No,No,2026-07-01
+EVT-00744,POS-0248,Cambio de etapa,Reclutador,REC-010,2026-10-25,En revisión,Preseleccionada,Empresa,No,No,2026-10-25
+EVT-00745,POS-0249,Postulación enviada,Candidato,CAN-0029,2026-09-29,,Recibida,Plataforma,No,No,2026-09-29
+EVT-00746,POS-0249,Revisión,Reclutador,REC-010,2026-10-10,Recibida,En revisión,Empresa,No,No,2026-10-10
+EVT-00747,POS-0249,Cambio de etapa,Reclutador,REC-001,2026-10-26,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-26
+EVT-00748,POS-0250,Postulación enviada,Candidato,CAN-0030,2026-10-23,,Recibida,Plataforma,No,No,2026-10-23
+EVT-00749,POS-0250,Revisión,Reclutador,REC-001,2026-10-27,Recibida,En revisión,Empresa,No,No,2026-10-27
+EVT-00750,POS-0250,Cambio de etapa,Reclutador,REC-002,2026-10-27,En revisión,Preseleccionada,Plataforma,No,No,2026-10-27
+EVT-00751,POS-0251,Postulación enviada,Candidato,CAN-0031,2026-07-03,,Recibida,Plataforma,No,No,2026-07-03
+EVT-00752,POS-0251,Revisión,Reclutador,REC-002,2026-07-11,Recibida,En revisión,Plataforma,No,No,2026-07-11
+EVT-00753,POS-0251,Cambio de etapa,Reclutador,REC-003,2026-10-28,En revisión,Preseleccionada,Empresa,No,No,2026-10-28
+EVT-00754,POS-0252,Postulación enviada,Candidato,CAN-0032,2026-07-28,,Recibida,Plataforma,No,No,2026-07-28
+EVT-00755,POS-0252,Revisión,Reclutador,REC-003,2026-08-06,Recibida,En revisión,Empresa,No,No,2026-08-06
+EVT-00756,POS-0252,Cambio de etapa,Reclutador,REC-004,2026-08-11,En revisión,Preseleccionada,Empresa,Sí,No,2026-08-11
+EVT-00757,POS-0253,Postulación enviada,Candidato,CAN-0033,2026-06-22,,Recibida,Plataforma,No,No,2026-06-22
+EVT-00758,POS-0253,Revisión,Reclutador,REC-004,2026-07-02,Recibida,En revisión,Empresa,No,No,2026-07-02
+EVT-00759,POS-0253,Cambio de etapa,Reclutador,REC-005,2026-10-09,En revisión,Preseleccionada,Plataforma,No,No,2026-10-09
+EVT-00760,POS-0254,Postulación enviada,Candidato,CAN-0034,2026-07-16,,Recibida,Plataforma,No,No,2026-07-16
+EVT-00761,POS-0254,Revisión,Reclutador,REC-005,2026-07-27,Recibida,En revisión,Plataforma,No,No,2026-07-27
+EVT-00762,POS-0254,Cambio de etapa,Reclutador,REC-006,2026-10-10,En revisión,Preseleccionada,Empresa,No,No,2026-10-10
+EVT-00763,POS-0255,Postulación enviada,Candidato,CAN-0035,2026-08-09,,Recibida,Plataforma,No,No,2026-08-09
+EVT-00764,POS-0255,Revisión,Reclutador,REC-006,2026-08-16,Recibida,En revisión,Empresa,No,No,2026-08-16
+EVT-00765,POS-0255,Cambio de etapa,Reclutador,REC-007,2026-10-11,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-11
+EVT-00766,POS-0256,Postulación enviada,Candidato,CAN-0036,2026-07-04,,Recibida,Plataforma,No,No,2026-07-04
+EVT-00767,POS-0256,Revisión,Reclutador,REC-007,2026-07-12,Recibida,En revisión,Empresa,No,No,2026-07-12
+EVT-00768,POS-0256,Cambio de etapa,Reclutador,REC-008,2026-10-12,En revisión,Preseleccionada,Plataforma,No,No,2026-10-12
+EVT-00769,POS-0257,Postulación enviada,Candidato,CAN-0037,2026-07-28,,Recibida,Plataforma,No,No,2026-07-28
+EVT-00770,POS-0257,Revisión,Reclutador,REC-008,2026-08-06,Recibida,En revisión,Plataforma,No,No,2026-08-06
+EVT-00771,POS-0257,Cambio de etapa,Reclutador,REC-009,2026-10-13,En revisión,Preseleccionada,Empresa,No,No,2026-10-13
+EVT-00772,POS-0258,Postulación enviada,Candidato,CAN-0038,2026-08-21,,Recibida,Plataforma,No,No,2026-08-21
+EVT-00773,POS-0258,Revisión,Reclutador,REC-009,2026-08-31,Recibida,En revisión,Empresa,No,No,2026-08-31
+EVT-00774,POS-0258,Cambio de etapa,Reclutador,REC-010,2026-10-14,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-14
+EVT-00775,POS-0259,Postulación enviada,Candidato,CAN-0039,2026-09-14,,Recibida,Plataforma,No,No,2026-09-14
+EVT-00776,POS-0259,Vacante pausada,Sistema,,2026-09-23,Recibida,Recibida,Sistema,No,Sí,2026-09-23
+EVT-00777,POS-0259,Cambio de etapa,Reclutador,REC-001,2026-09-23,En revisión,Preseleccionada,Plataforma,No,No,2026-09-23
+EVT-00778,POS-0260,Postulación enviada,Candidato,CAN-0040,2026-08-09,,Recibida,Plataforma,No,No,2026-08-09
+EVT-00779,POS-0260,Revisión,Reclutador,REC-001,2026-08-16,Recibida,En revisión,Plataforma,No,No,2026-08-16
+EVT-00780,POS-0260,Cambio de etapa,Reclutador,REC-002,2026-10-16,En revisión,Preseleccionada,Empresa,No,No,2026-10-16
+EVT-00781,POS-0261,Postulación enviada,Candidato,CAN-0041,2026-09-03,,Recibida,Plataforma,No,No,2026-09-03
+EVT-00782,POS-0261,Comunicación enviada,Reclutador,REC-002,2026-09-11,Recibida,Recibida,Empresa,Sí,No,2026-09-11
+EVT-00783,POS-0261,Cambio de etapa,Reclutador,REC-003,2026-10-17,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-17
+EVT-00784,POS-0262,Postulación enviada,Candidato,CAN-0042,2026-09-27,,Recibida,Plataforma,No,No,2026-09-27
+EVT-00785,POS-0262,Revisión,Reclutador,REC-003,2026-10-06,Recibida,En revisión,Empresa,No,No,2026-10-06
+EVT-00786,POS-0262,Cambio de etapa,Reclutador,REC-004,2026-10-18,En revisión,Preseleccionada,Plataforma,No,No,2026-10-18
+EVT-00787,POS-0263,Postulación enviada,Candidato,CAN-0043,2026-08-22,,Recibida,Plataforma,No,No,2026-08-22
+EVT-00788,POS-0263,Revisión,Reclutador,REC-004,2026-09-01,Recibida,En revisión,Plataforma,No,No,2026-09-01
+EVT-00789,POS-0263,Cambio de etapa,Reclutador,REC-005,2026-10-19,En revisión,Preseleccionada,Empresa,No,No,2026-10-19
+EVT-00790,POS-0264,Postulación enviada,Candidato,CAN-0044,2026-09-15,,Recibida,Plataforma,No,No,2026-09-15
+EVT-00791,POS-0264,Revisión,Reclutador,REC-005,2026-09-26,Recibida,En revisión,Empresa,No,No,
+EVT-00792,POS-0264,Cambio de etapa,Reclutador,REC-006,2026-10-20,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-20
+EVT-00793,POS-0265,Postulación enviada,Candidato,CAN-0045,2026-10-09,,Recibida,Plataforma,No,No,2026-10-09
+EVT-00794,POS-0265,Vacante cerrada,Sistema,SIS-002,2026-10-16,Recibida,Recibida,Sistema,No,Sí,2026-10-16
+EVT-00795,POS-0265,Cambio de etapa,Reclutador,REC-007,2026-10-21,En revisión,Preseleccionada,Plataforma,No,No,2026-10-21
+EVT-00796,POS-0266,Postulación enviada,Candidato,CAN-0046,2026-06-19,,Recibida,Plataforma,No,No,2026-06-19
+EVT-00797,POS-0266,Revisión,Reclutador,REC-007,2026-06-27,Recibida,En revisión,Plataforma,No,No,2026-06-27
+EVT-00798,POS-0266,Cambio de etapa,Reclutador,REC-008,2026-07-01,En revisión,Preseleccionada,Empresa,No,No,2026-07-01
+EVT-00799,POS-0267,Postulación enviada,Candidato,CAN-0047,2026-09-27,,Recibida,Plataforma,No,No,2026-09-27
+EVT-00800,POS-0267,Revisión,Reclutador,REC-008,2026-10-06,Recibida,En revisión,Empresa,No,No,2026-10-06
+EVT-00801,POS-0267,Cambio de etapa,Reclutador,REC-009,2026-10-23,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-23
+EVT-00802,POS-0268,Postulación enviada,Candidato,CAN-0048,2026-10-21,,Recibida,Plataforma,No,No,2026-10-21
+EVT-00803,POS-0268,Revisión,Reclutador,REC-009,2026-10-24,Recibida,En revisión,Empresa,No,No,2026-10-24
+EVT-00804,POS-0268,Cambio de etapa,Reclutador,REC-010,2026-10-24,En revisión,Preseleccionada,Plataforma,No,No,2026-10-24
+EVT-00805,POS-0269,Postulación enviada,Candidato,CAN-0049,2026-07-01,,Recibida,Plataforma,No,No,2026-07-01
+EVT-00806,POS-0269,Revisión,Reclutador,REC-010,2026-07-12,Recibida,En revisión,Plataforma,No,No,2026-07-12
+EVT-00807,POS-0269,Cambio de etapa,Reclutador,REC-001,2026-10-25,En revisión,Preseleccionada,Empresa,No,No,2026-10-25
+EVT-00808,POS-0270,Postulación enviada,Candidato,CAN-0050,2026-10-10,,Recibida,Plataforma,No,No,2026-10-10
+EVT-00809,POS-0270,Revisión,Reclutador,REC-001,2026-10-17,Recibida,En revisión,Empresa,No,No,2026-10-17
+EVT-00810,POS-0270,Cambio de etapa,Reclutador,REC-002,2026-10-26,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-26
+EVT-00811,POS-0271,Postulación enviada,Candidato,CAN-0051,2026-06-20,,Recibida,Plataforma,No,No,2026-06-20
+EVT-00812,POS-0271,Revisión,Reclutador,REC-002,2026-06-28,Recibida,En revisión,Empresa,No,No,2026-06-28
+EVT-00813,POS-0271,Cambio de etapa,Reclutador,REC-003,2026-10-27,En revisión,Preseleccionada,Plataforma,No,No,2026-10-27
+EVT-00814,POS-0272,Postulación enviada,Candidato,CAN-0052,2026-07-14,,Recibida,Plataforma,No,No,2026-07-14
+EVT-00815,POS-0272,Revisión,Reclutador,REC-003,2026-07-23,Recibida,En revisión,Plataforma,No,No,2026-07-23
+EVT-00816,POS-0272,Cambio de etapa,Reclutador,REC-004,2026-10-28,En revisión,Preseleccionada,Empresa,No,No,2026-10-28
+EVT-00817,POS-0273,Postulación enviada,Candidato,CAN-0053,2026-08-07,,Recibida,Plataforma,No,No,2026-08-07
+EVT-00818,POS-0273,Revisión,Reclutador,REC-004,2026-08-17,Recibida,En revisión,Empresa,No,No,2026-08-17
+EVT-00819,POS-0273,Cambio de etapa,Reclutador,REC-005,2026-08-18,En revisión,Preseleccionada,Empresa,Sí,No,2026-08-18
+EVT-00820,POS-0274,Postulación enviada,Candidato,CAN-0054,2026-07-02,,Recibida,Plataforma,No,No,2026-07-02
+EVT-00821,POS-0274,Revisión,Reclutador,REC-005,2026-07-13,Recibida,En revisión,Empresa,No,No,2026-07-13
+EVT-00822,POS-0274,Cambio de etapa,Reclutador,REC-006,2026-10-09,En revisión,Preseleccionada,Plataforma,No,No,2026-10-09
+EVT-00823,POS-0275,Postulación enviada,Candidato,CAN-0055,2026-07-26,,Recibida,Plataforma,No,No,2026-07-26
+EVT-00824,POS-0275,Revisión,Reclutador,REC-006,2026-08-02,Recibida,En revisión,Plataforma,No,No,2026-08-02
+EVT-00825,POS-0275,Cambio de etapa,Reclutador,REC-007,2026-10-10,En revisión,Preseleccionada,Empresa,No,No,2026-10-10
+EVT-00826,POS-0276,Postulación enviada,Candidato,CAN-0056,2026-08-19,,Recibida,Plataforma,No,No,2026-08-19
+EVT-00827,POS-0276,Revisión,Reclutador,REC-007,2026-08-27,Recibida,En revisión,Empresa,No,No,2026-08-27
+EVT-00828,POS-0276,Cambio de etapa,Reclutador,REC-008,2026-10-11,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-11
+EVT-00829,POS-0277,Postulación enviada,Candidato,CAN-0057,2026-09-12,,Recibida,Plataforma,No,No,2026-09-12
+EVT-00830,POS-0277,Revisión,Reclutador,REC-008,2026-09-21,Recibida,En revisión,Empresa,No,No,2026-09-21
+EVT-00831,POS-0277,Cambio de etapa,Reclutador,REC-009,2026-10-12,En revisión,Preseleccionada,Plataforma,No,No,2026-10-12
+EVT-00832,POS-0278,Postulación enviada,Candidato,CAN-0058,2026-08-07,,Recibida,Plataforma,No,No,2026-08-07
+EVT-00833,POS-0278,Revisión,Reclutador,REC-009,2026-08-17,Recibida,En revisión,Plataforma,No,No,2026-08-17
+EVT-00834,POS-0278,Cambio de etapa,Reclutador,REC-010,2026-10-13,En revisión,Preseleccionada,Empresa,No,No,2026-10-13
+EVT-00835,POS-0279,Postulación enviada,Candidato,CAN-0059,2026-09-01,,Recibida,Plataforma,No,No,2026-09-01
+EVT-00836,POS-0279,Revisión,Reclutador,REC-010,2026-09-12,Recibida,En revisión,Empresa,No,No,2026-09-12
+EVT-00837,POS-0279,Cambio de etapa,Reclutador,REC-001,2026-10-14,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-14
+EVT-00838,POS-0280,Postulación enviada,Candidato,CAN-0060,2026-09-25,,Recibida,Plataforma,No,No,2026-09-25
+EVT-00839,POS-0280,Revisión,Reclutador,REC-001,2026-09-25,Recibida,En revisión,Empresa,No,No,2026-09-25
+EVT-00840,POS-0280,Cambio de etapa,Reclutador,REC-002,2026-09-25,En revisión,Preseleccionada,Plataforma,No,No,2026-09-25
+EVT-00841,POS-0281,Postulación enviada,Candidato,CAN-0061,2026-08-20,,Recibida,Plataforma,No,No,2026-08-20
+EVT-00842,POS-0281,Revisión,Reclutador,REC-002,2026-08-28,Recibida,En revisión,Plataforma,No,No,2026-08-28
+EVT-00843,POS-0281,Cambio de etapa,Reclutador,REC-003,2026-10-16,En revisión,Preseleccionada,Empresa,No,No,2026-10-16
+EVT-00844,POS-0282,Postulación enviada,Candidato,CAN-0062,2026-09-13,,Recibida,Plataforma,No,No,2026-09-13
+EVT-00845,POS-0282,Revisión,Reclutador,REC-003,2026-09-22,Recibida,En revisión,Empresa,No,No,2026-09-22
+EVT-00846,POS-0282,Cambio de etapa,Reclutador,REC-004,2026-10-17,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-17
+EVT-00847,POS-0283,Postulación enviada,Candidato,CAN-0063,2026-10-07,,Recibida,Plataforma,No,No,2026-10-07
+EVT-00848,POS-0283,Revisión,Reclutador,REC-004,2026-10-17,Recibida,En revisión,Empresa,No,No,2026-10-17
+EVT-00849,POS-0283,Cambio de etapa,Reclutador,REC-005,2026-10-18,En revisión,Preseleccionada,Plataforma,No,No,2026-10-18
+EVT-00850,POS-0284,Postulación enviada,Candidato,CAN-0064,2026-06-17,,Recibida,Plataforma,No,No,2026-06-17
+EVT-00851,POS-0284,Revisión,Reclutador,REC-005,2026-06-28,Recibida,En revisión,Plataforma,No,No,2026-06-28
+EVT-00852,POS-0284,Cambio de etapa,Reclutador,REC-006,2026-10-19,En revisión,Preseleccionada,Empresa,No,No,2026-10-19
+EVT-00853,POS-0285,Postulación enviada,Candidato,CAN-0065,2026-09-25,,Recibida,Plataforma,No,No,2026-09-25
+EVT-00854,POS-0285,Revisión,Reclutador,REC-006,2026-10-02,Recibida,En revisión,Empresa,No,No,2026-10-02
+EVT-00855,POS-0285,Cambio de etapa,Reclutador,REC-007,2026-10-20,En revisión,Preseleccionada,Empresa,Sí,No,2026-10-20
+EVT-00856,POS-0286,Postulación enviada,Candidato,CAN-0066,2026-10-19,,Recibida,Plataforma,No,No,2026-10-19
+EVT-00857,POS-0286,Cambio de etapa,Reclutador,REC-007,2026-10-21,Recibida,Preseleccionada,Empresa,No,No,2026-10-21
+EVT-00858,POS-0286,Entrevista programada,Reclutador,REC-008,2026-10-21,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-21
+EVT-00859,POS-0287,Postulación enviada,Candidato,CAN-0067,2026-06-29,,Recibida,Plataforma,No,No,2026-06-29
+EVT-00860,POS-0287,Corrección manual,Administrador,ADM-003,2026-07-06,Recibida,Recibida,Manual,No,Sí,2026-07-06
+EVT-00861,POS-0287,Entrevista programada,Reclutador,REC-009,2026-07-06,Preseleccionada,Entrevista,Empresa,No,No,2026-07-06
+EVT-00862,POS-0288,Postulación enviada,Candidato,CAN-0068,2026-10-08,,Recibida,Plataforma,No,No,2026-10-08
+EVT-00863,POS-0288,Cambio de etapa,Reclutador,REC-009,2026-10-18,Recibida,Preseleccionada,Empresa,Sí,No,2026-10-18
+EVT-00864,POS-0288,Entrevista programada,Reclutador,REC-010,2026-10-23,Preseleccionada,Entrevista,Empresa,No,No,2026-10-23
+EVT-00865,POS-0289,Postulación enviada,Candidato,CAN-0069,2026-06-18,,Recibida,Plataforma,No,No,2026-06-18
+EVT-00866,POS-0289,Cambio de etapa,Reclutador,REC-010,2026-06-29,Recibida,Preseleccionada,Empresa,No,No,2026-06-29
+EVT-00867,POS-0289,Entrevista programada,Reclutador,REC-001,2026-10-24,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-24
+EVT-00868,POS-0290,Postulación enviada,Candidato,CAN-0070,2026-07-12,,Recibida,Plataforma,No,No,2026-07-12
+EVT-00869,POS-0290,Comunicación enviada,Reclutador,REC-001,2026-07-19,Recibida,Recibida,Empresa,Sí,No,2026-07-19
+EVT-00870,POS-0290,Entrevista programada,Reclutador,REC-002,2026-10-25,Preseleccionada,Entrevista,Empresa,No,No,2026-10-25
+EVT-00871,POS-0291,Postulación enviada,Candidato,CAN-0071,2026-08-05,,Recibida,Plataforma,No,No,2026-08-05
+EVT-00872,POS-0291,Cambio de etapa,Reclutador,REC-002,2026-08-13,Recibida,Preseleccionada,Empresa,Sí,No,2026-08-13
+EVT-00873,POS-0291,Entrevista programada,Reclutador,,2026-10-26,Preseleccionada,Entrevista,Empresa,No,Sí,2026-10-26
+EVT-00874,POS-0292,Postulación enviada,Candidato,CAN-0072,2026-06-30,,Recibida,Plataforma,No,No,2026-06-30
+EVT-00875,POS-0292,Cambio de etapa,Reclutador,REC-003,2026-07-09,Recibida,Preseleccionada,Empresa,No,No,2026-07-09
+EVT-00876,POS-0292,Entrevista programada,Reclutador,REC-004,2026-10-27,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-27
+EVT-00877,POS-0293,Postulación enviada,Candidato,CAN-0073,2026-07-24,,Recibida,Plataforma,No,No,2026-07-24
+EVT-00878,POS-0293,Cambio de etapa,Reclutador,REC-004,2026-08-03,Recibida,Preseleccionada,Plataforma,No,No,2026-08-03
+EVT-00879,POS-0293,Entrevista programada,Reclutador,REC-005,2026-10-28,Preseleccionada,Entrevista,Empresa,No,No,2026-10-28
+EVT-00880,POS-0294,Postulación enviada,Candidato,CAN-0074,2026-08-17,,Recibida,Plataforma,No,No,2026-08-17
+EVT-00881,POS-0294,Cambio de etapa,Reclutador,REC-005,2026-08-28,Recibida,Preseleccionada,Empresa,Sí,No,2026-08-28
+EVT-00882,POS-0294,Entrevista programada,Reclutador,REC-006,2026-09-02,Preseleccionada,Entrevista,Empresa,No,No,2026-09-02
+EVT-00883,POS-0295,Postulación enviada,Candidato,CAN-0075,2026-07-12,,Recibida,Plataforma,No,No,2026-07-12
+EVT-00884,POS-0295,Cambio de etapa,Reclutador,REC-006,2026-07-19,Recibida,Preseleccionada,Empresa,No,No,2026-07-19
+EVT-00885,POS-0295,Entrevista programada,Reclutador,REC-007,2026-10-09,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-09
+EVT-00886,POS-0296,Postulación enviada,Candidato,CAN-0076,2026-08-05,,Recibida,Plataforma,No,No,2026-08-05
+EVT-00887,POS-0296,Vacante pausada,Sistema,SIS-001,2026-08-13,Recibida,Recibida,Sistema,No,Sí,2026-08-13
+EVT-00888,POS-0296,Entrevista programada,Reclutador,REC-008,2026-10-10,Preseleccionada,Entrevista,Empresa,No,No,2026-10-10
+EVT-00889,POS-0297,Postulación enviada,Candidato,CAN-0077,2026-08-30,,Recibida,Plataforma,No,No,2026-08-30
+EVT-00890,POS-0297,Cambio de etapa,Reclutador,REC-008,2026-09-08,Recibida,Preseleccionada,Empresa,Sí,No,2026-09-08
+EVT-00891,POS-0297,Entrevista programada,Reclutador,REC-009,2026-10-11,Preseleccionada,Entrevista,Empresa,No,No,2026-10-11
+EVT-00892,POS-0298,Postulación enviada,Candidato,CAN-0078,2026-09-23,,Recibida,Plataforma,No,No,2026-09-23
+EVT-00893,POS-0298,Cambio de etapa,Reclutador,REC-009,2026-10-03,Recibida,Preseleccionada,Empresa,No,No,2026-10-03
+EVT-00894,POS-0298,Entrevista programada,Reclutador,REC-010,2026-10-12,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-12
+EVT-00895,POS-0299,Postulación enviada,Candidato,CAN-0079,2026-08-18,,Recibida,Plataforma,No,No,2026-08-18
+EVT-00896,POS-0299,Cambio de etapa,Reclutador,REC-010,2026-08-29,Recibida,Preseleccionada,Plataforma,No,No,2026-08-29
+EVT-00897,POS-0299,Entrevista programada,Reclutador,REC-001,2026-10-13,Preseleccionada,Entrevista,Empresa,No,No,2026-10-13
+EVT-00898,POS-0300,Postulación enviada,Candidato,CAN-0080,2026-09-11,,Recibida,Plataforma,No,No,2026-09-11
+EVT-00899,POS-0300,Cambio de etapa,Reclutador,REC-001,2026-09-18,Recibida,Preseleccionada,Empresa,Sí,No,2026-09-18
+EVT-00900,POS-0300,Entrevista programada,Reclutador,REC-002,2026-10-14,Preseleccionada,Entrevista,Empresa,No,No,2026-10-14
+EVT-00901,POS-0301,Postulación enviada,Candidato,CAN-0081,2026-10-05,,Recibida,Plataforma,No,No,2026-10-05
+EVT-00902,POS-0301,Cambio de etapa,Reclutador,REC-002,2026-10-05,Recibida,Preseleccionada,Empresa,No,No,2026-10-05
+EVT-00903,POS-0301,Entrevista programada,Reclutador,REC-003,2026-10-05,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-05
+EVT-00904,POS-0302,Postulación enviada,Candidato,CAN-0082,2026-08-30,,Recibida,Plataforma,No,No,
+EVT-00905,POS-0302,Cambio de etapa,Reclutador,REC-003,2026-09-08,Recibida,Preseleccionada,Plataforma,No,No,2026-09-08
+EVT-00906,POS-0302,Entrevista programada,Reclutador,REC-004,2026-10-16,Preseleccionada,Entrevista,Empresa,No,No,2026-10-16
+EVT-00907,POS-0303,Postulación enviada,Candidato,CAN-0083,2026-09-23,,Recibida,Plataforma,No,No,2026-09-23
+EVT-00908,POS-0303,Cambio de etapa,Reclutador,REC-004,2026-10-03,Recibida,Preseleccionada,Empresa,Sí,No,2026-10-03
+EVT-00909,POS-0303,Entrevista programada,Reclutador,REC-005,2026-10-17,Preseleccionada,Entrevista,Empresa,No,No,2026-10-17
+EVT-00910,POS-0304,Postulación enviada,Candidato,CAN-0084,2026-10-17,,Recibida,Plataforma,No,No,2026-10-17
+EVT-00911,POS-0304,Cambio de etapa,Reclutador,REC-005,2026-10-18,Recibida,Preseleccionada,Empresa,No,No,2026-10-18
+EVT-00912,POS-0304,Entrevista programada,Reclutador,REC-006,2026-10-18,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-18
+EVT-00913,POS-0305,Postulación enviada,Candidato,CAN-0085,2026-06-27,,Recibida,Plataforma,No,No,2026-06-27
+EVT-00914,POS-0305,Cambio de etapa,Reclutador,REC-006,2026-07-04,Recibida,Preseleccionada,Plataforma,No,No,2026-07-04
+EVT-00915,POS-0305,Entrevista programada,Reclutador,REC-007,2026-10-19,Preseleccionada,Entrevista,Empresa,No,No,2026-10-19
+EVT-00916,POS-0306,Postulación enviada,Candidato,CAN-0086,2026-10-06,,Recibida,Plataforma,No,No,2026-10-06
+EVT-00917,POS-0306,Cambio de etapa,Reclutador,REC-007,2026-10-14,Recibida,Preseleccionada,Empresa,Sí,No,2026-10-14
+EVT-00918,POS-0306,Entrevista programada,Reclutador,REC-008,2026-10-20,Preseleccionada,Entrevista,Empresa,No,No,2026-10-20
+EVT-00919,POS-0307,Postulación enviada,Candidato,CAN-0087,2026-06-16,,Recibida,Plataforma,No,No,2026-06-16
+EVT-00920,POS-0307,Cambio de etapa,Reclutador,REC-008,2026-06-25,Recibida,Preseleccionada,Empresa,No,No,2026-06-25
+EVT-00921,POS-0307,Entrevista programada,Reclutador,REC-009,2026-10-21,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-21
+EVT-00922,POS-0308,Postulación enviada,Candidato,CAN-0088,2026-07-10,,Recibida,Plataforma,No,No,2026-07-10
+EVT-00923,POS-0308,Cambio de etapa,Reclutador,REC-009,2026-07-20,Recibida,Preseleccionada,Plataforma,No,No,2026-07-20
+EVT-00924,POS-0308,Entrevista programada,Reclutador,REC-010,2026-07-24,Preseleccionada,Entrevista,Empresa,No,No,2026-07-24
+EVT-00925,POS-0309,Postulación enviada,Candidato,CAN-0089,2026-10-18,,Recibida,Plataforma,No,No,2026-10-18
+EVT-00926,POS-0309,Cambio de etapa,Reclutador,REC-010,2026-10-23,Recibida,Preseleccionada,Empresa,Sí,No,2026-10-23
+EVT-00927,POS-0309,Entrevista programada,Reclutador,REC-001,2026-10-23,Preseleccionada,Entrevista,Empresa,No,No,2026-10-23
+EVT-00928,POS-0310,Postulación enviada,Candidato,CAN-0090,2026-06-28,,Recibida,Plataforma,No,No,2026-06-28
+EVT-00929,POS-0310,Cambio de etapa,Reclutador,REC-001,2026-07-05,Recibida,Preseleccionada,Empresa,No,No,2026-07-05
+EVT-00930,POS-0310,Entrevista programada,Reclutador,REC-002,2026-10-24,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-24
+EVT-00931,POS-0311,Postulación enviada,Candidato,CAN-0091,2026-07-22,,Recibida,Plataforma,No,No,2026-07-22
+EVT-00932,POS-0311,Cambio de etapa,Reclutador,REC-002,2026-07-30,Recibida,Preseleccionada,Plataforma,No,No,2026-07-30
+EVT-00933,POS-0311,Entrevista programada,Reclutador,REC-003,2026-10-25,Preseleccionada,Entrevista,Empresa,No,No,2026-10-25
+EVT-00934,POS-0312,Postulación enviada,Candidato,CAN-0092,2026-08-15,,Recibida,Plataforma,No,No,2026-08-15
+EVT-00935,POS-0312,Cambio de etapa,Reclutador,REC-003,2026-08-24,Recibida,Preseleccionada,Empresa,Sí,No,2026-08-24
+EVT-00936,POS-0312,Entrevista programada,Reclutador,REC-004,2026-10-26,Preseleccionada,Entrevista,Empresa,No,No,2026-10-26
+EVT-00937,POS-0313,Postulación enviada,Candidato,CAN-0093,2026-07-10,,Recibida,Plataforma,No,No,2026-07-10
+EVT-00938,POS-0313,Cambio de etapa,Reclutador,REC-004,2026-07-20,Recibida,Preseleccionada,Empresa,No,No,2026-07-20
+EVT-00939,POS-0313,Entrevista programada,Reclutador,REC-005,2026-10-27,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-27
+EVT-00940,POS-0314,Postulación enviada,Candidato,CAN-0094,2026-08-03,,Recibida,Plataforma,No,No,2026-08-03
+EVT-00941,POS-0314,Cambio de etapa,Reclutador,REC-005,2026-08-14,Recibida,Preseleccionada,Plataforma,No,No,2026-08-14
+EVT-00942,POS-0314,Entrevista programada,Reclutador,REC-006,2026-10-28,Preseleccionada,Entrevista,Empresa,No,No,2026-10-28
+EVT-00943,POS-0315,Postulación enviada,Candidato,CAN-0095,2026-08-28,,Recibida,Plataforma,No,No,2026-08-28
+EVT-00944,POS-0315,Cambio de etapa,Reclutador,REC-006,2026-09-04,Recibida,Preseleccionada,Empresa,Sí,No,2026-09-04
+EVT-00945,POS-0315,Entrevista programada,Reclutador,REC-007,2026-09-10,Preseleccionada,Entrevista,Empresa,No,No,2026-09-10
+EVT-00946,POS-0316,Postulación enviada,Candidato,CAN-0096,2026-07-23,,Recibida,Plataforma,No,No,2026-07-23
+EVT-00947,POS-0316,Cambio de etapa,Reclutador,REC-007,2026-07-31,Recibida,Preseleccionada,Empresa,No,No,2026-07-31
+EVT-00948,POS-0316,Entrevista programada,Reclutador,REC-008,2026-10-09,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-09
+EVT-00949,POS-0317,Postulación enviada,Candidato,CAN-0097,2026-08-16,,Recibida,Plataforma,No,No,2026-08-16
+EVT-00950,POS-0317,Cambio de etapa,Reclutador,REC-008,2026-08-25,Recibida,Preseleccionada,Plataforma,No,No,2026-08-25
+EVT-00951,POS-0317,Entrevista programada,Reclutador,REC-009,2026-10-10,Preseleccionada,Entrevista,Empresa,No,No,2026-10-10
+EVT-00952,POS-0318,Postulación enviada,Candidato,CAN-0098,2026-09-09,,Recibida,Plataforma,No,No,2026-09-09
+EVT-00953,POS-0318,Vacante cerrada,Sistema,SIS-003,2026-09-19,Recibida,Recibida,Sistema,No,Sí,2026-09-19
+EVT-00954,POS-0318,Entrevista programada,Reclutador,REC-010,2026-10-11,Preseleccionada,Entrevista,Empresa,No,No,2026-10-11
+EVT-00955,POS-0319,Postulación enviada,Candidato,CAN-0099,2026-10-03,,Recibida,Plataforma,No,No,2026-10-03
+EVT-00956,POS-0319,Comunicación enviada,Reclutador,REC-010,2026-10-12,Recibida,Recibida,Empresa,Sí,No,2026-10-12
+EVT-00957,POS-0319,Entrevista programada,Reclutador,REC-001,2026-10-12,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-12
+EVT-00958,POS-0320,Postulación enviada,Candidato,CAN-0100,2026-08-28,,Recibida,Plataforma,No,No,2026-08-28
+EVT-00959,POS-0320,Cambio de etapa,Reclutador,REC-001,2026-09-04,Recibida,Preseleccionada,Plataforma,No,No,2026-09-04
+EVT-00960,POS-0320,Entrevista programada,Reclutador,REC-002,2026-10-13,Preseleccionada,Entrevista,Empresa,No,No,2026-10-13
+EVT-00961,POS-0321,Postulación enviada,Candidato,CAN-0101,2026-09-21,,Recibida,Plataforma,No,No,2026-09-21
+EVT-00962,POS-0321,Cambio de etapa,Reclutador,REC-002,2026-09-29,Recibida,Preseleccionada,Empresa,Sí,No,2026-09-29
+EVT-00963,POS-0321,Entrevista programada,Reclutador,REC-003,2026-10-14,Preseleccionada,Entrevista,Empresa,No,No,2026-10-14
+EVT-00964,POS-0322,Postulación enviada,Candidato,CAN-0102,2026-10-15,,Recibida,Plataforma,No,No,2026-10-15
+EVT-00965,POS-0322,Cambio de etapa,Reclutador,REC-003,2026-10-15,Recibida,Preseleccionada,Empresa,No,No,2026-10-15
+EVT-00966,POS-0322,Entrevista programada,Reclutador,REC-004,2026-10-15,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-15
+EVT-00967,POS-0323,Postulación enviada,Candidato,CAN-0103,2026-09-09,,Recibida,Plataforma,No,No,2026-09-09
+EVT-00968,POS-0323,Cambio de etapa,Reclutador,REC-004,2026-09-19,Recibida,Preseleccionada,Plataforma,No,No,2026-09-19
+EVT-00969,POS-0323,Entrevista programada,Reclutador,REC-005,2026-10-16,Preseleccionada,Entrevista,Empresa,No,No,2026-10-16
+EVT-00970,POS-0324,Postulación enviada,Candidato,,2026-10-04,,Recibida,Plataforma,No,Sí,2026-10-04
+EVT-00971,POS-0324,Cambio de etapa,Reclutador,REC-005,2026-10-15,Recibida,Preseleccionada,Empresa,Sí,No,2026-10-15
+EVT-00972,POS-0324,Entrevista programada,Reclutador,REC-006,2026-10-17,Preseleccionada,Entrevista,Empresa,No,No,2026-10-17
+EVT-00973,POS-0325,Postulación enviada,Candidato,CAN-0105,2026-06-14,,Recibida,Plataforma,No,No,2026-06-14
+EVT-00974,POS-0325,Cambio de etapa,Reclutador,REC-006,2026-06-21,Recibida,Preseleccionada,Empresa,No,No,2026-06-21
+EVT-00975,POS-0325,Entrevista programada,Reclutador,REC-007,2026-10-18,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-18
+EVT-00976,POS-0326,Postulación enviada,Candidato,CAN-0106,2026-07-08,,Recibida,Plataforma,No,No,2026-07-08
+EVT-00977,POS-0326,Cambio de etapa,Reclutador,REC-007,2026-07-16,Recibida,Preseleccionada,Plataforma,No,No,2026-07-16
+EVT-00978,POS-0326,Entrevista programada,Reclutador,REC-008,2026-10-19,Preseleccionada,Entrevista,Empresa,No,No,2026-10-19
+EVT-00979,POS-0327,Postulación enviada,Candidato,CAN-0107,2026-10-16,,Recibida,Plataforma,No,No,2026-10-16
+EVT-00980,POS-0327,Cambio de etapa,Reclutador,REC-008,2026-10-20,Recibida,Preseleccionada,Empresa,Sí,No,2026-10-20
+EVT-00981,POS-0327,Entrevista programada,Reclutador,REC-009,2026-10-20,Preseleccionada,Entrevista,Empresa,No,No,2026-10-20
+EVT-00982,POS-0328,Postulación enviada,Candidato,CAN-0108,2026-06-26,,Recibida,Plataforma,No,No,2026-06-26
+EVT-00983,POS-0328,Corrección manual,Administrador,ADM-004,2026-07-06,Recibida,Recibida,Manual,No,Sí,2026-07-06
+EVT-00984,POS-0328,Entrevista programada,Reclutador,REC-010,2026-10-21,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-21
+EVT-00985,POS-0329,Postulación enviada,Candidato,CAN-0109,2026-07-20,,Recibida,Plataforma,No,No,2026-07-20
+EVT-00986,POS-0329,Cambio de etapa,Reclutador,REC-010,2026-07-31,Recibida,Preseleccionada,Plataforma,No,No,2026-07-31
+EVT-00987,POS-0329,Entrevista programada,Reclutador,REC-001,2026-07-31,Preseleccionada,Entrevista,Empresa,No,No,2026-07-31
+EVT-00988,POS-0330,Postulación enviada,Candidato,CAN-0110,2026-06-14,,Recibida,Plataforma,No,No,2026-06-14
+EVT-00989,POS-0330,Cambio de etapa,Reclutador,REC-001,2026-06-21,Recibida,Preseleccionada,Empresa,Sí,No,2026-06-21
+EVT-00990,POS-0330,Entrevista programada,Reclutador,REC-002,2026-10-23,Preseleccionada,Entrevista,Empresa,No,No,2026-10-23
+EVT-00991,POS-0331,Postulación enviada,Candidato,CAN-0111,2026-07-08,,Recibida,Plataforma,No,No,2026-07-08
+EVT-00992,POS-0331,Cambio de etapa,Reclutador,REC-002,2026-07-16,Recibida,Preseleccionada,Empresa,No,No,2026-07-16
+EVT-00993,POS-0331,Entrevista programada,Reclutador,REC-003,2026-10-24,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-24
+EVT-00994,POS-0332,Postulación enviada,Candidato,CAN-0112,2026-08-01,,Recibida,Plataforma,No,No,2026-08-01
+EVT-00995,POS-0332,Cambio de etapa,Reclutador,REC-003,2026-08-10,Recibida,Preseleccionada,Plataforma,No,No,2026-08-10
+EVT-00996,POS-0332,Entrevista programada,Reclutador,REC-004,2026-10-25,Preseleccionada,Entrevista,Empresa,No,No,2026-10-25
+EVT-00997,POS-0333,Postulación enviada,Candidato,CAN-0113,2026-08-26,,Recibida,Plataforma,No,No,2026-08-26
+EVT-00998,POS-0333,Vacante pausada,Sistema,SIS-002,2026-09-05,Recibida,Recibida,Sistema,No,Sí,2026-09-05
+EVT-00999,POS-0333,Entrevista programada,Reclutador,REC-005,2026-10-26,Preseleccionada,Entrevista,Empresa,No,No,2026-10-26
+EVT-01000,POS-0334,Postulación enviada,Candidato,CAN-0114,2026-07-21,,Recibida,Plataforma,No,No,2026-07-21
+EVT-01001,POS-0334,Cambio de etapa,Reclutador,REC-005,2026-08-01,Recibida,Preseleccionada,Empresa,No,No,2026-08-01
+EVT-01002,POS-0334,Entrevista programada,Reclutador,REC-006,2026-10-27,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-27
+EVT-01003,POS-0335,Postulación enviada,Candidato,CAN-0115,2026-08-14,,Recibida,Plataforma,No,No,2026-08-14
+EVT-01004,POS-0335,Cambio de etapa,Reclutador,REC-006,2026-08-21,Recibida,Preseleccionada,Plataforma,No,No,2026-08-21
+EVT-01005,POS-0335,Entrevista programada,Reclutador,REC-007,2026-10-28,Preseleccionada,Entrevista,Empresa,No,No,2026-10-28
+EVT-01006,POS-0336,Postulación enviada,Candidato,CAN-0116,2026-09-07,,Recibida,Plataforma,No,No,2026-09-07
+EVT-01007,POS-0336,Cambio de etapa,Reclutador,REC-007,2026-09-15,Recibida,Preseleccionada,Empresa,Sí,No,2026-09-15
+EVT-01008,POS-0336,Entrevista programada,Reclutador,REC-008,2026-09-17,Preseleccionada,Entrevista,Empresa,No,No,2026-09-17
+EVT-01009,POS-0337,Postulación enviada,Candidato,CAN-0117,2026-08-02,,Recibida,Plataforma,No,No,2026-08-02
+EVT-01010,POS-0337,Cambio de etapa,Reclutador,REC-008,2026-08-11,Recibida,Preseleccionada,Empresa,No,No,2026-08-11
+EVT-01011,POS-0337,Entrevista programada,Reclutador,REC-009,2026-10-09,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-09
+EVT-01012,POS-0338,Postulación enviada,Candidato,CAN-0118,2026-08-26,,Recibida,Plataforma,No,No,2026-08-26
+EVT-01013,POS-0338,Cambio de etapa,Reclutador,REC-009,2026-09-05,Recibida,Preseleccionada,Plataforma,No,No,2026-09-05
+EVT-01014,POS-0338,Entrevista programada,Reclutador,REC-010,2026-10-10,Preseleccionada,Entrevista,Empresa,No,No,2026-10-10
+EVT-01015,POS-0339,Postulación enviada,Candidato,CAN-0119,2026-09-19,,Recibida,Plataforma,No,No,2026-09-19
+EVT-01016,POS-0339,Cambio de etapa,Reclutador,REC-010,2026-09-30,Recibida,Preseleccionada,Empresa,Sí,No,2026-09-30
+EVT-01017,POS-0339,Entrevista programada,Reclutador,REC-001,2026-10-11,Preseleccionada,Entrevista,Empresa,No,No,
+EVT-01018,POS-0340,Postulación enviada,Candidato,CAN-0120,2026-10-13,,Recibida,Plataforma,No,No,2026-10-13
+EVT-01019,POS-0340,Cambio de etapa,Reclutador,REC-001,2026-10-13,Recibida,Preseleccionada,Empresa,No,No,2026-10-13
+EVT-01020,POS-0340,Entrevista programada,Reclutador,REC-002,2026-10-13,Preseleccionada,Entrevista,Plataforma,No,No,2026-10-13
+EVT-01021,POS-0341,Postulación enviada,Candidato,CAN-0121,2026-09-07,,Recibida,Plataforma,No,No,2026-09-07
+EVT-01022,POS-0341,Entrevista programada,Reclutador,REC-002,2026-09-15,Recibida,Entrevista,Plataforma,No,No,2026-09-15
+EVT-01023,POS-0341,Cambio de etapa,Reclutador,REC-003,2026-10-13,Entrevista,Oferta,Empresa,No,No,2026-10-13
+EVT-01024,POS-0342,Postulación enviada,Candidato,CAN-0122,2026-10-02,,Recibida,Plataforma,No,No,2026-10-02
+EVT-01025,POS-0342,Entrevista programada,Reclutador,REC-003,2026-10-11,Recibida,Entrevista,Empresa,No,No,2026-10-11
+EVT-01026,POS-0342,Cambio de etapa,Reclutador,REC-004,2026-10-14,Entrevista,Oferta,Empresa,Sí,No,2026-10-14
+EVT-01027,POS-0343,Postulación enviada,Candidato,CAN-0123,2026-06-12,,Recibida,Plataforma,No,No,2026-06-12
+EVT-01028,POS-0343,Entrevista programada,Reclutador,REC-004,2026-06-22,Recibida,Entrevista,Empresa,No,No,2026-06-22
+EVT-01029,POS-0343,Cambio de etapa,Reclutador,REC-005,2026-06-29,Entrevista,Oferta,Plataforma,No,No,2026-06-29
+EVT-01030,POS-0344,Postulación enviada,Candidato,CAN-0124,2026-09-20,,Recibida,Plataforma,No,No,2026-09-20
+EVT-01031,POS-0344,Entrevista programada,Reclutador,REC-005,2026-10-01,Recibida,Entrevista,Plataforma,No,No,2026-10-01
+EVT-01032,POS-0344,Cambio de etapa,Reclutador,REC-006,2026-10-16,Entrevista,Oferta,Empresa,No,No,2026-10-16
+EVT-01033,POS-0345,Postulación enviada,Candidato,CAN-0125,2026-10-14,,Recibida,Plataforma,No,No,2026-10-14
+EVT-01034,POS-0345,Entrevista programada,Reclutador,REC-006,2026-10-17,Recibida,Entrevista,Empresa,No,No,2026-10-17
+EVT-01035,POS-0345,Cambio de etapa,Reclutador,REC-007,2026-10-17,Entrevista,Oferta,Empresa,Sí,No,2026-10-17
+EVT-01036,POS-0346,Postulación enviada,Candidato,CAN-0126,2026-06-24,,Recibida,Plataforma,No,No,2026-06-24
+EVT-01037,POS-0346,Entrevista programada,Reclutador,REC-007,2026-07-02,Recibida,Entrevista,Empresa,No,No,2026-07-02
+EVT-01038,POS-0346,Cambio de etapa,Reclutador,REC-008,2026-10-18,Entrevista,Oferta,Plataforma,No,No,2026-10-18
+EVT-01039,POS-0347,Postulación enviada,Candidato,CAN-0127,2026-07-18,,Recibida,Plataforma,No,No,2026-07-18
+EVT-01040,POS-0347,Entrevista programada,Reclutador,REC-008,2026-07-27,Recibida,Entrevista,Plataforma,No,No,2026-07-27
+EVT-01041,POS-0347,Cambio de etapa,Reclutador,REC-009,2026-10-19,Entrevista,Oferta,Empresa,No,No,2026-10-19
+EVT-01042,POS-0348,Postulación enviada,Candidato,CAN-0128,2026-06-12,,Recibida,Plataforma,No,No,2026-06-12
+EVT-01043,POS-0348,Comunicación enviada,Reclutador,REC-009,2026-06-22,Recibida,Recibida,Empresa,Sí,No,2026-06-22
+EVT-01044,POS-0348,Cambio de etapa,Reclutador,REC-010,2026-10-20,Entrevista,Oferta,Empresa,Sí,No,2026-10-20
+EVT-01045,POS-0349,Postulación enviada,Candidato,CAN-0129,2026-07-06,,Recibida,Plataforma,No,No,2026-07-06
+EVT-01046,POS-0349,Entrevista programada,Reclutador,REC-010,2026-07-17,Recibida,Entrevista,Empresa,No,No,2026-07-17
+EVT-01047,POS-0349,Cambio de etapa,Reclutador,REC-001,2026-10-21,Entrevista,Oferta,Plataforma,No,No,2026-10-21
+EVT-01048,POS-0350,Postulación enviada,Candidato,CAN-0130,2026-07-30,,Recibida,Plataforma,No,No,2026-07-30
+EVT-01049,POS-0350,Entrevista programada,Reclutador,REC-001,2026-08-06,Recibida,Entrevista,Plataforma,No,No,2026-08-06
+EVT-01050,POS-0350,Cambio de etapa,Reclutador,REC-002,2026-08-15,Entrevista,Oferta,Empresa,No,No,2026-08-15
+EVT-01051,POS-0351,Postulación enviada,Candidato,CAN-0131,2026-06-25,,Recibida,Plataforma,No,No,2026-06-25
+EVT-01052,POS-0351,Entrevista programada,Reclutador,REC-002,2026-07-03,Recibida,Entrevista,Empresa,No,No,2026-07-03
+EVT-01053,POS-0351,Cambio de etapa,Reclutador,REC-003,2026-10-23,Entrevista,Oferta,Empresa,Sí,No,2026-10-23
+EVT-01054,POS-0352,Postulación enviada,Candidato,CAN-0132,2026-07-19,,Recibida,Plataforma,No,No,2026-07-19
+EVT-01055,POS-0352,Entrevista programada,Reclutador,REC-003,2026-07-28,Recibida,Entrevista,Empresa,No,No,2026-07-28
+EVT-01056,POS-0352,Cambio de etapa,Reclutador,REC-004,2026-10-24,Entrevista,Oferta,Plataforma,No,No,2026-10-24
+EVT-01057,POS-0353,Postulación enviada,Candidato,CAN-0133,2026-08-12,,Recibida,Plataforma,No,No,2026-08-12
+EVT-01058,POS-0353,Entrevista programada,Reclutador,REC-004,2026-08-22,Recibida,Entrevista,Plataforma,No,No,2026-08-22
+EVT-01059,POS-0353,Cambio de etapa,Reclutador,REC-005,2026-10-25,Entrevista,Oferta,Empresa,No,No,2026-10-25
+EVT-01060,POS-0354,Postulación enviada,Candidato,CAN-0134,2026-09-05,,Recibida,Plataforma,No,No,2026-09-05
+EVT-01061,POS-0354,Entrevista programada,Reclutador,REC-005,2026-09-16,Recibida,Entrevista,Empresa,No,No,2026-09-16
+EVT-01062,POS-0354,Cambio de etapa,Reclutador,REC-006,2026-10-26,Entrevista,Oferta,Empresa,Sí,No,2026-10-26
+EVT-01063,POS-0355,Postulación enviada,Candidato,CAN-0135,2026-07-31,,Recibida,Plataforma,No,No,2026-07-31
+EVT-01064,POS-0355,Entrevista programada,Reclutador,REC-006,2026-08-07,Recibida,Entrevista,Empresa,No,No,2026-08-07
+EVT-01065,POS-0355,Cambio de etapa,Reclutador,REC-007,2026-10-27,Entrevista,Oferta,Plataforma,No,No,2026-10-27
+EVT-01066,POS-0356,Postulación enviada,Candidato,CAN-0136,2026-08-24,,Recibida,Plataforma,No,No,2026-08-24
+EVT-01067,POS-0356,Entrevista programada,Reclutador,,2026-09-01,Recibida,Entrevista,Plataforma,No,Sí,2026-09-01
+EVT-01068,POS-0356,Cambio de etapa,Reclutador,REC-008,2026-09-09,Entrevista,Oferta,Empresa,No,No,2026-09-09
+EVT-01069,POS-0357,Postulación enviada,Candidato,CAN-0137,2026-09-17,,Recibida,Plataforma,No,No,2026-09-17
+EVT-01070,POS-0357,Entrevista programada,Reclutador,REC-008,2026-09-23,Recibida,Entrevista,Empresa,No,No,2026-09-23
+EVT-01071,POS-0357,Cambio de etapa,Reclutador,REC-009,2026-09-23,Entrevista,Oferta,Empresa,Sí,No,2026-09-23
+EVT-01072,POS-0358,Postulación enviada,Candidato,CAN-0138,2026-08-12,,Recibida,Plataforma,No,No,2026-08-12
+EVT-01073,POS-0358,Entrevista programada,Reclutador,REC-009,2026-08-22,Recibida,Entrevista,Empresa,No,No,2026-08-22
+EVT-01074,POS-0358,Cambio de etapa,Reclutador,REC-010,2026-10-09,Entrevista,Oferta,Plataforma,No,No,2026-10-09
+EVT-01075,POS-0359,Postulación enviada,Candidato,CAN-0139,2026-09-05,,Recibida,Plataforma,No,No,2026-09-05
+EVT-01076,POS-0359,Entrevista programada,Reclutador,REC-010,2026-09-16,Recibida,Entrevista,Plataforma,No,No,2026-09-16
+EVT-01077,POS-0359,Cambio de etapa,Reclutador,REC-001,2026-10-10,Entrevista,Oferta,Empresa,No,No,2026-10-10
+EVT-01078,POS-0360,Postulación enviada,Candidato,CAN-0140,2026-09-30,,Recibida,Plataforma,No,No,2026-09-30
+EVT-01079,POS-0360,Entrevista programada,Reclutador,REC-001,2026-10-07,Recibida,Entrevista,Empresa,No,No,2026-10-07
+EVT-01080,POS-0360,Cambio de etapa,Reclutador,REC-002,2026-10-11,Entrevista,Oferta,Empresa,Sí,No,2026-10-11
+EVT-01081,POS-0361,Postulación enviada,Candidato,CAN-0141,2026-06-10,,Recibida,Plataforma,No,No,2026-06-10
+EVT-01082,POS-0361,Entrevista programada,Reclutador,REC-002,2026-06-18,Recibida,Entrevista,Empresa,No,No,2026-06-18
+EVT-01083,POS-0361,Cambio de etapa,Reclutador,REC-003,2026-10-12,Entrevista,Oferta,Plataforma,No,No,2026-10-12
+EVT-01084,POS-0362,Postulación enviada,Candidato,CAN-0142,2026-09-18,,Recibida,Plataforma,No,No,2026-09-18
+EVT-01085,POS-0362,Entrevista programada,Reclutador,REC-003,2026-09-27,Recibida,Entrevista,Plataforma,No,No,2026-09-27
+EVT-01086,POS-0362,Cambio de etapa,Reclutador,REC-004,2026-10-13,Entrevista,Oferta,Empresa,No,No,2026-10-13
+EVT-01087,POS-0363,Postulación enviada,Candidato,CAN-0143,2026-10-12,,Recibida,Plataforma,No,No,2026-10-12
+EVT-01088,POS-0363,Entrevista programada,Reclutador,REC-004,2026-10-14,Recibida,Entrevista,Empresa,No,No,2026-10-14
+EVT-01089,POS-0363,Cambio de etapa,Reclutador,REC-005,2026-10-14,Entrevista,Oferta,Empresa,Sí,No,2026-10-14
+EVT-01090,POS-0364,Postulación enviada,Candidato,CAN-0144,2026-06-22,,Recibida,Plataforma,No,No,2026-06-22
+EVT-01091,POS-0364,Entrevista programada,Reclutador,REC-005,2026-07-03,Recibida,Entrevista,Empresa,No,No,2026-07-03
+EVT-01092,POS-0364,Cambio de etapa,Reclutador,REC-006,2026-07-06,Entrevista,Oferta,Plataforma,No,No,2026-07-06
+EVT-01093,POS-0365,Postulación enviada,Candidato,CAN-0145,2026-09-30,,Recibida,Plataforma,No,No,2026-09-30
+EVT-01094,POS-0365,Entrevista programada,Reclutador,REC-006,2026-10-07,Recibida,Entrevista,Plataforma,No,No,2026-10-07
+EVT-01095,POS-0365,Cambio de etapa,Reclutador,REC-007,2026-10-16,Entrevista,Oferta,Empresa,No,No,2026-10-16
+EVT-01096,POS-0366,Postulación enviada,Candidato,CAN-0146,2026-06-10,,Recibida,Plataforma,No,No,2026-06-10
+EVT-01097,POS-0366,Entrevista programada,Reclutador,REC-007,2026-06-18,Recibida,Entrevista,Empresa,No,No,2026-06-18
+EVT-01098,POS-0366,Cambio de etapa,Reclutador,REC-008,2026-10-17,Entrevista,Oferta,Empresa,Sí,No,2026-10-17
+EVT-01099,POS-0367,Postulación enviada,Candidato,CAN-0147,2026-07-04,,Recibida,Plataforma,No,No,2026-07-04
+EVT-01100,POS-0367,Entrevista programada,Reclutador,REC-008,2026-07-13,Recibida,Entrevista,Empresa,No,No,2026-07-13
+EVT-01101,POS-0367,Cambio de etapa,Reclutador,REC-009,2026-10-18,Entrevista,Oferta,Plataforma,No,No,2026-10-18
+EVT-01102,POS-0368,Postulación enviada,Candidato,CAN-0148,2026-07-28,,Recibida,Plataforma,No,No,2026-07-28
+EVT-01103,POS-0368,Entrevista programada,Reclutador,REC-009,2026-08-07,Recibida,Entrevista,Plataforma,No,No,2026-08-07
+EVT-01104,POS-0368,Cambio de etapa,Reclutador,REC-010,2026-10-19,Entrevista,Oferta,Empresa,No,No,2026-10-19
+EVT-01105,POS-0369,Postulación enviada,Candidato,CAN-0149,2026-06-23,,Recibida,Plataforma,No,No,2026-06-23
+EVT-01106,POS-0369,Corrección manual,Administrador,ADM-005,2026-07-04,Recibida,Recibida,Manual,No,Sí,2026-07-04
+EVT-01107,POS-0369,Cambio de etapa,Reclutador,REC-001,2026-10-20,Entrevista,Oferta,Empresa,Sí,No,2026-10-20
+EVT-01108,POS-0370,Postulación enviada,Candidato,CAN-0150,2026-07-17,,Recibida,Plataforma,No,No,2026-07-17
+EVT-01109,POS-0370,Vacante pausada,Sistema,SIS-003,2026-07-24,Recibida,Recibida,Sistema,No,Sí,2026-07-24
+EVT-01110,POS-0370,Cambio de etapa,Reclutador,REC-002,2026-10-21,Entrevista,Oferta,Plataforma,No,No,2026-10-21
+EVT-01111,POS-0371,Postulación enviada,Candidato,CAN-0151,2026-08-10,,Recibida,Plataforma,No,No,2026-08-10
+EVT-01112,POS-0371,Vacante cerrada,Sistema,SIS-004,2026-08-18,Recibida,Recibida,Sistema,No,Sí,2026-08-18
+EVT-01113,POS-0371,Cambio de etapa,Reclutador,REC-003,2026-08-23,Entrevista,Oferta,Empresa,No,No,2026-08-23
+EVT-01114,POS-0372,Postulación enviada,Candidato,CAN-0152,2026-07-05,,Recibida,Plataforma,No,No,2026-07-05
+EVT-01115,POS-0372,Entrevista programada,Reclutador,REC-003,2026-07-14,Recibida,Entrevista,Empresa,No,No,2026-07-14
+EVT-01116,POS-0372,Cambio de etapa,Reclutador,REC-004,2026-10-23,Entrevista,Oferta,Empresa,Sí,No,2026-10-23
+EVT-01117,POS-0373,Postulación enviada,Candidato,CAN-0153,2026-07-29,,Recibida,Plataforma,No,No,2026-07-29
+EVT-01118,POS-0373,Entrevista programada,Reclutador,REC-004,2026-08-08,Recibida,Entrevista,Empresa,No,No,2026-08-08
+EVT-01119,POS-0373,Cambio de etapa,Reclutador,REC-005,2026-10-24,Entrevista,Oferta,Plataforma,No,No,2026-10-24
+EVT-01120,POS-0374,Postulación enviada,Candidato,CAN-0154,2026-08-22,,Recibida,Plataforma,No,No,2026-08-22
+EVT-01121,POS-0374,Entrevista programada,Reclutador,REC-005,2026-09-02,Recibida,Entrevista,Plataforma,No,No,2026-09-02
+EVT-01122,POS-0374,Cambio de etapa,Reclutador,REC-006,2026-10-25,Entrevista,Oferta,Empresa,No,No,2026-10-25
+EVT-01123,POS-0375,Postulación enviada,Candidato,CAN-0155,2026-09-15,,Recibida,Plataforma,No,No,2026-09-15
+EVT-01124,POS-0375,Entrevista programada,Reclutador,REC-006,2026-09-22,Recibida,Entrevista,Empresa,No,No,2026-09-22
+EVT-01125,POS-0375,Cambio de etapa,Reclutador,REC-007,2026-10-26,Entrevista,Oferta,Empresa,Sí,No,2026-10-26
+EVT-01126,POS-0376,Postulación enviada,Candidato,CAN-0156,2026-08-10,,Recibida,Plataforma,No,No,2026-08-10
+EVT-01127,POS-0376,Entrevista programada,Reclutador,REC-007,2026-08-18,Recibida,Entrevista,Empresa,No,No,2026-08-18
+EVT-01128,POS-0376,Cambio de etapa,Reclutador,REC-008,2026-10-27,Entrevista,Oferta,Plataforma,No,No,2026-10-27
+EVT-01129,POS-0377,Postulación enviada,Candidato,CAN-0157,2026-09-03,,Recibida,Plataforma,No,No,2026-09-03
+EVT-01130,POS-0377,Comunicación enviada,Reclutador,REC-008,2026-09-12,Recibida,Recibida,Empresa,Sí,No,
+EVT-01131,POS-0377,Cambio de etapa,Reclutador,REC-009,2026-10-28,Entrevista,Oferta,Empresa,No,No,2026-10-28
+EVT-01132,POS-0378,Postulación enviada,Candidato,CAN-0158,2026-09-28,,Recibida,Plataforma,No,No,2026-09-28
+EVT-01133,POS-0378,Entrevista programada,Reclutador,REC-009,2026-09-28,Recibida,Entrevista,Empresa,No,No,2026-09-28
+EVT-01134,POS-0378,Cambio de etapa,Reclutador,REC-010,2026-09-28,Entrevista,Oferta,Empresa,Sí,No,2026-09-28
+EVT-01135,POS-0379,Postulación enviada,Candidato,CAN-0159,2026-08-23,,Recibida,Plataforma,No,No,2026-08-23
+EVT-01136,POS-0379,Entrevista programada,Reclutador,REC-010,2026-09-03,Recibida,Entrevista,Empresa,No,No,2026-09-03
+EVT-01137,POS-0379,Cambio de etapa,Reclutador,REC-001,2026-10-09,Entrevista,Oferta,Plataforma,No,No,2026-10-09
+EVT-01138,POS-0380,Postulación enviada,Candidato,CAN-0160,2026-09-16,,Recibida,Plataforma,No,No,2026-09-16
+EVT-01139,POS-0380,Entrevista programada,Reclutador,REC-001,2026-09-23,Recibida,Entrevista,Plataforma,No,No,2026-09-23
+EVT-01140,POS-0380,Cambio de etapa,Reclutador,REC-002,2026-10-10,Entrevista,Oferta,Empresa,No,No,2026-10-10
+EVT-01141,POS-0381,Postulación enviada,Candidato,CAN-0161,2026-10-10,,Recibida,Plataforma,No,No,2026-10-10
+EVT-01142,POS-0381,Entrevista programada,Reclutador,REC-002,2026-10-11,Recibida,Entrevista,Empresa,No,No,2026-10-11
+EVT-01143,POS-0381,Cambio de etapa,Reclutador,REC-003,2026-10-11,Entrevista,Oferta,Empresa,Sí,No,2026-10-11
+EVT-01144,POS-0382,Postulación enviada,Candidato,CAN-0162,2026-06-20,,Recibida,Plataforma,No,No,2026-06-20
+EVT-01145,POS-0382,Entrevista programada,Reclutador,REC-003,2026-06-29,Recibida,Entrevista,Empresa,No,No,2026-06-29
+EVT-01146,POS-0382,Cambio de etapa,Reclutador,REC-004,2026-10-12,Entrevista,Oferta,Plataforma,No,No,2026-10-12
+EVT-01147,POS-0383,Postulación enviada,Candidato,CAN-0163,2026-09-28,,Recibida,Plataforma,No,No,2026-09-28
+EVT-01148,POS-0383,Entrevista programada,Reclutador,REC-004,2026-10-08,Recibida,Entrevista,Plataforma,No,No,2026-10-08
+EVT-01149,POS-0383,Cambio de etapa,Reclutador,REC-005,2026-10-13,Entrevista,Oferta,Empresa,No,No,2026-10-13
+EVT-01150,POS-0384,Postulación enviada,Candidato,CAN-0164,2026-10-22,,Recibida,Plataforma,No,No,2026-10-22
+EVT-01151,POS-0384,Entrevista programada,Reclutador,REC-005,2026-10-22,Recibida,Entrevista,Empresa,No,No,2026-10-22
+EVT-01152,POS-0384,Cambio de etapa,Reclutador,REC-006,2026-10-22,Entrevista,Oferta,Empresa,Sí,No,2026-10-22
+EVT-01153,POS-0385,Postulación enviada,Candidato,CAN-0165,2026-07-02,,Recibida,Plataforma,No,No,2026-07-02
+EVT-01154,POS-0385,Entrevista programada,Reclutador,REC-006,2026-07-09,Recibida,Entrevista,Empresa,No,No,2026-07-09
+EVT-01155,POS-0385,Cambio de etapa,Reclutador,REC-007,2026-07-13,Entrevista,Oferta,Plataforma,No,No,2026-07-13
+EVT-01156,POS-0386,Postulación enviada,Candidato,CAN-0166,2026-10-10,,Recibida,Plataforma,No,No,2026-10-10
+EVT-01157,POS-0386,Revisión,Reclutador,REC-007,2026-10-18,Recibida,En revisión,Plataforma,No,No,2026-10-18
+EVT-01158,POS-0386,Cambio de etapa,Reclutador,REC-008,2026-10-28,En revisión,Descartada,Empresa,No,No,2026-10-28
+EVT-01159,POS-0387,Postulación enviada,Candidato,CAN-0167,2026-06-21,,Recibida,Plataforma,No,No,2026-06-21
+EVT-01160,POS-0387,Revisión,Reclutador,REC-008,2026-06-30,Recibida,En revisión,Empresa,No,No,2026-06-30
+EVT-01161,POS-0387,Cambio de etapa,Reclutador,REC-009,2026-07-22,En revisión,Descartada,Empresa,Sí,No,2026-07-22
+EVT-01162,POS-0388,Postulación enviada,Candidato,CAN-0168,2026-07-15,,Recibida,Plataforma,No,No,2026-07-15
+EVT-01163,POS-0388,Revisión,Reclutador,REC-009,2026-07-25,Recibida,En revisión,Empresa,No,No,2026-07-25
+EVT-01164,POS-0388,Cambio de etapa,Reclutador,,2026-08-16,En revisión,Descartada,Plataforma,No,Sí,2026-08-16
+EVT-01165,POS-0389,Postulación enviada,Candidato,CAN-0169,2026-08-08,,Recibida,Plataforma,No,No,2026-08-08
+EVT-01166,POS-0389,Revisión,Reclutador,REC-010,2026-08-19,Recibida,En revisión,Plataforma,No,No,2026-08-19
+EVT-01167,POS-0389,Cambio de etapa,Reclutador,REC-001,2026-09-10,En revisión,Descartada,Empresa,No,No,2026-09-10
+EVT-01168,POS-0390,Postulación enviada,Candidato,CAN-0170,2026-07-03,,Recibida,Plataforma,No,No,2026-07-03
+EVT-01169,POS-0390,Revisión,Reclutador,REC-001,2026-07-10,Recibida,En revisión,Empresa,No,No,2026-07-10
+EVT-01170,POS-0390,Cambio de etapa,Reclutador,REC-002,2026-08-06,En revisión,Descartada,Empresa,Sí,No,2026-08-06
+EVT-01171,POS-0391,Postulación enviada,Candidato,CAN-0171,2026-07-27,,Recibida,Plataforma,No,No,2026-07-27
+EVT-01172,POS-0391,Revisión,Reclutador,REC-002,2026-08-04,Recibida,En revisión,Empresa,No,No,2026-08-04
+EVT-01173,POS-0391,Cambio de etapa,Reclutador,REC-003,2026-08-31,En revisión,Descartada,Plataforma,No,No,2026-08-31
+EVT-01174,POS-0392,Postulación enviada,Candidato,CAN-0172,2026-08-20,,Recibida,Plataforma,No,No,2026-08-20
+EVT-01175,POS-0392,Revisión,Reclutador,REC-003,2026-08-28,Recibida,En revisión,Plataforma,No,No,2026-08-28
+EVT-01176,POS-0392,Cambio de etapa,Reclutador,REC-004,2026-08-28,En revisión,Descartada,Empresa,No,No,2026-08-28
+EVT-01177,POS-0393,Postulación enviada,Candidato,CAN-0173,2026-07-15,,Recibida,Plataforma,No,No,2026-07-15
+EVT-01178,POS-0393,Revisión,Reclutador,REC-004,2026-07-24,Recibida,En revisión,Empresa,No,No,2026-07-24
+EVT-01179,POS-0393,Cambio de etapa,Reclutador,REC-005,2026-07-24,En revisión,Descartada,Empresa,Sí,No,2026-07-24
+EVT-01180,POS-0394,Postulación enviada,Candidato,CAN-0174,2026-08-08,,Recibida,Plataforma,No,No,2026-08-08
+EVT-01181,POS-0394,Revisión,Reclutador,REC-005,2026-08-18,Recibida,En revisión,Empresa,No,No,2026-08-18
+EVT-01182,POS-0394,Cambio de etapa,Reclutador,REC-006,2026-08-18,En revisión,Descartada,Plataforma,No,No,2026-08-18
+EVT-01183,POS-0395,Postulación enviada,Candidato,CAN-0175,2026-09-01,,Recibida,Plataforma,No,No,2026-09-01
+EVT-01184,POS-0395,Revisión,Reclutador,REC-006,2026-09-08,Recibida,En revisión,Plataforma,No,No,2026-09-08
+EVT-01185,POS-0395,Cambio de etapa,Reclutador,REC-007,2026-09-12,En revisión,Descartada,Empresa,No,No,2026-09-12
+EVT-01186,POS-0396,Postulación enviada,Candidato,CAN-0176,2026-09-26,,Recibida,Plataforma,No,No,2026-09-26
+EVT-01187,POS-0396,Revisión,Reclutador,REC-007,2026-10-04,Recibida,En revisión,Empresa,No,No,2026-10-04
+EVT-01188,POS-0396,Cambio de etapa,Reclutador,REC-008,2026-10-08,En revisión,Descartada,Empresa,Sí,No,2026-10-08
+EVT-01189,POS-0397,Postulación enviada,Candidato,CAN-0177,2026-08-21,,Recibida,Plataforma,No,No,2026-08-21
+EVT-01190,POS-0397,Revisión,Reclutador,REC-008,2026-08-30,Recibida,En revisión,Empresa,No,No,2026-08-30
+EVT-01191,POS-0397,Cambio de etapa,Reclutador,REC-009,2026-09-03,En revisión,Descartada,Plataforma,No,No,2026-09-03
+EVT-01192,POS-0398,Postulación enviada,Candidato,CAN-0178,2026-09-14,,Recibida,Plataforma,No,No,2026-09-14
+EVT-01193,POS-0398,Revisión,Reclutador,REC-009,2026-09-24,Recibida,En revisión,Plataforma,No,No,2026-09-24
+EVT-01194,POS-0398,Cambio de etapa,Reclutador,REC-010,2026-09-28,En revisión,Descartada,Empresa,No,No,2026-09-28
+EVT-01195,POS-0399,Postulación enviada,Candidato,CAN-0179,2026-10-08,,Recibida,Plataforma,No,No,2026-10-08
+EVT-01196,POS-0399,Revisión,Reclutador,REC-010,2026-10-19,Recibida,En revisión,Empresa,No,No,2026-10-19
+EVT-01197,POS-0399,Cambio de etapa,Reclutador,REC-001,2026-10-23,En revisión,Descartada,Empresa,Sí,No,2026-10-23
+EVT-01198,POS-0400,Postulación enviada,Candidato,CAN-0180,2026-09-02,,Recibida,Plataforma,No,No,2026-09-02
+EVT-01199,POS-0400,Revisión,Reclutador,REC-001,2026-09-09,Recibida,En revisión,Empresa,No,No,2026-09-09
+EVT-01200,POS-0400,Cambio de etapa,Reclutador,REC-002,2026-09-18,En revisión,Descartada,Plataforma,No,No,2026-09-18
+EVT-01201,POS-0401,Postulación enviada,Candidato,CAN-0181,2026-09-26,,Recibida,Plataforma,No,No,2026-09-26
+EVT-01202,POS-0401,Revisión,Reclutador,REC-002,2026-10-04,Recibida,En revisión,Plataforma,No,No,2026-10-04
+EVT-01203,POS-0401,Cambio de etapa,Reclutador,REC-003,2026-10-13,En revisión,Descartada,Empresa,No,No,2026-10-13
+EVT-01204,POS-0402,Postulación enviada,Candidato,CAN-0182,2026-10-20,,Recibida,Plataforma,No,No,2026-10-20
+EVT-01205,POS-0402,Revisión,Reclutador,REC-003,2026-10-28,Recibida,En revisión,Empresa,No,No,2026-10-28
+EVT-01206,POS-0402,Cambio de etapa,Reclutador,REC-004,2026-10-28,En revisión,Descartada,Empresa,Sí,No,2026-10-28
+EVT-01207,POS-0403,Postulación enviada,Candidato,CAN-0183,2026-06-30,,Recibida,Plataforma,No,No,2026-06-30
+EVT-01208,POS-0403,Revisión,Reclutador,REC-004,2026-07-10,Recibida,En revisión,Empresa,No,No,2026-07-10
+EVT-01209,POS-0403,Cambio de etapa,Reclutador,REC-005,2026-07-19,En revisión,Descartada,Plataforma,No,No,2026-07-19
+EVT-01210,POS-0404,Postulación enviada,Candidato,CAN-0184,2026-10-08,,Recibida,Plataforma,No,No,2026-10-08
+EVT-01211,POS-0404,Revisión,Reclutador,REC-005,2026-10-19,Recibida,En revisión,Plataforma,No,No,2026-10-19
+EVT-01212,POS-0404,Cambio de etapa,Reclutador,REC-006,2026-10-28,En revisión,Descartada,Empresa,No,No,2026-10-28
+EVT-01213,POS-0405,Postulación enviada,Candidato,CAN-0185,2026-06-19,,Recibida,Plataforma,No,No,2026-06-19
+EVT-01214,POS-0405,Revisión,Reclutador,REC-006,2026-06-26,Recibida,En revisión,Empresa,No,No,2026-06-26
+EVT-01215,POS-0405,Cambio de etapa,Reclutador,REC-007,2026-07-10,En revisión,Descartada,Empresa,Sí,No,2026-07-10
+EVT-01216,POS-0406,Postulación enviada,Candidato,CAN-0186,2026-07-13,,Recibida,Plataforma,No,No,2026-07-13
+EVT-01217,POS-0406,Comunicación enviada,Reclutador,REC-007,2026-07-21,Recibida,Recibida,Empresa,Sí,No,2026-07-21
+EVT-01218,POS-0406,Cambio de etapa,Reclutador,REC-008,2026-08-04,En revisión,Descartada,Plataforma,No,No,2026-08-04
+EVT-01219,POS-0407,Postulación enviada,Candidato,CAN-0187,2026-10-21,,Recibida,Plataforma,No,No,2026-10-21
+EVT-01220,POS-0407,Vacante pausada,Sistema,SIS-004,2026-10-28,Recibida,Recibida,Sistema,No,Sí,2026-10-28
+EVT-01221,POS-0407,Cambio de etapa,Reclutador,REC-009,2026-10-28,En revisión,Descartada,Empresa,No,No,2026-10-28
+EVT-01222,POS-0408,Postulación enviada,Candidato,CAN-0188,2026-07-01,,Recibida,Plataforma,No,No,2026-07-01
+EVT-01223,POS-0408,Revisión,Reclutador,REC-009,2026-07-11,Recibida,En revisión,Empresa,No,No,2026-07-11
+EVT-01224,POS-0408,Cambio de etapa,Reclutador,REC-010,2026-07-25,En revisión,Descartada,Empresa,Sí,No,2026-07-25
+EVT-01225,POS-0409,Postulación enviada,Candidato,CAN-0189,2026-07-25,,Recibida,Plataforma,No,No,2026-07-25
+EVT-01226,POS-0409,Revisión,Reclutador,REC-010,2026-08-05,Recibida,En revisión,Empresa,No,No,2026-08-05
+EVT-01227,POS-0409,Cambio de etapa,Reclutador,REC-001,2026-08-19,En revisión,Descartada,Plataforma,No,No,2026-08-19
+EVT-01228,POS-0410,Postulación enviada,Candidato,CAN-0190,2026-08-18,,Recibida,Plataforma,No,No,2026-08-18
+EVT-01229,POS-0410,Corrección manual,Administrador,ADM-001,2026-08-25,Recibida,Recibida,Manual,No,Sí,2026-08-25
+EVT-01230,POS-0410,Cambio de etapa,Reclutador,REC-002,2026-09-13,En revisión,Descartada,Empresa,No,No,2026-09-13
+EVT-01231,POS-0411,Postulación enviada,Candidato,CAN-0191,2026-07-13,,Recibida,Plataforma,No,No,2026-07-13
+EVT-01232,POS-0411,Revisión,Reclutador,REC-002,2026-07-21,Recibida,En revisión,Empresa,No,No,2026-07-21
+EVT-01233,POS-0411,Cambio de etapa,Reclutador,REC-003,2026-08-09,En revisión,Descartada,Empresa,Sí,No,2026-08-09
+EVT-01234,POS-0412,Postulación enviada,Candidato,CAN-0192,2026-08-06,,Recibida,Plataforma,No,No,2026-08-06
+EVT-01235,POS-0412,Revisión,Reclutador,REC-003,2026-08-15,Recibida,En revisión,Empresa,No,No,2026-08-15
+EVT-01236,POS-0412,Cambio de etapa,Reclutador,REC-004,2026-09-03,En revisión,Descartada,Plataforma,No,No,2026-09-03
+EVT-01237,POS-0413,Postulación enviada,Candidato,CAN-0193,2026-08-30,,Recibida,Plataforma,No,No,2026-08-30
+EVT-01238,POS-0413,Revisión,Reclutador,REC-004,2026-09-09,Recibida,En revisión,Plataforma,No,No,2026-09-09
+EVT-01239,POS-0413,Cambio de etapa,Reclutador,REC-005,2026-09-28,En revisión,Descartada,Empresa,No,No,2026-09-28
+EVT-01240,POS-0414,Postulación enviada,Candidato,CAN-0194,2026-07-26,,Recibida,Plataforma,No,No,2026-07-26
+EVT-01241,POS-0414,Revisión,Reclutador,REC-005,2026-08-06,Recibida,En revisión,Empresa,No,No,2026-08-06
+EVT-01242,POS-0414,Cambio de etapa,Reclutador,REC-006,2026-08-25,En revisión,Descartada,Empresa,Sí,No,2026-08-25
+EVT-01243,POS-0415,Postulación enviada,Candidato,CAN-0195,2026-08-19,,Recibida,Plataforma,No,No,
+EVT-01244,POS-0415,Revisión,Reclutador,REC-006,2026-08-26,Recibida,En revisión,Empresa,No,No,2026-08-26
+EVT-01245,POS-0415,Cambio de etapa,Reclutador,REC-007,2026-09-19,En revisión,Descartada,Plataforma,No,No,2026-09-19
+EVT-01246,POS-0416,Postulación enviada,Candidato,CAN-0196,2026-09-12,,Recibida,Plataforma,No,No,2026-09-12
+EVT-01247,POS-0416,Revisión,Reclutador,REC-007,2026-09-20,Recibida,En revisión,Plataforma,No,No,2026-09-20
+EVT-01248,POS-0416,Cambio de etapa,Reclutador,REC-008,2026-10-14,En revisión,Descartada,Empresa,No,No,2026-10-14
+EVT-01249,POS-0417,Postulación enviada,Candidato,CAN-0197,2026-10-06,,Recibida,Plataforma,No,No,2026-10-06
+EVT-01250,POS-0417,Revisión,Reclutador,REC-008,2026-10-15,Recibida,En revisión,Empresa,No,No,2026-10-15
+EVT-01251,POS-0417,Cambio de etapa,Reclutador,REC-009,2026-10-28,En revisión,Descartada,Empresa,Sí,No,2026-10-28
+EVT-01252,POS-0418,Postulación enviada,Candidato,CAN-0198,2026-08-31,,Recibida,Plataforma,No,No,2026-08-31
+EVT-01253,POS-0418,Revisión,Reclutador,REC-009,2026-09-10,Recibida,En revisión,Empresa,No,No,2026-09-10
+EVT-01254,POS-0418,Cambio de etapa,Reclutador,REC-010,2026-10-04,En revisión,Descartada,Plataforma,No,No,2026-10-04
+EVT-01255,POS-0419,Postulación enviada,Candidato,CAN-0199,2026-09-24,,Recibida,Plataforma,No,No,2026-09-24
+EVT-01256,POS-0419,Revisión,Reclutador,REC-010,2026-10-05,Recibida,En revisión,Plataforma,No,No,2026-10-05
+EVT-01257,POS-0419,Cambio de etapa,Reclutador,REC-001,2026-10-28,En revisión,Descartada,Empresa,No,No,2026-10-28
+EVT-01258,POS-0420,Postulación enviada,Candidato,CAN-0200,2026-10-18,,Recibida,Plataforma,No,No,2026-10-18
+EVT-01259,POS-0420,Revisión,Reclutador,REC-001,2026-10-25,Recibida,En revisión,Empresa,No,No,2026-10-25
+EVT-01260,POS-0420,Cambio de etapa,Reclutador,REC-002,2026-10-26,En revisión,Descartada,Empresa,Sí,No,2026-10-26
+EVT-01261,POS-0421,Postulación enviada,Candidato,,2026-09-12,,Recibida,Plataforma,No,Sí,2026-09-12
+EVT-01262,POS-0421,Revisión,Reclutador,REC-002,2026-09-20,Recibida,En revisión,Empresa,No,No,2026-09-20
+EVT-01263,POS-0421,Cambio de etapa,Reclutador,REC-003,2026-09-21,En revisión,Descartada,Plataforma,No,No,2026-09-21
+EVT-01264,POS-0422,Postulación enviada,Candidato,CAN-0202,2026-10-06,,Recibida,Plataforma,No,No,2026-10-06
+EVT-01265,POS-0422,Revisión,Reclutador,REC-003,2026-10-15,Recibida,En revisión,Plataforma,No,No,2026-10-15
+EVT-01266,POS-0422,Cambio de etapa,Reclutador,REC-004,2026-10-16,En revisión,Descartada,Empresa,No,No,2026-10-16
+EVT-01267,POS-0423,Postulación enviada,Candidato,CAN-0203,2026-06-17,,Recibida,Plataforma,No,No,2026-06-17
+EVT-01268,POS-0423,Revisión,Reclutador,REC-004,2026-06-27,Recibida,En revisión,Empresa,No,No,2026-06-27
+EVT-01269,POS-0423,Cambio de etapa,Reclutador,REC-005,2026-06-28,En revisión,Descartada,Empresa,Sí,No,2026-06-28
+EVT-01270,POS-0424,Postulación enviada,Candidato,CAN-0204,2026-07-11,,Recibida,Plataforma,No,No,2026-07-11
+EVT-01271,POS-0424,Vacante cerrada,Sistema,SIS-001,2026-07-22,Recibida,Recibida,Sistema,No,Sí,2026-07-22
+EVT-01272,POS-0424,Cambio de etapa,Reclutador,REC-006,2026-07-23,En revisión,Descartada,Plataforma,No,No,2026-07-23
+EVT-01273,POS-0425,Postulación enviada,Candidato,CAN-0205,2026-10-19,,Recibida,Plataforma,No,No,2026-10-19
+EVT-01274,POS-0425,Revisión,Reclutador,REC-006,2026-10-26,Recibida,En revisión,Plataforma,No,No,2026-10-26
+EVT-01275,POS-0425,Cambio de etapa,Reclutador,REC-007,2026-10-28,En revisión,Descartada,Empresa,No,No,2026-10-28
+EVT-01276,POS-0426,Postulación enviada,Candidato,CAN-0206,2026-06-29,,Recibida,Plataforma,No,No,2026-06-29
+EVT-01277,POS-0426,Revisión,Reclutador,REC-007,2026-07-07,Recibida,En revisión,Empresa,No,No,2026-07-07
+EVT-01278,POS-0426,Cambio de etapa,Reclutador,REC-008,2026-07-13,En revisión,Descartada,Empresa,Sí,No,2026-07-13
+EVT-01279,POS-0427,Postulación enviada,Candidato,CAN-0207,2026-07-23,,Recibida,Plataforma,No,No,2026-07-23
+EVT-01280,POS-0427,Revisión,Reclutador,REC-008,2026-08-01,Recibida,En revisión,Empresa,No,No,2026-08-01
+EVT-01281,POS-0427,Cambio de etapa,Reclutador,REC-009,2026-08-07,En revisión,Descartada,Plataforma,No,No,2026-08-07
+EVT-01282,POS-0428,Postulación enviada,Candidato,CAN-0208,2026-06-17,,Recibida,Plataforma,No,No,2026-06-17
+EVT-01283,POS-0428,Revisión,Reclutador,REC-009,2026-06-27,Recibida,En revisión,Plataforma,No,No,2026-06-27
+EVT-01284,POS-0428,Cambio de etapa,Reclutador,REC-010,2026-07-03,En revisión,Descartada,Empresa,No,No,2026-07-03
+EVT-01285,POS-0429,Postulación enviada,Candidato,CAN-0209,2026-07-11,,Recibida,Plataforma,No,No,2026-07-11
+EVT-01286,POS-0429,Revisión,Reclutador,REC-010,2026-07-22,Recibida,En revisión,Empresa,No,No,2026-07-22
+EVT-01287,POS-0429,Cambio de etapa,Reclutador,REC-001,2026-07-25,En revisión,Descartada,Empresa,Sí,No,2026-07-25
+EVT-01288,POS-0430,Postulación enviada,Candidato,CAN-0210,2026-08-04,,Recibida,Plataforma,No,No,2026-08-04
+EVT-01289,POS-0430,Revisión,Reclutador,REC-001,2026-08-11,Recibida,En revisión,Empresa,No,No,2026-08-11
+EVT-01290,POS-0430,Cambio de etapa,Reclutador,REC-002,2026-08-22,En revisión,Descartada,Plataforma,No,No,2026-08-22
+EVT-01291,POS-0431,Postulación enviada,Candidato,CAN-0211,2026-08-28,,Recibida,Plataforma,No,No,2026-08-28
+EVT-01292,POS-0431,Revisión,Reclutador,REC-002,2026-09-05,Recibida,En revisión,Plataforma,No,No,2026-09-05
+EVT-01293,POS-0431,Cambio de etapa,Reclutador,REC-003,2026-09-16,En revisión,Descartada,Empresa,No,No,2026-09-16
+EVT-01294,POS-0432,Postulación enviada,Candidato,CAN-0212,2026-07-24,,Recibida,Plataforma,No,No,2026-07-24
+EVT-01295,POS-0432,Revisión,Reclutador,REC-003,2026-08-02,Recibida,En revisión,Empresa,No,No,2026-08-02
+EVT-01296,POS-0432,Cambio de etapa,Reclutador,REC-004,2026-08-13,En revisión,Descartada,Empresa,Sí,No,2026-08-13
+EVT-01297,POS-0433,Postulación enviada,Candidato,CAN-0213,2026-08-17,,Recibida,Plataforma,No,No,2026-08-17
+EVT-01298,POS-0433,Revisión,Reclutador,REC-004,2026-08-27,Recibida,En revisión,Empresa,No,No,2026-08-27
+EVT-01299,POS-0433,Cambio de etapa,Reclutador,REC-005,2026-09-07,En revisión,Descartada,Plataforma,No,No,2026-09-07
+EVT-01300,POS-0434,Postulación enviada,Candidato,CAN-0214,2026-09-10,,Recibida,Plataforma,No,No,2026-09-10
+EVT-01301,POS-0434,Revisión,Reclutador,REC-005,2026-09-21,Recibida,En revisión,Plataforma,No,No,2026-09-21
+EVT-01302,POS-0434,Cambio de etapa,Reclutador,REC-006,2026-10-02,En revisión,Descartada,Empresa,No,No,2026-10-02
+EVT-01303,POS-0435,Postulación enviada,Candidato,CAN-0215,2026-08-05,,Recibida,Plataforma,No,No,2026-08-05
+EVT-01304,POS-0435,Comunicación enviada,Reclutador,REC-006,2026-08-12,Recibida,Recibida,Empresa,Sí,No,2026-08-12
+EVT-01305,POS-0435,Cambio de etapa,Reclutador,REC-007,2026-08-28,En revisión,Descartada,Empresa,Sí,No,2026-08-28
+EVT-01306,POS-0436,Postulación enviada,Candidato,CAN-0216,2026-08-29,,Recibida,Plataforma,No,No,2026-08-29
+EVT-01307,POS-0436,Revisión,Reclutador,REC-007,2026-09-06,Recibida,En revisión,Empresa,No,No,2026-09-06
+EVT-01308,POS-0436,Cambio de etapa,Reclutador,REC-008,2026-09-22,En revisión,Descartada,Plataforma,No,No,2026-09-22
+EVT-01309,POS-0437,Postulación enviada,Candidato,CAN-0217,2026-09-22,,Recibida,Plataforma,No,No,2026-09-22
+EVT-01310,POS-0437,Revisión,Reclutador,REC-008,2026-10-01,Recibida,En revisión,Plataforma,No,No,2026-10-01
+EVT-01311,POS-0437,Cambio de etapa,Reclutador,REC-009,2026-10-17,En revisión,Descartada,Empresa,No,No,2026-10-17
+EVT-01312,POS-0438,Postulación enviada,Candidato,CAN-0218,2026-10-16,,Recibida,Plataforma,No,No,2026-10-16
+EVT-01313,POS-0438,Revisión,Reclutador,REC-009,2026-10-26,Recibida,En revisión,Empresa,No,No,2026-10-26
+EVT-01314,POS-0438,Cambio de etapa,Reclutador,REC-010,2026-10-28,En revisión,Descartada,Empresa,Sí,No,2026-10-28
+EVT-01315,POS-0439,Postulación enviada,Candidato,CAN-0219,2026-09-10,,Recibida,Plataforma,No,No,2026-09-10
+EVT-01316,POS-0439,Revisión,Reclutador,REC-010,2026-09-21,Recibida,En revisión,Empresa,No,No,2026-09-21
+EVT-01317,POS-0439,Cambio de etapa,Reclutador,REC-001,2026-10-07,En revisión,Descartada,Plataforma,No,No,2026-10-07
+EVT-01318,POS-0440,Postulación enviada,Candidato,CAN-0220,2026-10-04,,Recibida,Plataforma,No,No,2026-10-04
+EVT-01319,POS-0440,Revisión,Reclutador,REC-001,2026-10-11,Recibida,En revisión,Plataforma,No,No,2026-10-11
+EVT-01320,POS-0440,Cambio de etapa,Reclutador,REC-002,2026-10-28,En revisión,Descartada,Empresa,No,No,2026-10-28
+EVT-01321,POS-0441,Postulación enviada,Candidato,CAN-0001,2026-06-15,,Recibida,Plataforma,No,No,2026-06-15
+EVT-01322,POS-0441,Revisión,Reclutador,REC-002,2026-06-23,Recibida,En revisión,Empresa,No,No,2026-06-23
+EVT-01323,POS-0441,Cambio de etapa,Reclutador,REC-003,2026-07-14,En revisión,Descartada,Empresa,Sí,No,2026-07-14
+EVT-01324,POS-0442,Postulación enviada,Candidato,CAN-0002,2026-09-23,,Recibida,Plataforma,No,No,2026-09-23
+EVT-01325,POS-0442,Revisión,Reclutador,REC-003,2026-10-02,Recibida,En revisión,Empresa,No,No,2026-10-02
+EVT-01326,POS-0442,Cambio de etapa,Reclutador,REC-004,2026-10-23,En revisión,Descartada,Plataforma,No,No,2026-10-23
+EVT-01327,POS-0443,Postulación enviada,Candidato,CAN-0003,2026-10-17,,Recibida,Plataforma,No,No,2026-10-17
+EVT-01328,POS-0443,Revisión,Reclutador,REC-004,2026-10-27,Recibida,En revisión,Plataforma,No,No,2026-10-27
+EVT-01329,POS-0443,Cambio de etapa,Reclutador,REC-005,2026-10-28,En revisión,Descartada,Empresa,No,No,2026-10-28
+EVT-01330,POS-0444,Postulación enviada,Candidato,CAN-0004,2026-06-27,,Recibida,Plataforma,No,No,2026-06-27
+EVT-01331,POS-0444,Vacante pausada,Sistema,SIS-001,2026-07-08,Recibida,Recibida,Sistema,No,Sí,2026-07-08
+EVT-01332,POS-0444,Cambio de etapa,Reclutador,REC-006,2026-07-29,En revisión,Descartada,Empresa,Sí,No,2026-07-29
+EVT-01333,POS-0445,Postulación enviada,Candidato,CAN-0005,2026-07-21,,Recibida,Plataforma,No,No,2026-07-21
+EVT-01334,POS-0445,Revisión,Reclutador,REC-006,2026-07-28,Recibida,En revisión,Empresa,No,No,2026-07-28
+EVT-01335,POS-0445,Cambio de etapa,Reclutador,REC-007,2026-08-23,En revisión,Descartada,Plataforma,No,No,2026-08-23
+EVT-01336,POS-0446,Postulación enviada,Candidato,CAN-0006,2026-06-15,,Recibida,Plataforma,No,No,2026-06-15
+EVT-01337,POS-0446,Revisión,Reclutador,REC-007,2026-06-23,Recibida,En revisión,Plataforma,No,No,2026-06-23
+EVT-01338,POS-0446,Cambio de etapa,Reclutador,REC-008,2026-07-19,En revisión,Descartada,Empresa,No,No,2026-07-19
+EVT-01339,POS-0447,Postulación enviada,Candidato,CAN-0007,2026-07-09,,Recibida,Plataforma,No,No,2026-07-09
+EVT-01340,POS-0447,Revisión,Reclutador,REC-008,2026-07-18,Recibida,En revisión,Empresa,No,No,2026-07-18
+EVT-01341,POS-0447,Cambio de etapa,Reclutador,REC-009,2026-08-13,En revisión,Descartada,Empresa,Sí,No,2026-08-13
+EVT-01342,POS-0448,Postulación enviada,Candidato,CAN-0008,2026-08-02,,Recibida,Plataforma,No,No,2026-08-02
+EVT-01343,POS-0448,Revisión,Reclutador,REC-009,2026-08-10,Recibida,En revisión,Empresa,No,No,2026-08-10
+EVT-01344,POS-0448,Cambio de etapa,Reclutador,REC-010,2026-08-10,En revisión,Descartada,Plataforma,No,No,2026-08-10
+EVT-01345,POS-0449,Postulación enviada,Candidato,CAN-0009,2026-06-27,,Recibida,Plataforma,No,No,2026-06-27
+EVT-01346,POS-0449,Revisión,Reclutador,REC-010,2026-07-06,Recibida,En revisión,Plataforma,No,No,2026-07-06
+EVT-01347,POS-0449,Cambio de etapa,Reclutador,REC-001,2026-07-06,En revisión,Descartada,Empresa,No,No,2026-07-06
+EVT-01348,POS-0450,Postulación enviada,Candidato,CAN-0010,2026-07-22,,Recibida,Plataforma,No,No,2026-07-22
+EVT-01349,POS-0450,Revisión,Reclutador,REC-001,2026-07-29,Recibida,En revisión,Empresa,No,No,2026-07-29
+EVT-01350,POS-0450,Cambio de etapa,Reclutador,REC-002,2026-08-01,En revisión,Descartada,Empresa,Sí,No,2026-08-01
+EVT-01351,POS-0451,Postulación enviada,Candidato,CAN-0011,2026-08-15,,Recibida,Plataforma,No,No,2026-08-15
+EVT-01352,POS-0451,Corrección manual,Administrador,ADM-002,2026-08-23,Recibida,Recibida,Manual,No,Sí,2026-08-23
+EVT-01353,POS-0451,Cambio de etapa,Reclutador,REC-003,2026-08-26,Entrevista,Contratada,Plataforma,No,No,2026-08-26
+EVT-01354,POS-0452,Postulación enviada,Candidato,CAN-0012,2026-09-08,,Recibida,Plataforma,No,No,2026-09-08
+EVT-01355,POS-0452,Entrevista programada,Reclutador,REC-003,2026-09-17,Recibida,Entrevista,Plataforma,No,No,2026-09-17
+EVT-01356,POS-0452,Cambio de etapa,Reclutador,REC-004,2026-09-20,Entrevista,Contratada,Empresa,No,No,
+EVT-01357,POS-0453,Postulación enviada,Candidato,CAN-0013,2026-08-03,,Recibida,Plataforma,No,No,2026-08-03
+EVT-01358,POS-0453,Entrevista programada,Reclutador,,2026-08-13,Recibida,Entrevista,Empresa,No,Sí,2026-08-13
+EVT-01359,POS-0453,Cambio de etapa,Reclutador,REC-005,2026-08-16,Entrevista,Contratada,Empresa,Sí,No,2026-08-16
+EVT-01360,POS-0454,Postulación enviada,Candidato,CAN-0014,2026-08-27,,Recibida,Plataforma,No,No,2026-08-27
+EVT-01361,POS-0454,Entrevista programada,Reclutador,REC-005,2026-09-07,Recibida,Entrevista,Empresa,No,No,2026-09-07
+EVT-01362,POS-0454,Cambio de etapa,Reclutador,REC-006,2026-09-10,Entrevista,Contratada,Plataforma,No,No,2026-09-10
+EVT-01363,POS-0455,Postulación enviada,Candidato,CAN-0015,2026-09-20,,Recibida,Plataforma,No,No,2026-09-20
+EVT-01364,POS-0455,Entrevista programada,Reclutador,REC-006,2026-09-27,Recibida,Entrevista,Plataforma,No,No,2026-09-27
+EVT-01365,POS-0455,Cambio de etapa,Reclutador,REC-007,2026-10-05,Entrevista,Contratada,Empresa,No,No,2026-10-05
+EVT-01366,POS-0456,Postulación enviada,Candidato,CAN-0016,2026-08-15,,Recibida,Plataforma,No,No,2026-08-15
+EVT-01367,POS-0456,Entrevista programada,Reclutador,REC-007,2026-08-23,Recibida,Entrevista,Empresa,No,No,2026-08-23
+EVT-01368,POS-0456,Cambio de etapa,Reclutador,REC-008,2026-08-31,Entrevista,Contratada,Empresa,Sí,No,2026-08-31
+EVT-01369,POS-0457,Postulación enviada,Candidato,CAN-0017,2026-09-08,,Recibida,Plataforma,No,No,2026-09-08
+EVT-01370,POS-0457,Entrevista programada,Reclutador,REC-008,2026-09-17,Recibida,Entrevista,Empresa,No,No,2026-09-17
+EVT-01371,POS-0457,Cambio de etapa,Reclutador,REC-009,2026-09-25,Entrevista,Contratada,Plataforma,No,No,2026-09-25
+EVT-01372,POS-0458,Postulación enviada,Candidato,CAN-0018,2026-10-02,,Recibida,Plataforma,No,No,2026-10-02
+EVT-01373,POS-0458,Entrevista programada,Reclutador,REC-009,2026-10-12,Recibida,Entrevista,Plataforma,No,No,2026-10-12
+EVT-01374,POS-0458,Cambio de etapa,Reclutador,REC-010,2026-10-20,Entrevista,Contratada,Empresa,No,No,2026-10-20
+EVT-01375,POS-0459,Postulación enviada,Candidato,CAN-0019,2026-06-13,,Recibida,Plataforma,No,No,2026-06-13
+EVT-01376,POS-0459,Entrevista programada,Reclutador,REC-010,2026-06-24,Recibida,Entrevista,Empresa,No,No,2026-06-24
+EVT-01377,POS-0459,Cambio de etapa,Reclutador,REC-001,2026-07-02,Entrevista,Contratada,Empresa,Sí,No,2026-07-02
+EVT-01378,POS-0460,Postulación enviada,Candidato,CAN-0020,2026-09-21,,Recibida,Plataforma,No,No,2026-09-21
+EVT-01379,POS-0460,Entrevista programada,Reclutador,REC-001,2026-09-28,Recibida,Entrevista,Empresa,No,No,2026-09-28
+EVT-01380,POS-0460,Cambio de etapa,Reclutador,REC-002,2026-10-11,Entrevista,Contratada,Plataforma,No,No,2026-10-11
+EVT-01381,POS-0461,Postulación enviada,Candidato,CAN-0021,2026-10-15,,Recibida,Plataforma,No,No,2026-10-15
+EVT-01382,POS-0461,Entrevista programada,Reclutador,REC-002,2026-10-23,Recibida,Entrevista,Plataforma,No,No,2026-10-23
+EVT-01383,POS-0461,Cambio de etapa,Reclutador,REC-003,2026-10-28,Entrevista,Contratada,Empresa,No,No,2026-10-28
+EVT-01384,POS-0462,Postulación enviada,Candidato,CAN-0022,2026-06-25,,Recibida,Plataforma,No,No,2026-06-25
+EVT-01385,POS-0462,Entrevista programada,Reclutador,REC-003,2026-07-04,Recibida,Entrevista,Empresa,No,No,2026-07-04
+EVT-01386,POS-0462,Cambio de etapa,Reclutador,REC-004,2026-07-17,Entrevista,Contratada,Empresa,Sí,No,2026-07-17
+EVT-01387,POS-0463,Postulación enviada,Candidato,CAN-0023,2026-10-03,,Recibida,Plataforma,No,No,2026-10-03
+EVT-01388,POS-0463,Entrevista programada,Reclutador,REC-004,2026-10-13,Recibida,Entrevista,Empresa,No,No,2026-10-13
+EVT-01389,POS-0463,Cambio de etapa,Reclutador,REC-005,2026-10-26,Entrevista,Contratada,Plataforma,No,No,2026-10-26
+EVT-01390,POS-0464,Postulación enviada,Candidato,CAN-0024,2026-06-13,,Recibida,Plataforma,No,No,2026-06-13
+EVT-01391,POS-0464,Comunicación enviada,Reclutador,REC-005,2026-06-24,Recibida,Recibida,Empresa,Sí,No,2026-06-24
+EVT-01392,POS-0464,Cambio de etapa,Reclutador,REC-006,2026-07-07,Entrevista,Contratada,Empresa,No,No,2026-07-07
+EVT-01393,POS-0465,Postulación enviada,Candidato,CAN-0025,2026-07-07,,Recibida,Plataforma,No,No,2026-07-07
+EVT-01394,POS-0465,Entrevista programada,Reclutador,REC-006,2026-07-14,Recibida,Entrevista,Empresa,No,No,2026-07-14
+EVT-01395,POS-0465,Cambio de etapa,Reclutador,REC-007,2026-08-01,Entrevista,Contratada,Empresa,Sí,No,2026-08-01
+EVT-01396,POS-0466,Postulación enviada,Candidato,CAN-0026,2026-07-31,,Recibida,Plataforma,No,No,2026-07-31
+EVT-01397,POS-0466,Entrevista programada,Reclutador,REC-007,2026-08-08,Recibida,Entrevista,Empresa,No,No,2026-08-08
+EVT-01398,POS-0466,Cambio de etapa,Reclutador,REC-008,2026-08-26,Entrevista,Contratada,Plataforma,No,No,2026-08-26
+EVT-01399,POS-0467,Postulación enviada,Candidato,CAN-0027,2026-06-25,,Recibida,Plataforma,No,No,2026-06-25
+EVT-01400,POS-0467,Entrevista programada,Reclutador,REC-008,2026-07-04,Recibida,Entrevista,Plataforma,No,No,2026-07-04
+EVT-01401,POS-0467,Cambio de etapa,Reclutador,REC-009,2026-07-22,Entrevista,Contratada,Empresa,No,No,2026-07-22
+EVT-01402,POS-0468,Postulación enviada,Candidato,CAN-0028,2026-07-20,,Recibida,Plataforma,No,No,2026-07-20
+EVT-01403,POS-0468,Entrevista programada,Reclutador,REC-009,2026-07-30,Recibida,Entrevista,Empresa,No,No,2026-07-30
+EVT-01404,POS-0468,Cambio de etapa,Reclutador,REC-010,2026-08-17,Entrevista,Contratada,Empresa,Sí,No,2026-08-17
+EVT-01405,POS-0469,Postulación enviada,Candidato,CAN-0029,2026-08-13,,Recibida,Plataforma,No,No,2026-08-13
+EVT-01406,POS-0469,Entrevista programada,Reclutador,REC-010,2026-08-24,Recibida,Entrevista,Empresa,No,No,2026-08-24
+EVT-01407,POS-0469,Cambio de etapa,Reclutador,REC-001,2026-09-11,Entrevista,Contratada,Plataforma,No,No,2026-09-11
+EVT-01408,POS-0470,Postulación enviada,Candidato,CAN-0030,2026-07-08,,Recibida,Plataforma,No,No,2026-07-08
+EVT-01409,POS-0470,Entrevista programada,Reclutador,REC-001,2026-07-15,Recibida,Entrevista,Plataforma,No,No,2026-07-15
+EVT-01410,POS-0470,Cambio de etapa,Reclutador,REC-002,2026-08-07,Entrevista,Contratada,Empresa,No,No,2026-08-07
+EVT-01411,POS-0471,Postulación enviada,Candidato,CAN-0031,2026-08-01,,Recibida,Plataforma,No,No,2026-08-01
+EVT-01412,POS-0471,Entrevista programada,Reclutador,REC-002,2026-08-09,Recibida,Entrevista,Empresa,No,No,2026-08-09
+EVT-01413,POS-0471,Cambio de etapa,Reclutador,REC-003,2026-09-01,Entrevista,Contratada,Empresa,Sí,No,2026-09-01
+EVT-01414,POS-0472,Postulación enviada,Candidato,CAN-0032,2026-08-25,,Recibida,Plataforma,No,No,2026-08-25
+EVT-01415,POS-0472,Entrevista programada,Reclutador,REC-003,2026-09-03,Recibida,Entrevista,Empresa,No,No,2026-09-03
+EVT-01416,POS-0472,Cambio de etapa,Reclutador,REC-004,2026-09-26,Entrevista,Contratada,Plataforma,No,No,2026-09-26
+EVT-01417,POS-0473,Postulación enviada,Candidato,CAN-0033,2026-09-18,,Recibida,Plataforma,No,No,2026-09-18
+EVT-01418,POS-0473,Entrevista programada,Reclutador,REC-004,2026-09-28,Recibida,Entrevista,Plataforma,No,No,2026-09-28
+EVT-01419,POS-0473,Cambio de etapa,Reclutador,REC-005,2026-10-21,Entrevista,Contratada,Empresa,No,No,2026-10-21
+EVT-01420,POS-0474,Postulación enviada,Candidato,CAN-0034,2026-08-13,,Recibida,Plataforma,No,No,2026-08-13
+EVT-01421,POS-0474,Entrevista programada,Reclutador,REC-005,2026-08-24,Recibida,Entrevista,Empresa,No,No,2026-08-24
+EVT-01422,POS-0474,Cambio de etapa,Reclutador,REC-006,2026-09-16,Entrevista,Contratada,Empresa,Sí,No,2026-09-16
+EVT-01423,POS-0475,Postulación enviada,Candidato,CAN-0035,2026-09-06,,Recibida,Plataforma,No,No,2026-09-06
+EVT-01424,POS-0475,Entrevista programada,Reclutador,REC-006,2026-09-13,Recibida,Entrevista,Empresa,No,No,2026-09-13
+EVT-01425,POS-0475,Cambio de etapa,Reclutador,REC-007,2026-10-11,Entrevista,Contratada,Plataforma,No,No,2026-10-11
+EVT-01426,POS-0476,Postulación enviada,Candidato,CAN-0036,2026-09-30,,Recibida,Plataforma,No,No,2026-09-30
+EVT-01427,POS-0476,Entrevista programada,Reclutador,REC-007,2026-10-08,Recibida,Entrevista,Plataforma,No,No,2026-10-08
+EVT-01428,POS-0476,Cambio de etapa,Reclutador,REC-008,2026-10-08,Entrevista,Contratada,Empresa,No,No,2026-10-08
+EVT-01429,POS-0477,Postulación enviada,Candidato,CAN-0037,2026-08-26,,Recibida,Plataforma,No,No,2026-08-26
+EVT-01430,POS-0477,Vacante cerrada,Sistema,SIS-002,2026-09-04,Recibida,Recibida,Sistema,No,Sí,2026-09-04
+EVT-01431,POS-0477,Cambio de etapa,Reclutador,REC-009,2026-09-04,Entrevista,Contratada,Empresa,Sí,No,2026-09-04
+EVT-01432,POS-0478,Postulación enviada,Candidato,CAN-0038,2026-09-19,,Recibida,Plataforma,No,No,2026-09-19
+EVT-01433,POS-0478,Entrevista programada,Reclutador,REC-009,2026-09-29,Recibida,Entrevista,Empresa,No,No,2026-09-29
+EVT-01434,POS-0478,Cambio de etapa,Reclutador,REC-010,2026-09-29,Entrevista,Contratada,Plataforma,No,No,2026-09-29
+EVT-01435,POS-0479,Postulación enviada,Candidato,CAN-0039,2026-10-13,,Recibida,Plataforma,No,No,2026-10-13
+EVT-01436,POS-0479,Entrevista programada,Reclutador,REC-010,2026-10-24,Recibida,Entrevista,Plataforma,No,No,2026-10-24
+EVT-01437,POS-0479,Cambio de etapa,Reclutador,REC-001,2026-10-24,Entrevista,Contratada,Empresa,No,No,2026-10-24
+EVT-01438,POS-0480,Postulación enviada,Candidato,CAN-0040,2026-06-23,,Recibida,Plataforma,No,No,2026-06-23
+EVT-01439,POS-0480,Entrevista programada,Reclutador,REC-001,2026-06-30,Recibida,Entrevista,Empresa,No,No,2026-06-30
+EVT-01440,POS-0480,Cambio de etapa,Reclutador,REC-002,2026-07-05,Entrevista,Contratada,Empresa,Sí,No,2026-07-05
+EVT-01441,POS-0481,Postulación enviada,Candidato,CAN-0041,2026-10-01,,Recibida,Plataforma,No,No,2026-10-01
+EVT-01442,POS-0481,Vacante pausada,Sistema,SIS-002,2026-10-09,Recibida,Recibida,Sistema,No,Sí,2026-10-09
+EVT-01443,POS-0481,Cambio de etapa,Reclutador,REC-003,2026-10-14,Entrevista,Contratada,Plataforma,No,No,2026-10-14
+EVT-01444,POS-0482,Postulación enviada,Candidato,CAN-0042,2026-06-11,,Recibida,Plataforma,No,No,2026-06-11
+EVT-01445,POS-0482,Entrevista programada,Reclutador,REC-003,2026-06-20,Recibida,Entrevista,Plataforma,No,No,2026-06-20
+EVT-01446,POS-0482,Cambio de etapa,Reclutador,REC-004,2026-06-25,Entrevista,Contratada,Empresa,No,No,2026-06-25
+EVT-01447,POS-0483,Postulación enviada,Candidato,CAN-0043,2026-07-05,,Recibida,Plataforma,No,No,2026-07-05
+EVT-01448,POS-0483,Entrevista programada,Reclutador,REC-004,2026-07-15,Recibida,Entrevista,Empresa,No,No,2026-07-15
+EVT-01449,POS-0483,Cambio de etapa,Reclutador,REC-005,2026-07-20,Entrevista,Contratada,Empresa,Sí,No,2026-07-20
+EVT-01450,POS-0484,Postulación enviada,Candidato,CAN-0044,2026-10-13,,Recibida,Plataforma,No,No,2026-10-13
+EVT-01451,POS-0484,Entrevista programada,Reclutador,REC-005,2026-10-24,Recibida,Entrevista,Empresa,No,No,2026-10-24
+EVT-01452,POS-0484,Cambio de etapa,Reclutador,REC-006,2026-10-28,Entrevista,Contratada,Plataforma,No,No,2026-10-28
+EVT-01453,POS-0485,Postulación enviada,Candidato,CAN-0045,2026-06-23,,Recibida,Plataforma,No,No,2026-06-23
+EVT-01454,POS-0485,Entrevista programada,Reclutador,REC-006,2026-06-30,Recibida,Entrevista,Plataforma,No,No,2026-06-30
+EVT-01455,POS-0485,Cambio de etapa,Reclutador,,2026-07-10,Entrevista,Contratada,Empresa,No,Sí,2026-07-10
+EVT-01456,POS-0486,Postulación enviada,Candidato,CAN-0046,2026-07-18,,Recibida,Plataforma,No,No,2026-07-18
+EVT-01457,POS-0486,Entrevista programada,Reclutador,REC-007,2026-07-26,Recibida,Entrevista,Empresa,No,No,2026-07-26
+EVT-01458,POS-0486,Cambio de etapa,Reclutador,REC-008,2026-08-05,Entrevista,Contratada,Empresa,Sí,No,2026-08-05
+EVT-01459,POS-0487,Postulación enviada,Candidato,CAN-0047,2026-08-11,,Recibida,Plataforma,No,No,2026-08-11
+EVT-01460,POS-0487,Entrevista programada,Reclutador,REC-008,2026-08-20,Recibida,Entrevista,Empresa,No,No,2026-08-20
+EVT-01461,POS-0487,Cambio de etapa,Reclutador,REC-009,2026-08-23,Entrevista,Contratada,Plataforma,No,No,2026-08-23
+EVT-01462,POS-0488,Postulación enviada,Candidato,CAN-0048,2026-07-06,,Recibida,Plataforma,No,No,2026-07-06
+EVT-01463,POS-0488,Entrevista programada,Reclutador,REC-009,2026-07-16,Recibida,Entrevista,Plataforma,No,No,2026-07-16
+EVT-01464,POS-0488,Cambio de etapa,Reclutador,REC-010,2026-07-26,Entrevista,Contratada,Empresa,No,No,2026-07-26
+EVT-01465,POS-0489,Postulación enviada,Candidato,CAN-0049,2026-07-30,,Recibida,Plataforma,No,No,2026-07-30
+EVT-01466,POS-0489,Entrevista programada,Reclutador,REC-010,2026-08-10,Recibida,Entrevista,Empresa,No,No,2026-08-10
+EVT-01467,POS-0489,Cambio de etapa,Reclutador,REC-001,2026-08-20,Entrevista,Contratada,Empresa,Sí,No,2026-08-20
+EVT-01468,POS-0490,Postulación enviada,Candidato,CAN-0050,2026-08-23,,Recibida,Plataforma,No,No,2026-08-23
+EVT-01469,POS-0490,Entrevista programada,Reclutador,REC-001,2026-08-30,Recibida,Entrevista,Empresa,No,No,
+EVT-01470,POS-0490,Cambio de etapa,Reclutador,REC-002,2026-09-14,Entrevista,Contratada,Plataforma,No,No,2026-09-14
+EVT-01471,POS-0491,Postulación enviada,Candidato,CAN-0051,2026-07-18,,Recibida,Plataforma,No,No,2026-07-18
+EVT-01472,POS-0491,Entrevista programada,Reclutador,REC-002,2026-07-26,Recibida,Entrevista,Plataforma,No,No,2026-07-26
+EVT-01473,POS-0491,Cambio de etapa,Reclutador,REC-003,2026-08-10,Entrevista,Contratada,Empresa,No,No,2026-08-10
+EVT-01474,POS-0492,Postulación enviada,Candidato,CAN-0052,2026-08-11,,Recibida,Plataforma,No,No,2026-08-11
+EVT-01475,POS-0492,Corrección manual,Administrador,ADM-003,2026-08-20,Recibida,Recibida,Manual,No,Sí,2026-08-20
+EVT-01476,POS-0492,Cambio de etapa,Reclutador,REC-004,2026-09-04,Entrevista,Contratada,Empresa,Sí,No,2026-09-04
+EVT-01477,POS-0493,Postulación enviada,Candidato,CAN-0053,2026-09-04,,Recibida,Plataforma,No,No,2026-09-04
+EVT-01478,POS-0493,Comunicación enviada,Reclutador,REC-004,2026-09-14,Recibida,Recibida,Empresa,Sí,No,2026-09-14
+EVT-01479,POS-0493,Cambio de etapa,Reclutador,REC-005,2026-09-29,Entrevista,Contratada,Plataforma,No,No,2026-09-29
+EVT-01480,POS-0494,Postulación enviada,Candidato,CAN-0054,2026-09-28,,Recibida,Plataforma,No,No,2026-09-28
+EVT-01481,POS-0494,Entrevista programada,Reclutador,REC-005,2026-10-09,Recibida,Entrevista,Plataforma,No,No,2026-10-09
+EVT-01482,POS-0494,Cambio de etapa,Reclutador,REC-006,2026-10-24,Entrevista,Contratada,Empresa,No,No,2026-10-24
+EVT-01483,POS-0495,Postulación enviada,Candidato,CAN-0055,2026-08-24,,Recibida,Plataforma,No,No,2026-08-24
+EVT-01484,POS-0495,Entrevista programada,Reclutador,REC-006,2026-08-31,Recibida,Entrevista,Empresa,No,No,2026-08-31
+EVT-01485,POS-0495,Cambio de etapa,Reclutador,REC-007,2026-09-20,Entrevista,Contratada,Empresa,Sí,No,2026-09-20
+EVT-01486,POS-0496,Postulación enviada,Candidato,CAN-0056,2026-09-17,,Recibida,Plataforma,No,No,2026-09-17
+EVT-01487,POS-0496,Entrevista programada,Reclutador,REC-007,2026-09-25,Recibida,Entrevista,Empresa,No,No,2026-09-25
+EVT-01488,POS-0496,Cambio de etapa,Reclutador,REC-008,2026-10-15,Entrevista,Contratada,Plataforma,No,No,2026-10-15
+EVT-01489,POS-0497,Postulación enviada,Candidato,CAN-0057,2026-10-11,,Recibida,Plataforma,No,No,2026-10-11
+EVT-01490,POS-0497,Entrevista programada,Reclutador,REC-008,2026-10-20,Recibida,Entrevista,Plataforma,No,No,2026-10-20
+EVT-01491,POS-0497,Cambio de etapa,Reclutador,REC-009,2026-10-28,Entrevista,Contratada,Empresa,No,No,2026-10-28
+EVT-01492,POS-0498,Postulación enviada,Candidato,CAN-0058,2026-09-05,,Recibida,Plataforma,No,No,2026-09-05
+EVT-01493,POS-0498,Entrevista programada,Reclutador,REC-009,2026-09-15,Recibida,Entrevista,Empresa,No,No,2026-09-15
+EVT-01494,POS-0498,Cambio de etapa,Reclutador,REC-010,2026-10-05,Entrevista,Contratada,Empresa,Sí,No,2026-10-05
+EVT-01495,POS-0499,Postulación enviada,Candidato,CAN-0059,2026-09-29,,Recibida,Plataforma,No,No,2026-09-29
+EVT-01496,POS-0499,Entrevista programada,Reclutador,REC-010,2026-10-10,Recibida,Entrevista,Empresa,No,No,2026-10-10
+EVT-01497,POS-0499,Cambio de etapa,Reclutador,REC-001,2026-10-28,Entrevista,Contratada,Plataforma,No,No,2026-10-28
+EVT-01498,POS-0500,Postulación enviada,Candidato,CAN-0060,2026-10-23,,Recibida,Plataforma,No,No,2026-10-23
+EVT-01499,POS-0500,Entrevista programada,Reclutador,REC-001,2026-10-28,Recibida,Entrevista,Plataforma,No,No,2026-10-28
+EVT-01500,POS-0500,Cambio de etapa,Reclutador,REC-002,2026-10-28,Entrevista,Contratada,Empresa,No,No,2026-10-28

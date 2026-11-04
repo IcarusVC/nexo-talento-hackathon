@@ -1,0 +1,61 @@
+﻿vacante_id,empresa_id,reclutador_id,familia_cargo,nombre_cargo,requisitos_esenciales,modalidad,region,rango_renta,fecha_publicacion,fecha_cierre,estado_vacante,ultima_actualizacion
+VAC-001,EMP-001,REC-001,Tecnología,Desarrollador Frontend Jr.,JavaScript básico|Git básico|Construcción de interfaces web,Presencial,Metropolitana,CLP 1000000-1300000,2026-08-24,2026-11-09,Activa,2026-10-19
+VAC-002,EMP-002,REC-002,Datos,Analista de Datos Jr.,SQL básico|Excel intermedio|Visualización de datos,Híbrida,Metropolitana,CLP 1050000-1350000,2026-08-26,2026-11-10,Activa,2026-10-20
+VAC-003,EMP-003,REC-003,Operaciones,Analista de Operaciones,Excel intermedio|Seguimiento de indicadores|Documentación de procesos,Remota,Metropolitana,CLP 900000-1200000,2026-08-28,2026-11-11,Activa,2026-10-21
+VAC-004,EMP-004,REC-004,Comercial,Ejecutivo de Cuentas,Gestión de cartera|Manejo de CRM|Comunicación escrita,Presencial,Valparaíso,CLP 850000-1150000,2026-08-30,2026-10-09,Activa,2026-10-22
+VAC-005,EMP-005,REC-005,Servicio al cliente,Ejecutivo de Atención,Atención de solicitudes|Registro de casos|Comunicación escrita,Híbrida,Valparaíso,CLP 700000-900000,2026-09-01,2026-11-13,Activa,2026-09-02
+VAC-006,EMP-006,,Administración y finanzas,Analista Contable,Contabilidad general|Excel intermedio|Conciliaciones,Remota,Valparaíso,CLP 900000-1200000,2026-09-03,2026-11-14,Activa,2026-10-24
+VAC-007,EMP-007,REC-007,Tecnología,Analista QA,Diseño de casos de prueba|Registro de incidencias|Manejo de planillas,Presencial,Biobío,CLP 950000-1200000,2026-09-05,2026-11-15,Activa,2026-10-25
+VAC-008,EMP-008,REC-008,Datos,Analista BI,Power BI básico|Modelamiento de indicadores|SQL básico,Híbrida,Biobío,CLP 1150000-1500000,2026-09-07,2026-10-13,Activa,2026-10-26
+VAC-009,EMP-009,REC-009,Operaciones,Coordinador de Logística,,Remota,Biobío,CLP 1050000-1350000,2026-09-09,2026-11-17,Activa,2026-10-27
+VAC-010,EMP-010,REC-010,Comercial,KAM Jr.,Seguimiento de clientes|Preparación de propuestas|Manejo de CRM,Presencial,Antofagasta,CLP 1100000-1450000,2026-09-11,2026-11-18,Activa,2026-09-07
+VAC-011,EMP-011,REC-001,Servicio al cliente,Customer Success Jr.,Seguimiento de clientes|Manejo de CRM|Elaboración de reportes,Híbrida,Antofagasta,CLP 900000-1200000,2026-09-13,2026-11-19,Activa,2026-10-18
+VAC-012,EMP-012,REC-002,Administración y finanzas,Analista de Control de Gestión,Excel avanzado|Seguimiento presupuestario|Elaboración de indicadores,Remota,Antofagasta,CLP 1100000-1450000,2026-09-15,2026-10-17,Activa,2026-10-19
+VAC-013,EMP-001,REC-003,Tecnología,Soporte TI,Soporte a usuarios|Resolución de incidencias|Conocimientos de sistemas operativos,Presencial,Los Lagos,CLP 800000-1050000,2026-09-17,2026-11-21,Activa,2026-10-20
+VAC-014,EMP-002,REC-004,Datos,Data Steward,Control de calidad de datos|Documentación|Manejo de planillas,Híbrida,Los Lagos,,2026-09-19,2026-11-22,Activa,2026-10-21
+VAC-015,EMP-003,REC-005,Operaciones,Planificador de Demanda,Análisis de demanda|Excel avanzado|Elaboración de pronósticos,Remota,Los Lagos,CLP 1200000-1550000,2026-09-21,,Activa,2026-09-12
+VAC-016,EMP-004,REC-006,Comercial,Sales Development Representative,Prospección comercial|Registro en CRM|Comunicación telefónica,Presencial,Metropolitana,CLP 800000-1050000,2026-09-23,2026-10-05,Activa,2026-10-23
+VAC-017,EMP-005,REC-007,Servicio al cliente,Agente de Soporte,Resolución de consultas|Registro de incidencias|Comunicación clara,Híbrida,Metropolitana,CLP 750000-950000,2026-09-25,2026-11-25,Activa,2026-10-24
+VAC-018,EMP-006,REC-008,Administración y finanzas,Asistente Administrativo,Gestión documental|Manejo de planillas|Coordinación administrativa,Remota,Metropolitana,CLP 650000-850000,2026-09-27,2026-11-26,Activa,
+VAC-019,EMP-007,REC-009,Tecnología,Analista de Sistemas,Levantamiento de requerimientos|Documentación de procesos|SQL básico,Presencial,Valparaíso,CLP 1100000-1450000,2026-09-29,2026-11-27,Activa,2026-10-26
+VAC-020,EMP-008,REC-010,Datos,Analista de Reportes,Excel avanzado|Construcción de reportes|Presentación de resultados,Híbrida,Valparaíso,CLP 950000-1250000,2026-10-01,2026-10-09,Activa,2026-09-17
+VAC-021,EMP-009,REC-001,Operaciones,Supervisor de Procesos,Coordinación de equipos|Control operacional|Gestión de incidencias,Remota,Valparaíso,CLP 1100000-1450000,2026-10-03,2026-11-29,Activa,2026-10-28
+VAC-022,EMP-010,,Comercial,Analista Comercial,Excel intermedio|Análisis de ventas|Elaboración de reportes,Presencial,Biobío,CLP 950000-1250000,2026-10-05,2026-11-30,Activa,2026-10-18
+VAC-023,EMP-011,REC-003,Servicio al cliente,Analista de Experiencia,Análisis de encuestas|Excel intermedio|Mapeo de experiencia,Híbrida,Biobío,CLP 950000-1250000,2026-10-07,2026-12-01,Activa,2026-10-19
+VAC-024,EMP-012,REC-004,Administración y finanzas,Analista de Facturación,Emisión de documentos|Conciliación de pagos|Excel intermedio,Remota,Biobío,CLP 850000-1100000,2026-10-09,2026-10-13,Activa,2026-10-20
+VAC-025,EMP-001,REC-005,Tecnología,Desarrollador Frontend Jr.,JavaScript básico|Git básico|Construcción de interfaces web,Presencial,Antofagasta,CLP 1000000-1300000,2026-10-11,2026-11-08,Activa,2026-08-31
+VAC-026,EMP-002,REC-006,Datos,Analista de Datos Jr.,SQL básico|Excel intermedio|Visualización de datos,Híbrida,Antofagasta,CLP 1050000-1350000,2026-10-13,2026-11-09,Activa,2026-10-22
+VAC-027,EMP-003,REC-007,Operaciones,Analista de Operaciones,Excel intermedio|Seguimiento de indicadores|Documentación de procesos,Remota,Antofagasta,CLP 900000-1200000,2026-10-15,,Activa,2026-10-23
+VAC-028,EMP-004,REC-008,Comercial,Ejecutivo de Cuentas,Gestión de cartera|Manejo de CRM|Comunicación escrita,Presencial,Los Lagos,CLP 850000-1150000,2026-10-17,2026-11-11,Activa,2026-10-24
+VAC-029,EMP-005,REC-009,Servicio al cliente,Ejecutivo de Atención,Atención de solicitudes|Registro de casos|Comunicación escrita,Híbrida,Los Lagos,CLP 700000-900000,2026-09-07,2026-11-12,Pausada,2026-10-25
+VAC-030,EMP-006,REC-010,Administración y finanzas,Analista Contable,Contabilidad general|Excel intermedio|Conciliaciones,Remota,Los Lagos,CLP 900000-1200000,2026-09-10,2026-10-19,Pausada,2026-09-05
+VAC-031,EMP-007,REC-001,Tecnología,Analista QA,Diseño de casos de prueba|Registro de incidencias|Manejo de planillas,Presencial,Metropolitana,CLP 950000-1200000,2026-09-13,2026-11-14,Pausada,2026-10-27
+VAC-032,EMP-008,REC-002,Datos,Analista BI,Power BI básico|Modelamiento de indicadores|SQL básico,Híbrida,Metropolitana,CLP 1150000-1500000,2026-09-16,2026-11-15,Pausada,2026-10-28
+VAC-033,EMP-009,REC-003,Operaciones,Coordinador de Logística,,Remota,Metropolitana,CLP 1050000-1350000,2026-09-19,,Pausada,2026-10-18
+VAC-034,EMP-010,REC-004,Comercial,KAM Jr.,Seguimiento de clientes|Preparación de propuestas|Manejo de CRM,Presencial,Valparaíso,CLP 1100000-1450000,2026-08-03,2026-10-07,Pausada,2026-10-19
+VAC-035,EMP-011,REC-005,Servicio al cliente,Customer Success Jr.,Seguimiento de clientes|Manejo de CRM|Elaboración de reportes,Híbrida,Valparaíso,CLP 900000-1200000,2026-08-06,2026-11-18,Pausada,2026-09-10
+VAC-036,EMP-012,REC-006,Administración y finanzas,Analista de Control de Gestión,Excel avanzado|Seguimiento presupuestario|Elaboración de indicadores,Remota,Valparaíso,CLP 1100000-1450000,2026-08-09,2026-11-19,Pausada,2026-10-21
+VAC-037,EMP-001,,Tecnología,Soporte TI,Soporte a usuarios|Resolución de incidencias|Conocimientos de sistemas operativos,Presencial,Biobío,CLP 800000-1050000,2026-08-12,2026-11-20,Pausada,2026-10-22
+VAC-038,EMP-002,REC-008,Datos,Data Steward,Control de calidad de datos|Documentación|Manejo de planillas,Híbrida,Biobío,CLP 1000000-1300000,2026-08-15,2026-11-21,Pausada,
+VAC-039,EMP-003,REC-009,Operaciones,Planificador de Demanda,Análisis de demanda|Excel avanzado|Elaboración de pronósticos,Remota,Biobío,CLP 1200000-1550000,2026-08-18,2026-11-22,Pausada,2026-10-24
+VAC-040,EMP-004,REC-010,Comercial,Sales Development Representative,Prospección comercial|Registro en CRM|Comunicación telefónica,Presencial,Antofagasta,CLP 800000-1050000,2026-08-21,2026-11-23,Pausada,2026-09-15
+VAC-041,EMP-005,REC-001,Servicio al cliente,Agente de Soporte,Resolución de consultas|Registro de incidencias|Comunicación clara,Híbrida,Antofagasta,CLP 750000-950000,2026-08-07,2026-09-02,Cerrada,2026-09-16
+VAC-042,EMP-006,REC-002,Administración y finanzas,Asistente Administrativo,Gestión documental|Manejo de planillas|Coordinación administrativa,Remota,Antofagasta,CLP 650000-850000,2026-08-11,2026-09-07,Cerrada,2026-09-07
+VAC-043,EMP-007,REC-003,Tecnología,Analista de Sistemas,Levantamiento de requerimientos|Documentación de procesos|SQL básico,Presencial,Los Lagos,CLP 1100000-1450000,2026-08-15,2026-09-12,Cerrada,2026-09-12
+VAC-044,EMP-008,REC-004,Datos,Analista de Reportes,Excel avanzado|Construcción de reportes|Presentación de resultados,Híbrida,Los Lagos,,2026-06-22,2026-07-21,Cerrada,2026-07-21
+VAC-045,EMP-009,REC-005,Operaciones,Supervisor de Procesos,Coordinación de equipos|Control operacional|Gestión de incidencias,Remota,Los Lagos,CLP 1100000-1450000,2026-06-26,2026-07-26,Cerrada,2026-08-29
+VAC-046,EMP-010,REC-006,Comercial,Analista Comercial,Excel intermedio|Análisis de ventas|Elaboración de reportes,Presencial,Metropolitana,CLP 950000-1250000,2026-06-30,2026-07-31,Cerrada,2026-07-31
+VAC-047,EMP-011,REC-007,Servicio al cliente,Analista de Experiencia,Análisis de encuestas|Excel intermedio|Mapeo de experiencia,Híbrida,Metropolitana,CLP 950000-1250000,2026-07-04,2026-08-05,Cerrada,2026-08-05
+VAC-048,EMP-012,REC-008,Administración y finanzas,Analista de Facturación,Emisión de documentos|Conciliación de pagos|Excel intermedio,Remota,Metropolitana,CLP 850000-1100000,2026-07-08,2026-08-10,Cerrada,2026-08-10
+VAC-049,EMP-001,,Tecnología,Desarrollador Frontend Jr.,JavaScript básico|Git básico|Construcción de interfaces web,Presencial,Valparaíso,CLP 1000000-1300000,2026-07-12,2026-08-15,Cerrada,2026-08-15
+VAC-050,EMP-002,REC-010,Datos,Analista de Datos Jr.,SQL básico|Excel intermedio|Visualización de datos,Híbrida,Valparaíso,CLP 1050000-1350000,2026-07-16,2026-08-20,Cerrada,2026-09-03
+VAC-051,EMP-003,REC-001,Operaciones,Analista de Operaciones,Excel intermedio|Seguimiento de indicadores|Documentación de procesos,Remota,Valparaíso,CLP 900000-1200000,2026-07-20,2026-08-25,Cerrada,2026-08-25
+VAC-052,EMP-004,REC-002,Comercial,Ejecutivo de Cuentas,,Presencial,Biobío,CLP 850000-1150000,2026-07-24,2026-08-30,Cerrada,2026-08-30
+VAC-053,EMP-005,REC-003,Servicio al cliente,Ejecutivo de Atención,Atención de solicitudes|Registro de casos|Comunicación escrita,Híbrida,Biobío,CLP 700000-900000,2026-07-28,2026-09-04,Cerrada,2026-09-04
+VAC-054,EMP-006,REC-004,Administración y finanzas,Analista Contable,Contabilidad general|Excel intermedio|Conciliaciones,Remota,Biobío,CLP 900000-1200000,2026-08-01,2026-09-09,Cerrada,2026-09-09
+VAC-055,EMP-007,REC-005,Tecnología,Analista QA,Diseño de casos de prueba|Registro de incidencias|Manejo de planillas,Presencial,Antofagasta,CLP 950000-1200000,2026-08-05,2026-09-14,Cerrada,2026-09-08
+VAC-056,EMP-008,,Datos,Analista BI,Power BI básico|Modelamiento de indicadores|SQL básico,Híbrida,Antofagasta,CLP 1150000-1500000,2026-08-09,2026-09-19,Cerrada,2026-09-19
+VAC-057,EMP-009,REC-007,Operaciones,Coordinador de Logística,Coordinación de despachos|Control de inventario|Manejo de planillas,Remota,Antofagasta,CLP 1050000-1350000,2026-08-13,,Cerrada,2026-10-20
+VAC-058,EMP-010,REC-008,Comercial,KAM Jr.,Seguimiento de clientes|Preparación de propuestas|Manejo de CRM,Presencial,Los Lagos,CLP 1100000-1450000,2026-06-20,2026-08-02,Cerrada,
+VAC-059,EMP-011,REC-009,Servicio al cliente,Customer Success Jr.,Seguimiento de clientes|Manejo de CRM|Elaboración de reportes,Híbrida,Los Lagos,CLP 900000-1200000,2026-06-24,2026-08-07,Cerrada,2026-08-07
+VAC-060,EMP-012,REC-010,Administración y finanzas,Analista de Control de Gestión,Excel avanzado|Seguimiento presupuestario|Elaboración de indicadores,Remota,Los Lagos,CLP 1100000-1450000,2026-06-28,2026-07-23,Cerrada,2026-09-13
