@@ -4,6 +4,31 @@ Revisión local del 3 de noviembre de 2026, zona horaria de Chile continental. E
 
 ## Resultados comprobados
 
+### Ampliación: búsqueda, salarios y formación
+
+Verificación posterior de la misma jornada, 3 de noviembre de 2026 en Chile:
+
+| Comprobación | Resultado |
+|---|---|
+| Pruebas de la plataforma ampliada | 121 aprobadas en 11 archivos |
+| TypeScript y compilación de producción | Correctos; 24 páginas estáticas y ruta dinámica de búsqueda |
+| Búsqueda real desde el navegador | «Analista de datos» devolvió 30 publicaciones de Get on Board, tanto en desarrollo como en producción |
+| Proveedor independiente | API pública oficial sin credenciales; una página, hasta 30 ofertas, caché de 10 minutos y límites de tiempo/tamaño |
+| Luk por cargo | El portal rechazó la consulta; se detuvo ese conector. El buscador usa Get on Board, sin reintentos ni respaldo en Luk |
+| Ubicación sin coincidencias | Cero resultados sobre la captura almacenada; no se sustituyen por ofertas ficticias |
+| Salarios | Siete referencias con moneda, período y base verificados; rangos API sin período se muestran como pendientes y no se agregan numéricamente |
+| Formación | Ocho cursos de tres universidades con fuentes oficiales, requisitos y condiciones de certificación |
+| Objetivo y recomendaciones | Cambiar de cargo cambia sus capacidades y formación; la vista Universidad conserva el mismo cargo |
+| Perfil | Marcar capacidad cambia las pendientes como autodeclaración; se conserva tras recargar |
+| Horario | Disponibilidad de 20 horas muestra barrera ante práctica de 40, sin atribuir falta de habilidad |
+| Sesión recuperada en producción | Treinta resultados, consulta y cargo no inicial de Checkr conservados al recargar; etiqueta «Consulta guardada» y fecha original |
+| Diseño adaptable del nuevo recorrido | Sin desbordamiento horizontal a 320, 390 y 1366 píxeles; revisión visual de búsqueda y formación |
+| Consola de producción | Sin errores ni advertencias registrados durante el recorrido final |
+
+Los datos iniciales revisados previamente se distinguen de cada captura. La formación universitaria sigue siendo un catálogo documentado, sin consulta automática de universidades. La clasificación de requisitos ambiguos permanece revisable: una preferencia al final de una lista ya no degrada los requisitos obligatorios anteriores. La prueba de la API confirma funcionamiento puntual, no cobertura exhaustiva ni disponibilidad futura.
+
+### Entrega inicial
+
 | Comprobación | Resultado |
 |---|---|
 | Manifiesto, lock y `npm ls --depth=0` | Correctos |
@@ -45,5 +70,7 @@ La demo `/nexo` funciona localmente sin Firebase, correo ni pagos; conservar el 
 La configuración de GitHub Actions está incluida. Su estado remoto debe comprobarse en GitHub; los resultados de esta tabla son locales.
 
 ## Evidencia visual
+
+![Buscador y ruta de crecimiento con resultados reales](capturas/mi-proximo-paso.jpg)
 
 ![Comparación curricular en la aplicación](capturas/universidad-escritorio.jpg)

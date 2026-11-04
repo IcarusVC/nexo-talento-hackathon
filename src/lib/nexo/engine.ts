@@ -2,7 +2,7 @@ import researchData from "@/data/nexo/research.json";
 import opportunityData from "@/data/nexo/opportunities.json";
 import type {
   CurriculumEvidence, CurriculumMatch, ExtractedRequirements, Field, FitAssessment,
-  ImportResult, Opportunity, ResearchProgram, SkillRequirement, StudentProfile,
+  ImportResult, Opportunity, PublishedSalary, ResearchProgram, SkillRequirement, StudentProfile,
 } from "./types";
 
 // Deliberately deterministic and inspectable. These are text matches to review,
@@ -70,6 +70,22 @@ function requirementLevel(sentence: string): SkillRequirement["level"] {
   return "mentioned";
 }
 
+function skillRequirementLevel(sentence: string, aliases: readonly string[]): SkillRequirement["level"] {
+  // A preference at the end of a list must not relabel its required items.
+  // Carry list context across commas, but let an explicit qualifier override it.
+  let context: SkillRequirement["level"] = "mentioned";
+  const levels: SkillRequirement["level"][] = [];
+  for (const clause of sentence.split(/,|\b(?:pero|but|whereas|mientras que)\b/i)) {
+    const value = fold(clause);
+    const explicit = requirementLevel(clause);
+    const mixed = explicit === "preferred" && /requerid|obligatorio|required|must have|se exige|indispensable/.test(value.replace(/no (?:es )?obligatorio|not required/g, ""));
+    if (mixed) context = "mentioned"; // Mixed scope within one clause needs human review.
+    else if (explicit !== "mentioned") context = explicit;
+    if (aliases.some((alias) => contains(value, alias))) levels.push(context);
+  }
+  return levels.includes("required") ? "required" : levels.includes("preferred") ? "preferred" : "mentioned";
+}
+
 function numberWords(value: string) {
   return value.replace(/\b(un|uno|una|one|dos|two|tres|three|cuatro|four|cinco|five)\b/g,
     (word) => ({ un: "1", uno: "1", una: "1", one: "1", dos: "2", two: "2", tres: "3", three: "3", cuatro: "4", four: "4", cinco: "5", five: "5" })[word] ?? word);
@@ -86,13 +102,14 @@ export function extractRequirements(text: string): ExtractedRequirements {
       return aliases.some((alias) => contains(normalized, alias) && !new RegExp(`(?:no (?:se )?(?:requiere|exige)|not required|no es necesario)[^,;:.]{0,35}${escape(alias)}(?=$|[^a-z0-9])`).test(normalized));
     });
     if (matches.length) {
-      const sentence = matches.find((s) => requirementLevel(s) === "required") ?? matches[0];
-      skills.push({ id, label, evidence: sentence.slice(0, 500), level: requirementLevel(sentence) });
+      const sentence = matches.find((s) => skillRequirementLevel(s, aliases) === "required") ?? matches[0];
+      skills.push({ id, label, evidence: sentence.slice(0, 500), level: skillRequirementLevel(sentence, aliases) });
     }
   }
 
   let experienceMinYears: number | null = null;
   let experienceIsRequired: boolean | null = null;
+  let experienceStrictMinimum = false;
   for (const sentence of sentences) {
     const value = numberWords(fold(sentence));
     // Not specifying a threshold is not equivalent to accepting zero years.
@@ -111,6 +128,7 @@ export function extractRequirements(text: string): ExtractedRequirements {
       const amount = Number(match[1].replace(",", "."));
       if (Number.isFinite(amount) && amount <= 80) {
         experienceMinYears = /mes|month/.test(match[2]) ? amount / 12 : amount;
+        experienceStrictMinimum = /mas de|more than|over\s+\d/.test(value);
         const level = requirementLevel(value);
         experienceIsRequired = level === "preferred" ? false : level === "required" || /minimo|al menos|desde|at least|mas de/.test(value) ? true : null;
         break;
@@ -125,7 +143,7 @@ export function extractRequirements(text: string): ExtractedRequirements {
   const projectsRejected = /no (?:se )?(?:acepta|admite|considera)[^.\n;]{0,50}proyectos? academic/.test(normalized);
   const graduatesAccepted = /(?:admite|acepta|considera|abiert[oa] a)[^.\n;]{0,65}recien (?:titulad|egresad)|(?:recien graduad|recent graduates)[^.\n;]{0,45}(?:welcome|accepted)/.test(normalized);
   const studentCondition = /(?:requisito[^.\n;]{0,50})?(?:matricula (?:vigente|universitaria)|estudiante (?:regular|universitario)|students? enrolled|currently enrolled)|debe ser estudiante|estudiantes (?:fen|de medicina)|alumnado de (?:la carrera|medicina)/.test(normalized);
-  return { skills, experienceMinYears, experienceIsRequired,
+  return { skills, experienceMinYears, experienceIsRequired, experienceStrictMinimum,
     acceptsProjects: projectsRejected ? false : projectsMention ? true : null,
     acceptsGraduates: graduatesAccepted ? true : null,
     studentRequired: /no (?:se )?(?:requiere|exige) matricula/.test(normalized) ? false : studentCondition ? true : null,
@@ -254,8 +272,8 @@ export function assessAccess(opportunity: Opportunity, profile: StudentProfile):
   else if (opportunity.studentRequired === null) result.unknown.push({ label: "Elegibilidad académica", detail: "No se verificó si exige matrícula, título, habilitación u otro requisito." });
 
   if (opportunity.experienceMinYears === null) result.unknown.push({ label: "Experiencia por precisar", detail: "No hay un mínimo de años verificable. No equivale a aceptar cero años." });
-  else if (profile.yearsExperience >= opportunity.experienceMinYears) result.matched.push({ label: "Experiencia declarada", detail: `Declaraste ${profile.yearsExperience} años frente a ${opportunity.experienceMinYears} publicados. Falta comprobar tipo y reconocimiento.` });
-  else if (opportunity.experienceIsRequired === true && opportunity.acceptsGraduates !== true) result.barriers.push({ label: "Experiencia mínima exigida", detail: `Se publican ${opportunity.experienceMinYears} años como requisito. Un proyecto no se convierte automáticamente en años equivalentes.` });
+  else if (opportunity.experienceStrictMinimum ? profile.yearsExperience > opportunity.experienceMinYears : profile.yearsExperience >= opportunity.experienceMinYears) result.matched.push({ label: "Experiencia declarada", detail: `Declaraste ${profile.yearsExperience} años frente a ${opportunity.experienceStrictMinimum ? "más de " : ""}${opportunity.experienceMinYears} publicados. Falta comprobar tipo y reconocimiento.` });
+  else if (opportunity.experienceIsRequired === true && opportunity.acceptsGraduates !== true) result.barriers.push({ label: "Experiencia mínima exigida", detail: `Se publican ${opportunity.experienceStrictMinimum ? "más de " : ""}${opportunity.experienceMinYears} años como requisito. Un proyecto no se convierte automáticamente en años equivalentes.` });
   else result.unknown.push({ label: "Experiencia revisable", detail: opportunity.acceptsGraduates ? "El aviso contempla recién egresados: confirmar evidencia y excepción aplicable." : "La experiencia es deseable o no está definida como excluyente. Confirmar qué evidencia acepta la empresa." });
   if (opportunity.acceptsProjects === true) result.matched.push({ label: "Proyectos considerados", detail: "La fuente contempla proyectos como antecedentes; el empleador debe reconocer su pertinencia." });
 
@@ -277,6 +295,19 @@ function dateValue(value: unknown): string {
   return /^\d{4}-\d{2}-\d{2}(?:T[^\s]+)?$/.test(text) && Number.isFinite(Date.parse(text)) ? text : "";
 }
 
+function publishedSalary(value: unknown): PublishedSalary | undefined {
+  const salary = rec(value);
+  if (!salary) return undefined;
+  const min = salary.min ?? salary.min_amount;
+  const max = salary.max ?? salary.max_amount ?? min;
+  const currency = str(salary.currency).toUpperCase();
+  const periods: Record<string, PublishedSalary["period"]> = { month: "month", monthly: "month", mes: "month", mensual: "month", year: "year", yearly: "year", annual: "year", anual: "year", hour: "hour", hourly: "hour", hora: "hour" };
+  const period = periods[fold(str(salary.period))];
+  if (typeof min !== "number" || typeof max !== "number" || !Number.isFinite(min) || !Number.isFinite(max) || min <= 0 || max < min || !/^[A-Z]{3}$/.test(currency) || !period) return undefined;
+  const basis = salary.basis === "gross" || salary.basis === "net" ? salary.basis : "unspecified";
+  return { min, max, currency, period, basis, quote: str(salary.quote).slice(0, 240) };
+}
+
 function importRow(raw: RecordValue, index: number): Opportunity {
   const sourceUrl = safeUrl(raw.url ?? raw.sourceUrl);
   if (!sourceUrl) throw new Error(`Fila ${index}: falta una URL HTTP/HTTPS válida, sin credenciales.`);
@@ -286,6 +317,7 @@ function importRow(raw: RecordValue, index: number): Opportunity {
   const description = [str(raw.description_text) || str(raw.description), str(raw.requirements_text), str(raw.work_hours), str(raw.schedule), str(raw.workday)].filter(Boolean).join("\n");
   const extracted = extractRequirements(description);
   const salary = rec(raw.salary);
+  const normalizedSalary = publishedSalary(salary);
   const min = raw.salary_min ?? salary?.min ?? salary?.min_amount;
   const max = raw.salary_max ?? salary?.max ?? salary?.max_amount;
   const currency = str(raw.currency) || str(salary?.currency);
@@ -306,10 +338,12 @@ function importRow(raw: RecordValue, index: number): Opportunity {
     title, company, field: field(raw.field), country: country === "Por confirmar" && countryValue ? countryValue : country,
     location: location || "Ubicación no publicada",
     sourceUrl, observedAt, provenance: illustrative ? "illustrative" : "imported", kind: kind(sourceKind, title), status,
-    description, ...extracted, scheduleText: str(raw.work_hours) || str(raw.schedule) || str(raw.workday) || str(raw.jornada) || str(raw.journada) || sourceKind || "Horario no publicado",
+    description, ...extracted, ...(normalizedSalary ? { salary: normalizedSalary } : {}),
+    ...(["entry", "mid", "senior", "lead", "unspecified"].includes(str(raw.seniority)) ? { seniority: str(raw.seniority) as Opportunity["seniority"] } : {}),
+    scheduleText: str(raw.work_hours) || str(raw.schedule) || str(raw.workday) || str(raw.jornada) || str(raw.journada) || sourceKind || "Horario no publicado",
     remuneration: str(raw.remuneration) || (salaryAmount ? `${currency || "Moneda no indicada"} ${salaryAmount}; ${period ? `periodicidad: ${period}` : "periodicidad por confirmar"}; bruto/líquido por confirmar` : "Remuneración no publicada"),
     supervision: str(raw.supervision) || "Supervisión no publicada",
-    limits: ["Extracción automática por reglas; revisar texto original y condiciones.",
+    limits: ["Extracción automática por reglas; revisar texto original y condiciones.", ...strings(raw.limits).slice(0, 15).map((s) => s.slice(0, 800)),
       ...(observedAt ? [] : ["El archivo no aporta fecha de captura verificable; no se sustituye por la fecha de importación."]),
       ...(illustrative ? ["Registro ilustrativo o de prueba: no usar como vacante real ni evidencia de mercado."] : []),
       ...(dateValue(raw.valid_through) ? [`Vencimiento publicado por la fuente: ${dateValue(raw.valid_through)}; comprobar estado actual.`] : []),

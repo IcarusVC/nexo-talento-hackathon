@@ -20,6 +20,10 @@ npm start
 
 ## Qué funciona en el piloto
 
+- **Mi próximo paso:** búsqueda real de cargos en Chile desde la pantalla mediante la API pública de Get on Board, sin copiar archivos ni configurar claves.
+- Elegir un cargo objetivo, revisar habilidades sin evidencia en el perfil y consultar formación universitaria relacionada.
+- Consultar siete publicaciones reales con salario y ocho cursos de tres universidades, con fecha, requisitos, precio y credencial cuando se publican.
+- Separar salarios por país, moneda, período, nivel, tipo de puesto y base bruto/líquido. No atribuir una renta a una habilidad aislada.
 - Explorar oportunidades documentadas con requisitos, condiciones, fecha y enlace de origen.
 - Comparar esas capacidades con 24 programas de cuatro áreas y cuatro países; conservar obligatoriedad, optativas y datos desconocidos.
 - Modificar disponibilidad, experiencia y matrícula para explicar barreras de acceso.
@@ -28,6 +32,12 @@ npm start
 - Exportar el diagnóstico con sus fuentes.
 
 Los datos de investigación tienen corte al **1 de noviembre de 2026**. Las ofertas requieren comprobar su vigencia. Los proyectos y evidencias de usuario se conservan localmente en este navegador; no son certificaciones ni expedientes institucionales compartidos.
+
+El catálogo de formación y las siete referencias salariales se revisaron el **3 de noviembre de 2026 en Chile** (4 de noviembre UTC). Son una selección documental acotada; cada búsqueda conserva su propia fecha y fuente. Las universidades no se consultan automáticamente en cada búsqueda: las coincidencias usan el catálogo oficial revisado y exponen sus límites.
+
+El buscador consulta la [API oficial de Get on Board](https://www.getonbrd.com/doc/openapi.yaml): una página con hasta 30 ofertas por consulta, filtro de país Chile y límite de respuesta de 15 segundos. La ciudad es un filtro textual de esa página. Reutiliza capturas durante diez minutos y respeta las restricciones de frecuencia del proveedor. Su cobertura se concentra en tecnología y áreas relacionadas. Un resultado vacío no demuestra ausencia de empleos.
+
+Los rangos salariales de la API no identifican por sí solos el período de pago. Se muestran con esa condición pendiente y se excluyen de la comparación numérica; no se convierten a pesos ni se les asigna una periodicidad. Las siete referencias iniciales sí tienen período verificado en sus páginas originales. Véase [método y fuentes salariales](docs/FUENTES_MERCADO.md).
 
 ## Usar la herramienta de Luk incorporada
 
@@ -50,6 +60,8 @@ npm run import:luk -- .local-data/ofertas.jsonl --out .local-data/ofertas-nexo.j
 ```
 
 El adaptador no sobrescribe un archivo de salida existente. Conserva los campos desconocidos y no confirma por sí mismo la vigencia de una oferta.
+
+El conector propio `tools/luk/nexo-search.py` conserva una integración acotada con Luk y sus parsers. La búsqueda por cargo fue rechazada por ese portal durante la verificación y se detuvo. El botón actual usa exclusivamente la API independiente de Get on Board: no reintenta Luk ni lo utiliza como respaldo. La ruta `POST /api/nexo/search` sólo acepta solicitudes del origen local de la demo. Un despliegue público necesita control de acceso y operación propios.
 
 Importar la salida JSONL/JSON desde **Importar Luk** en la plataforma. El ejemplo `public/examples/luk-ofertas-demo.jsonl` es deliberadamente ficticio y permanece identificado como tal después de importarlo. No usar fixtures del repositorio como ofertas reales.
 
@@ -80,6 +92,8 @@ No hay ranking de países ni predicción de empleabilidad. La muestra documental
 
 - [Guion para el concurso](docs/DEMO_CONCURSO.md)
 - [Arquitectura y evolución](docs/ARQUITECTURA_NEXO.md)
+- [Formación universitaria y fuentes](docs/FUENTES_FORMACION.md)
+- [Referencias salariales y método](docs/FUENTES_MERCADO.md)
 - [Atribución y fuentes](THIRD_PARTY_NOTICES.md)
 - [Proyecto TurboTrabajo original](docs/TURBOTRABAJO_ORIGINAL.md)
 - [Herramientas Luk originales](tools/luk/README.md)

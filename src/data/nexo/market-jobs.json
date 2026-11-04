@@ -1,0 +1,201 @@
+{
+  "reviewedAt": "2026-11-04T02:22:31Z",
+  "method": "Selección manual de siete publicaciones de empleadores en Get on Board. Descripciones resumidas; consultar la fuente completa. No es muestra representativa del mercado ni confirmación de vigencia futura.",
+  "jobs": [
+    {
+      "country": "Chile",
+      "field": "comercial",
+      "observedAt": "2026-11-04T02:22:31Z",
+      "status": "unverified",
+      "title": "Analista de Negocios Junior – Retail e IA (LLM)",
+      "company": "BC Tecnología",
+      "seniority": "entry",
+      "kind": "entry_job",
+      "url": "https://www.getonbrd.com/jobs/machine-learning-ai/analista-de-negocios-junior-retail-e-inteligencia-artifici-bc-tecnologia-santiago",
+      "published_at": "2026-10-21",
+      "location": "Santiago, Chile · híbrido",
+      "salary": {
+        "min": 1500,
+        "max": 1800,
+        "currency": "USD",
+        "period": "month",
+        "basis": "gross",
+        "quote": "Gross salary $1500 - 1800 USD/month"
+      },
+      "remuneration": "USD 1.500–1.800 brutos por mes",
+      "workday": "Jornada completa; horas no indicadas",
+      "description": "Síntesis de la publicación del empleador. Requisito: desde 6 meses de experiencia en procesos, negocios, retail o proyectos tecnológicos. Requiere formación afín a negocios, ingeniería o informática. Requerida aplicación práctica de inteligencia artificial generativa y LLM en proyectos o casos de uso. También pide documentación de requerimientos, comunicación y colaboración con equipos. Las tareas incluyen analizar procesos retail y proponer automatización. La demostración mediante proyectos no elimina el requisito de experiencia laboral.",
+      "limits": [
+        "El aviso admite demostrar IA mediante proyectos; no especifica que proyectos académicos sustituyan los seis meses laborales."
+      ]
+    },
+    {
+      "country": "Chile",
+      "field": "computacion",
+      "observedAt": "2026-11-04T02:22:31Z",
+      "status": "unverified",
+      "title": "Ingeniero/a Machine Learning Semi Senior",
+      "company": "Robotia",
+      "seniority": "mid",
+      "kind": "job",
+      "url": "https://www.getonbrd.com/jobs/machine-learning-ai/ingeniero-a-machine-learning-semi-senior-robotia-santiago",
+      "published_at": "2026-10-07",
+      "location": "Santiago, Chile · híbrido",
+      "salary": {
+        "min": 2000,
+        "max": 2500,
+        "currency": "USD",
+        "period": "month",
+        "basis": "gross",
+        "quote": "Gross salary $2000 - 2500 USD/month"
+      },
+      "remuneration": "USD 2.000–2.500 brutos por mes",
+      "workday": "40 horas semanales",
+      "description": "Síntesis de la publicación del empleador. Requisito: 2 a 5 años de experiencia laboral y proyectos comprobables de visión artificial. Requeridos Python, PyTorch y Git, con librerías para trabajar con imágenes y datos. El puesto desarrolla y evalúa modelos de machine learning para minería. Deseables MLOps, Docker, Linux y MongoDB. Exige formación afín y viajes ocasionales a faenas dentro de Chile.",
+      "limits": [
+        "Vacante de nivel semi senior, no una ruta de entrada sin experiencia."
+      ]
+    },
+    {
+      "country": "Chile",
+      "field": "computacion",
+      "observedAt": "2026-11-04T02:22:31Z",
+      "status": "unverified",
+      "title": "AI Engineer",
+      "company": "Bci",
+      "seniority": "senior",
+      "kind": "job",
+      "url": "https://www.getonbrd.com/empleos/machine-learning-ai/ai-engineer-bci-santiago",
+      "published_at": "2026-09-23",
+      "location": "Santiago, Chile · híbrido",
+      "salary": {
+        "min": 3500,
+        "max": 4000,
+        "currency": "USD",
+        "period": "month",
+        "basis": "gross",
+        "quote": "Gross salary $3500 - 4000 USD/month"
+      },
+      "remuneration": "USD 3.500–4.000 brutos por mes",
+      "workday": "Jornada completa; distribución y horas por confirmar",
+      "description": "Síntesis de la publicación del empleador. Requisito: más de 5 años de experiencia en desarrollo de software backend. Además exige al menos 3 años en proyectos productivos de machine learning y 2 años operando cloud para IA. Pide inteligencia artificial generativa, modelos de lenguaje, agentes, RAG y bases de datos vectoriales. Incluye gestión de riesgos, seguridad de datos y observabilidad. Deseables certificaciones de Databricks y Kubernetes.",
+      "limits": [
+        "Senior según la ficha. Las exigencias de experiencia tienen ámbitos diferentes; no se suman ni se reemplazan por un curso.",
+        "La renta de este cargo no mide un premio salarial causal por conocer IA."
+      ]
+    },
+    {
+      "country": "Chile",
+      "field": "computacion",
+      "observedAt": "2026-11-04T02:22:31Z",
+      "status": "unverified",
+      "title": "Practicante Data Scientist",
+      "company": "Unholster",
+      "seniority": "entry",
+      "kind": "internship",
+      "url": "https://www.getonbrd.com/jobs/data-science-analytics/practicante-data-scientist-unholster-santiago",
+      "published_at": "2026-10-29",
+      "location": "Santiago, Chile · presencial",
+      "salary": {
+        "min": 600,
+        "max": 700,
+        "currency": "USD",
+        "period": "month",
+        "basis": "gross",
+        "quote": "Gross salary $600 - 700 USD/month"
+      },
+      "remuneration": "USD 600–700 brutos por mes · práctica",
+      "workday": "40 horas semanales",
+      "supervision": "Supervisión desde el primer día por un/a Data Scientist experimentado/a, según la publicación.",
+      "description": "Síntesis de la publicación del empleador. Práctica con inicio en enero de 2027 y duración de dos meses. Dirigida a personas que deban realizar su práctica profesional o segunda práctica. La ficha marca sin experiencia requerida. Se aprende Python, librerías de datos y uso de bases de datos con supervisión. Deseable exploración previa de SQL, servicios cloud y herramientas de datos. Valora comunicación y colaboración. Debe confirmarse matrícula o habilitación específica para práctica.",
+      "limits": [
+        "No es una práctica de media jornada: exige 40 horas presenciales.",
+        "La ficha señala aprendizaje de Python; no equivale a exigir dominio previo de todas las herramientas.",
+        "No se comprobó reserva de cupo ni elegibilidad individual."
+      ]
+    },
+    {
+      "country": "Chile",
+      "field": "computacion",
+      "observedAt": "2026-11-04T02:22:31Z",
+      "status": "unverified",
+      "title": "Data Analyst I",
+      "company": "Signant Health",
+      "seniority": "entry",
+      "kind": "entry_job",
+      "url": "https://www.getonbrd.com/empleos/data-science-analytics/data-analyst-i-signant-health-remote-947a",
+      "published_at": "2026-10-29",
+      "location": "Remoto, con residencia en Chile",
+      "salary": {
+        "min": 1000,
+        "max": 1300,
+        "currency": "USD",
+        "period": "month",
+        "basis": "gross",
+        "quote": "Gross salary $1000 - 1300 USD/month"
+      },
+      "remuneration": "USD 1.000–1.300 brutos por mes",
+      "workday": "Jornada completa; posible soporte fuera de horario",
+      "description": "Síntesis de la publicación del empleador. Requisito: 1 a 3 años de experiencia en un entorno de datos. Solicita conocimiento de SQL y Microsoft Office. Las tareas verifican cambios, transferencias y calidad de datos, con documentación de procesos y riesgos. Exige comunicación escrita clara. La postulación y el CV deben estar en inglés. La ficha señala trabajo remoto para residentes en Chile.",
+      "limits": [
+        "La fuente menciona herramientas Windows antiguas; confirmar herramientas efectivamente usadas.",
+        "Junior no equivale a ausencia de experiencia exigida."
+      ]
+    },
+    {
+      "country": "Chile",
+      "field": "computacion",
+      "observedAt": "2026-11-04T02:22:31Z",
+      "status": "unverified",
+      "title": "Data Scientist Junior",
+      "company": "Unholster",
+      "seniority": "unspecified",
+      "kind": "entry_job",
+      "url": "https://www.getonbrd.com/jobs/data-science-analytics/data-scientist-unholster-santiago-2697",
+      "published_at": "2026-10-14",
+      "location": "Santiago, Chile · presencial con flexibilidad",
+      "salary": {
+        "min": 1400,
+        "max": 2300,
+        "currency": "USD",
+        "period": "month",
+        "basis": "gross",
+        "quote": "Gross salary $1400 - 2300 USD/month"
+      },
+      "remuneration": "USD 1.400–2.300 brutos por mes",
+      "workday": "40 horas semanales",
+      "description": "Síntesis de la publicación del empleador. El cuerpo informa nivel junior con 0 a 2 años de experiencia. Requeridos Python, programación, estadística y machine learning para modelos analíticos. Valora comunicación y colaboración con clientes y equipos. Formación cuantitativa preferida, no excluyente. Deseables estudios adicionales en ciencia de datos e inglés avanzado. Hay discrepancia entre el título junior y la etiqueta semi senior de la ficha.",
+      "limits": [
+        "Nivel por confirmar: título y cuerpo dicen junior, mientras el encabezado clasifica semi senior.",
+        "No se agrupa automáticamente con una sola categoría de experiencia para comparar salarios."
+      ]
+    },
+    {
+      "country": "Chile",
+      "field": "computacion",
+      "observedAt": "2026-11-04T02:22:31Z",
+      "status": "unverified",
+      "title": "Senior Data Engineer (Databricks)",
+      "company": "INTEGRATZ",
+      "seniority": "senior",
+      "kind": "job",
+      "url": "https://www.getonbrd.com/jobs/data-science-analytics/senior-data-engineer-databricks-integratz-remote-c63f",
+      "published_at": "2026-11-03",
+      "location": "Remoto, con residencia en Chile",
+      "salary": {
+        "min": 3200,
+        "max": 3700,
+        "currency": "USD",
+        "period": "month",
+        "basis": "gross",
+        "quote": "Gross salary $3200 - 3700 USD/month"
+      },
+      "remuneration": "USD 3.200–3.700 brutos por mes",
+      "workday": "Jornada completa; horas por confirmar",
+      "description": "Síntesis de la publicación del empleador. Requisito: al menos 5 años de experiencia en ingeniería de datos o trabajo similar. Requeridos SQL y Python avanzados, Databricks, Spark y entornos cloud, con Azure preferido. Necesita modelado de datos, ETL y arquitectura; colaboración y documentación de decisiones técnicas. Deseables certificaciones de Databricks o Apache. Se postula en inglés y se requiere residencia en Chile.",
+      "limits": [
+        "La referencia en USD es la publicada por Get on Board; no se convirtió a CLP ni a renta líquida."
+      ]
+    }
+  ]
+}

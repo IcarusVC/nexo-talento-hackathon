@@ -22,6 +22,17 @@ describe("extracción conservadora de requisitos", () => {
     const ids = extractRequirements("No se requiere SQL. Auditoría y experiencia comercial.").skills.map((s) => s.id);
     expect(ids).not.toContain("sql"); expect(ids).not.toContain("ai");
   });
+  it("separa una preferencia al final de una lista de los requisitos obligatorios", () => {
+    const skills = extractRequirements("Requeridos SQL y Python avanzados, Databricks, Spark, MLflow y nube, con Azure preferido.").skills;
+    for (const id of ["sql", "python", "cloud"]) expect(skills.find((s) => s.id === id)?.level).toBe("required");
+    const separate = extractRequirements("SQL requerido, Python deseable.").skills;
+    expect(separate.find((s) => s.id === "sql")?.level).toBe("required");
+    expect(separate.find((s) => s.id === "python")?.level).toBe("preferred");
+  });
+  it("deja por revisar calificadores de alcance ambiguo dentro de una misma cláusula", () => {
+    const skills = extractRequirements("SQL requerido y Python deseable.").skills;
+    expect(skills.every((skill) => skill.level === "mentioned")).toBe(true);
+  });
   it("mantiene años desconocidos cuando no se publican", () => {
     expect(extractRequirements("Sin mínimo de años publicado.").experienceMinYears).toBeNull();
     expect(extractRequirements("No se fija número previo.").experienceMinYears).toBeNull();

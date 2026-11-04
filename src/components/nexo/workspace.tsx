@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { ArrowRight, ArrowUpRight, BookOpen, BriefcaseBusiness, Check, CheckCheck, ChevronRight, ClipboardCheck, Download, FileJson, GraduationCap, Link2, MapPin, Plus, Search, Sparkles, Upload, UserRound, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -9,9 +9,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { assessAccess, compareCurriculum, extractRequirements, getResearchOpportunities, getResearchPrograms, parseLukImport } from "@/lib/nexo/engine";
 import type { Field, FitAssessment, Opportunity, ResearchProgram, StudentProfile } from "@/lib/nexo/types";
+import { getCareerSeed } from "@/lib/nexo/market";
+import { CareerJourney } from "./career-journey";
+import journeyStyles from "./career-journey.module.css";
 import styles from "./workspace.module.css";
 
-type Section = "opportunities" | "university" | "route" | "import";
+type Section = "journey" | "opportunities" | "university" | "route" | "import";
 type Action = { id: string; programId: string; opportunityId: string; title: string; owner: string; due: string; status: "pending" | "active" | "done" };
 type Evidence = { id: string; title: string; detail: string; url: string; skillId: string };
 const STORAGE = "nexo-talento-workspace-v1";
@@ -22,6 +25,7 @@ const STATUSES: Record<Opportunity["status"], string> = { observed: "Publicació
 const LEVELS = { required: "Requerido", preferred: "Deseable", mentioned: "Mencionado" };
 const DEFAULT_PROFILE: StudentProfile = { hoursPerWeek: 20, yearsExperience: 0, isStudent: true, country: "Chile", demonstratedSkills: [] };
 const NAV: { id: Section; label: string; icon: typeof Search; description: string }[] = [
+  { id: "journey", label: "Mi próximo paso", icon: Sparkles, description: "Del trabajo a tu ruta" },
   { id: "opportunities", label: "Oportunidades", icon: BriefcaseBusiness, description: "Requisitos con contexto" },
   { id: "university", label: "Universidad", icon: GraduationCap, description: "Formación y decisiones" },
   { id: "route", label: "Mi ruta", icon: UserRound, description: "Evidencias y acceso" },
@@ -72,8 +76,9 @@ function FitSummary({ fit }: { fit: FitAssessment }) {
 
 export function NexoWorkspace() {
   const [programs] = useState<ResearchProgram[]>(() => getResearchPrograms());
-  const [seed] = useState<Opportunity[]>(() => getResearchOpportunities());
-  const [section, setSection] = useState<Section>("opportunities");
+  const [seed] = useState<Opportunity[]>(() => dedupeOpportunities([...getCareerSeed(), ...getResearchOpportunities()]));
+  const [section, setSection] = useState<Section>("journey");
+  const [careerOffers, setCareerOffers] = useState<Opportunity[]>([]);
   const [importBatches, setImportBatches] = useState<string[]>([]);
   const [profile, setProfile] = useState<StudentProfile>(DEFAULT_PROFILE);
   const [actions, setActions] = useState<Action[]>([]);
@@ -81,7 +86,7 @@ export function NexoWorkspace() {
   const [ready, setReady] = useState(false);
   const [storageIssue, setStorageIssue] = useState("");
   const [message, setMessage] = useState("");
-  const [selectedId, setSelectedId] = useState(() => seed.find((o) => o.company.toLowerCase().includes("prize"))?.id || seed[0]?.id || "");
+  const [selectedId, setSelectedId] = useState(() => getCareerSeed()[0]?.id || seed.find((o) => o.company.toLowerCase().includes("prize"))?.id || seed[0]?.id || "");
   const [programId, setProgramId] = useState(() => programs.find((p) => p.id === "COM-CL-UCH")?.id || programs[0]?.id || "");
   const [search, setSearch] = useState("");
   const [field, setField] = useState("all");
@@ -105,6 +110,9 @@ export function NexoWorkspace() {
   const detailRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
+    let active = true;
+    queueMicrotask(() => {
+    if (!active) return;
     try {
       const raw = localStorage.getItem(STORAGE);
       if (raw && raw.length <= MAX_IMPORT * 3) {
@@ -116,21 +124,29 @@ export function NexoWorkspace() {
             setProfile({ hoursPerWeek: typeof p.hoursPerWeek === "number" && p.hoursPerWeek >= 1 && p.hoursPerWeek <= 80 ? p.hoursPerWeek : 20, yearsExperience: typeof p.yearsExperience === "number" && p.yearsExperience >= 0 && p.yearsExperience <= 60 ? p.yearsExperience : 0, isStudent: typeof p.isStudent === "boolean" ? p.isStudent : true, country: clean(p.country, 80) || "Chile", demonstratedSkills: Array.isArray(p.demonstratedSkills) ? p.demonstratedSkills.filter((v): v is string => typeof v === "string").slice(0, 100) : [] });
           }
           if (Array.isArray(s.imports)) setImportBatches(s.imports.filter((v): v is string => typeof v === "string" && v.length <= MAX_IMPORT).slice(0, 5));
+          if (Array.isArray(s.careerOffers)) setCareerOffers(parseLukImport(JSON.stringify(s.careerOffers.slice(0, 100))).opportunities.filter((offer) => offer.provenance !== "illustrative" && offer.status !== "closed"));
           if (Array.isArray(s.evidences)) setEvidences(s.evidences.filter((v) => v && typeof v === "object").slice(0, 100).map((v) => ({ id: clean(v.id, 100), title: clean(v.title, 160), detail: clean(v.detail, 1600), url: clean(v.url, 2000), skillId: clean(v.skillId, 100) })).filter((v) => v.id && v.title));
           if (Array.isArray(s.actions)) setActions(s.actions.filter((v) => v && typeof v === "object").slice(0, 100).map((v) => ({ id: clean(v.id, 100), programId: clean(v.programId, 100), opportunityId: clean(v.opportunityId, 100), title: clean(v.title, 300), owner: clean(v.owner, 160), due: clean(v.due, 10), status: (["pending", "active", "done"].includes(v.status) ? v.status : "pending") as Action["status"] })).filter((v) => v.id && v.title));
         }
       }
     } catch { setStorageIssue("No se pudo recuperar la sesión local. Puedes continuar con la base del estudio."); }
     setReady(true);
+    });
+    return () => { active = false; };
   }, []);
   useEffect(() => {
     if (!ready) return;
-    try { localStorage.setItem(STORAGE, JSON.stringify({ profile, imports: importBatches, actions, evidences })); setStorageIssue(""); }
+    let active = true;
+    queueMicrotask(() => {
+    if (!active) return;
+    try { localStorage.setItem(STORAGE, JSON.stringify({ profile, imports: importBatches, actions, evidences, careerOffers })); setStorageIssue(""); }
     catch { setStorageIssue("El navegador no permite guardar más datos. Esta sesión sigue disponible hasta cerrar la página; exporta tu diagnóstico."); }
-  }, [ready, profile, importBatches, actions, evidences]);
+    });
+    return () => { active = false; };
+  }, [ready, profile, importBatches, actions, evidences, careerOffers]);
 
   const imported = useMemo(() => dedupeOpportunities(importBatches.flatMap((text) => parseLukImport(text).opportunities)), [importBatches]);
-  const opportunities = useMemo(() => dedupeOpportunities([...imported, ...seed]), [imported, seed]);
+  const opportunities = useMemo(() => dedupeOpportunities([...careerOffers, ...imported, ...seed]), [careerOffers, imported, seed]);
   const selected = opportunities.find((o) => o.id === selectedId) || opportunities[0];
   const program = programs.find((p) => p.id === programId) || programs[0];
   const filtered = useMemo(() => opportunities.filter((o) => (field === "all" || o.field === field) && (country === "all" || opportunityCountries(o.country).includes(country)) && (kind === "all" || o.kind === kind) && normalize(`${o.title} ${o.company} ${o.description} ${o.skills.map((s) => s.label).join(" ")}`).includes(normalize(search))), [opportunities, field, country, kind, search]);
@@ -141,7 +157,13 @@ export function NexoWorkspace() {
   const comparison = useMemo(() => selected && program ? compareCurriculum(program, selected) : [], [program, selected]);
   const fit = useMemo(() => selected ? assessAccess(selected, profile) : null, [selected, profile]);
 
-  function jump(next: Section) { setSection(next); setMessage(""); }
+  function jump(next: Section) { setSection(next); setMessage(""); window.scrollTo({ top: 0, behavior: "auto" }); }
+  const selectCareerOpportunity = useCallback((offer: Opportunity) => {
+    if (offer.provenance === "illustrative" || offer.status === "closed") return;
+    setCareerOffers((previous) => dedupeOpportunities([offer, ...previous]).slice(0, 100));
+    setSelectedId(offer.id);
+    setMessage("");
+  }, []);
   function selectOpportunity(o: Opportunity) { setSelectedId(o.id); setMessage(""); if (window.matchMedia("(max-width: 720px)").matches) requestAnimationFrame(() => detailRef.current?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" })); }
   function importOffers() {
     if (!importText.trim()) { setImportErrors(["Pega un archivo JSON o JSONL antes de importar."]); return; }
@@ -153,7 +175,7 @@ export function NexoWorkspace() {
     setMessage(`${result.opportunities.length} registros válidos incorporados. Las URLs repetidas se muestran una sola vez.`);
   }
   async function upload(file: File | undefined) { if (!file) return; if (file.size > MAX_IMPORT) { setImportErrors(["El archivo supera 2 MB. Importa una muestra más pequeña."]); return; } try { setImportText(await file.text()); setImportErrors([]); setMessage(`Archivo ${file.name} listo para revisar e importar.`); } catch { setImportErrors(["No se pudo leer el archivo. Prueba pegar su contenido."]); } }
-  function exportDiagnosis() { saveJson("nexo-diagnostico.json", { schemaVersion: 1, exportedAt: new Date().toISOString(), scope: "Piloto documental; capacidades del perfil autodeclaradas, sin certificación", researchCutoff: "2026-11-01", selectedOpportunity: selected, selectedProgram: program, comparison, profile, access: fit, evidences, actions, importedOpportunities: imported }); setMessage("Diagnóstico exportado con fuentes, comparación, perfil y plan de acción."); }
+  function exportDiagnosis() { saveJson("nexo-diagnostico.json", { schemaVersion: 1, exportedAt: new Date().toISOString(), scope: "Piloto documental; capacidades del perfil autodeclaradas, sin certificación", researchCutoff: "2026-11-01", selectedOpportunity: selected, selectedProgram: program, comparison, profile, access: fit, evidences, actions, importedOpportunities: imported, careerOpportunities: careerOffers }); setMessage("Diagnóstico exportado con fuentes, comparación, perfil y plan de acción."); }
   function addEvidence() { if (!evidenceTitle.trim() || !evidenceDetail.trim()) { setMessage("Completa el título y explica tu aporte antes de guardar la evidencia."); return; } if (evidenceUrl && !externalUrl(evidenceUrl)) { setMessage("El enlace de evidencia debe comenzar con https:// o http://."); return; } setEvidences((old) => [...old, { id: key(), title: evidenceTitle.trim(), detail: evidenceDetail.trim(), url: evidenceUrl.trim(), skillId: evidenceSkill }]); if (evidenceSkill) setProfile((p) => ({ ...p, demonstratedSkills: [...new Set([...p.demonstratedSkills, evidenceSkill])] })); setEvidenceTitle(""); setEvidenceDetail(""); setEvidenceUrl(""); setMessage("Evidencia guardada localmente como autodeclarada. Falta revisión de un docente o supervisor."); }
   function addAction() { if (!actionTitle.trim() || !actionOwner.trim() || !actionDate) { setMessage("Completa acción, responsable y fecha para guardar el plan."); return; } setActions((old) => [...old, { id: key(), programId: program.id, opportunityId: selected.id, title: actionTitle.trim(), owner: actionOwner.trim(), due: actionDate, status: "pending" }]); setActionTitle(""); setMessage("Acción guardada en este navegador, vinculada al programa y oportunidad seleccionados."); }
 
@@ -164,17 +186,17 @@ export function NexoWorkspace() {
     </header>
     <div className={styles.appGrid}>
       <aside className={styles.sidebar}>
-        <span className={styles.sidebarLabel}>ESPACIO DE TRABAJO</span>
-        <nav aria-label="Secciones de Nexo Talento" className={styles.nav}>{NAV.map((item) => <button type="button" key={item.id} className={section === item.id ? styles.navActive : ""} onClick={() => jump(item.id)} aria-current={section === item.id ? "page" : undefined}><item.icon size={20} /><span>{item.label}<small>{item.description}</small></span>{section === item.id && <ChevronRight size={16} />}</button>)}</nav>
+        <span className={styles.sidebarLabel}>TU ESPACIO</span>
+        <nav aria-label="Secciones de Nexo Talento" className={`${styles.nav} ${journeyStyles.workspaceNav}`}>{NAV.map((item) => <button type="button" key={item.id} className={section === item.id ? styles.navActive : ""} onClick={() => jump(item.id)} aria-current={section === item.id ? "page" : undefined}><item.icon size={20} /><span>{item.label}<small>{item.description}</small></span>{section === item.id && <ChevronRight size={16} />}</button>)}</nav>
         <div className={styles.baseCard}><span className={styles.baseIcon}><BookOpen size={18} /></span><strong>Una base con trazabilidad</strong><p>{programs.length} programas de cuatro países. Cada hallazgo conserva su fuente y alcance.</p><span>Revisión: 1 nov 2026</span></div>
         <div className={styles.builtOn}>Construido sobre<br /><strong>TurboTrabajo + Luk</strong><p>Datos personales y acciones guardados sólo en este navegador.</p></div>
       </aside>
       <main className={styles.main}>
         <div className={styles.breadcrumb}>Mi espacio <ChevronRight size={13} /><span>{NAV.find((n) => n.id === section)?.label}</span></div>
-        <div className={styles.pageHeader}><div><div className={styles.eyebrow}>DEL REQUISITO A LA OPORTUNIDAD</div><h1>{section === "opportunities" ? "El trabajo, con todo su contexto." : section === "university" ? "Conecta la malla con tareas reales." : section === "route" ? "Tu experiencia empieza con un paso." : "Convierte ofertas en evidencia."}</h1><p>{section === "opportunities" ? "Explora qué se pide, qué puedes comprobar y dónde hay una vía de entrada." : section === "university" ? "Revisa la formación declarada y convierte cada pregunta en una acción concreta." : section === "route" ? "Relaciona lo que puedes respaldar con condiciones que realmente puedes cumplir." : "Incorpora exportaciones de Luk y conserva la fuente de cada requisito."}</p></div><div className={styles.cornerIcon}>{section === "university" ? <GraduationCap size={30} /> : section === "route" ? <UserRound size={30} /> : section === "import" ? <FileJson size={30} /> : <BriefcaseBusiness size={30} />}</div></div>
-        <div className={styles.pipeline} aria-label="Recorrido del producto"><button onClick={() => jump("opportunities")}><span>01</span>Necesidad laboral</button><ArrowRight size={14} /><button onClick={() => jump("university")}><span>02</span>Evidencia formativa</button><ArrowRight size={14} /><button onClick={() => jump("route")}><span>03</span>Acceso a experiencia</button></div>
+        {section !== "journey" && <><div className={styles.pageHeader}><div><div className={styles.eyebrow}>DEL REQUISITO A LA OPORTUNIDAD</div><h1>{section === "opportunities" ? "El trabajo, con todo su contexto." : section === "university" ? "Conecta la malla con tareas reales." : section === "route" ? "Tu experiencia empieza con un paso." : "Convierte ofertas en evidencia."}</h1><p>{section === "opportunities" ? "Explora qué se pide, qué puedes comprobar y dónde hay una vía de entrada." : section === "university" ? "Revisa la formación declarada y convierte cada pregunta en una acción concreta." : section === "route" ? "Relaciona lo que puedes respaldar con condiciones que realmente puedes cumplir." : "Incorpora exportaciones de Luk y conserva la fuente de cada requisito."}</p></div><div className={styles.cornerIcon}>{section === "university" ? <GraduationCap size={30} /> : section === "route" ? <UserRound size={30} /> : section === "import" ? <FileJson size={30} /> : <BriefcaseBusiness size={30} />}</div></div><div className={styles.pipeline} aria-label="Recorrido del producto"><button onClick={() => jump("opportunities")}><span>01</span>Necesidad laboral</button><ArrowRight size={14} /><button onClick={() => jump("university")}><span>02</span>Evidencia formativa</button><ArrowRight size={14} /><button onClick={() => jump("route")}><span>03</span>Acceso a experiencia</button></div></>}
         <div aria-live="polite" className={styles.liveMessages}>{message && <div className={styles.successMessage}><Check size={16} /><span>{message}</span><button onClick={() => setMessage("")} aria-label="Cerrar mensaje"><X size={15} /></button></div>}{storageIssue && <p className={styles.errorMessage}>{storageIssue}</p>}</div>
-        {selected?.provenance === "illustrative" && section !== "import" && <div className={styles.syntheticNotice}><FileJson size={15} /><span>La oportunidad seleccionada es un ejemplo ficticio para probar el recorrido. No es una vacante real.</span></div>}
+        {selected?.provenance === "illustrative" && section !== "import" && section !== "journey" && <div className={styles.syntheticNotice}><FileJson size={15} /><span>La oportunidad seleccionada es un ejemplo ficticio para probar el recorrido. No es una vacante real.</span></div>}
+        <div hidden={section !== "journey"}><CareerJourney profile={profile} workspaceReady={ready} onProfileChange={setProfile} onSelectOpportunity={selectCareerOpportunity} onCompareCurriculum={() => jump("university")} onViewRoute={() => jump("route")} /></div>
 
         {section === "opportunities" && <>
           <div className={styles.summaryLine}><span><strong>{opportunities.length}</strong> ofertas y vías documentadas</span><span><strong>{countryCount}</strong> países en las fuentes</span><span><strong>{imported.length}</strong> registros importados en esta sesión</span></div>
@@ -186,7 +208,7 @@ export function NexoWorkspace() {
             </section>
             {selected && <section ref={detailRef} className={styles.detailPanel} aria-label="Detalle de oportunidad seleccionada"><div className={styles.detailHeader}><div><span className={styles.eyebrow}>OPORTUNIDAD SELECCIONADA</span><h2>{selected.title}</h2><p>{selected.company}</p></div><span className={styles.detailIcon}><BriefcaseBusiness size={23} /></span></div><div className={styles.detailMeta}><span><MapPin size={14} />{selected.location}</span><span>Observada: {dateLabel(selected.observedAt)}</span></div><Note>{selected.status === "closed" ? "Referencia histórica: sirve para estudiar requisitos, no para recomendar una postulación vigente." : selected.status === "program" || selected.kind === "curricular" ? "Es una vía de formación o programa institucional. No representa una vacante abierta para cualquier persona." : "La fuente fue observada en una fecha concreta. Confirma disponibilidad y condiciones antes de postular."}</Note>
               <div className={styles.detailSection}><h3>Capacidades encontradas</h3>{selected.skills.length ? <div className={styles.requirements}>{selected.skills.map((s) => <details key={s.id}><summary><span>{s.label}</span><span className={styles.requirementLevel}>{LEVELS[s.level]}</span></summary><p>{s.evidence || "Mención en la descripción; necesita validación."}</p></details>)}</div> : <p className={styles.muted}>No se identificaron capacidades con el vocabulario actual. Revisa la descripción original.</p>}</div>
-              <div className={styles.conditions}><div><span>Experiencia previa</span><strong>{selected.experienceMinYears === null ? "No determinada" : selected.experienceMinYears === 0 && selected.experienceIsRequired === false ? "Sin experiencia previa requerida" : `${selected.experienceMinYears} años${selected.experienceIsRequired === false ? " · deseable" : selected.experienceIsRequired ? " · requisito" : " · por confirmar"}`}</strong></div><div><span>Jornada</span><strong>{selected.hoursPerWeek !== null ? `${selected.hoursPerWeek} horas semanales` : "Horas sin confirmar"}</strong></div><div><span>Remuneración</span><p>{selected.remuneration || "No publicada"}</p></div><div><span>Supervisión</span><p>{selected.supervision || "No declarada"}</p></div></div>
+              <div className={styles.conditions}><div><span>Experiencia previa</span><strong>{selected.experienceMinYears === null ? "No determinada" : selected.experienceMinYears === 0 && selected.experienceIsRequired === false ? "Sin experiencia previa requerida" : `${selected.experienceStrictMinimum ? "Más de " : ""}${selected.experienceMinYears} años${selected.experienceIsRequired === false ? " · deseable" : selected.experienceIsRequired ? " · requisito" : " · por confirmar"}`}</strong></div><div><span>Jornada</span><strong>{selected.hoursPerWeek !== null ? `${selected.hoursPerWeek} horas semanales` : "Horas sin confirmar"}</strong></div><div><span>Remuneración</span><p>{selected.remuneration || "No publicada"}</p></div><div><span>Supervisión</span><p>{selected.supervision || "No declarada"}</p></div></div>
               <details className={styles.sourceDetails}><summary>Descripción, condiciones y límites</summary><p>{selected.description}</p><p>{selected.scheduleText}</p><ul>{selected.limits.map((l, i) => <li key={i}>{l}</li>)}</ul></details><div className={styles.detailActions}><Button onClick={() => jump("university")}><GraduationCap />Comparar con una malla</Button><Button variant="secondary" onClick={() => jump("route")}>Ver mi compatibilidad<ArrowRight /></Button></div><SourceLink url={selected.sourceUrl} /></section>}
           </div>
         </>}
