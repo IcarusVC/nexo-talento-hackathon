@@ -1,6 +1,10 @@
 # Skill path
 
-MVP de seguimiento de postulaciones para la Prueba 2 de Talent Tech Hack 2026. Utiliza exclusivamente los cuatro CSV sintéticos entregados: 60 vacantes, 500 postulaciones, 1.500 eventos y 60 cuentas. Los originales se conservan intactos; las acciones se guardan en una bitácora adicional.
+Plataforma de demostración con cuatro experiencias conectadas: candidato, reclutador, supervisor e institución formadora. El candidato construye su perfil y evidencias, encuentra requisitos de cargos y formación relacionada; las empresas gestionan su embudo y las instituciones su catálogo y evaluaciones.
+
+Los convenios Platzi/U. de Chile, el descuento ilustrativo y la agenda de actividades son ficticios, según la aclaración del usuario. Esta ampliación tiene datos y persistencia propios; no representa una afiliación comercial ni tramita inscripciones externas.
+
+El MVP original de la Prueba 2 sigue disponible en `/skill-path/brief`: utiliza exclusivamente los cuatro CSV entregados, con 60 vacantes, 500 postulaciones, 1.500 eventos y 60 cuentas. Sus archivos y trazabilidad se conservan intactos.
 
 ## Abrir Skill path
 
@@ -8,7 +12,25 @@ Con Node.js 22 o posterior: ejecutar `npm ci` y `npm run dev -- --hostname 127.0
 
 El selector de cuentas simula la identidad según permite el brief. No es autenticación productiva; el servidor comprueba los permisos y el alcance en cada lectura y acción. Usa una sola instancia para la persistencia local de la demo.
 
-## Recorrido para evaluar Skill path
+## Recorrido del producto
+
+Abrir `/skill-path/producto` y usar el selector de cuentas ficticias:
+
+| Perfil | Cuenta | Recorrido |
+| --- | --- | --- |
+| Candidato | SP-CAND-01 | Completar perfil, agregar experiencia/proyecto, elegir meta, contrastar requisitos, postular y solicitar formación. |
+| Reclutador | SP-REC-01 | Publicar vacante, gestionar embudo y revisar experiencia dirigida a su empresa. |
+| Supervisor | SP-SUP-01 | Revisar equipo, entrevistas y pendientes; definir habilidades base y recomendadas. |
+| Formación: Platzi | SP-EDU-01 | Publicar cursos, consultar demanda agregada y gestionar sus participantes. |
+| Formación: U. de Chile | SP-EDU-02 | Publicar certificaciones, postgrados y actividades; registrar evaluaciones. |
+
+Las cuentas adicionales permiten comprobar los límites de empresa y de propietario. No son credenciales de acceso productivo. Una habilidad declarada o un documento adjunto permanece pendiente de acreditación; sólo una acción autorizada registra la evaluación y su autor. Compartir habilidades con un aviso no garantiza contratación. Una solicitud de formación queda dentro de la demo.
+
+API `/api/skill-path-product`, persistencia `.local/skill-path-product`, contrato `src/lib/skill-path-product/types.ts`. [Alcance autorizado](docs/skill-path-product/ALCANCE.md) · [Matriz del producto](docs/skill-path-product/REQUISITOS.json) · [Verificación](docs/skill-path-product/VERIFICACION.md).
+
+## Recorrido del caso original del brief
+
+Abrir `/skill-path/brief`:
 
 1. **USR-001, Candidato:** sus postulaciones, estado, fecha, fuente y próximo paso; puede solicitar una corrección propia.
 2. **USR-025, Reclutador:** VAC-001 y sus postulaciones por asignación y empresa. Cambiar una etapa con motivo y confirmación humana; revisar el evento nuevo y recargar.

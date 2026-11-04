@@ -1,0 +1,6 @@
+EJEMPLO FICTICIO PARA LA DEMOSTRACIÓN DE SKILL PATH
+Proyecto: análisis de postulaciones con SQL.
+Aporte: diseñar consultas para contar procesos por etapa y detectar registros incompletos.
+Habilidades declaradas: SQL, comunicación de resultados.
+Este archivo no certifica una competencia ni pertenece a una persona real.
+Estado esperado al adjuntarlo: evidencia pendiente de revisión.

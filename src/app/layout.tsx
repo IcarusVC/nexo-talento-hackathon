@@ -12,12 +12,12 @@ const outfit = Outfit({
 });
 
 const SITE_DESCRIPTION =
-  "Skill path permite seguir postulaciones, comprender su evidencia y resolver casos con revisión humana. MVP con datos sintéticos de Talent Tech Hack 2026.";
+  "Skill path conecta perfiles con evidencia, oportunidades laborales y formación. Demostración para candidatos, reclutadores, supervisores e instituciones.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),
   title: {
-    default: "Skill path — Procesos claros, decisiones trazables",
+    default: "Skill path — Talento, oportunidades y formación",
     template: "%s · Skill path",
   },
   description: SITE_DESCRIPTION,
@@ -27,12 +27,12 @@ export const metadata: Metadata = {
     locale: "es_CL",
     url: "/",
     siteName: "Skill path",
-    title: "Skill path — Seguimiento de postulaciones",
+    title: "Skill path — Talento, oportunidades y formación",
     description: SITE_DESCRIPTION,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Skill path — Seguimiento de postulaciones",
+    title: "Skill path — Talento, oportunidades y formación",
     description: SITE_DESCRIPTION,
   },
 };

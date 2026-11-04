@@ -13,8 +13,9 @@ for (const source of manifest.files) {
   if (createHash("sha256").update(bytes).digest("hex") !== source.sha256) errors.push(`CSV original alterado: ${source.file}`);
   else intact++;
 }
-const matrix = await readJson("docs/skill-path/REQUISITOS.json");
 const ids = new Set();
+for (const matrixPath of ["docs/skill-path/REQUISITOS.json", "docs/skill-path-product/REQUISITOS.json"]) {
+const matrix = await readJson(matrixPath);
 for (const item of matrix.requirements) {
   if (!item.id || ids.has(item.id)) errors.push(`ID vacío o repetido: ${item.id}`);
   ids.add(item.id);
@@ -29,6 +30,7 @@ for (const item of matrix.requirements) {
   }
   if (!inventory && item.status !== "verificado") errors.push(`Falta validar ${item.id}: ${item.title}`);
 }
+}
 const walk = async (path) => {
   const files = [];
   for (const entry of await readdir(path, { withFileTypes: true })) {
@@ -38,7 +40,7 @@ const walk = async (path) => {
   }
   return files;
 };
-for (const folder of ["src/lib/skill-path", "src/components/skill-path", "src/app/skill-path", "src/app/api/skill-path"]) {
+for (const folder of ["src/lib/skill-path", "src/components/skill-path", "src/app/skill-path", "src/app/api/skill-path", "src/lib/skill-path-product", "src/components/skill-path-product", "src/app/api/skill-path-product"]) {
   try {
     for (const file of await walk(resolve(root, folder))) {
       const text = await readFile(file, "utf8");

@@ -14,7 +14,7 @@
     "demo": "next dev --hostname 127.0.0.1 --port 3000",
     "import:luk": "tsx scripts/nexo-import.ts",
     "skillpath:guard": "node scripts/skill-path-guard.mjs",
-    "skillpath:test": "vitest run src/lib/skill-path src/app/api/skill-path",
+    "skillpath:test": "vitest run src/lib/skill-path src/app/api/skill-path src/lib/skill-path-product src/app/api/skill-path-product",
     "skillpath:check": "npm run skillpath:guard && npm run typecheck && npm run skillpath:test"
   },
   "dependencies": {

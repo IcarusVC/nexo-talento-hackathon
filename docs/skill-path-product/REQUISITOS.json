@@ -1,0 +1,285 @@
+{
+  "source": "Solicitud del usuario 2026-11-04 y aclaración: convenios ficticios de demostración.",
+  "requirements": [
+    {
+      "id": "SPP-01",
+      "title": "Cuatro perfiles y navegación",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Cada cuenta abre vistas y acciones pertinentes; cambiar de cuenta no muestra datos de la anterior.",
+      "owner": "frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-02",
+      "title": "Perfil propio persistente",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "El candidato guarda presentación, habilidades y disponibilidad; otra cuenta no puede alterarlo.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-03",
+      "title": "Experiencia y portafolio",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Registra experiencia, proyectos y logros con evidencia; un adjunto no acredita la habilidad por sí solo.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-04",
+      "title": "Adjuntos privados",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Sólo propietario o actor dentro del alcance descarga un archivo validado de máximo 2MB; no hay carpeta pública.",
+      "owner": "backend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-05",
+      "title": "Acreditación por empleador",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Sólo reclutador/supervisor de la empresa solicitada acredita experiencia con motivo, fecha y actor.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-06",
+      "title": "Coincidencias explicadas",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Contrasta requisitos publicados con habilidades acreditadas/declaradas/sin evidencia; horas son barrera separada, sin ranking de personas.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-07",
+      "title": "Postulación",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Registra una postulación única a una vacante activa vigente; no rechaza automáticamente por una brecha de habilidades.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-08",
+      "title": "Meta y formación",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Guarda cargo objetivo; muestra habilidades a fortalecer y oferta relacionada con tipo, requisitos y condiciones.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-09",
+      "title": "Convenios simulados",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Platzi y U. de Chile son ejemplos ficticios; descuentos se marcan simulados y ninguna solicitud se envía externamente.",
+      "owner": "frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-10",
+      "title": "Actividades evaluables",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Actividades blandas tienen fecha, hora/zona, lugar, cupos y rúbrica; inscribirse no acredita habilidades.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-11",
+      "title": "Publicación de vacantes",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Reclutador publica requisitos, ubicación, horario y vigencia dentro de su empresa; supervisor puede asignar sólo sus reclutadores.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-12",
+      "title": "Embudo de selección",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Movimientos por etapa requieren actor autorizado y confirmación humana; conservan motivos e historial anterior.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-13",
+      "title": "Supervisor y equipo",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Muestra sólo su empresa; conteos de entrevista histórica, pendientes actuales, vacantes y contratados explican su definición.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-14",
+      "title": "Habilidades de empresa",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Supervisor guarda piso y recomendaciones visibles; no se convierten en filtros ocultos de rechazo.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-15",
+      "title": "Catálogo institucional",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Cuenta formadora crea y modifica sólo su oferta de cursos, certificaciones, postgrados o actividades.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-16",
+      "title": "Demanda y competencias",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Instituciones ven demanda agregada con denominador/procedencia y sugerencias de pitch/hackathon/marketing/emprendimiento sin expedientes laborales.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-17",
+      "title": "Evaluación institucional",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Institución evalúa sólo sus solicitudes; habilidades acreditadas quedan vinculadas a la evaluación, no a simple inscripción.",
+      "owner": "backend/frontend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-18",
+      "title": "Persistencia y conflictos",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Cambios se conservan tras recarga; versión e idempotencia evitan reintentos duplicados y sobrescrituras silenciosas.",
+      "owner": "backend",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-19",
+      "title": "Caso original conservado",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Los cuatro CSV son idénticos y el módulo original mantiene permisos, trazabilidad y acceso desde /skill-path/brief.",
+      "owner": "root",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    },
+    {
+      "id": "SPP-20",
+      "title": "Recorridos comprobables",
+      "source": "docs/skill-path-product/ALCANCE.md",
+      "acceptance": "Validación de tipos, pruebas pertinentes y recorridos de navegador de los cuatro roles; errores y vacíos legibles en móvil.",
+      "owner": "root",
+      "status": "verificado",
+      "evidence": [
+        "docs/skill-path-product/VERIFICACION.md",
+        "docs/skill-path-product/AUDITORIA.md",
+        "src/lib/skill-path-product/product.test.ts",
+        "src/lib/skill-path-product/types.ts"
+      ]
+    }
+  ]
+}
