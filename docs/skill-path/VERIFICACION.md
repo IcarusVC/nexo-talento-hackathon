@@ -28,6 +28,8 @@ Verificación realizada el 4 de noviembre de 2026 en Chile. Se distingue revisi�
 
 Las operaciones de navegador llevan motivos identificados como QA del equipo y permanecen en `.local/skill-path/ledger.json`. Ese archivo no se versiona. Los contadores posteriores pueden diferir de los conteos iniciales por esas operaciones explícitas.
 
+El primer control en GitHub detectó la normalización automática CRLF→LF al versionar los CSV. Se corrigió con `.gitattributes` limitado a esas cuatro fuentes y se volvieron a incorporar sus bytes originales; no se relajó el control de hashes ni se cambiaron sus valores esperados.
+
 ## Casos controlados y límites
 
 La semilla no contiene discrepancia entre el estado registrado y el último evento ordenado, aunque sí contiene quiebres de cadena. La discrepancia final se probó con un dataset en memoria, sin editar los originales. La ausencia de ese ejemplo en la pantalla no significa que la validación esté omitida.
