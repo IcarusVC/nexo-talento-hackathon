@@ -46,3 +46,11 @@ yarn-error.log*
 .claude/
 __pycache__/
 .DS_Store
+
+# Local pilot state and Python environments; never commit applicant/session data.
+.venv*/
+.local-data/
+.pytest_cache/
+.playwright/
+test-results/
+playwright-report/

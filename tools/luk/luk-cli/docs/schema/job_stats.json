@@ -1,0 +1,274 @@
+{
+  "$defs": {
+    "AreaRef": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "integer"
+        },
+        "display_path": {
+          "title": "Display Path",
+          "type": "string"
+        },
+        "area_type_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Area Type Label"
+        }
+      },
+      "required": [
+        "id",
+        "display_path",
+        "area_type_label"
+      ],
+      "title": "AreaRef",
+      "type": "object"
+    },
+    "JobStats": {
+      "additionalProperties": false,
+      "description": "kind `job_stats`: how many offers match a search now, and how many of them Luk dates in the last 24 h,\nweek and month (its own `date` filter). One page-1 search request per number.",
+      "properties": {
+        "query": {
+          "$ref": "#/$defs/SearchQuery"
+        },
+        "effective_location": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/AreaRef"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "total": {
+          "title": "Total",
+          "type": "integer"
+        },
+        "last_24h": {
+          "title": "Last 24H",
+          "type": "integer"
+        },
+        "last_week": {
+          "title": "Last Week",
+          "type": "integer"
+        },
+        "last_month": {
+          "title": "Last Month",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "query",
+        "effective_location",
+        "total",
+        "last_24h",
+        "last_week",
+        "last_month"
+      ],
+      "title": "JobStats",
+      "type": "object"
+    },
+    "SearchFilters": {
+      "additionalProperties": false,
+      "properties": {
+        "job_types": {
+          "items": {
+            "enum": [
+              "full_time",
+              "part_time",
+              "contractor",
+              "intern",
+              "per_diem",
+              "other"
+            ],
+            "type": "string"
+          },
+          "title": "Job Types",
+          "type": "array"
+        },
+        "posted_within": {
+          "anyOf": [
+            {
+              "enum": [
+                "24h",
+                "3d",
+                "1w",
+                "1m",
+                "3m",
+                "6m"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Posted Within"
+        },
+        "min_salary": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Min Salary"
+        },
+        "max_salary": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max Salary"
+        },
+        "currency": {
+          "anyOf": [
+            {
+              "enum": [
+                "CLP",
+                "COP",
+                "PEN",
+                "MXN",
+                "BRL"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Currency"
+        }
+      },
+      "required": [
+        "job_types",
+        "posted_within",
+        "min_salary",
+        "max_salary",
+        "currency"
+      ],
+      "title": "SearchFilters",
+      "type": "object"
+    },
+    "SearchQuery": {
+      "additionalProperties": false,
+      "properties": {
+        "roles": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Roles",
+          "type": "array"
+        },
+        "location_ids": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Location Ids",
+          "type": "array"
+        },
+        "countries": {
+          "items": {
+            "enum": [
+              "CL",
+              "CO",
+              "MX",
+              "PE",
+              "BR"
+            ],
+            "type": "string"
+          },
+          "title": "Countries",
+          "type": "array"
+        },
+        "worldwide": {
+          "default": false,
+          "title": "Worldwide",
+          "type": "boolean"
+        },
+        "filters": {
+          "$ref": "#/$defs/SearchFilters"
+        }
+      },
+      "required": [
+        "roles",
+        "location_ids",
+        "countries",
+        "worldwide",
+        "filters"
+      ],
+      "title": "SearchQuery",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 3,
+      "default": 3,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "kind": {
+      "enum": [
+        "job_search",
+        "job",
+        "jobs",
+        "suggestion_list",
+        "area_list",
+        "similar_roles",
+        "related_roles",
+        "company_list",
+        "company",
+        "job_list",
+        "application_list",
+        "cv_list",
+        "whoami",
+        "session_status",
+        "account_status",
+        "job_stats",
+        "new_jobs"
+      ],
+      "title": "Kind",
+      "type": "string"
+    },
+    "data": {
+      "$ref": "#/$defs/JobStats"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "kind",
+    "data",
+    "warnings"
+  ],
+  "title": "Envelope[JobStats]",
+  "type": "object"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "luk",
+  "version": "2.0.0",
+  "description": "Read-only Luk (takealuk.com) job search for Claude Code: MCP tools to search offers, locations and companies and, when you ask, read your own saved jobs, applications and CVs; plus /luk:buscar, /luk:novedades, /luk:revisar and /luk:login.",
+  "author": {
+    "name": "Diego Ostertag"
+  },
+  "license": "MIT",
+  "keywords": ["luk", "takealuk", "jobs", "empleos", "chile", "mcp"]
+}

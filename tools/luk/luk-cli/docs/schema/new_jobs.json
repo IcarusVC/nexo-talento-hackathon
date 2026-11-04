@@ -1,0 +1,163 @@
+{
+  "$defs": {
+    "NewJob": {
+      "additionalProperties": false,
+      "properties": {
+        "slug": {
+          "title": "Slug",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "lastmod": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Lastmod"
+        }
+      },
+      "required": [
+        "slug",
+        "url",
+        "lastmod"
+      ],
+      "title": "NewJob",
+      "type": "object"
+    },
+    "NewJobs": {
+      "additionalProperties": false,
+      "description": "kind `new_jobs`: Luk's sitemap (every live offer, all countries, one request) compared with the previous\ncheck saved on this machine. A first check (`baseline`) has nothing to compare with: its `results` are the\noffers changed in the last 24 h. Counts and results keep only slugs holding every `match` word.",
+      "properties": {
+        "baseline": {
+          "title": "Baseline",
+          "type": "boolean"
+        },
+        "checked_at": {
+          "format": "date-time",
+          "title": "Checked At",
+          "type": "string"
+        },
+        "previous_check_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Previous Check At"
+        },
+        "match": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Match",
+          "type": "array"
+        },
+        "live_total": {
+          "title": "Live Total",
+          "type": "integer"
+        },
+        "new_total": {
+          "title": "New Total",
+          "type": "integer"
+        },
+        "closed_total": {
+          "title": "Closed Total",
+          "type": "integer"
+        },
+        "results": {
+          "items": {
+            "$ref": "#/$defs/NewJob"
+          },
+          "title": "Results",
+          "type": "array"
+        },
+        "has_more": {
+          "title": "Has More",
+          "type": "boolean"
+        },
+        "saved": {
+          "title": "Saved",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "baseline",
+        "checked_at",
+        "previous_check_at",
+        "match",
+        "live_total",
+        "new_total",
+        "closed_total",
+        "results",
+        "has_more",
+        "saved"
+      ],
+      "title": "NewJobs",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 3,
+      "default": 3,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "kind": {
+      "enum": [
+        "job_search",
+        "job",
+        "jobs",
+        "suggestion_list",
+        "area_list",
+        "similar_roles",
+        "related_roles",
+        "company_list",
+        "company",
+        "job_list",
+        "application_list",
+        "cv_list",
+        "whoami",
+        "session_status",
+        "account_status",
+        "job_stats",
+        "new_jobs"
+      ],
+      "title": "Kind",
+      "type": "string"
+    },
+    "data": {
+      "$ref": "#/$defs/NewJobs"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "kind",
+    "data",
+    "warnings"
+  ],
+  "title": "Envelope[NewJobs]",
+  "type": "object"
+}

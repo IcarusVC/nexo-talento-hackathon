@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Minimized skeleton of https://www.takealuk.com/sitemap.xml (linked from robots.txt), verified live
+     2026-10-21: one urlset with the home, listings, landing pages, companies and every live offer
+     (3617 offers, all countries) with its lastmod. Every slug below is fake. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.takealuk.com/</loc>
+    <lastmod>2026-10-21T13:02:49-03:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.takealuk.com/job_offers</loc>
+    <lastmod>2026-10-21T13:02:49-03:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.takealuk.com/empleos-en/chile/antofagasta</loc>
+    <lastmod>2026-07-15T18:02:47-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.takealuk.com/companies/empresa-demo-spa</loc>
+  </url>
+  <url>
+    <loc>https://www.takealuk.com/job_offers/analista-contable-empresa-demo-spa</loc>
+    <lastmod>2026-10-21T12:40:00-03:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.takealuk.com/job_offers/vendedor-en-terreno-comercial-ejemplo</loc>
+    <lastmod>2026-10-20T09:15:00-03:00</lastmod>
+  </url>
+  <url>
+    <lastmod>2026-10-02T10:00:00Z</lastmod>
+    <loc>https://www.takealuk.com/job_offers/analista-de-datos-banco-demo</loc>
+  </url>
+  <url>
+    <loc>https://www.takealuk.com/job_offers/practicante-de-mantencion-confidencial</loc>
+  </url>
+  <url>
+    <loc>https://evil.example/job_offers/not-luk</loc>
+  </url>
+  <url>
+    <loc>https://www.takealuk.com/job_offers/Not A Slug</loc>
+  </url>
+</urlset>

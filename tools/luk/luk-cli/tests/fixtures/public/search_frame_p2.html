@@ -1,0 +1,23 @@
+<!-- Minimized skeleton of the Turbo Frame answer to GET /job_offers?locations=1021&page=2 sent with
+     `Turbo-Frame: job_offers_page_2` (what Luk's own page requests when the user scrolls), verified
+     live 2026-10-21: the bare frame, no html[lang], no header, no total. Its first card repeats the
+     last card of page 1 (Luk's order shifts as offers arrive). Every offer and company is fake. -->
+<turbo-frame class="job-offers-page-frame stack-sm" id="job_offers_page_2">
+  <div class="card job-offer-card relative" data-scroll-restore-slug="practicante-de-mantencion-confidencial">
+    <h2 class="card-title job-offer-card__title min-w-0">Practicante de Mantención</h2>
+    <p class="item-title text-secondary-dark job-offer-card__company"></p>
+  </div>
+  <div class="card job-offer-card relative" data-scroll-restore-slug="tecnico-en-enfermeria-clinica-demo">
+    <h2 class="card-title job-offer-card__title min-w-0">Técnico en Enfermería</h2>
+    <p class="item-title text-secondary-dark job-offer-card__company">Clínica Demo</p>
+    <div class="job-offer-card__location-row item-subtitle text-gray"><span class="job-offer-card__location">Concepción, Biobío</span></div>
+    <div class="item-subtitle text-gray"><span>Hace 1 hora</span></div>
+  </div>
+  <div class="card job-offer-card relative" data-scroll-restore-slug="coordinador-academico-sede-copiapo-instituto-demo">
+    <h2 class="card-title job-offer-card__title min-w-0">Coordinador Académico Sede Copiapó</h2>
+    <p class="item-title text-secondary-dark job-offer-card__company">Instituto Demo</p>
+  </div>
+  <turbo-frame loading="lazy" class="job-offers-page-frame" id="job_offers_page_3" src="/job_offers?locations=1021&amp;page=3">
+    <a class="sr-only" href="/job_offers?locations=1021&amp;page=3">Cargando más ofertas...</a>
+  </turbo-frame>
+</turbo-frame>

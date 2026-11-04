@@ -1,0 +1,410 @@
+{
+  "cutoff": "2026-11-01",
+  "count": 12,
+  "classification": {
+    "individual_or_cohort_ads": 7,
+    "program_or_curricular_routes": 5
+  },
+  "opportunities": [
+    {
+      "id": "OP-N-KPMG",
+      "kind": "internship",
+      "country": "Chile",
+      "organization": "KPMG Chile",
+      "title": "Práctica profesional de auditoría, temporada de verano",
+      "status": "visible_application",
+      "url": "https://kpmgchile.hiringroom.com/jobs/get_vacancy/6acea36d4aa813394f624547",
+      "observed_date": "2026-11-01",
+      "eligibility": "Estudiante regular de 4.º/5.º año de Auditoría, Comercial o Información y Control de Gestión; carta universitaria y seguro escolar.",
+      "experience_years": "No exige número previo de años.",
+      "location": "Las Condes, Santiago; residencia local exigida a estudiantes de regiones; puede requerir terreno.",
+      "schedule": "Full-time, mínimo 360 horas; incorporación diciembre/enero. Sin horas semanales exactas.",
+      "part_time_confirmed": false,
+      "remuneration": "CLP 400.000 mensuales; bruto/líquido no especificado.",
+      "language": "Requisito de idioma no declarado.",
+      "supervision": "Funciones sujetas a supervisión; jefatura mencionada y formación continua.",
+      "declared_work_products": [
+        "Papeles de trabajo con respaldo de procedimientos",
+        "Comunicación con equipo/cliente"
+      ],
+      "evidence_for_model": "Productos internos declarados; no hay garantía de certificado de competencias o permiso de portafolio.",
+      "barriers": [
+        "Matrícula y seguro",
+        "Tiempo completo",
+        "Residencia en Santiago"
+      ],
+      "limits": [
+        "Cabecera presencial y cuerpo híbrido: modalidad ambigua.",
+        "Continuidad laboral prometida como posibilidad, no resultado."
+      ],
+      "field": "comercial / contabilidad",
+      "source_input": "oportunidades_negocios.json"
+    },
+    {
+      "id": "OP-N-ANTON",
+      "kind": "entry_level_job",
+      "country": "Chile",
+      "organization": "Anton Paar Chile",
+      "title": "Accounting and Administrative Assistant",
+      "status": "visible_application",
+      "url": "https://jobs.smartrecruiters.com/AntonPaar1/744000145652799-accounting-and-administrative-assistant",
+      "observed_date": "2026-11-01",
+      "eligibility": "Título de Contador Auditor o equivalente.",
+      "experience_years": "0–2.",
+      "location": "Santiago; modalidad remota no declarada.",
+      "schedule": "Full-time; horas semanales no declaradas.",
+      "part_time_confirmed": false,
+      "remuneration": "Salario anunciado sin monto.",
+      "language": "Inglés intermedio preferido; CV y carta en inglés solicitados.",
+      "supervision": "Trabajo con equipo local y casa matriz; tutor o revisión periódica no declarados.",
+      "declared_work_products": [
+        "Conciliaciones y registros en SAP",
+        "Apoyo a cierres e informes contables"
+      ],
+      "evidence_for_model": "Las tareas permiten observar trabajo contable real; evaluación y acreditación formal no declaradas.",
+      "barriers": [
+        "Título",
+        "Base contable/tributaria y Excel",
+        "Tiempo completo",
+        "Documentación de postulación en inglés"
+      ],
+      "limits": [
+        "SAP previo es deseable, no requisito excluyente explícito.",
+        "Admitir cero años no elimina requisitos de conocimientos ni garantiza capacitación inicial."
+      ],
+      "field": "comercial / contabilidad",
+      "source_input": "oportunidades_negocios.json"
+    },
+    {
+      "id": "OP-N-PRIZE",
+      "kind": "entry_level_job",
+      "country": "Chile",
+      "organization": "Prize",
+      "title": "Analista de inteligencia de negocios",
+      "status": "visible_application",
+      "url": "https://www.takealuk.com/job_offers/analista-de-inteligencia-de-negocios-santiago-requinoa-prize",
+      "observed_date": "2026-11-01",
+      "eligibility": "Ingeniería Comercial y otras carreras afines; admite recién titulados con base analítica.",
+      "experience_years": "Desde 1 año, con excepción explícita para recién titulados preparados.",
+      "location": "Aviso Santiago/Requínoa; ficha Lo Barnechea. Lugar efectivo por confirmar.",
+      "schedule": "Full-time; horas semanales no declaradas.",
+      "part_time_confirmed": false,
+      "remuneration": "No declarada.",
+      "language": "No declarado.",
+      "supervision": "Colaboración entre áreas; tutor o mentor no declarado.",
+      "declared_work_products": [
+        "Tableros e indicadores",
+        "Reportes y procesos de extracción/limpieza",
+        "Requerimientos internos"
+      ],
+      "evidence_for_model": "Tareas analíticas reales; verificación por supervisor y uso externo de productos no prometidos.",
+      "barriers": [
+        "Excel/Power BI y preparación en SQL/automatización/datos",
+        "Tiempo completo",
+        "Ubicación por aclarar"
+      ],
+      "limits": [
+        "Publicación nominativa en Buk/Luk; no se verificó enlace recíproco desde web corporativa.",
+        "Apertura a recién titulados no equivale a enseñanza desde cero."
+      ],
+      "field": "comercial / contabilidad",
+      "source_input": "oportunidades_negocios.json"
+    },
+    {
+      "id": "OP-N-SAP",
+      "kind": "internship",
+      "country": "Brasil",
+      "organization": "SAP",
+      "title": "iXp Intern — Topline & Customer Controlling Sales Americas, 458380",
+      "status": "visible_application",
+      "url": "https://careers.sap.com/job/Sao-Paulo-SAP-iXp-Intern-Topline-%26-Customer-Controlling-Sales-Americas-04795-100/1426297133/",
+      "observed_date": "2026-11-01",
+      "publication_date": "2026-10-10",
+      "eligibility": "Estudiante universitario de Administración, Finanzas, Economía, Contabilidad, Ingeniería o área comparable.",
+      "experience_years": "No se fija número previo.",
+      "location": "São Paulo, Brasil; etiqueta híbrida, viajes 0–10%.",
+      "schedule": "Limited Full Time; no duración ni horas semanales exactas.",
+      "part_time_confirmed": false,
+      "remuneration": "Práctica pagada, sin monto.",
+      "language": "Inglés fluido oral/escrito.",
+      "supervision": "Programa declara mentores, aprendizaje con especialistas y proyectos.",
+      "declared_work_products": [
+        "Tableros y reportes financieros",
+        "Documentación de procesos",
+        "Apoyo a cierres y proyecciones"
+      ],
+      "evidence_for_model": "Entregables y formación declarados; autonomía alcanzada y acreditación formal no verificadas.",
+      "barriers": [
+        "Matrícula",
+        "Inglés fluido",
+        "Excel/PowerPoint",
+        "Ubicación brasileña y tiempo completo"
+      ],
+      "limits": [
+        "No se declara apoyo migratorio o traslado; no asumir elegibilidad desde Chile.",
+        "Curiosidad por analítica e IA no equivale a exigir experiencia experta.",
+        "No es media jornada."
+      ],
+      "field": "comercial / contabilidad",
+      "source_input": "oportunidades_negocios.json"
+    },
+    {
+      "id": "OP-N-PCH",
+      "kind": "public_program",
+      "country": "Chile",
+      "organization": "Servicio Civil",
+      "title": "Prácticas Chile",
+      "status": "permanent_route",
+      "url": "https://www.practicasparachile.cl/centro-de-ayuda.html",
+      "observed_date": "2026-11-01",
+      "additional_urls": [
+        "https://www.practicasparachile.cl/",
+        "https://www.practicasparachile.cl/convocatorias.html"
+      ],
+      "eligibility": "Según FAQ: estudiante regular técnico/profesional que requiere práctica final y cumple perfil. Incluye áreas de administración, finanzas y control.",
+      "experience_years": "Según convocatoria; no regla general.",
+      "location": "Ministerios y servicios; depende del aviso.",
+      "schedule": "Acordado por servicio/estudiante y publicado por convocatoria; duración orientativa 6–12 semanas.",
+      "part_time_confirmed": null,
+      "remuneration": "FAQ contempla colación y/o movilización según recursos; no sueldo universal ni monto.",
+      "language": "Según convocatoria.",
+      "supervision": "Portal declara pertinencia formativa; supervisor individual no comprobado.",
+      "declared_work_products": [],
+      "evidence_for_model": "Tareas/resultados deben extraerse de cada convocatoria; no se observó evaluación individual.",
+      "barriers": [
+        "Matrícula/práctica final",
+        "Perfil y condiciones de cada servicio",
+        "Respaldo educativo y seguro cuando corresponde"
+      ],
+      "limits": [
+        "Programa no equivale a vacante abierta.",
+        "FAQ limita a práctica final; no extrapolar excepciones de otras páginas.",
+        "No generalizar 44 horas ni llamar media jornada al programa."
+      ],
+      "field": "comercial / contabilidad",
+      "source_input": "oportunidades_negocios.json"
+    },
+    {
+      "id": "OP-N-FEN",
+      "kind": "university_route",
+      "country": "Chile",
+      "organization": "Universidad de Chile, FEN / Nexo Laboral",
+      "title": "Prácticas curriculares y portal de vinculación",
+      "status": "permanent_route",
+      "url": "https://nexolaboral.fen.uchile.cl/page/carreras",
+      "observed_date": "2026-11-01",
+      "additional_urls": [
+        "https://secretariaestudios.fen.uchile.cl/procesos-academicos/practicasp"
+      ],
+      "eligibility": "Estudiantes FEN según carrera, malla y requisitos académicos; acceso a oportunidades mediante Nexo Laboral.",
+      "experience_years": "No fija experiencia laboral previa general.",
+      "location": "Depende de organización.",
+      "schedule": "Página distingue, en Comercial malla nueva, 320 horas intermedias y 648 profesionales; Auditoría, dos prácticas de 320 horas. Horario semanal no establecido.",
+      "part_time_confirmed": null,
+      "remuneration": "No declarada como condición uniforme.",
+      "language": "No declarado como condición uniforme.",
+      "supervision": "Página examinada no identifica tutor ni periodicidad de feedback.",
+      "declared_work_products": [],
+      "evidence_for_model": "La existencia de un requisito curricular no prueba productos, evaluación o colocación efectiva.",
+      "barriers": [
+        "Pertenencia institucional y cohorte",
+        "Horas curriculares",
+        "La página exige organización de al menos 50 trabajadores para Auditoría"
+      ],
+      "limits": [
+        "Página refiere cambio de malla 2020; confirmar aplicación a cohorte 2026 antes de diseñar equivalencias.",
+        "Estimación de meses a jornada completa no excluye ni confirma jornada parcial.",
+        "No se verificó vacante individual ni cupo garantizado."
+      ],
+      "field": "comercial / contabilidad",
+      "source_input": "oportunidades_negocios.json"
+    },
+    {
+      "id": "SAL-EXP-UCH",
+      "kind": "curricular_required",
+      "field": "medicina",
+      "country": "Chile",
+      "organization": "Universidad de Chile",
+      "title": "Internado de Medicina Interna ME11063",
+      "status": "Programa validado 2026-07-02 para 2026.2; no vacante laboral",
+      "url": "https://dpi.med.uchile.cl/programa/api/web.php?curso=ME11063&periodof=2026.2",
+      "observed_date": "2026-11-01",
+      "eligibility": "Estudiantes de Medicina con prerrequisitos curriculares del programa; no acceso público general",
+      "experience_years": null,
+      "location": "Campos clínicos de Medicina UChile, Chile",
+      "schedule": "600 presenciales y 102 no presenciales; régimen publicado: 44 h/semana más turnos",
+      "duration": "Un internado semestral; 26 SCT",
+      "remuneration": "No publicado",
+      "supervision": "Equipo docente identificado; evaluación de rotaciones y examen práctico",
+      "learning": [
+        "Razonamiento y evidencia",
+        "Documentación electrónica y confidencialidad",
+        "Comunicación y trabajo multidisciplinario"
+      ],
+      "limits": [
+        "Formación curricular, no permiso para ejercer independientemente ni contrato de trabajo.",
+        "Horas publicadas en campos distintos del programa; no recalcular duración dividiendo créditos por jornada.",
+        "No se constató disponibilidad de cupos adicionales."
+      ],
+      "part_time_confirmed": false,
+      "source_input": "oportunidades_tecnologia_salud.json"
+    },
+    {
+      "id": "SAL-EXP-UDD",
+      "kind": "curricular",
+      "field": "medicina",
+      "country": "Chile",
+      "organization": "Universidad del Desarrollo, Santiago",
+      "title": "Dos años de internados en malla renovada",
+      "status": "Vía formativa descrita en página institucional; sin convocatoria laboral",
+      "url": "https://medicina.udd.cl/medicina-santiago/malla-curricular/",
+      "observed_date": "2026-11-01",
+      "eligibility": "Alumnado de la carrera; requisitos precisos de cada internado no publicados en esta página",
+      "experience_years": null,
+      "location": "Chile; campos clínicos mencionados: Clínica Alemana y Hospital Padre Hurtado",
+      "schedule": null,
+      "duration": "Dos años dentro de carrera de seis años",
+      "remuneration": "No publicado",
+      "supervision": "Vinculación con campos clínicos declarada; organización tutorial no verificada",
+      "learning": [
+        "Contacto con comunidades y sistema sanitario",
+        "Experiencia formativa en campos clínicos"
+      ],
+      "limits": [
+        "No equivale a una vacante abierta ni empleo de estudiante.",
+        "Disponibilidad por cohorte y requisitos precisos requieren verificación."
+      ],
+      "part_time_confirmed": null,
+      "source_input": "oportunidades_tecnologia_salud.json"
+    },
+    {
+      "id": "SAL-EXP-EDF",
+      "kind": "professional_public_service_route",
+      "field": "medicina",
+      "country": "Chile",
+      "organization": "MINSAL, Subsecretaría de Redes Asistenciales",
+      "title": "Ingreso por concurso a Etapa de Destinación y Formación / CONISS",
+      "status": "Programa permanente documentado; no se verificó llamado vigente de primer ingreso",
+      "url": "https://bips.ministeriodesarrollosocial.gob.cl/docs/informes/2026/60221%20-%20Plan%20de%20Ingreso%2C%20Formaci%C3%B3n%20y%20Retenci%C3%B3n%20de%20Especialistas.html",
+      "observed_date": "2026-11-01",
+      "eligibility": "Profesionales médicos; ficha exige titulación y EUNACOM aprobado. Elegibilidad concreta según bases de cada concurso",
+      "experience_years": "Existen concursos destinados a recién egresados, separados de los de funcionarios",
+      "location": "Red pública de Chile; destinos dependen de concurso",
+      "schedule": null,
+      "duration": "Según concurso y plaza",
+      "remuneration": "La ficha distingue contratos/sueldos EDF y estipendios de becas; sin monto individual verificado",
+      "supervision": null,
+      "learning": [
+        "Experiencia de servicio en red pública",
+        "Trayectoria de formación profesional"
+      ],
+      "limits": [
+        "No destinada al ejercicio independiente de estudiantes.",
+        "No confundir concurso de ingreso con acceso posterior a especialización.",
+        "Vía competitiva; no garantiza plaza ni destino."
+      ],
+      "part_time_confirmed": null,
+      "additional_urls": [
+        "https://postulacionenlinea.minsal.cl/vista/concursos.aspx"
+      ],
+      "source_input": "oportunidades_tecnologia_salud.json"
+    },
+    {
+      "id": "TEC-EXP-BCI",
+      "kind": "company_internship",
+      "field": "computacion",
+      "country": "Chile",
+      "organization": "Bci",
+      "title": "Prácticas 2027, área Tecnología e IA",
+      "status": "Convocatoria publica ventana octubre–noviembre 2026; ingreso futuro 2027",
+      "url": "https://bci.firstjob.me/",
+      "observed_date": "2026-11-01",
+      "eligibility": "Carrera afín; seguro escolar; disponibilidad completa; modalidad semestral admite hasta tres ramos",
+      "experience_years": "No se publica mínimo",
+      "location": "Principalmente RM; también Tarapacá y Coquimbo según proyecto; híbrida",
+      "schedule": "40 semanales, horario flexible; no media jornada",
+      "duration": "Enero–febrero 2027 o marzo–agosto 2027",
+      "remuneration": "Bono de práctica; monto no publicado",
+      "supervision": "Tutor y retroalimentación",
+      "learning": [
+        "Proyectos de software, automatización e IA"
+      ],
+      "limits": [
+        "Selección y cupos no garantizados.",
+        "Disponibilidad regional del área tecnológica no desglosada.",
+        "Página operada por FirstJob para Bci; portal institucional requiere JavaScript."
+      ],
+      "part_time_confirmed": false,
+      "additional_urls": [
+        "https://trabajaenbci.cl/practicas"
+      ],
+      "source_input": "oportunidades_tecnologia_salud.json"
+    },
+    {
+      "id": "TEC-EXP-BTG",
+      "kind": "company_internship",
+      "field": "computacion",
+      "country": "Chile",
+      "organization": "BTG Pactual Chile",
+      "title": "Práctica Tecnología (Programación)",
+      "status": "Anuncio original accesible con formulario; inicio diciembre2026; sin cierre publicado",
+      "url": "https://job-boards.greenhouse.io/btgpactualchile/jobs/5968670004",
+      "observed_date": "2026-11-01",
+      "eligibility": "Computación/informática, analista programador o afines; conceptos básicos de nube, datos e integración",
+      "experience_years": "No exige años; publica conocimientos o experiencia",
+      "location": "Santiago; formulario solicita disponibilidad presencial",
+      "schedule": null,
+      "duration": "Seis meses",
+      "remuneration": "No publicado",
+      "supervision": "Trabajo con equipo de desarrollo; tutor formal no especificado",
+      "learning": [
+        "Desarrollo web y APIs",
+        "Bases de datos",
+        "Pruebas, documentación y colaboración"
+      ],
+      "limits": [
+        "El formulario consulta clases y días disponibles, pero eso no acredita oferta de media jornada.",
+        "Estado visible no confirma cupos remanentes.",
+        "No se verificaron condiciones de seguro o matrícula vigente."
+      ],
+      "part_time_confirmed": null,
+      "source_input": "oportunidades_tecnologia_salud.json"
+    },
+    {
+      "id": "TEC-EXP-AWS",
+      "kind": "company_internship",
+      "field": "computacion",
+      "country": "Chile",
+      "organization": "Servicios Amazon Web Services Chile",
+      "title": "Solution Architect Intern, ID10512638",
+      "status": "Anuncio original accesible con enlace de postulación; fecha de cierre no publicada",
+      "url": "https://amazon.jobs/en/jobs/10512638/solution-architect-intern",
+      "observed_date": "2026-11-01",
+      "eligibility": "Matrícula vigente en grado de computación o afín; programación; ventana de graduación publicada diciembre2024–diciembre2027",
+      "experience_years": "Sin mínimo laboral; proyecto académico de nube se acepta como experiencia deseable",
+      "location": "Santiago, Chile",
+      "schedule": null,
+      "duration": null,
+      "remuneration": "No publicado",
+      "supervision": "Arquitectos experimentados como mentores",
+      "learning": [
+        "Fundamentos cloud",
+        "Proyectos de arquitectura y migración",
+        "Presentaciones técnicas"
+      ],
+      "limits": [
+        "La ventana incluye fechas pasadas, pero también exige matrícula actual: verificar elegibilidad concreta antes de postular.",
+        "Horas, remuneración y contratación posterior no comprobadas.",
+        "Español e inglés avanzado figuran entre cualificaciones deseables."
+      ],
+      "part_time_confirmed": null,
+      "source_input": "oportunidades_tecnologia_salud.json"
+    }
+  ],
+  "limits": [
+    "No son doce vacantes vigentes equivalentes.",
+    "No hay emparejamiento con un estudiante real ni postulaciones.",
+    "No convertir horas en años de experiencia reconocida.",
+    "Estados visibles requieren revalidación antes de postular."
+  ]
+}

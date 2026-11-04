@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
-import { AuthProvider } from "@/lib/auth-context";
+import { PlatformProviders } from "@/components/platform-providers";
 import { Toaster } from "@/components/ui/sonner";
 
 // Outfit is a variable font (weight axis 100–900), so we load the axis once
@@ -12,27 +12,27 @@ const outfit = Outfit({
 });
 
 const SITE_DESCRIPTION =
-  "TurboTrabajo encuentra empleos compatibles con tu perfil entre 25.000+ ofertas en las 16 regiones de Chile, postula por ti con un clic y te ayuda a prepararte para la entrevista.";
+  "Nexo Talento conecta requisitos laborales, evidencia curricular y oportunidades de experiencia. Piloto construido sobre TurboTrabajo y Luk.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://turbotrabajo.vercel.app"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),
   title: {
-    default: "TurboTrabajo — Postula a empleos en Chile con un clic",
-    template: "%s · TurboTrabajo",
+    default: "Nexo Talento — Formación y oportunidades",
+    template: "%s · Nexo Talento",
   },
   description: SITE_DESCRIPTION,
-  applicationName: "TurboTrabajo",
+  applicationName: "Nexo Talento",
   openGraph: {
     type: "website",
     locale: "es_CL",
     url: "/",
-    siteName: "TurboTrabajo",
-    title: "TurboTrabajo — Postula a empleos en Chile con un clic",
+    siteName: "Nexo Talento",
+    title: "Nexo Talento — Formación y oportunidades",
     description: SITE_DESCRIPTION,
   },
   twitter: {
     card: "summary_large_image",
-    title: "TurboTrabajo — Postula a empleos en Chile con un clic",
+    title: "Nexo Talento — Formación y oportunidades",
     description: SITE_DESCRIPTION,
   },
 };
@@ -45,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="es-CL" className={`${outfit.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col bg-white">
-        <AuthProvider>{children}</AuthProvider>
+        <PlatformProviders>{children}</PlatformProviders>
         <Toaster richColors position="top-right" />
       </body>
     </html>

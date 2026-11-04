@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Minimized skeleton of Luk's redesigned search page (2026-09-29) for a query with few exact
+     results: after them, a section ("Ya viste todas las ofertas…") nests suggested cards that are NOT
+     results. No lazy next-page frame. Structure is Luk's; every offer and company is fake. -->
+<html class="h-full bg-primary font-sans" lang="es-CL">
+<head><title>Ofertas de trabajo | Luk</title></head>
+<body>
+<header id="main-header"><a href="/users/sign_in">Ingresar</a></header>
+<main>
+  <div class="card job-offers-results-count-card">
+    <p class="job-offers-results-count text-gray"> <b>2</b> <span>ofertas de trabajo</span> </p>
+  </div>
+  <div class="similar-roles">
+    <a class="similar-role-suggestion-pill" data-role-name="Analista Financiero" href="#">Analista Financiero</a>
+    <a class="similar-role-suggestion-pill" data-role-name="Controller" href="#">Controller</a>
+  </div>
+  <turbo-frame class="job-offers-results-frame" data-turbo-action="advance" id="job_offers_listing">
+    <turbo-frame class="job-offers-page-frame stack-sm" id="job_offers_page_1">
+      <div class="card job-offer-card relative" data-scroll-restore-slug="controller-financiero-demo-sa">
+        <div class="job-offer-card__copy stack-xxs">
+          <h2 class="card-title job-offer-card__title min-w-0">Controller Financiero</h2>
+          <p class="item-title text-secondary-dark job-offer-card__company">Demo S.A.</p>
+        </div>
+        <span class="job-offer-card__location">Providencia, Región Metropolitana</span>
+      </div>
+      <div class="card job-offer-card relative" data-scroll-restore-slug="analista-de-control-de-gestion-demo-sa">
+        <div class="job-offer-card__copy stack-xxs">
+          <h2 class="card-title job-offer-card__title min-w-0">Analista de Control de Gestión</h2>
+          <p class="item-title text-secondary-dark job-offer-card__company">Demo S.A.</p>
+        </div>
+      </div>
+      <section class="stack-md">
+        <div class="stack-xs text-center">
+          <hr class="border-t border-gray-light">
+          <p class="text-body text-gray-dark font-medium">Ya viste todas las ofertas de esta búsqueda</p>
+          <p class="text-body text-gray">Estas opciones también podrían interesarte</p>
+        </div>
+        <div class="card job-offer-card relative" data-scroll-restore-slug="sugerencia-uno-otra-empresa">
+          <h2 class="card-title job-offer-card__title min-w-0">Sugerencia Uno</h2>
+        </div>
+        <div class="card job-offer-card relative" data-scroll-restore-slug="sugerencia-dos-otra-empresa">
+          <h2 class="card-title job-offer-card__title min-w-0">Sugerencia Dos</h2>
+        </div>
+      </section>
+    </turbo-frame>
+  </turbo-frame>
+</main>
+</body>
+</html>

@@ -1,0 +1,3947 @@
+{
+  "title": "Currículos, demanda y acceso a experiencia: piloto documental",
+  "cutoff": "2026-11-01",
+  "status": "exploratorio_no_representativo",
+  "corrections": [
+    "UChile Comercial: armonización conservadora con Contabilidad; reforma declarada no se puntúa como obligatoriedad verificada.",
+    "Medicina UChile: programa ME11063/2026.2 añade evidencia obligatoria de sistemas digitales; se mantiene IA específica no verificada y se separan cohortes."
+  ],
+  "programs": [
+    {
+      "id": "COM-CL-UCH",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "program": "Ingeniería Comercial; ciclo básico común y menciones Administración/Economía separables",
+      "level": "Pregrado profesional/licenciatura",
+      "version": "Cambios curriculares publicados para 2026; cohortes y despliegue no auditados",
+      "url": "https://mallas2026.fen.uchile.cl/ingenieria-comercial/",
+      "verified_evidence": [
+        {
+          "competency": "Programación y analítica",
+          "course": "Programación para Analítica de Datos",
+          "coverage": "mentioned",
+          "location": "Ciclo básico, incorporación de asignatura de 6 créditos; página cambios 2026; reforma declarada, obligatoriedad pendiente de comprobación homogénea"
+        },
+        {
+          "competency": "Razonamiento con datos",
+          "course": "Razonamiento Basado en Datos",
+          "coverage": "mentioned",
+          "location": "Ciclo básico, cambio de denominación; profundidad no comprobada; reforma declarada, obligatoriedad pendiente de comprobación homogénea"
+        },
+        {
+          "competency": "Sistemas digitales de negocio",
+          "course": "Tecnología y Sistemas de Información",
+          "coverage": "mentioned",
+          "location": "Ciclo básico, adelantado al segundo semestre; reforma declarada, obligatoriedad pendiente de comprobación homogénea"
+        },
+        {
+          "competency": "Comunicación",
+          "course": "Comunicación",
+          "coverage": "mentioned",
+          "location": "Ciclo básico, primer semestre, 2 créditos; reforma declarada, obligatoriedad pendiente de comprobación homogénea"
+        },
+        {
+          "competency": "IA aplicada",
+          "course": "Contenido de IA atribuido al nuevo curso de programación",
+          "coverage": "mentioned",
+          "location": "Descripción de finalidad; no se abrió programa detallado ni evaluación"
+        },
+        {
+          "competency": "Ética aplicada",
+          "course": "No verificable en la página específica examinada",
+          "coverage": "not_verifiable",
+          "location": "La ausencia en una página de modificaciones no informa ausencia curricular"
+        }
+      ],
+      "limits": [
+        "Página de modificaciones oficial, complementada con ciclo básico; no equivale al syllabus completo ni al currículo realizado.",
+        "No atribuir Ética y Negocios de Contador Auditor a Ingeniería Comercial.",
+        "Las especializaciones optativas no describen a todos los egresados."
+      ],
+      "additional_urls": [
+        "https://mallas2026.fen.uchile.cl/ciclo-basico/",
+        "https://pregrado.fen.uchile.cl/mallas-curriculares/"
+      ],
+      "field": "comercial",
+      "observed_date": "2026-11-01",
+      "scope": "Ingeniería Comercial; ciclo básico común y menciones Administración/Economía separables; Cambios curriculares publicados para 2026; cohortes y despliegue no auditados"
+    },
+    {
+      "id": "COM-CL-UC",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "program": "Ingeniería Comercial; tronco común y menciones Administración/Economía",
+      "level": "Pregrado profesional/licenciatura",
+      "version": "Malla 2025, PDF institucional alojado julio 2025",
+      "url": "https://economiayadministracion.uc.cl/assets/uploads/2025/07/malla-2025-1.pdf",
+      "verified_evidence": [
+        {
+          "competency": "Estadística e inferencia",
+          "course": "Probabilidad y Estadística; Inferencia Estadística",
+          "coverage": "explicit_required",
+          "location": "PDF p.1, línea cuantitativa común"
+        },
+        {
+          "competency": "Programación",
+          "course": "Intro. a la Programación",
+          "coverage": "explicit_required",
+          "location": "PDF p.1, línea cuantitativa común"
+        },
+        {
+          "competency": "Análisis empírico",
+          "course": "Econometría",
+          "coverage": "explicit_required",
+          "location": "PDF p.1, línea cuantitativa común"
+        },
+        {
+          "competency": "Decisiones con datos",
+          "course": "Marketing Analytics",
+          "coverage": "explicit_required",
+          "location": "PDF p.1, asignatura nominada del tronco común"
+        },
+        {
+          "competency": "Ética aplicada",
+          "course": "Ética, Economía y Empresa",
+          "coverage": "explicit_required",
+          "location": "PDF p.1, tronco común"
+        },
+        {
+          "competency": "IA aplicada",
+          "course": "Syllabus o contenido específico no obtenido",
+          "coverage": "not_verifiable",
+          "location": "El nombre de los ramos no permite resolver contenido de IA"
+        },
+        {
+          "competency": "Comunicación profesional",
+          "course": "Evaluación comunicativa específica no obtenida",
+          "coverage": "not_verifiable",
+          "location": "La malla por sí sola no prueba práctica ni nivel comunicativo"
+        }
+      ],
+      "limits": [
+        "La malla identifica cursos y créditos, no software, tareas, rúbricas ni resultados.",
+        "No trasladar asignaturas específicas de una mención a la otra.",
+        "No afirmar ausencia de IA por inexistencia de un título visible."
+      ],
+      "field": "comercial",
+      "observed_date": "2026-11-01",
+      "scope": "Ingeniería Comercial; tronco común y menciones Administración/Economía; Malla 2025, PDF institucional alojado julio 2025"
+    },
+    {
+      "id": "COM-CL-UDD",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo",
+      "program": "Ingeniería Comercial, UDD Futuro, sedes Santiago/Concepción",
+      "level": "Pregrado profesional/licenciatura; opciones de continuidad posteriores separadas",
+      "version": "Folleto sin año explícito, enlazado desde página vigente al corte; no se confirmó cohorte",
+      "url": "https://www.udd.cl/mallas/ingcomercial.pdf",
+      "verified_evidence": [
+        {
+          "competency": "Estadística",
+          "course": "Métodos Estadísticos",
+          "coverage": "explicit_required",
+          "location": "PDF p.1, malla principal de Ingeniería Comercial"
+        },
+        {
+          "competency": "Decisiones y proyecto con datos",
+          "course": "Proyecto de Análisis de Datos",
+          "coverage": "explicit_required",
+          "location": "PDF p.1, línea de análisis de datos de malla principal"
+        },
+        {
+          "competency": "Tecnología de negocios",
+          "course": "Business Tech",
+          "coverage": "explicit_required",
+          "location": "PDF p.1, malla principal; no contenido técnico detallado"
+        },
+        {
+          "competency": "Ética aplicada",
+          "course": "Ética de los Negocios",
+          "coverage": "explicit_required",
+          "location": "PDF p.1, malla principal"
+        },
+        {
+          "competency": "Comunicación",
+          "course": "Comunicación Oral / Comunicación Escrita",
+          "coverage": "explicit_required",
+          "location": "PDF p.1, bloque formativo común de malla principal"
+        },
+        {
+          "competency": "Programación e IA aplicada",
+          "course": "No se obtuvo syllabus que detalle lenguaje ni contenidos de IA",
+          "coverage": "not_verifiable",
+          "location": "El título de tecnología no prueba por sí mismo programación/IA"
+        }
+      ],
+      "limits": [
+        "Folleto referencial sujeto a modificaciones; obligatoriedad codificada por ubicación en tronco principal.",
+        "No se usan como tronco común los magísteres/especializaciones sujetos a elección y requisitos.",
+        "El bachillerato alternativo dibujado en la misma página no se cuenta como segundo programa."
+      ],
+      "additional_urls": [
+        "https://negocios.udd.cl/carrera/ingenieria-comercial-udd/malla-curricular/"
+      ],
+      "field": "comercial",
+      "observed_date": "2026-11-01",
+      "scope": "Ingeniería Comercial, UDD Futuro, sedes Santiago/Concepción; Folleto sin año explícito, enlazado desde página vigente al corte; no se confirmó cohorte"
+    },
+    {
+      "id": "COM-BR-USP",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA",
+      "program": "Bacharelado em Administração, integral",
+      "level": "Pregrado/bacharelado; 8 semestres ideales",
+      "version": "Estructura curricular 2026, documento de 24-11-2025",
+      "url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/oficial_integral_estrutura_curricular_adm_2026_integral_24-11-2025.pdf",
+      "verified_evidence": [
+        {
+          "competency": "Computación",
+          "course": "MAC0113",
+          "coverage": "explicit_required",
+          "location": "PDF p.1, semestre 1; introducción de computación para humanidades, lenguaje no constatado"
+        },
+        {
+          "competency": "Estadística",
+          "course": "MAE0116",
+          "coverage": "explicit_required",
+          "location": "PDF p.1, semestre 2"
+        },
+        {
+          "competency": "Decisiones cuantitativas",
+          "course": "EAD0756; EAD0904",
+          "coverage": "explicit_required",
+          "location": "PDF p.2, semestres 4/5; modelos para decidir y resolución de problemas"
+        },
+        {
+          "competency": "Tecnología organizacional",
+          "course": "EAD0757",
+          "coverage": "explicit_required",
+          "location": "PDF p.2, semestre 4"
+        },
+        {
+          "competency": "Ética aplicada",
+          "course": "EAD0791",
+          "coverage": "explicit_required",
+          "location": "PDF p.1, semestre 3"
+        },
+        {
+          "competency": "IA y aprendizaje automático aplicado",
+          "course": "EAD0830; EAD0759; EAD0851",
+          "coverage": "explicit_elective",
+          "location": "PDF pp.2–4; optativas de finanzas, negocios y ciencia de datos"
+        },
+        {
+          "competency": "Experiencia aplicada",
+          "course": "EAD0604",
+          "coverage": "explicit_required",
+          "location": "PDF p.3, semestre 7, práctica supervisada"
+        }
+      ],
+      "limits": [
+        "Administración no equivale a Ingeniería Comercial con mención Economía.",
+        "La oferta optativa de IA no demuestra cursado universal ni resultados.",
+        "No se comprobaron lenguaje de programación, software ni calidad de evaluaciones."
+      ],
+      "field": "comercial",
+      "observed_date": "2026-11-01",
+      "scope": "Bacharelado em Administração, integral; Estructura curricular 2026, documento de 24-11-2025"
+    },
+    {
+      "id": "COM-US-WHARTON",
+      "country": "Estados Unidos",
+      "institution": "University of Pennsylvania, Wharton",
+      "program": "BS in Economics; concentración Business Analytics como trayectoria opcional",
+      "level": "Undergraduate bachelor; no MBA",
+      "version": "Requisitos web consultados al corte, sin año de versión inequívoco; no catalogar como cohorte 2026 certificada",
+      "url": "https://undergrad-inside.wharton.upenn.edu/curriculum/",
+      "verified_evidence": [
+        {
+          "competency": "Estadística",
+          "course": "STAT1010; STAT1020",
+          "coverage": "explicit_required",
+          "location": "Página Curriculum, Business Fundamentals"
+        },
+        {
+          "competency": "Comunicación y liderazgo",
+          "course": "Seminario de escritura; WH2010; MGMT3010",
+          "coverage": "explicit_required",
+          "location": "Página Curriculum, Writing y Leadership Journey"
+        },
+        {
+          "competency": "Fundamentos institucionales del negocio",
+          "course": "LGST1000 o LGST1010",
+          "coverage": "required_group_option",
+          "location": "Página Curriculum, alternativa de requisito legal/ético; no garantiza ambos enfoques"
+        },
+        {
+          "competency": "Decisiones y gestión de datos",
+          "course": "Competencias c/a/o en 4 unidades de la concentración",
+          "coverage": "explicit_required",
+          "location": "Requisito obligatorio SOLO para alumnos de Business Analytics; selección de cursos flexible",
+          "source_url": "https://statistics.wharton.upenn.edu/programs/undergraduate/business-analytics-joint-concentration/"
+        },
+        {
+          "competency": "Programación aplicada",
+          "course": "STAT4050",
+          "coverage": "explicit_elective",
+          "location": "Lista de cursos admitidos en Business Analytics: computación estadística con R; elección, no universal",
+          "source_url": "https://statistics.wharton.upenn.edu/programs/undergraduate/business-analytics-joint-concentration/"
+        },
+        {
+          "competency": "IA y aprendizaje automático",
+          "course": "STAT4230; CIS4190/5190",
+          "coverage": "explicit_elective",
+          "location": "Lista de cursos admitidos en Business Analytics",
+          "source_url": "https://statistics.wharton.upenn.edu/programs/undergraduate/business-analytics-joint-concentration/"
+        },
+        {
+          "competency": "Ética de datos",
+          "course": "LGST2420",
+          "coverage": "explicit_elective",
+          "location": "Lista de cursos admitidos en Business Analytics; no obligatorio para todo el grado",
+          "source_url": "https://statistics.wharton.upenn.edu/programs/undergraduate/business-analytics-joint-concentration/"
+        }
+      ],
+      "limits": [
+        "La concentración es optativa respecto al grado; sus requisitos no deben atribuirse al estudiante general.",
+        "Las etiquetas c/a/o formalizan competencias, pero no son evaluación observada.",
+        "Se usaron páginas departamentales abiertas; el catálogo central presentó barrera de acceso."
+      ],
+      "field": "comercial",
+      "observed_date": "2026-11-01",
+      "scope": "BS in Economics; concentración Business Analytics como trayectoria opcional; Requisitos web consultados al corte, sin año de versión inequívoco; no catalogar como cohorte 2026 certificada"
+    },
+    {
+      "id": "COM-CN-TSINGHUA",
+      "country": "China",
+      "institution": "Tsinghua University, School of Economics and Management",
+      "program": "Economics and Finance / 经济与金融",
+      "level": "Pregrado, bachelor en Economía; 4 años",
+      "version": "Plan público 2022; no se verificó continuidad ni cambios para cohortes 2026",
+      "url": "https://www.tsinghua.edu.cn/jxjywj/bkzy2022/zxzy/46-47.pdf",
+      "verified_evidence": [
+        {
+          "competency": "Estadística",
+          "course": "10510134",
+          "coverage": "explicit_required",
+          "location": "PDF p.2, fundamentos matemáticos comunes"
+        },
+        {
+          "competency": "Computación y análisis",
+          "course": "30511073 o 20510163",
+          "coverage": "required_group_option",
+          "location": "PDF p.2, bloque de computación de 3 créditos: programación o análisis inteligente de negocios; alternativas"
+        },
+        {
+          "competency": "Análisis empírico",
+          "course": "30510973",
+          "coverage": "explicit_required",
+          "location": "PDF pp.4–5, econometría del núcleo Economics and Finance"
+        },
+        {
+          "competency": "Ética y razonamiento",
+          "course": "10510173",
+          "coverage": "explicit_required",
+          "location": "PDF p.3, pensamiento crítico y razonamiento moral"
+        },
+        {
+          "competency": "Comunicación",
+          "course": "10691342 o 10510072",
+          "coverage": "required_group_option",
+          "location": "PDF p.3, escritura/comunicación, 2 créditos, alternativa obligatoria"
+        },
+        {
+          "competency": "Analítica financiera avanzada",
+          "course": "40510882",
+          "coverage": "explicit_elective",
+          "location": "PDF pp.6–7, análisis de grandes datos financieros entre electivos"
+        },
+        {
+          "competency": "IA generativa aplicada",
+          "course": "Contenido actual no verificable con el plan obtenido",
+          "coverage": "not_verifiable",
+          "location": "Documento 2022; no confundir la otra carrera del mismo PDF con este programa"
+        }
+      ],
+      "limits": [
+        "Documento abierto íntegramente en investigación; accesibilidad intermitente en una segunda lectura.",
+        "No se trasladan requisitos de Information Management and Information Systems al programa de Economía y Finanzas.",
+        "Fuente histórica: diferencia de fecha no demuestra rezago ni ausencia de contenidos actuales.",
+        "Traducciones funcionales del chino requieren revisión local antes de una evaluación institucional."
+      ],
+      "field": "comercial",
+      "observed_date": "2026-11-01",
+      "scope": "Economics and Finance / 经济与金融; Plan público 2022; no se verificó continuidad ni cambios para cohortes 2026"
+    },
+    {
+      "id": "ACC-CL-UCH-2026",
+      "country": "Chile",
+      "institution": "Universidad de Chile, Facultad de Economía y Negocios",
+      "program": "Contador Auditor",
+      "level": "Pregrado universitario; Licenciatura en Contabilidad y Auditoría",
+      "version": "Mallas nuevas 2026",
+      "url": "https://mallas2026.fen.uchile.cl/contador-auditor/",
+      "additional_urls": [
+        "https://mallas2026.fen.uchile.cl/wp-content/uploads/2026/01/malla_ca2026.pdf"
+      ],
+      "verified_evidence": [
+        {
+          "competency": "Programación y analítica",
+          "course": "Programación para Analítica de Datos",
+          "coverage": "mentioned",
+          "location": "Página oficial, ciclo básico; 6 créditos y referencia explícita a programación e IA"
+        },
+        {
+          "competency": "Aprendizaje automático",
+          "course": "Machine Learning",
+          "coverage": "mentioned",
+          "location": "Página oficial, ciclo disciplinar, innovación en sistemas de información; 6 créditos"
+        },
+        {
+          "competency": "Sistemas de información",
+          "course": "Sistema de Aplicaciones",
+          "coverage": "mentioned",
+          "location": "Página oficial, ciclo disciplinar; 6 créditos"
+        },
+        {
+          "competency": "Control y planificación financiera",
+          "course": "Control Financiero; Estrategia y Presupuestos",
+          "coverage": "mentioned",
+          "location": "Página oficial, ajustes en contabilidad y tributación"
+        },
+        {
+          "competency": "Ética",
+          "course": "Ética y Negocios",
+          "coverage": "mentioned",
+          "location": "Página oficial, fortalecimiento de habilidades generales; 4 créditos"
+        },
+        {
+          "competency": "Comunicación",
+          "course": "Comunicación",
+          "coverage": "mentioned",
+          "location": "Página oficial, ciclo básico; 2 créditos"
+        },
+        {
+          "competency": "Aplicación profesional integrada",
+          "course": "Capstone",
+          "coverage": "mentioned",
+          "location": "Página oficial, beneficios: noveno semestre y casos reales de empresas"
+        }
+      ],
+      "limits": [
+        "La página oficial explica la reforma; no se equipara a un programa de asignatura con evaluaciones.",
+        "PDF enlazado y abierto; su extracción sólo recuperó título y grado. Se conserva mentioned hasta comprobar visualmente obligatoriedad de cada ramo.",
+        "No inferir lenguaje Python, SQL, nivel de dominio ni aprendizaje real del nombre del curso.",
+        "Página con actualizaciones e inconsistencias menores sobre inglés/tributación; no se utilizan esos detalles para puntuar."
+      ],
+      "field": "contabilidad",
+      "observed_date": "2026-11-01",
+      "scope": "Contador Auditor; Mallas nuevas 2026"
+    },
+    {
+      "id": "ACC-CL-DUOC-2026",
+      "country": "Chile",
+      "institution": "Instituto Profesional Duoc UC",
+      "program": "Auditoría y Análisis de Negocios; título Contador(a) Auditor(a), modalidad FOL",
+      "level": "Formación profesional de instituto; no grado universitario equivalente asumido",
+      "version": "Malla 1117101-2026 FOL; archivo institucional publicado en enero 2026",
+      "url": "https://www.duoc.cl/wp-content/uploads/2026/01/Malla-Curricular-1117101-2026-Contadora-Auditora-Auditori%CC%81a-y-ana%CC%81lisis-de-negocios-FOL.pdf",
+      "verified_evidence": [
+        {
+          "competency": "Operación ERP",
+          "course": "Taller ERP Contable",
+          "coverage": "explicit_required",
+          "location": "PDF, página 1, asignatura fija de malla"
+        },
+        {
+          "competency": "Analítica e inteligencia de negocios",
+          "course": "Big Data e Inteligencia de Negocios",
+          "coverage": "explicit_required",
+          "location": "PDF, página 1"
+        },
+        {
+          "competency": "Auditoría",
+          "course": "Auditoría Interna; Auditoría Externa",
+          "coverage": "explicit_required",
+          "location": "PDF, página 1"
+        },
+        {
+          "competency": "Riesgo y gobernanza",
+          "course": "Gestión de Riesgo; Gobierno Corporativo y Compliance",
+          "coverage": "explicit_required",
+          "location": "PDF, página 1"
+        },
+        {
+          "competency": "Herramientas digitales contables",
+          "course": "Herramientas Tecnológicas para la Contabilidad",
+          "coverage": "explicit_required",
+          "location": "PDF, página 1"
+        },
+        {
+          "competency": "Ética profesional",
+          "course": "Ética Profesional",
+          "coverage": "explicit_required",
+          "location": "PDF, página 1"
+        },
+        {
+          "competency": "IA generativa / Python / SQL",
+          "course": null,
+          "coverage": "not_verifiable",
+          "location": "No identificables en los nombres de la malla revisada; requieren programas detallados"
+        }
+      ],
+      "limits": [
+        "Asignaturas fijas en malla pública; falta sílabo y evidencia de evaluación.",
+        "No mezclar esta modalidad FOL con otras versiones presenciales.",
+        "Duoc UC y Pontificia Universidad Católica de Chile son instituciones diferentes; el primero no sustituye el programa del segundo.",
+        "Presencia de Big Data no prueba profundidad ni herramienta específica."
+      ],
+      "field": "contabilidad",
+      "observed_date": "2026-11-01",
+      "scope": "Auditoría y Análisis de Negocios; título Contador(a) Auditor(a), modalidad FOL; Malla 1117101-2026 FOL; archivo institucional publicado en enero 2026"
+    },
+    {
+      "id": "ACC-CL-UDP-2026",
+      "country": "Chile",
+      "institution": "Universidad Diego Portales",
+      "program": "Contador Auditor, vespertino",
+      "level": "Pregrado universitario; Licenciatura en Gestión de Contabilidad y Auditoría",
+      "version": "Admisión 2026; PDF declara actualización noviembre 2025; ocho semestres",
+      "url": "https://admision.udp.cl/cms/wp-content/uploads/2025/09/CONTADOR-AUDITOR_2026.pdf",
+      "additional_urls": [
+        "https://admision.udp.cl/carrera/contador-auditor/"
+      ],
+      "verified_evidence": [
+        {
+          "competency": "Contabilidad y reporting",
+          "course": "Contabilidad Intermedia; Contabilidad Superior; Contabilidad Avanzada",
+          "coverage": "explicit_required",
+          "location": "PDF, página 2, malla"
+        },
+        {
+          "competency": "Sistemas digitales contables",
+          "course": "Tecnologías de Información de Negocios; Sistemas Tecnológicos Contables",
+          "coverage": "explicit_required",
+          "location": "PDF, página 2"
+        },
+        {
+          "competency": "Análisis cuantitativo",
+          "course": "Estadística Aplicada",
+          "coverage": "explicit_required",
+          "location": "PDF, página 2"
+        },
+        {
+          "competency": "Auditoría",
+          "course": "Auditoría I; Auditoría II",
+          "coverage": "explicit_required",
+          "location": "PDF, página 2"
+        },
+        {
+          "competency": "Comunicación y colaboración",
+          "course": "Habilidades Comunicacionales; Liderazgo y Trabajo en Equipo",
+          "coverage": "explicit_required",
+          "location": "PDF, página 2"
+        },
+        {
+          "competency": "Excel",
+          "course": "Certificado Microsoft Office Specialist - Excel Nivel Básico",
+          "coverage": "mentioned",
+          "location": "PDF, página 2, certificado condicionado a aprobar evaluación Microsoft"
+        },
+        {
+          "competency": "IA generativa / Python / SQL",
+          "course": null,
+          "coverage": "not_verifiable",
+          "location": "No identificables por nombre en documento revisado"
+        }
+      ],
+      "limits": [
+        "Versión vespertina: no confundir con carrera diurna Contador Auditor–Contador Público.",
+        "Certificación Excel no equivale a certificación obtenida por todos.",
+        "Electivos de profundización sin nombres: contenido no verificable.",
+        "Malla sujeta a cambios; falta verificar implementación de cohorte y evaluaciones."
+      ],
+      "field": "contabilidad",
+      "observed_date": "2026-11-01",
+      "scope": "Contador Auditor, vespertino; Admisión 2026; PDF declara actualización noviembre 2025; ocho semestres"
+    },
+    {
+      "id": "ACC-BR-USP-2025",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA, São Paulo",
+      "program": "Bacharelado em Ciências Contábeis",
+      "level": "Pregrado universitario",
+      "version": "Projeto Pedagógico vigente desde 2025",
+      "url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/ppc_cc_2025.pdf",
+      "additional_urls": [
+        "https://www.fea.usp.br/contabilidade/graduacao/bacharelado-em-contabilidade/projeto-politico-pedagogico.html"
+      ],
+      "verified_evidence": [
+        {
+          "competency": "Auditoría",
+          "course": "EAC0401 Auditoria I; EAC0490 Auditoria II",
+          "coverage": "explicit_required",
+          "location": "PDF, páginas 30–32; matriz obligatoria"
+        },
+        {
+          "competency": "Analítica",
+          "course": "EAC0579 Análise de Dados para Tomada de Decisão",
+          "coverage": "explicit_required",
+          "location": "PDF, página 32, quinto semestre"
+        },
+        {
+          "competency": "Sistemas contables",
+          "course": "EAC0548 Sistemas de Informações Contábeis",
+          "coverage": "explicit_required",
+          "location": "PDF, página 32, sexto semestre"
+        },
+        {
+          "competency": "Riesgo y gobernanza",
+          "course": "EAC0413 Gestão de Riscos, Governança e Compliance",
+          "coverage": "explicit_required",
+          "location": "PDF, página 32, quinto semestre"
+        },
+        {
+          "competency": "Ética",
+          "course": "EAC0510 Ética Geral e Profissional",
+          "coverage": "explicit_required",
+          "location": "PDF, página 32, quinto semestre"
+        },
+        {
+          "competency": "IA aplicada a contabilidad",
+          "course": "EAC0612 Aplicações de Inteligência Artificial em Contabilidade e Finanças",
+          "coverage": "explicit_elective",
+          "location": "PDF, página 33, optativas"
+        },
+        {
+          "competency": "Programación y bases de datos",
+          "course": "EAC0610 Introdução à Programação e Banco de Dados em Negócios",
+          "coverage": "explicit_elective",
+          "location": "PDF, página 33, optativas"
+        }
+      ],
+      "limits": [
+        "No todos cursan cada optativa; la oferta publicada tampoco demuestra que se abra cada semestre.",
+        "No inferir Python o SQL de programación/bases de datos sin sílabo.",
+        "No comparar créditos locales directamente con créditos de otros países.",
+        "El PPC informa comparación con 27 universidades extranjeras; es antecedente de metodología, no evidencia de impacto laboral."
+      ],
+      "field": "contabilidad",
+      "observed_date": "2026-11-01",
+      "scope": "Bacharelado em Ciências Contábeis; Projeto Pedagógico vigente desde 2025"
+    },
+    {
+      "id": "ACC-US-UIUC-2026",
+      "country": "Estados Unidos",
+      "institution": "University of Illinois Urbana-Champaign, Gies College of Business",
+      "program": "Accountancy, BS",
+      "level": "Undergraduate Bachelor of Science",
+      "version": "Catálogo 2026–2027, disponible al corte; plan de cuatro años",
+      "url": "https://catalog.illinois.edu/undergraduate/bus/accountancy-bs/",
+      "verified_evidence": [
+        {
+          "competency": "Analítica de negocios",
+          "course": "BADM210 Business Analytics I; BADM211 Business Analytics II",
+          "coverage": "explicit_required",
+          "location": "Degree Requirements > Business Core Requirements"
+        },
+        {
+          "competency": "Computación",
+          "course": "CS105 Intro Computing: Non-Tech",
+          "coverage": "explicit_required",
+          "location": "Business Core Requirements"
+        },
+        {
+          "competency": "Reporting contable",
+          "course": "ACCY301 Atg Measurement & Disclosure",
+          "coverage": "explicit_required",
+          "location": "Accountancy, BS Major Requirements"
+        },
+        {
+          "competency": "Control",
+          "course": "ACCY304 Accounting Control Systems",
+          "coverage": "explicit_required",
+          "location": "Major Requirements"
+        },
+        {
+          "competency": "Auditoría",
+          "course": "ACCY405 Assurance and Attestation",
+          "coverage": "explicit_required",
+          "location": "Major Requirements"
+        },
+        {
+          "competency": "Ética y responsabilidad",
+          "course": "BUS101 Professional Responsibility and Business",
+          "coverage": "explicit_required",
+          "location": "Business Core Requirements"
+        },
+        {
+          "competency": "IA generativa obligatoria",
+          "course": null,
+          "coverage": "not_verifiable",
+          "location": "La lista general de requisitos no permite verificar este contenido"
+        }
+      ],
+      "limits": [
+        "Se elige Accountancy BS regular, no Accountancy + Data Science ni máster.",
+        "Catálogo identifica requisitos, no profundidad de software ni aprendizaje alcanzado.",
+        "No se equipara BS con habilitación profesional o licencia estadounidense.",
+        "La secuencia modelo no garantiza disponibilidad semestral de cada asignatura."
+      ],
+      "field": "contabilidad",
+      "observed_date": "2026-11-01",
+      "scope": "Accountancy, BS; Catálogo 2026–2027, disponible al corte; plan de cuatro años"
+    },
+    {
+      "id": "ACC-CN-CUFE-2025",
+      "country": "China",
+      "institution": "Central University of Finance and Economics (中央财经大学)",
+      "program": "会计学（注册会计师方向） / Accounting, orientación CPA",
+      "level": "Pregrado de cuatro años; Bachelor of Management",
+      "version": "Plan para cohorte 2025; índice institucional publicado 2025-09-02",
+      "url": "https://jwc.cufe.edu.cn/PDF-2025/3.huijixue-zhucehuijishifangxiangxuefenzhipeiyangfangan.pdf",
+      "additional_urls": [
+        "https://jwc.cufe.edu.cn/info/1342/6983.htm"
+      ],
+      "verified_evidence": [
+        {
+          "competency": "IA y análisis de datos",
+          "course": "0630222 AI in data analytics and applications",
+          "coverage": "explicit_required",
+          "location": "PDF, página 5, formación informática obligatoria, 2 créditos, semestre 2"
+        },
+        {
+          "competency": "Programación Python",
+          "course": "0310181 Python Programming",
+          "coverage": "explicit_required",
+          "location": "PDF, página 5, formación informática obligatoria, 2 créditos, semestre 3"
+        },
+        {
+          "competency": "Sistemas contables",
+          "course": "0310137 Accounting Information System",
+          "coverage": "explicit_required",
+          "location": "PDF, matriz de cursos profesionales, 2 créditos"
+        },
+        {
+          "competency": "Auditoría",
+          "course": "0310039 Auditing",
+          "coverage": "explicit_required",
+          "location": "PDF, matriz de cursos profesionales, 4 créditos"
+        },
+        {
+          "competency": "Modelos de lenguaje",
+          "course": "0630225 Foundations of Large Language Models",
+          "coverage": "explicit_elective",
+          "location": "PDF, página 5, bloque informático optativo, semestre 4"
+        },
+        {
+          "competency": "Aprendizaje automático",
+          "course": "0630204 Machine Learning",
+          "coverage": "explicit_elective",
+          "location": "PDF, página 5, bloque informático optativo, semestre 5"
+        },
+        {
+          "competency": "Fraude y analítica",
+          "course": "Data Analysis and Financial Fraud Detection",
+          "coverage": "explicit_elective",
+          "location": "PDF, bloque de profundización profesional"
+        }
+      ],
+      "limits": [
+        "Documento bilingüe; nombres ingleses tomados del plan, no equivalencia legal del título.",
+        "Abierto y leído completo en la primera consulta; reintentos posteriores del mismo PDF devolvieron timeout. Registrar accesibilidad intermitente.",
+        "Una universidad especializada no representa al sistema chino.",
+        "Plan publicado para 2025 no demuestra dominio de sus futuros egresados, oferta efectiva de todas las optativas ni resultados de empleo."
+      ],
+      "field": "contabilidad",
+      "observed_date": "2026-11-01",
+      "scope": "会计学（注册会计师方向） / Accounting, orientación CPA; Plan para cohorte 2025; índice institucional publicado 2025-09-02"
+    },
+    {
+      "id": "MED-CL-UCH-2026",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "program": "Medicina",
+      "level": "Pregrado; licenciatura y título de médico cirujano; 14 semestres",
+      "version": "Decreto Exento 0015762, 2026-05-04; página consultada 2026-11-01",
+      "url": "https://medicina.uchile.cl/pregrado/licenciaturas-y-titulos/medicina",
+      "verified_evidence": [
+        {
+          "competency": "bioestadística",
+          "course": "Bioestadística",
+          "coverage": "explicit_required",
+          "location": "Plan, semestre II; 2 SCT"
+        },
+        {
+          "competency": "investigación",
+          "course": "Metodología de la investigación",
+          "coverage": "explicit_required",
+          "location": "Semestre III; 2 SCT"
+        },
+        {
+          "competency": "evaluación de evidencia",
+          "course": "Medicina basada en la evidencia",
+          "coverage": "explicit_required",
+          "location": "Semestre VIII; 2 SCT"
+        },
+        {
+          "competency": "gestión sanitaria",
+          "course": "Gestión I y II",
+          "coverage": "explicit_required",
+          "location": "Semestres VII y VIII; 2 SCT cada una"
+        },
+        {
+          "competency": "colaboración",
+          "course": "Educación interprofesional y práctica colaborativa I",
+          "coverage": "explicit_required",
+          "location": "Semestre V; continuidad en VIII"
+        },
+        {
+          "competency": "ética",
+          "course": "Bioética",
+          "coverage": "explicit_required",
+          "location": "Semestre IV"
+        },
+        {
+          "competency": "IA clínica específica",
+          "course": null,
+          "coverage": "not_verifiable",
+          "location": "No verificada en las fuentes examinadas; no implica ausencia de enseñanza"
+        },
+        {
+          "competency": "Registro clínico digital y confidencialidad",
+          "course": "ME11063, Internado de Medicina Interna",
+          "coverage": "explicit_required",
+          "location": "Programa 2026.2, resultado 3 y unidades 3–4; curso obligatorio con evaluación de desempeño declarada",
+          "source_url": "https://dpi.med.uchile.cl/programa/api/web.php?curso=ME11063&periodof=2026.2",
+          "scope": "Internado del segundo semestre 2026; no se asume pertenencia a la nueva cohorte de ingreso 2026"
+        }
+      ],
+      "limits": [
+        "La página presenta también admisión 2027; esta no se interpreta como prueba de resultados de la cohorte.",
+        "El plan demuestra cobertura declarada, no calidad, profundidad ni desempeño observado.",
+        "Se revisó ME11063/2026.2: diseño de práctica y evaluación documentado; resultados individuales y rúbrica completa no inspeccionados. No inferir IA clínica de uso de ficha electrónica."
+      ],
+      "field": "medicina",
+      "observed_date": "2026-11-01",
+      "scope": "Medicina; Decreto Exento 0015762, 2026-05-04; página consultada 2026-11-01",
+      "source_urls": [
+        "https://dpi.med.uchile.cl/programa/api/web.php?curso=ME11063&periodof=2026.2"
+      ]
+    },
+    {
+      "id": "MED-CL-PUC",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "program": "Medicina",
+      "level": "Pregrado; 12 semestres",
+      "version": "Plan implantado desde cohorte 2015; malla pública consultada 2026-11-01, sin versión explícita en tabla",
+      "url": "https://medicina.uc.cl/pregrado/plan-de-estudios/",
+      "source_urls": [
+        "https://facultadmedicina.uc.cl/carrera/carrera-medicina/"
+      ],
+      "verified_evidence": [
+        {
+          "competency": "bioestadística",
+          "course": "Bioestadística",
+          "coverage": "explicit_required",
+          "location": "Tabla de malla, semestre II"
+        },
+        {
+          "competency": "salud pública",
+          "course": "Salud Pública",
+          "coverage": "explicit_required",
+          "location": "Tabla, semestre III"
+        },
+        {
+          "competency": "ética",
+          "course": "Antropología y Ética",
+          "coverage": "explicit_required",
+          "location": "Tabla, semestre III"
+        },
+        {
+          "competency": "investigación y evidencia",
+          "course": "Objetivos del plan: formación científica y lectura crítica",
+          "coverage": "mentioned",
+          "location": "Descripción de objetivos y organización del plan"
+        },
+        {
+          "competency": "experiencia clínica estructural",
+          "course": "Rotaciones e internados",
+          "coverage": "explicit_required",
+          "location": "Tabla, semestres X–XII; existe componente electivo final"
+        },
+        {
+          "competency": "salud digital e IA",
+          "course": null,
+          "coverage": "not_verifiable",
+          "location": "Documentación inspeccionada"
+        }
+      ],
+      "limits": [
+        "La página de tabla conserva referencias antiguas de admisión; confirmar edición y cohorte con la escuela.",
+        "El diseño por competencias y la integración declarados no prueban implementación homogénea.",
+        "No se verificó programa específico de IA, informática o medicina basada en evidencia."
+      ],
+      "field": "medicina",
+      "observed_date": "2026-11-01",
+      "scope": "Medicina; Plan implantado desde cohorte 2015; malla pública consultada 2026-11-01, sin versión explícita en tabla"
+    },
+    {
+      "id": "MED-CL-UDD",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo, Santiago",
+      "program": "Medicina",
+      "level": "Pregrado; malla renovada de seis años",
+      "version": "PDF con nombre 2023-07-18; página consultada 2026-11-01",
+      "url": "https://medicina.udd.cl/medicina-santiago/malla-curricular/",
+      "source_urls": [
+        "https://medicina.udd.cl/files/2023/07/malla-2023-07-18.pdf"
+      ],
+      "verified_evidence": [
+        {
+          "competency": "bioestadística",
+          "course": "Estadística",
+          "coverage": "mentioned",
+          "location": "PDF, etapa inicial"
+        },
+        {
+          "competency": "evaluación de evidencia",
+          "course": "Medicina basada en evidencia",
+          "coverage": "mentioned",
+          "location": "PDF, etapa final"
+        },
+        {
+          "competency": "investigación",
+          "course": "Proyectos científicos biomédicos y epidemiológicos",
+          "coverage": "mentioned",
+          "location": "PDF, secuencia formativa"
+        },
+        {
+          "competency": "salud digital",
+          "course": "Medicina digital",
+          "coverage": "mentioned",
+          "location": "PDF, contenidos formativos"
+        },
+        {
+          "competency": "gestión sanitaria",
+          "course": "Gestión en Salud",
+          "coverage": "mentioned",
+          "location": "PDF, línea de formación"
+        },
+        {
+          "competency": "ética y comunicación",
+          "course": "Bioética; Comunicación",
+          "coverage": "mentioned",
+          "location": "PDF, contenidos y ejes transversales"
+        }
+      ],
+      "limits": [
+        "El gráfico integra contenidos en bloques: no se demostró que cada etiqueta sea un ramo independiente obligatorio.",
+        "La fecha del archivo no garantiza fecha de última reforma.",
+        "Mencionar medicina digital no permite inferir uso de IA, horas, herramientas concretas o evaluación."
+      ],
+      "field": "medicina",
+      "observed_date": "2026-11-01",
+      "scope": "Medicina; PDF con nombre 2023-07-18; página consultada 2026-11-01"
+    },
+    {
+      "id": "MED-BR-USP-HIST2017",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, Faculdade de Medicina (São Paulo)",
+      "program": "Medicina, código 5042",
+      "level": "Graduação; 12 semestres",
+      "version": "Inicio 2017-01-01; referencia histórica pública, NO acreditada como malla de ingreso 2026",
+      "url": "https://portalservicos.usp.br/jupiterweb/listarGradeCurricular?codcg=5&codcur=5042&codhab=0&tipo=V",
+      "verified_evidence": [
+        {
+          "competency": "métodos cuantitativos",
+          "course": "Métodos Quantitativos em Medicina",
+          "coverage": "explicit_required",
+          "location": "MPT0164, semestre IV, 60 horas"
+        },
+        {
+          "competency": "epidemiología e investigación",
+          "course": "Epidemiología I y II (traducción)",
+          "coverage": "explicit_required",
+          "location": "MPR0110 y MPR0131; semestres III y V"
+        },
+        {
+          "competency": "humanidades",
+          "course": "Medicina e Humanidades",
+          "coverage": "explicit_required",
+          "location": "MSP0678, semestre II, 75 horas"
+        },
+        {
+          "competency": "atención primaria",
+          "course": "Atención primaria I (traducción)",
+          "coverage": "explicit_required",
+          "location": "MSP0670, semestre I, 135 horas"
+        },
+        {
+          "competency": "salud digital e IA",
+          "course": null,
+          "coverage": "not_verifiable",
+          "location": "Plan histórico inspeccionado"
+        },
+        {
+          "competency": "malla vigente de ingreso 2026",
+          "course": null,
+          "coverage": "not_verifiable",
+          "location": "Versión 5043 consultada declara inicio 2027-01-01"
+        }
+      ],
+      "limits": [
+        "Excluir este registro de cualquier índice transversal de actualidad 2026.",
+        "El código 5043 publica un currículo futuro; no mezclarlo con 5042 ni darlo por implementado.",
+        "Campus São Paulo no es Ribeirão Preto; sus reformas y planes no son intercambiables."
+      ],
+      "field": "medicina",
+      "observed_date": "2026-11-01",
+      "scope": "Medicina, código 5042; Inicio 2017-01-01; referencia histórica pública, NO acreditada como malla de ingreso 2026"
+    },
+    {
+      "id": "MED-US-STANFORD-2026",
+      "country": "Estados Unidos",
+      "institution": "Stanford University",
+      "program": "Doctor of Medicine (MD)",
+      "level": "Grado profesional después de bachelor's o equivalente; no equivalente de ingreso directo chileno",
+      "version": "Bulletin 2026–2027 consultado 2026-11-01",
+      "url": "https://bulletin.stanford.edu/programs/MED-MD",
+      "source_urls": [
+        "https://med.stanford.edu/md-admissions/academic-requirements.html"
+      ],
+      "verified_evidence": [
+        {
+          "competency": "investigación",
+          "course": "Scholarly Concentration",
+          "coverage": "explicit_required",
+          "location": "Sección de concentración: requisito para todos, 12 unidades y producto escrito/presentación"
+        },
+        {
+          "competency": "informática y datos",
+          "course": "Informatics and Data-Driven Medicine",
+          "coverage": "explicit_elective",
+          "location": "Una de las áreas de concentración elegibles"
+        },
+        {
+          "competency": "ética",
+          "course": "Área de concentración en ética y humanidades (traducción)",
+          "coverage": "explicit_elective",
+          "location": "Opciones de concentración"
+        },
+        {
+          "competency": "sistemas y política sanitaria",
+          "course": "Área de servicios y políticas de salud (traducción)",
+          "coverage": "explicit_elective",
+          "location": "Opciones de concentración"
+        },
+        {
+          "competency": "comunicación académica",
+          "course": "Presentación del trabajo de concentración",
+          "coverage": "explicit_required",
+          "location": "Requisitos de la concentración"
+        },
+        {
+          "competency": "evaluación práctica",
+          "course": "CPX y Mini-CPX",
+          "coverage": "explicit_required",
+          "location": "Requisitos de evaluación del MD"
+        }
+      ],
+      "limits": [
+        "Concentración obligatoria no implica cursar obligatoriamente informática.",
+        "El ingreso presupone formación universitaria previa.",
+        "No se verificó curso obligatorio universal de IA ni se evaluó competencia clínica individual."
+      ],
+      "field": "medicina",
+      "observed_date": "2026-11-01",
+      "scope": "Doctor of Medicine (MD); Bulletin 2026–2027 consultado 2026-11-01"
+    },
+    {
+      "id": "MED-CN-SJTU-INT2026",
+      "country": "China",
+      "institution": "Shanghai Jiao Tong University School of Medicine",
+      "program": "临床医学专业五年制留学生培养方案 — Medicina clínica, cinco años, estudiantes internacionales",
+      "level": "Programa universitario de cinco años; distinto de itinerarios chinos de ocho años",
+      "version": "Página fechada 2026-03-23",
+      "url": "https://www.shsmu.edu.cn/iso/info/1083/1442.htm",
+      "verified_evidence": [
+        {
+          "competency": "investigación y evidencia",
+          "course": "Objetivos de investigación y evaluación crítica (traducción)",
+          "coverage": "mentioned",
+          "location": "Perfil de conocimientos y capacidades"
+        },
+        {
+          "competency": "gestión de información",
+          "course": "Búsqueda y análisis con redes y bases de datos (traducción)",
+          "coverage": "mentioned",
+          "location": "Objetivos formativos"
+        },
+        {
+          "competency": "alfabetización computacional",
+          "course": "程序设计基础 — fundamentos de programación",
+          "coverage": "mentioned",
+          "location": "Lista resumida de cursos principales; requisito individual no confirmado"
+        },
+        {
+          "competency": "comunicación y colaboración",
+          "course": "Relación médico-paciente y trabajo colectivo (traducción)",
+          "coverage": "mentioned",
+          "location": "Objetivos de capacidades y actitudes"
+        },
+        {
+          "competency": "ética y calidad",
+          "course": "Responsabilidad profesional y calidad asistencial (traducción)",
+          "coverage": "mentioned",
+          "location": "Objetivos formativos"
+        },
+        {
+          "competency": "experiencia clínica estructural",
+          "course": "Rotaciones de 52 semanas y evaluaciones prácticas",
+          "coverage": "explicit_required",
+          "location": "Organización del programa y evaluación; un año de internado"
+        }
+      ],
+      "limits": [
+        "Es el itinerario para estudiantes internacionales; no generalizar al alumnado doméstico ni al país.",
+        "El anexo XLSX no pudo recuperarse por timeout; no se confirmó obligatoriedad de cada curso.",
+        "La primera lectura de la página fue completa; reintentos posteriores fallaron por timeout.",
+        "No se deduce entrenamiento obligatorio en IA de fundamentos computacionales."
+      ],
+      "field": "medicina",
+      "observed_date": "2026-11-01",
+      "scope": "临床医学专业五年制留学生培养方案 — Medicina clínica, cinco años, estudiantes internacionales; Página fechada 2026-03-23"
+    },
+    {
+      "id": "CS-CL-UCH",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "program": "Ingeniería Civil en Computación",
+      "level": "Licenciatura y título profesional; 11 semestres declarados",
+      "version": "Malla 2019 publicada en página oficial consultada al corte; no equivale a fecha de última revisión de cada curso",
+      "url": "https://dcc.uchile.cl/pregrado/malla/",
+      "verified_evidence": [
+        {
+          "competency": "Programación y algoritmos",
+          "course": "CC1002; CC3001; CC4102",
+          "coverage": "explicit_required",
+          "location": "Semestres II, V y VII"
+        },
+        {
+          "competency": "Datos y analítica",
+          "course": "CC3201; CC5205",
+          "coverage": "explicit_required",
+          "location": "Semestres VI y VII"
+        },
+        {
+          "competency": "Construcción de software",
+          "course": "CC4401",
+          "coverage": "explicit_required",
+          "location": "Semestre VII"
+        },
+        {
+          "competency": "Sistemas y redes",
+          "course": "CC4302; CC4303",
+          "coverage": "explicit_required",
+          "location": "Semestres VII y VIII"
+        },
+        {
+          "competency": "Aplicación profesional",
+          "course": "CC4901; CC5901; CC5402",
+          "coverage": "explicit_required",
+          "location": "Prácticas y proyecto"
+        },
+        {
+          "competency": "IA generativa, MLOps y evaluación de resultados de IA",
+          "course": "No verificable con la lista troncal revisada",
+          "coverage": "not_verifiable",
+          "location": "Malla; electivos sin detalle en esta fuente"
+        }
+      ],
+      "limits": "Malla declarada, sin rúbricas ni desempeño. La descarga enlazada del programa CC4401 no fue accesible. No se convierte falta de detalle en ausencia de formación.",
+      "field": "computacion",
+      "observed_date": "2026-11-01",
+      "scope": "Ingeniería Civil en Computación; Malla 2019 publicada en página oficial consultada al corte; no equivale a fecha de última revisión de cada curso"
+    },
+    {
+      "id": "CS-CL-UC",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "program": "Licenciatura en Ingeniería en Ciencia de la Computación",
+      "level": "Licenciatura, ocho semestres; distinta de título de ingeniería civil",
+      "version": "Resolución VRA 269/2023 dentro del PDF enlazado por admisión al corte; ruta del archivo contiene 2022 pero no se usa como versión",
+      "url": "https://admision.uc.cl/htdocs/content/uploads/2022/08/41.-Licenciatura-Ingenieria-Ciencia-de-la-Computacion.pdf",
+      "verified_evidence": [
+        {
+          "competency": "Programación y algoritmos",
+          "course": "Secuencia de programación y análisis algorítmico",
+          "coverage": "explicit_required",
+          "location": "Diagrama, p.2"
+        },
+        {
+          "competency": "Datos",
+          "course": "Bases de Datos",
+          "coverage": "explicit_required",
+          "location": "Diagrama, p.2"
+        },
+        {
+          "competency": "Construcción de software",
+          "course": "Ingeniería de Software",
+          "coverage": "explicit_required",
+          "location": "Diagrama, p.2"
+        },
+        {
+          "competency": "IA",
+          "course": "Inteligencia Artificial",
+          "coverage": "explicit_required",
+          "location": "Diagrama, semestre VI"
+        },
+        {
+          "competency": "Seguridad y ética",
+          "course": "Seguridad Computacional; formación ética disciplinar",
+          "coverage": "explicit_required",
+          "location": "Diagrama, p.2"
+        },
+        {
+          "competency": "Aplicación profesional",
+          "course": "Práctica y proyecto de innovación computacional",
+          "coverage": "explicit_required",
+          "location": "Diagrama, p.2"
+        }
+      ],
+      "limits": "El diagrama no permite evaluar profundidad de IA, uso de LLM ni dominio de egresados. La formación declarada no es certificación del desempeño.",
+      "field": "computacion",
+      "observed_date": "2026-11-01",
+      "scope": "Licenciatura en Ingeniería en Ciencia de la Computación; Resolución VRA 269/2023 dentro del PDF enlazado por admisión al corte; ruta del archivo contiene 2022 pero no se usa como versión"
+    },
+    {
+      "id": "CS-CL-DUOC",
+      "country": "Chile",
+      "institution": "Duoc UC",
+      "program": "Ingeniería en Informática, mención Inteligencia Artificial",
+      "level": "Título profesional de instituto, ocho niveles; itinerario especializado",
+      "version": "Currículum 1446111; documento 2025",
+      "url": "https://www.duoc.cl/wp-content/uploads/2025/09/Malla-Curricular-1446111-2025-Ingenieroa-en-Informatica-Especializacion-Inteligencia-Artificial.pdf",
+      "verified_evidence": [
+        {
+          "competency": "Programación y desarrollo web",
+          "course": "FPY1101; DSY1102–1104",
+          "coverage": "explicit_required",
+          "location": "Malla p.1, especialidad"
+        },
+        {
+          "competency": "Datos y nube",
+          "course": "BDY1101–1103; ITY1101; DSY1101",
+          "coverage": "explicit_required",
+          "location": "Malla p.1"
+        },
+        {
+          "competency": "IA y aprendizaje automático",
+          "course": "TLY1101–1105; IAY4610",
+          "coverage": "explicit_required",
+          "location": "Malla p.1, mención IA"
+        },
+        {
+          "competency": "Operación de modelos",
+          "course": "MOY1102 (MLOps)",
+          "coverage": "explicit_required",
+          "location": "Malla p.1, nivel VIII"
+        },
+        {
+          "competency": "Ética de IA y profesional",
+          "course": "IAY1101; EAY4615",
+          "coverage": "explicit_required",
+          "location": "Malla p.1"
+        },
+        {
+          "competency": "Aplicación profesional",
+          "course": "PPY4610; IAY4610",
+          "coverage": "explicit_required",
+          "location": "Práctica y taller aplicado"
+        }
+      ],
+      "limits": "Aplica a la mención IA seleccionada, no a todas las menciones ni estudiantes del instituto. Nombres no acreditan profundidad ni resultados. No comparar créditos DUOC/SCT directamente con unidades extranjeras.",
+      "field": "computacion",
+      "observed_date": "2026-11-01",
+      "scope": "Ingeniería en Informática, mención Inteligencia Artificial; Currículum 1446111; documento 2025"
+    },
+    {
+      "id": "CS-BR-USP",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, IME",
+      "program": "Bacharelado em Ciência da Computação",
+      "level": "Bacharelado; ocho semestres sugeridos",
+      "version": "Ingresos 2020–2026; se excluye plan 2027 como implementación actual",
+      "url": "https://bcc.ime.usp.br/grade-2020-2026/",
+      "verified_evidence": [
+        {
+          "competency": "Programación y algoritmos",
+          "course": "MAC0110; MAC0121; MAC0323; MAC0338",
+          "coverage": "explicit_required",
+          "location": "Semestres I–IV"
+        },
+        {
+          "competency": "Estadística y modelamiento",
+          "course": "MAE0119; MAC0209",
+          "coverage": "explicit_required",
+          "location": "Semestres II–III"
+        },
+        {
+          "competency": "Verificación de programas",
+          "course": "MAC0239",
+          "coverage": "explicit_required",
+          "location": "Semestre II"
+        },
+        {
+          "competency": "Construcción de software",
+          "course": "MAC0350",
+          "coverage": "explicit_required",
+          "location": "Semestre IV"
+        },
+        {
+          "competency": "Aplicación e investigación",
+          "course": "MAC0499 o MAC0500",
+          "coverage": "required_group_option",
+          "location": "Trabajo final, últimos dos semestres"
+        },
+        {
+          "competency": "IA como formación universal",
+          "course": "No verificable como requisito universal en tronco revisado",
+          "coverage": "not_verifiable",
+          "location": "Fuente deriva a listas de electivos"
+        }
+      ],
+      "limits": "Plan flexible; no se interpreta la lista del tronco como toda la formación posible. No se trasladan automáticamente cursos del plan 2027 a cohorte vigente.",
+      "field": "computacion",
+      "observed_date": "2026-11-01",
+      "scope": "Bacharelado em Ciência da Computação; Ingresos 2020–2026; se excluye plan 2027 como implementación actual"
+    },
+    {
+      "id": "CS-US-MIT",
+      "country": "Estados Unidos",
+      "institution": "Massachusetts Institute of Technology",
+      "program": "SB Computer Science and Engineering, 6-3",
+      "level": "Bachelor of Science",
+      "version": "Catálogo web consultado al corte; sujeto a cambios del año académico",
+      "url": "https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/",
+      "verified_evidence": [
+        {
+          "competency": "Programación y algoritmos",
+          "course": "6.1010; 6.1210; ruta introductoria a elegir",
+          "coverage": "explicit_required",
+          "location": "Departmental Program"
+        },
+        {
+          "competency": "Construcción y verificación de software",
+          "course": "6.1020: pruebas, especificaciones y proyectos grupales",
+          "coverage": "explicit_required",
+          "location": "Departmental Program; descripción https://catalog.mit.edu/search/?P=6.1020"
+        },
+        {
+          "competency": "Sistemas o bases de datos",
+          "course": "6.1800 / 6.1810 / 6.5831",
+          "coverage": "required_group_option",
+          "location": "Departmental Program; alternativas"
+        },
+        {
+          "competency": "IA",
+          "course": "Al menos 12 unidades de lista de asignaturas IA",
+          "coverage": "required_group_option",
+          "location": "Nota 2"
+        },
+        {
+          "competency": "Comunicación disciplinar",
+          "course": "Dos asignaturas CI-M",
+          "coverage": "explicit_required",
+          "location": "Requisito departamental"
+        },
+        {
+          "competency": "Profundización flexible",
+          "course": "Selecciones de tracks CS, AI o EE",
+          "coverage": "explicit_elective",
+          "location": "Elective Subjects"
+        }
+      ],
+      "limits": "Unidades MIT no equivalen a créditos chilenos. Ruta con opciones; no todos cursan la misma asignatura IA o base de datos. Descripción 6.1020 verifica diseño práctico, no desempeño real de cada alumno.",
+      "field": "computacion",
+      "observed_date": "2026-11-01",
+      "scope": "SB Computer Science and Engineering, 6-3; Catálogo web consultado al corte; sujeto a cambios del año académico"
+    },
+    {
+      "id": "CS-CN-THU",
+      "country": "China",
+      "institution": "Tsinghua University",
+      "program": "计算机科学与技术 — Computación y tecnología",
+      "level": "Bachelor de ingeniería, cuatro años",
+      "version": "Plan de cohorte 2025 en chino; prevalece sobre descripción inglesa 2024 con estructura distinta",
+      "url": "https://www.cs.tsinghua.edu.cn/__local/6/15/61/AFBB5BAF0518D6005689D5BCAFC_834D3C50_33583.pdf",
+      "verified_evidence": [
+        {
+          "competency": "Programación y algoritmos",
+          "course": "30240233; 30240532; 30240184",
+          "coverage": "required_group_option",
+          "location": "p.2, bloque núcleo: mínimo 51 de 57 créditos"
+        },
+        {
+          "competency": "Construcción de software y sistemas",
+          "course": "30240163; 30240243",
+          "coverage": "required_group_option",
+          "location": "pp.2–3, bloque núcleo con selección"
+        },
+        {
+          "competency": "Introducción a IA y seguridad",
+          "course": "30240042; 30240573",
+          "coverage": "required_group_option",
+          "location": "p.3, bloque núcleo con selección"
+        },
+        {
+          "competency": "Datos y aprendizaje automático",
+          "course": "30240262; 40240492; 40240532",
+          "coverage": "explicit_elective",
+          "location": "pp.3–4, grupos de optativas restringidas"
+        },
+        {
+          "competency": "Seguridad y gobernanza de IA",
+          "course": "40241052",
+          "coverage": "explicit_elective",
+          "location": "p.4, grupo A3"
+        },
+        {
+          "competency": "Aplicación profesional",
+          "course": "30240522; 40240972; trabajo final",
+          "coverage": "explicit_required",
+          "location": "p.4, prácticas y tesis"
+        }
+      ],
+      "limits": "Traducción de trabajo para comparar contenidos; no homologación. El bloque de núcleo exige una selección de créditos y no demuestra que cada curso listado sea universal. Sin resultados de aprendizaje observados.",
+      "field": "computacion",
+      "observed_date": "2026-11-01",
+      "scope": "计算机科学与技术 — Computación y tecnología; Plan de cohorte 2025 en chino; prevalece sobre descripción inglesa 2024 con estructura distinta"
+    }
+  ],
+  "curricular_evidence": [
+    {
+      "competency": "Programación y analítica",
+      "course": "Programación para Analítica de Datos",
+      "coverage": "mentioned",
+      "location": "Ciclo básico, incorporación de asignatura de 6 créditos; página cambios 2026; reforma declarada, obligatoriedad pendiente de comprobación homogénea",
+      "id": "COM-CL-UCH-E1",
+      "program_id": "COM-CL-UCH",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Ingeniería Comercial; ciclo básico común y menciones Administración/Economía separables; Cambios curriculares publicados para 2026; cohortes y despliegue no auditados",
+      "source_url": "https://mallas2026.fen.uchile.cl/ingenieria-comercial/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Razonamiento con datos",
+      "course": "Razonamiento Basado en Datos",
+      "coverage": "mentioned",
+      "location": "Ciclo básico, cambio de denominación; profundidad no comprobada; reforma declarada, obligatoriedad pendiente de comprobación homogénea",
+      "id": "COM-CL-UCH-E2",
+      "program_id": "COM-CL-UCH",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Ingeniería Comercial; ciclo básico común y menciones Administración/Economía separables; Cambios curriculares publicados para 2026; cohortes y despliegue no auditados",
+      "source_url": "https://mallas2026.fen.uchile.cl/ingenieria-comercial/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Sistemas digitales de negocio",
+      "course": "Tecnología y Sistemas de Información",
+      "coverage": "mentioned",
+      "location": "Ciclo básico, adelantado al segundo semestre; reforma declarada, obligatoriedad pendiente de comprobación homogénea",
+      "id": "COM-CL-UCH-E3",
+      "program_id": "COM-CL-UCH",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Ingeniería Comercial; ciclo básico común y menciones Administración/Economía separables; Cambios curriculares publicados para 2026; cohortes y despliegue no auditados",
+      "source_url": "https://mallas2026.fen.uchile.cl/ingenieria-comercial/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Comunicación",
+      "course": "Comunicación",
+      "coverage": "mentioned",
+      "location": "Ciclo básico, primer semestre, 2 créditos; reforma declarada, obligatoriedad pendiente de comprobación homogénea",
+      "id": "COM-CL-UCH-E4",
+      "program_id": "COM-CL-UCH",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Ingeniería Comercial; ciclo básico común y menciones Administración/Economía separables; Cambios curriculares publicados para 2026; cohortes y despliegue no auditados",
+      "source_url": "https://mallas2026.fen.uchile.cl/ingenieria-comercial/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA aplicada",
+      "course": "Contenido de IA atribuido al nuevo curso de programación",
+      "coverage": "mentioned",
+      "location": "Descripción de finalidad; no se abrió programa detallado ni evaluación",
+      "id": "COM-CL-UCH-E5",
+      "program_id": "COM-CL-UCH",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Ingeniería Comercial; ciclo básico común y menciones Administración/Economía separables; Cambios curriculares publicados para 2026; cohortes y despliegue no auditados",
+      "source_url": "https://mallas2026.fen.uchile.cl/ingenieria-comercial/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Ética aplicada",
+      "course": "No verificable en la página específica examinada",
+      "coverage": "not_verifiable",
+      "location": "La ausencia en una página de modificaciones no informa ausencia curricular",
+      "id": "COM-CL-UCH-E6",
+      "program_id": "COM-CL-UCH",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Ingeniería Comercial; ciclo básico común y menciones Administración/Economía separables; Cambios curriculares publicados para 2026; cohortes y despliegue no auditados",
+      "source_url": "https://mallas2026.fen.uchile.cl/ingenieria-comercial/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Estadística e inferencia",
+      "course": "Probabilidad y Estadística; Inferencia Estadística",
+      "coverage": "explicit_required",
+      "location": "PDF p.1, línea cuantitativa común",
+      "id": "COM-CL-UC-E1",
+      "program_id": "COM-CL-UC",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Ingeniería Comercial; tronco común y menciones Administración/Economía; Malla 2025, PDF institucional alojado julio 2025",
+      "source_url": "https://economiayadministracion.uc.cl/assets/uploads/2025/07/malla-2025-1.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Programación",
+      "course": "Intro. a la Programación",
+      "coverage": "explicit_required",
+      "location": "PDF p.1, línea cuantitativa común",
+      "id": "COM-CL-UC-E2",
+      "program_id": "COM-CL-UC",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Ingeniería Comercial; tronco común y menciones Administración/Economía; Malla 2025, PDF institucional alojado julio 2025",
+      "source_url": "https://economiayadministracion.uc.cl/assets/uploads/2025/07/malla-2025-1.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Análisis empírico",
+      "course": "Econometría",
+      "coverage": "explicit_required",
+      "location": "PDF p.1, línea cuantitativa común",
+      "id": "COM-CL-UC-E3",
+      "program_id": "COM-CL-UC",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Ingeniería Comercial; tronco común y menciones Administración/Economía; Malla 2025, PDF institucional alojado julio 2025",
+      "source_url": "https://economiayadministracion.uc.cl/assets/uploads/2025/07/malla-2025-1.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Decisiones con datos",
+      "course": "Marketing Analytics",
+      "coverage": "explicit_required",
+      "location": "PDF p.1, asignatura nominada del tronco común",
+      "id": "COM-CL-UC-E4",
+      "program_id": "COM-CL-UC",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Ingeniería Comercial; tronco común y menciones Administración/Economía; Malla 2025, PDF institucional alojado julio 2025",
+      "source_url": "https://economiayadministracion.uc.cl/assets/uploads/2025/07/malla-2025-1.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Ética aplicada",
+      "course": "Ética, Economía y Empresa",
+      "coverage": "explicit_required",
+      "location": "PDF p.1, tronco común",
+      "id": "COM-CL-UC-E5",
+      "program_id": "COM-CL-UC",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Ingeniería Comercial; tronco común y menciones Administración/Economía; Malla 2025, PDF institucional alojado julio 2025",
+      "source_url": "https://economiayadministracion.uc.cl/assets/uploads/2025/07/malla-2025-1.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA aplicada",
+      "course": "Syllabus o contenido específico no obtenido",
+      "coverage": "not_verifiable",
+      "location": "El nombre de los ramos no permite resolver contenido de IA",
+      "id": "COM-CL-UC-E6",
+      "program_id": "COM-CL-UC",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Ingeniería Comercial; tronco común y menciones Administración/Economía; Malla 2025, PDF institucional alojado julio 2025",
+      "source_url": "https://economiayadministracion.uc.cl/assets/uploads/2025/07/malla-2025-1.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Comunicación profesional",
+      "course": "Evaluación comunicativa específica no obtenida",
+      "coverage": "not_verifiable",
+      "location": "La malla por sí sola no prueba práctica ni nivel comunicativo",
+      "id": "COM-CL-UC-E7",
+      "program_id": "COM-CL-UC",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Ingeniería Comercial; tronco común y menciones Administración/Economía; Malla 2025, PDF institucional alojado julio 2025",
+      "source_url": "https://economiayadministracion.uc.cl/assets/uploads/2025/07/malla-2025-1.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Estadística",
+      "course": "Métodos Estadísticos",
+      "coverage": "explicit_required",
+      "location": "PDF p.1, malla principal de Ingeniería Comercial",
+      "id": "COM-CL-UDD-E1",
+      "program_id": "COM-CL-UDD",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo",
+      "scope": "Ingeniería Comercial, UDD Futuro, sedes Santiago/Concepción; Folleto sin año explícito, enlazado desde página vigente al corte; no se confirmó cohorte",
+      "source_url": "https://www.udd.cl/mallas/ingcomercial.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Decisiones y proyecto con datos",
+      "course": "Proyecto de Análisis de Datos",
+      "coverage": "explicit_required",
+      "location": "PDF p.1, línea de análisis de datos de malla principal",
+      "id": "COM-CL-UDD-E2",
+      "program_id": "COM-CL-UDD",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo",
+      "scope": "Ingeniería Comercial, UDD Futuro, sedes Santiago/Concepción; Folleto sin año explícito, enlazado desde página vigente al corte; no se confirmó cohorte",
+      "source_url": "https://www.udd.cl/mallas/ingcomercial.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Tecnología de negocios",
+      "course": "Business Tech",
+      "coverage": "explicit_required",
+      "location": "PDF p.1, malla principal; no contenido técnico detallado",
+      "id": "COM-CL-UDD-E3",
+      "program_id": "COM-CL-UDD",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo",
+      "scope": "Ingeniería Comercial, UDD Futuro, sedes Santiago/Concepción; Folleto sin año explícito, enlazado desde página vigente al corte; no se confirmó cohorte",
+      "source_url": "https://www.udd.cl/mallas/ingcomercial.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Ética aplicada",
+      "course": "Ética de los Negocios",
+      "coverage": "explicit_required",
+      "location": "PDF p.1, malla principal",
+      "id": "COM-CL-UDD-E4",
+      "program_id": "COM-CL-UDD",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo",
+      "scope": "Ingeniería Comercial, UDD Futuro, sedes Santiago/Concepción; Folleto sin año explícito, enlazado desde página vigente al corte; no se confirmó cohorte",
+      "source_url": "https://www.udd.cl/mallas/ingcomercial.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Comunicación",
+      "course": "Comunicación Oral / Comunicación Escrita",
+      "coverage": "explicit_required",
+      "location": "PDF p.1, bloque formativo común de malla principal",
+      "id": "COM-CL-UDD-E5",
+      "program_id": "COM-CL-UDD",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo",
+      "scope": "Ingeniería Comercial, UDD Futuro, sedes Santiago/Concepción; Folleto sin año explícito, enlazado desde página vigente al corte; no se confirmó cohorte",
+      "source_url": "https://www.udd.cl/mallas/ingcomercial.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Programación e IA aplicada",
+      "course": "No se obtuvo syllabus que detalle lenguaje ni contenidos de IA",
+      "coverage": "not_verifiable",
+      "location": "El título de tecnología no prueba por sí mismo programación/IA",
+      "id": "COM-CL-UDD-E6",
+      "program_id": "COM-CL-UDD",
+      "field": "comercial",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo",
+      "scope": "Ingeniería Comercial, UDD Futuro, sedes Santiago/Concepción; Folleto sin año explícito, enlazado desde página vigente al corte; no se confirmó cohorte",
+      "source_url": "https://www.udd.cl/mallas/ingcomercial.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Computación",
+      "course": "MAC0113",
+      "coverage": "explicit_required",
+      "location": "PDF p.1, semestre 1; introducción de computación para humanidades, lenguaje no constatado",
+      "id": "COM-BR-USP-E1",
+      "program_id": "COM-BR-USP",
+      "field": "comercial",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA",
+      "scope": "Bacharelado em Administração, integral; Estructura curricular 2026, documento de 24-11-2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/oficial_integral_estrutura_curricular_adm_2026_integral_24-11-2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Estadística",
+      "course": "MAE0116",
+      "coverage": "explicit_required",
+      "location": "PDF p.1, semestre 2",
+      "id": "COM-BR-USP-E2",
+      "program_id": "COM-BR-USP",
+      "field": "comercial",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA",
+      "scope": "Bacharelado em Administração, integral; Estructura curricular 2026, documento de 24-11-2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/oficial_integral_estrutura_curricular_adm_2026_integral_24-11-2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Decisiones cuantitativas",
+      "course": "EAD0756; EAD0904",
+      "coverage": "explicit_required",
+      "location": "PDF p.2, semestres 4/5; modelos para decidir y resolución de problemas",
+      "id": "COM-BR-USP-E3",
+      "program_id": "COM-BR-USP",
+      "field": "comercial",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA",
+      "scope": "Bacharelado em Administração, integral; Estructura curricular 2026, documento de 24-11-2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/oficial_integral_estrutura_curricular_adm_2026_integral_24-11-2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Tecnología organizacional",
+      "course": "EAD0757",
+      "coverage": "explicit_required",
+      "location": "PDF p.2, semestre 4",
+      "id": "COM-BR-USP-E4",
+      "program_id": "COM-BR-USP",
+      "field": "comercial",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA",
+      "scope": "Bacharelado em Administração, integral; Estructura curricular 2026, documento de 24-11-2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/oficial_integral_estrutura_curricular_adm_2026_integral_24-11-2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Ética aplicada",
+      "course": "EAD0791",
+      "coverage": "explicit_required",
+      "location": "PDF p.1, semestre 3",
+      "id": "COM-BR-USP-E5",
+      "program_id": "COM-BR-USP",
+      "field": "comercial",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA",
+      "scope": "Bacharelado em Administração, integral; Estructura curricular 2026, documento de 24-11-2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/oficial_integral_estrutura_curricular_adm_2026_integral_24-11-2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA y aprendizaje automático aplicado",
+      "course": "EAD0830; EAD0759; EAD0851",
+      "coverage": "explicit_elective",
+      "location": "PDF pp.2–4; optativas de finanzas, negocios y ciencia de datos",
+      "id": "COM-BR-USP-E6",
+      "program_id": "COM-BR-USP",
+      "field": "comercial",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA",
+      "scope": "Bacharelado em Administração, integral; Estructura curricular 2026, documento de 24-11-2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/oficial_integral_estrutura_curricular_adm_2026_integral_24-11-2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Experiencia aplicada",
+      "course": "EAD0604",
+      "coverage": "explicit_required",
+      "location": "PDF p.3, semestre 7, práctica supervisada",
+      "id": "COM-BR-USP-E7",
+      "program_id": "COM-BR-USP",
+      "field": "comercial",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA",
+      "scope": "Bacharelado em Administração, integral; Estructura curricular 2026, documento de 24-11-2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/oficial_integral_estrutura_curricular_adm_2026_integral_24-11-2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Estadística",
+      "course": "STAT1010; STAT1020",
+      "coverage": "explicit_required",
+      "location": "Página Curriculum, Business Fundamentals",
+      "id": "COM-US-WHARTON-E1",
+      "program_id": "COM-US-WHARTON",
+      "field": "comercial",
+      "country": "Estados Unidos",
+      "institution": "University of Pennsylvania, Wharton",
+      "scope": "BS in Economics; concentración Business Analytics como trayectoria opcional; Requisitos web consultados al corte, sin año de versión inequívoco; no catalogar como cohorte 2026 certificada",
+      "source_url": "https://undergrad-inside.wharton.upenn.edu/curriculum/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Comunicación y liderazgo",
+      "course": "Seminario de escritura; WH2010; MGMT3010",
+      "coverage": "explicit_required",
+      "location": "Página Curriculum, Writing y Leadership Journey",
+      "id": "COM-US-WHARTON-E2",
+      "program_id": "COM-US-WHARTON",
+      "field": "comercial",
+      "country": "Estados Unidos",
+      "institution": "University of Pennsylvania, Wharton",
+      "scope": "BS in Economics; concentración Business Analytics como trayectoria opcional; Requisitos web consultados al corte, sin año de versión inequívoco; no catalogar como cohorte 2026 certificada",
+      "source_url": "https://undergrad-inside.wharton.upenn.edu/curriculum/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Fundamentos institucionales del negocio",
+      "course": "LGST1000 o LGST1010",
+      "coverage": "required_group_option",
+      "location": "Página Curriculum, alternativa de requisito legal/ético; no garantiza ambos enfoques",
+      "id": "COM-US-WHARTON-E3",
+      "program_id": "COM-US-WHARTON",
+      "field": "comercial",
+      "country": "Estados Unidos",
+      "institution": "University of Pennsylvania, Wharton",
+      "scope": "BS in Economics; concentración Business Analytics como trayectoria opcional; Requisitos web consultados al corte, sin año de versión inequívoco; no catalogar como cohorte 2026 certificada",
+      "source_url": "https://undergrad-inside.wharton.upenn.edu/curriculum/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Decisiones y gestión de datos",
+      "course": "Competencias c/a/o en 4 unidades de la concentración",
+      "coverage": "explicit_required",
+      "location": "Requisito obligatorio SOLO para alumnos de Business Analytics; selección de cursos flexible",
+      "source_url": "https://statistics.wharton.upenn.edu/programs/undergraduate/business-analytics-joint-concentration/",
+      "id": "COM-US-WHARTON-E4",
+      "program_id": "COM-US-WHARTON",
+      "field": "comercial",
+      "country": "Estados Unidos",
+      "institution": "University of Pennsylvania, Wharton",
+      "scope": "Sólo concentración opcional Business Analytics, no todo el grado",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Programación aplicada",
+      "course": "STAT4050",
+      "coverage": "explicit_elective",
+      "location": "Lista de cursos admitidos en Business Analytics: computación estadística con R; elección, no universal",
+      "source_url": "https://statistics.wharton.upenn.edu/programs/undergraduate/business-analytics-joint-concentration/",
+      "id": "COM-US-WHARTON-E5",
+      "program_id": "COM-US-WHARTON",
+      "field": "comercial",
+      "country": "Estados Unidos",
+      "institution": "University of Pennsylvania, Wharton",
+      "scope": "Sólo concentración opcional Business Analytics, no todo el grado",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA y aprendizaje automático",
+      "course": "STAT4230; CIS4190/5190",
+      "coverage": "explicit_elective",
+      "location": "Lista de cursos admitidos en Business Analytics",
+      "source_url": "https://statistics.wharton.upenn.edu/programs/undergraduate/business-analytics-joint-concentration/",
+      "id": "COM-US-WHARTON-E6",
+      "program_id": "COM-US-WHARTON",
+      "field": "comercial",
+      "country": "Estados Unidos",
+      "institution": "University of Pennsylvania, Wharton",
+      "scope": "Sólo concentración opcional Business Analytics, no todo el grado",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Ética de datos",
+      "course": "LGST2420",
+      "coverage": "explicit_elective",
+      "location": "Lista de cursos admitidos en Business Analytics; no obligatorio para todo el grado",
+      "source_url": "https://statistics.wharton.upenn.edu/programs/undergraduate/business-analytics-joint-concentration/",
+      "id": "COM-US-WHARTON-E7",
+      "program_id": "COM-US-WHARTON",
+      "field": "comercial",
+      "country": "Estados Unidos",
+      "institution": "University of Pennsylvania, Wharton",
+      "scope": "Sólo concentración opcional Business Analytics, no todo el grado",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Estadística",
+      "course": "10510134",
+      "coverage": "explicit_required",
+      "location": "PDF p.2, fundamentos matemáticos comunes",
+      "id": "COM-CN-TSINGHUA-E1",
+      "program_id": "COM-CN-TSINGHUA",
+      "field": "comercial",
+      "country": "China",
+      "institution": "Tsinghua University, School of Economics and Management",
+      "scope": "Economics and Finance / 经济与金融; Plan público 2022; no se verificó continuidad ni cambios para cohortes 2026",
+      "source_url": "https://www.tsinghua.edu.cn/jxjywj/bkzy2022/zxzy/46-47.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Computación y análisis",
+      "course": "30511073 o 20510163",
+      "coverage": "required_group_option",
+      "location": "PDF p.2, bloque de computación de 3 créditos: programación o análisis inteligente de negocios; alternativas",
+      "id": "COM-CN-TSINGHUA-E2",
+      "program_id": "COM-CN-TSINGHUA",
+      "field": "comercial",
+      "country": "China",
+      "institution": "Tsinghua University, School of Economics and Management",
+      "scope": "Economics and Finance / 经济与金融; Plan público 2022; no se verificó continuidad ni cambios para cohortes 2026",
+      "source_url": "https://www.tsinghua.edu.cn/jxjywj/bkzy2022/zxzy/46-47.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Análisis empírico",
+      "course": "30510973",
+      "coverage": "explicit_required",
+      "location": "PDF pp.4–5, econometría del núcleo Economics and Finance",
+      "id": "COM-CN-TSINGHUA-E3",
+      "program_id": "COM-CN-TSINGHUA",
+      "field": "comercial",
+      "country": "China",
+      "institution": "Tsinghua University, School of Economics and Management",
+      "scope": "Economics and Finance / 经济与金融; Plan público 2022; no se verificó continuidad ni cambios para cohortes 2026",
+      "source_url": "https://www.tsinghua.edu.cn/jxjywj/bkzy2022/zxzy/46-47.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Ética y razonamiento",
+      "course": "10510173",
+      "coverage": "explicit_required",
+      "location": "PDF p.3, pensamiento crítico y razonamiento moral",
+      "id": "COM-CN-TSINGHUA-E4",
+      "program_id": "COM-CN-TSINGHUA",
+      "field": "comercial",
+      "country": "China",
+      "institution": "Tsinghua University, School of Economics and Management",
+      "scope": "Economics and Finance / 经济与金融; Plan público 2022; no se verificó continuidad ni cambios para cohortes 2026",
+      "source_url": "https://www.tsinghua.edu.cn/jxjywj/bkzy2022/zxzy/46-47.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Comunicación",
+      "course": "10691342 o 10510072",
+      "coverage": "required_group_option",
+      "location": "PDF p.3, escritura/comunicación, 2 créditos, alternativa obligatoria",
+      "id": "COM-CN-TSINGHUA-E5",
+      "program_id": "COM-CN-TSINGHUA",
+      "field": "comercial",
+      "country": "China",
+      "institution": "Tsinghua University, School of Economics and Management",
+      "scope": "Economics and Finance / 经济与金融; Plan público 2022; no se verificó continuidad ni cambios para cohortes 2026",
+      "source_url": "https://www.tsinghua.edu.cn/jxjywj/bkzy2022/zxzy/46-47.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Analítica financiera avanzada",
+      "course": "40510882",
+      "coverage": "explicit_elective",
+      "location": "PDF pp.6–7, análisis de grandes datos financieros entre electivos",
+      "id": "COM-CN-TSINGHUA-E6",
+      "program_id": "COM-CN-TSINGHUA",
+      "field": "comercial",
+      "country": "China",
+      "institution": "Tsinghua University, School of Economics and Management",
+      "scope": "Economics and Finance / 经济与金融; Plan público 2022; no se verificó continuidad ni cambios para cohortes 2026",
+      "source_url": "https://www.tsinghua.edu.cn/jxjywj/bkzy2022/zxzy/46-47.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA generativa aplicada",
+      "course": "Contenido actual no verificable con el plan obtenido",
+      "coverage": "not_verifiable",
+      "location": "Documento 2022; no confundir la otra carrera del mismo PDF con este programa",
+      "id": "COM-CN-TSINGHUA-E7",
+      "program_id": "COM-CN-TSINGHUA",
+      "field": "comercial",
+      "country": "China",
+      "institution": "Tsinghua University, School of Economics and Management",
+      "scope": "Economics and Finance / 经济与金融; Plan público 2022; no se verificó continuidad ni cambios para cohortes 2026",
+      "source_url": "https://www.tsinghua.edu.cn/jxjywj/bkzy2022/zxzy/46-47.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Programación y analítica",
+      "course": "Programación para Analítica de Datos",
+      "coverage": "mentioned",
+      "location": "Página oficial, ciclo básico; 6 créditos y referencia explícita a programación e IA",
+      "id": "ACC-CL-UCH-2026-E1",
+      "program_id": "ACC-CL-UCH-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad de Chile, Facultad de Economía y Negocios",
+      "scope": "Contador Auditor; Mallas nuevas 2026",
+      "source_url": "https://mallas2026.fen.uchile.cl/contador-auditor/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Aprendizaje automático",
+      "course": "Machine Learning",
+      "coverage": "mentioned",
+      "location": "Página oficial, ciclo disciplinar, innovación en sistemas de información; 6 créditos",
+      "id": "ACC-CL-UCH-2026-E2",
+      "program_id": "ACC-CL-UCH-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad de Chile, Facultad de Economía y Negocios",
+      "scope": "Contador Auditor; Mallas nuevas 2026",
+      "source_url": "https://mallas2026.fen.uchile.cl/contador-auditor/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Sistemas de información",
+      "course": "Sistema de Aplicaciones",
+      "coverage": "mentioned",
+      "location": "Página oficial, ciclo disciplinar; 6 créditos",
+      "id": "ACC-CL-UCH-2026-E3",
+      "program_id": "ACC-CL-UCH-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad de Chile, Facultad de Economía y Negocios",
+      "scope": "Contador Auditor; Mallas nuevas 2026",
+      "source_url": "https://mallas2026.fen.uchile.cl/contador-auditor/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Control y planificación financiera",
+      "course": "Control Financiero; Estrategia y Presupuestos",
+      "coverage": "mentioned",
+      "location": "Página oficial, ajustes en contabilidad y tributación",
+      "id": "ACC-CL-UCH-2026-E4",
+      "program_id": "ACC-CL-UCH-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad de Chile, Facultad de Economía y Negocios",
+      "scope": "Contador Auditor; Mallas nuevas 2026",
+      "source_url": "https://mallas2026.fen.uchile.cl/contador-auditor/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Ética",
+      "course": "Ética y Negocios",
+      "coverage": "mentioned",
+      "location": "Página oficial, fortalecimiento de habilidades generales; 4 créditos",
+      "id": "ACC-CL-UCH-2026-E5",
+      "program_id": "ACC-CL-UCH-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad de Chile, Facultad de Economía y Negocios",
+      "scope": "Contador Auditor; Mallas nuevas 2026",
+      "source_url": "https://mallas2026.fen.uchile.cl/contador-auditor/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Comunicación",
+      "course": "Comunicación",
+      "coverage": "mentioned",
+      "location": "Página oficial, ciclo básico; 2 créditos",
+      "id": "ACC-CL-UCH-2026-E6",
+      "program_id": "ACC-CL-UCH-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad de Chile, Facultad de Economía y Negocios",
+      "scope": "Contador Auditor; Mallas nuevas 2026",
+      "source_url": "https://mallas2026.fen.uchile.cl/contador-auditor/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Aplicación profesional integrada",
+      "course": "Capstone",
+      "coverage": "mentioned",
+      "location": "Página oficial, beneficios: noveno semestre y casos reales de empresas",
+      "id": "ACC-CL-UCH-2026-E7",
+      "program_id": "ACC-CL-UCH-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad de Chile, Facultad de Economía y Negocios",
+      "scope": "Contador Auditor; Mallas nuevas 2026",
+      "source_url": "https://mallas2026.fen.uchile.cl/contador-auditor/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Operación ERP",
+      "course": "Taller ERP Contable",
+      "coverage": "explicit_required",
+      "location": "PDF, página 1, asignatura fija de malla",
+      "id": "ACC-CL-DUOC-2026-E1",
+      "program_id": "ACC-CL-DUOC-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Instituto Profesional Duoc UC",
+      "scope": "Auditoría y Análisis de Negocios; título Contador(a) Auditor(a), modalidad FOL; Malla 1117101-2026 FOL; archivo institucional publicado en enero 2026",
+      "source_url": "https://www.duoc.cl/wp-content/uploads/2026/01/Malla-Curricular-1117101-2026-Contadora-Auditora-Auditori%CC%81a-y-ana%CC%81lisis-de-negocios-FOL.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Analítica e inteligencia de negocios",
+      "course": "Big Data e Inteligencia de Negocios",
+      "coverage": "explicit_required",
+      "location": "PDF, página 1",
+      "id": "ACC-CL-DUOC-2026-E2",
+      "program_id": "ACC-CL-DUOC-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Instituto Profesional Duoc UC",
+      "scope": "Auditoría y Análisis de Negocios; título Contador(a) Auditor(a), modalidad FOL; Malla 1117101-2026 FOL; archivo institucional publicado en enero 2026",
+      "source_url": "https://www.duoc.cl/wp-content/uploads/2026/01/Malla-Curricular-1117101-2026-Contadora-Auditora-Auditori%CC%81a-y-ana%CC%81lisis-de-negocios-FOL.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Auditoría",
+      "course": "Auditoría Interna; Auditoría Externa",
+      "coverage": "explicit_required",
+      "location": "PDF, página 1",
+      "id": "ACC-CL-DUOC-2026-E3",
+      "program_id": "ACC-CL-DUOC-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Instituto Profesional Duoc UC",
+      "scope": "Auditoría y Análisis de Negocios; título Contador(a) Auditor(a), modalidad FOL; Malla 1117101-2026 FOL; archivo institucional publicado en enero 2026",
+      "source_url": "https://www.duoc.cl/wp-content/uploads/2026/01/Malla-Curricular-1117101-2026-Contadora-Auditora-Auditori%CC%81a-y-ana%CC%81lisis-de-negocios-FOL.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Riesgo y gobernanza",
+      "course": "Gestión de Riesgo; Gobierno Corporativo y Compliance",
+      "coverage": "explicit_required",
+      "location": "PDF, página 1",
+      "id": "ACC-CL-DUOC-2026-E4",
+      "program_id": "ACC-CL-DUOC-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Instituto Profesional Duoc UC",
+      "scope": "Auditoría y Análisis de Negocios; título Contador(a) Auditor(a), modalidad FOL; Malla 1117101-2026 FOL; archivo institucional publicado en enero 2026",
+      "source_url": "https://www.duoc.cl/wp-content/uploads/2026/01/Malla-Curricular-1117101-2026-Contadora-Auditora-Auditori%CC%81a-y-ana%CC%81lisis-de-negocios-FOL.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Herramientas digitales contables",
+      "course": "Herramientas Tecnológicas para la Contabilidad",
+      "coverage": "explicit_required",
+      "location": "PDF, página 1",
+      "id": "ACC-CL-DUOC-2026-E5",
+      "program_id": "ACC-CL-DUOC-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Instituto Profesional Duoc UC",
+      "scope": "Auditoría y Análisis de Negocios; título Contador(a) Auditor(a), modalidad FOL; Malla 1117101-2026 FOL; archivo institucional publicado en enero 2026",
+      "source_url": "https://www.duoc.cl/wp-content/uploads/2026/01/Malla-Curricular-1117101-2026-Contadora-Auditora-Auditori%CC%81a-y-ana%CC%81lisis-de-negocios-FOL.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Ética profesional",
+      "course": "Ética Profesional",
+      "coverage": "explicit_required",
+      "location": "PDF, página 1",
+      "id": "ACC-CL-DUOC-2026-E6",
+      "program_id": "ACC-CL-DUOC-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Instituto Profesional Duoc UC",
+      "scope": "Auditoría y Análisis de Negocios; título Contador(a) Auditor(a), modalidad FOL; Malla 1117101-2026 FOL; archivo institucional publicado en enero 2026",
+      "source_url": "https://www.duoc.cl/wp-content/uploads/2026/01/Malla-Curricular-1117101-2026-Contadora-Auditora-Auditori%CC%81a-y-ana%CC%81lisis-de-negocios-FOL.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA generativa / Python / SQL",
+      "course": null,
+      "coverage": "not_verifiable",
+      "location": "No identificables en los nombres de la malla revisada; requieren programas detallados",
+      "id": "ACC-CL-DUOC-2026-E7",
+      "program_id": "ACC-CL-DUOC-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Instituto Profesional Duoc UC",
+      "scope": "Auditoría y Análisis de Negocios; título Contador(a) Auditor(a), modalidad FOL; Malla 1117101-2026 FOL; archivo institucional publicado en enero 2026",
+      "source_url": "https://www.duoc.cl/wp-content/uploads/2026/01/Malla-Curricular-1117101-2026-Contadora-Auditora-Auditori%CC%81a-y-ana%CC%81lisis-de-negocios-FOL.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Contabilidad y reporting",
+      "course": "Contabilidad Intermedia; Contabilidad Superior; Contabilidad Avanzada",
+      "coverage": "explicit_required",
+      "location": "PDF, página 2, malla",
+      "id": "ACC-CL-UDP-2026-E1",
+      "program_id": "ACC-CL-UDP-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad Diego Portales",
+      "scope": "Contador Auditor, vespertino; Admisión 2026; PDF declara actualización noviembre 2025; ocho semestres",
+      "source_url": "https://admision.udp.cl/cms/wp-content/uploads/2025/09/CONTADOR-AUDITOR_2026.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Sistemas digitales contables",
+      "course": "Tecnologías de Información de Negocios; Sistemas Tecnológicos Contables",
+      "coverage": "explicit_required",
+      "location": "PDF, página 2",
+      "id": "ACC-CL-UDP-2026-E2",
+      "program_id": "ACC-CL-UDP-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad Diego Portales",
+      "scope": "Contador Auditor, vespertino; Admisión 2026; PDF declara actualización noviembre 2025; ocho semestres",
+      "source_url": "https://admision.udp.cl/cms/wp-content/uploads/2025/09/CONTADOR-AUDITOR_2026.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Análisis cuantitativo",
+      "course": "Estadística Aplicada",
+      "coverage": "explicit_required",
+      "location": "PDF, página 2",
+      "id": "ACC-CL-UDP-2026-E3",
+      "program_id": "ACC-CL-UDP-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad Diego Portales",
+      "scope": "Contador Auditor, vespertino; Admisión 2026; PDF declara actualización noviembre 2025; ocho semestres",
+      "source_url": "https://admision.udp.cl/cms/wp-content/uploads/2025/09/CONTADOR-AUDITOR_2026.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Auditoría",
+      "course": "Auditoría I; Auditoría II",
+      "coverage": "explicit_required",
+      "location": "PDF, página 2",
+      "id": "ACC-CL-UDP-2026-E4",
+      "program_id": "ACC-CL-UDP-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad Diego Portales",
+      "scope": "Contador Auditor, vespertino; Admisión 2026; PDF declara actualización noviembre 2025; ocho semestres",
+      "source_url": "https://admision.udp.cl/cms/wp-content/uploads/2025/09/CONTADOR-AUDITOR_2026.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Comunicación y colaboración",
+      "course": "Habilidades Comunicacionales; Liderazgo y Trabajo en Equipo",
+      "coverage": "explicit_required",
+      "location": "PDF, página 2",
+      "id": "ACC-CL-UDP-2026-E5",
+      "program_id": "ACC-CL-UDP-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad Diego Portales",
+      "scope": "Contador Auditor, vespertino; Admisión 2026; PDF declara actualización noviembre 2025; ocho semestres",
+      "source_url": "https://admision.udp.cl/cms/wp-content/uploads/2025/09/CONTADOR-AUDITOR_2026.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Excel",
+      "course": "Certificado Microsoft Office Specialist - Excel Nivel Básico",
+      "coverage": "mentioned",
+      "location": "PDF, página 2, certificado condicionado a aprobar evaluación Microsoft",
+      "id": "ACC-CL-UDP-2026-E6",
+      "program_id": "ACC-CL-UDP-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad Diego Portales",
+      "scope": "Contador Auditor, vespertino; Admisión 2026; PDF declara actualización noviembre 2025; ocho semestres",
+      "source_url": "https://admision.udp.cl/cms/wp-content/uploads/2025/09/CONTADOR-AUDITOR_2026.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA generativa / Python / SQL",
+      "course": null,
+      "coverage": "not_verifiable",
+      "location": "No identificables por nombre en documento revisado",
+      "id": "ACC-CL-UDP-2026-E7",
+      "program_id": "ACC-CL-UDP-2026",
+      "field": "contabilidad",
+      "country": "Chile",
+      "institution": "Universidad Diego Portales",
+      "scope": "Contador Auditor, vespertino; Admisión 2026; PDF declara actualización noviembre 2025; ocho semestres",
+      "source_url": "https://admision.udp.cl/cms/wp-content/uploads/2025/09/CONTADOR-AUDITOR_2026.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Auditoría",
+      "course": "EAC0401 Auditoria I; EAC0490 Auditoria II",
+      "coverage": "explicit_required",
+      "location": "PDF, páginas 30–32; matriz obligatoria",
+      "id": "ACC-BR-USP-2025-E1",
+      "program_id": "ACC-BR-USP-2025",
+      "field": "contabilidad",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA, São Paulo",
+      "scope": "Bacharelado em Ciências Contábeis; Projeto Pedagógico vigente desde 2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/ppc_cc_2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Analítica",
+      "course": "EAC0579 Análise de Dados para Tomada de Decisão",
+      "coverage": "explicit_required",
+      "location": "PDF, página 32, quinto semestre",
+      "id": "ACC-BR-USP-2025-E2",
+      "program_id": "ACC-BR-USP-2025",
+      "field": "contabilidad",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA, São Paulo",
+      "scope": "Bacharelado em Ciências Contábeis; Projeto Pedagógico vigente desde 2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/ppc_cc_2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Sistemas contables",
+      "course": "EAC0548 Sistemas de Informações Contábeis",
+      "coverage": "explicit_required",
+      "location": "PDF, página 32, sexto semestre",
+      "id": "ACC-BR-USP-2025-E3",
+      "program_id": "ACC-BR-USP-2025",
+      "field": "contabilidad",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA, São Paulo",
+      "scope": "Bacharelado em Ciências Contábeis; Projeto Pedagógico vigente desde 2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/ppc_cc_2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Riesgo y gobernanza",
+      "course": "EAC0413 Gestão de Riscos, Governança e Compliance",
+      "coverage": "explicit_required",
+      "location": "PDF, página 32, quinto semestre",
+      "id": "ACC-BR-USP-2025-E4",
+      "program_id": "ACC-BR-USP-2025",
+      "field": "contabilidad",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA, São Paulo",
+      "scope": "Bacharelado em Ciências Contábeis; Projeto Pedagógico vigente desde 2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/ppc_cc_2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Ética",
+      "course": "EAC0510 Ética Geral e Profissional",
+      "coverage": "explicit_required",
+      "location": "PDF, página 32, quinto semestre",
+      "id": "ACC-BR-USP-2025-E5",
+      "program_id": "ACC-BR-USP-2025",
+      "field": "contabilidad",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA, São Paulo",
+      "scope": "Bacharelado em Ciências Contábeis; Projeto Pedagógico vigente desde 2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/ppc_cc_2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA aplicada a contabilidad",
+      "course": "EAC0612 Aplicações de Inteligência Artificial em Contabilidade e Finanças",
+      "coverage": "explicit_elective",
+      "location": "PDF, página 33, optativas",
+      "id": "ACC-BR-USP-2025-E6",
+      "program_id": "ACC-BR-USP-2025",
+      "field": "contabilidad",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA, São Paulo",
+      "scope": "Bacharelado em Ciências Contábeis; Projeto Pedagógico vigente desde 2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/ppc_cc_2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Programación y bases de datos",
+      "course": "EAC0610 Introdução à Programação e Banco de Dados em Negócios",
+      "coverage": "explicit_elective",
+      "location": "PDF, página 33, optativas",
+      "id": "ACC-BR-USP-2025-E7",
+      "program_id": "ACC-BR-USP-2025",
+      "field": "contabilidad",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, FEA, São Paulo",
+      "scope": "Bacharelado em Ciências Contábeis; Projeto Pedagógico vigente desde 2025",
+      "source_url": "https://www.fea.usp.br/sites/default/files/arquivos/anexos/ppc_cc_2025.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Analítica de negocios",
+      "course": "BADM210 Business Analytics I; BADM211 Business Analytics II",
+      "coverage": "explicit_required",
+      "location": "Degree Requirements > Business Core Requirements",
+      "id": "ACC-US-UIUC-2026-E1",
+      "program_id": "ACC-US-UIUC-2026",
+      "field": "contabilidad",
+      "country": "Estados Unidos",
+      "institution": "University of Illinois Urbana-Champaign, Gies College of Business",
+      "scope": "Accountancy, BS; Catálogo 2026–2027, disponible al corte; plan de cuatro años",
+      "source_url": "https://catalog.illinois.edu/undergraduate/bus/accountancy-bs/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Computación",
+      "course": "CS105 Intro Computing: Non-Tech",
+      "coverage": "explicit_required",
+      "location": "Business Core Requirements",
+      "id": "ACC-US-UIUC-2026-E2",
+      "program_id": "ACC-US-UIUC-2026",
+      "field": "contabilidad",
+      "country": "Estados Unidos",
+      "institution": "University of Illinois Urbana-Champaign, Gies College of Business",
+      "scope": "Accountancy, BS; Catálogo 2026–2027, disponible al corte; plan de cuatro años",
+      "source_url": "https://catalog.illinois.edu/undergraduate/bus/accountancy-bs/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Reporting contable",
+      "course": "ACCY301 Atg Measurement & Disclosure",
+      "coverage": "explicit_required",
+      "location": "Accountancy, BS Major Requirements",
+      "id": "ACC-US-UIUC-2026-E3",
+      "program_id": "ACC-US-UIUC-2026",
+      "field": "contabilidad",
+      "country": "Estados Unidos",
+      "institution": "University of Illinois Urbana-Champaign, Gies College of Business",
+      "scope": "Accountancy, BS; Catálogo 2026–2027, disponible al corte; plan de cuatro años",
+      "source_url": "https://catalog.illinois.edu/undergraduate/bus/accountancy-bs/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Control",
+      "course": "ACCY304 Accounting Control Systems",
+      "coverage": "explicit_required",
+      "location": "Major Requirements",
+      "id": "ACC-US-UIUC-2026-E4",
+      "program_id": "ACC-US-UIUC-2026",
+      "field": "contabilidad",
+      "country": "Estados Unidos",
+      "institution": "University of Illinois Urbana-Champaign, Gies College of Business",
+      "scope": "Accountancy, BS; Catálogo 2026–2027, disponible al corte; plan de cuatro años",
+      "source_url": "https://catalog.illinois.edu/undergraduate/bus/accountancy-bs/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Auditoría",
+      "course": "ACCY405 Assurance and Attestation",
+      "coverage": "explicit_required",
+      "location": "Major Requirements",
+      "id": "ACC-US-UIUC-2026-E5",
+      "program_id": "ACC-US-UIUC-2026",
+      "field": "contabilidad",
+      "country": "Estados Unidos",
+      "institution": "University of Illinois Urbana-Champaign, Gies College of Business",
+      "scope": "Accountancy, BS; Catálogo 2026–2027, disponible al corte; plan de cuatro años",
+      "source_url": "https://catalog.illinois.edu/undergraduate/bus/accountancy-bs/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Ética y responsabilidad",
+      "course": "BUS101 Professional Responsibility and Business",
+      "coverage": "explicit_required",
+      "location": "Business Core Requirements",
+      "id": "ACC-US-UIUC-2026-E6",
+      "program_id": "ACC-US-UIUC-2026",
+      "field": "contabilidad",
+      "country": "Estados Unidos",
+      "institution": "University of Illinois Urbana-Champaign, Gies College of Business",
+      "scope": "Accountancy, BS; Catálogo 2026–2027, disponible al corte; plan de cuatro años",
+      "source_url": "https://catalog.illinois.edu/undergraduate/bus/accountancy-bs/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA generativa obligatoria",
+      "course": null,
+      "coverage": "not_verifiable",
+      "location": "La lista general de requisitos no permite verificar este contenido",
+      "id": "ACC-US-UIUC-2026-E7",
+      "program_id": "ACC-US-UIUC-2026",
+      "field": "contabilidad",
+      "country": "Estados Unidos",
+      "institution": "University of Illinois Urbana-Champaign, Gies College of Business",
+      "scope": "Accountancy, BS; Catálogo 2026–2027, disponible al corte; plan de cuatro años",
+      "source_url": "https://catalog.illinois.edu/undergraduate/bus/accountancy-bs/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA y análisis de datos",
+      "course": "0630222 AI in data analytics and applications",
+      "coverage": "explicit_required",
+      "location": "PDF, página 5, formación informática obligatoria, 2 créditos, semestre 2",
+      "id": "ACC-CN-CUFE-2025-E1",
+      "program_id": "ACC-CN-CUFE-2025",
+      "field": "contabilidad",
+      "country": "China",
+      "institution": "Central University of Finance and Economics (中央财经大学)",
+      "scope": "会计学（注册会计师方向） / Accounting, orientación CPA; Plan para cohorte 2025; índice institucional publicado 2025-09-02",
+      "source_url": "https://jwc.cufe.edu.cn/PDF-2025/3.huijixue-zhucehuijishifangxiangxuefenzhipeiyangfangan.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Programación Python",
+      "course": "0310181 Python Programming",
+      "coverage": "explicit_required",
+      "location": "PDF, página 5, formación informática obligatoria, 2 créditos, semestre 3",
+      "id": "ACC-CN-CUFE-2025-E2",
+      "program_id": "ACC-CN-CUFE-2025",
+      "field": "contabilidad",
+      "country": "China",
+      "institution": "Central University of Finance and Economics (中央财经大学)",
+      "scope": "会计学（注册会计师方向） / Accounting, orientación CPA; Plan para cohorte 2025; índice institucional publicado 2025-09-02",
+      "source_url": "https://jwc.cufe.edu.cn/PDF-2025/3.huijixue-zhucehuijishifangxiangxuefenzhipeiyangfangan.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Sistemas contables",
+      "course": "0310137 Accounting Information System",
+      "coverage": "explicit_required",
+      "location": "PDF, matriz de cursos profesionales, 2 créditos",
+      "id": "ACC-CN-CUFE-2025-E3",
+      "program_id": "ACC-CN-CUFE-2025",
+      "field": "contabilidad",
+      "country": "China",
+      "institution": "Central University of Finance and Economics (中央财经大学)",
+      "scope": "会计学（注册会计师方向） / Accounting, orientación CPA; Plan para cohorte 2025; índice institucional publicado 2025-09-02",
+      "source_url": "https://jwc.cufe.edu.cn/PDF-2025/3.huijixue-zhucehuijishifangxiangxuefenzhipeiyangfangan.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Auditoría",
+      "course": "0310039 Auditing",
+      "coverage": "explicit_required",
+      "location": "PDF, matriz de cursos profesionales, 4 créditos",
+      "id": "ACC-CN-CUFE-2025-E4",
+      "program_id": "ACC-CN-CUFE-2025",
+      "field": "contabilidad",
+      "country": "China",
+      "institution": "Central University of Finance and Economics (中央财经大学)",
+      "scope": "会计学（注册会计师方向） / Accounting, orientación CPA; Plan para cohorte 2025; índice institucional publicado 2025-09-02",
+      "source_url": "https://jwc.cufe.edu.cn/PDF-2025/3.huijixue-zhucehuijishifangxiangxuefenzhipeiyangfangan.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Modelos de lenguaje",
+      "course": "0630225 Foundations of Large Language Models",
+      "coverage": "explicit_elective",
+      "location": "PDF, página 5, bloque informático optativo, semestre 4",
+      "id": "ACC-CN-CUFE-2025-E5",
+      "program_id": "ACC-CN-CUFE-2025",
+      "field": "contabilidad",
+      "country": "China",
+      "institution": "Central University of Finance and Economics (中央财经大学)",
+      "scope": "会计学（注册会计师方向） / Accounting, orientación CPA; Plan para cohorte 2025; índice institucional publicado 2025-09-02",
+      "source_url": "https://jwc.cufe.edu.cn/PDF-2025/3.huijixue-zhucehuijishifangxiangxuefenzhipeiyangfangan.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Aprendizaje automático",
+      "course": "0630204 Machine Learning",
+      "coverage": "explicit_elective",
+      "location": "PDF, página 5, bloque informático optativo, semestre 5",
+      "id": "ACC-CN-CUFE-2025-E6",
+      "program_id": "ACC-CN-CUFE-2025",
+      "field": "contabilidad",
+      "country": "China",
+      "institution": "Central University of Finance and Economics (中央财经大学)",
+      "scope": "会计学（注册会计师方向） / Accounting, orientación CPA; Plan para cohorte 2025; índice institucional publicado 2025-09-02",
+      "source_url": "https://jwc.cufe.edu.cn/PDF-2025/3.huijixue-zhucehuijishifangxiangxuefenzhipeiyangfangan.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Fraude y analítica",
+      "course": "Data Analysis and Financial Fraud Detection",
+      "coverage": "explicit_elective",
+      "location": "PDF, bloque de profundización profesional",
+      "id": "ACC-CN-CUFE-2025-E7",
+      "program_id": "ACC-CN-CUFE-2025",
+      "field": "contabilidad",
+      "country": "China",
+      "institution": "Central University of Finance and Economics (中央财经大学)",
+      "scope": "会计学（注册会计师方向） / Accounting, orientación CPA; Plan para cohorte 2025; índice institucional publicado 2025-09-02",
+      "source_url": "https://jwc.cufe.edu.cn/PDF-2025/3.huijixue-zhucehuijishifangxiangxuefenzhipeiyangfangan.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "bioestadística",
+      "course": "Bioestadística",
+      "coverage": "explicit_required",
+      "location": "Plan, semestre II; 2 SCT",
+      "id": "MED-CL-UCH-2026-E1",
+      "program_id": "MED-CL-UCH-2026",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Medicina; Decreto Exento 0015762, 2026-05-04; página consultada 2026-11-01",
+      "source_url": "https://medicina.uchile.cl/pregrado/licenciaturas-y-titulos/medicina",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "investigación",
+      "course": "Metodología de la investigación",
+      "coverage": "explicit_required",
+      "location": "Semestre III; 2 SCT",
+      "id": "MED-CL-UCH-2026-E2",
+      "program_id": "MED-CL-UCH-2026",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Medicina; Decreto Exento 0015762, 2026-05-04; página consultada 2026-11-01",
+      "source_url": "https://medicina.uchile.cl/pregrado/licenciaturas-y-titulos/medicina",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "evaluación de evidencia",
+      "course": "Medicina basada en la evidencia",
+      "coverage": "explicit_required",
+      "location": "Semestre VIII; 2 SCT",
+      "id": "MED-CL-UCH-2026-E3",
+      "program_id": "MED-CL-UCH-2026",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Medicina; Decreto Exento 0015762, 2026-05-04; página consultada 2026-11-01",
+      "source_url": "https://medicina.uchile.cl/pregrado/licenciaturas-y-titulos/medicina",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "gestión sanitaria",
+      "course": "Gestión I y II",
+      "coverage": "explicit_required",
+      "location": "Semestres VII y VIII; 2 SCT cada una",
+      "id": "MED-CL-UCH-2026-E4",
+      "program_id": "MED-CL-UCH-2026",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Medicina; Decreto Exento 0015762, 2026-05-04; página consultada 2026-11-01",
+      "source_url": "https://medicina.uchile.cl/pregrado/licenciaturas-y-titulos/medicina",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "colaboración",
+      "course": "Educación interprofesional y práctica colaborativa I",
+      "coverage": "explicit_required",
+      "location": "Semestre V; continuidad en VIII",
+      "id": "MED-CL-UCH-2026-E5",
+      "program_id": "MED-CL-UCH-2026",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Medicina; Decreto Exento 0015762, 2026-05-04; página consultada 2026-11-01",
+      "source_url": "https://medicina.uchile.cl/pregrado/licenciaturas-y-titulos/medicina",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "ética",
+      "course": "Bioética",
+      "coverage": "explicit_required",
+      "location": "Semestre IV",
+      "id": "MED-CL-UCH-2026-E6",
+      "program_id": "MED-CL-UCH-2026",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Medicina; Decreto Exento 0015762, 2026-05-04; página consultada 2026-11-01",
+      "source_url": "https://medicina.uchile.cl/pregrado/licenciaturas-y-titulos/medicina",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA clínica específica",
+      "course": null,
+      "coverage": "not_verifiable",
+      "location": "No verificada en las fuentes examinadas; no implica ausencia de enseñanza",
+      "id": "MED-CL-UCH-2026-E7",
+      "program_id": "MED-CL-UCH-2026",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Medicina; Decreto Exento 0015762, 2026-05-04; página consultada 2026-11-01",
+      "source_url": "https://medicina.uchile.cl/pregrado/licenciaturas-y-titulos/medicina",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Registro clínico digital y confidencialidad",
+      "course": "ME11063, Internado de Medicina Interna",
+      "coverage": "explicit_required",
+      "location": "Programa 2026.2, resultado 3 y unidades 3–4; curso obligatorio con evaluación de desempeño declarada",
+      "source_url": "https://dpi.med.uchile.cl/programa/api/web.php?curso=ME11063&periodof=2026.2",
+      "scope": "Internado del segundo semestre 2026; no se asume pertenencia a la nueva cohorte de ingreso 2026",
+      "id": "MED-CL-UCH-2026-E8",
+      "program_id": "MED-CL-UCH-2026",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "bioestadística",
+      "course": "Bioestadística",
+      "coverage": "explicit_required",
+      "location": "Tabla de malla, semestre II",
+      "id": "MED-CL-PUC-E1",
+      "program_id": "MED-CL-PUC",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Medicina; Plan implantado desde cohorte 2015; malla pública consultada 2026-11-01, sin versión explícita en tabla",
+      "source_url": "https://medicina.uc.cl/pregrado/plan-de-estudios/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "salud pública",
+      "course": "Salud Pública",
+      "coverage": "explicit_required",
+      "location": "Tabla, semestre III",
+      "id": "MED-CL-PUC-E2",
+      "program_id": "MED-CL-PUC",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Medicina; Plan implantado desde cohorte 2015; malla pública consultada 2026-11-01, sin versión explícita en tabla",
+      "source_url": "https://medicina.uc.cl/pregrado/plan-de-estudios/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "ética",
+      "course": "Antropología y Ética",
+      "coverage": "explicit_required",
+      "location": "Tabla, semestre III",
+      "id": "MED-CL-PUC-E3",
+      "program_id": "MED-CL-PUC",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Medicina; Plan implantado desde cohorte 2015; malla pública consultada 2026-11-01, sin versión explícita en tabla",
+      "source_url": "https://medicina.uc.cl/pregrado/plan-de-estudios/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "investigación y evidencia",
+      "course": "Objetivos del plan: formación científica y lectura crítica",
+      "coverage": "mentioned",
+      "location": "Descripción de objetivos y organización del plan",
+      "id": "MED-CL-PUC-E4",
+      "program_id": "MED-CL-PUC",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Medicina; Plan implantado desde cohorte 2015; malla pública consultada 2026-11-01, sin versión explícita en tabla",
+      "source_url": "https://medicina.uc.cl/pregrado/plan-de-estudios/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "experiencia clínica estructural",
+      "course": "Rotaciones e internados",
+      "coverage": "explicit_required",
+      "location": "Tabla, semestres X–XII; existe componente electivo final",
+      "id": "MED-CL-PUC-E5",
+      "program_id": "MED-CL-PUC",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Medicina; Plan implantado desde cohorte 2015; malla pública consultada 2026-11-01, sin versión explícita en tabla",
+      "source_url": "https://medicina.uc.cl/pregrado/plan-de-estudios/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "salud digital e IA",
+      "course": null,
+      "coverage": "not_verifiable",
+      "location": "Documentación inspeccionada",
+      "id": "MED-CL-PUC-E6",
+      "program_id": "MED-CL-PUC",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Medicina; Plan implantado desde cohorte 2015; malla pública consultada 2026-11-01, sin versión explícita en tabla",
+      "source_url": "https://medicina.uc.cl/pregrado/plan-de-estudios/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "bioestadística",
+      "course": "Estadística",
+      "coverage": "mentioned",
+      "location": "PDF, etapa inicial",
+      "id": "MED-CL-UDD-E1",
+      "program_id": "MED-CL-UDD",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo, Santiago",
+      "scope": "Medicina; PDF con nombre 2023-07-18; página consultada 2026-11-01",
+      "source_url": "https://medicina.udd.cl/medicina-santiago/malla-curricular/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "evaluación de evidencia",
+      "course": "Medicina basada en evidencia",
+      "coverage": "mentioned",
+      "location": "PDF, etapa final",
+      "id": "MED-CL-UDD-E2",
+      "program_id": "MED-CL-UDD",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo, Santiago",
+      "scope": "Medicina; PDF con nombre 2023-07-18; página consultada 2026-11-01",
+      "source_url": "https://medicina.udd.cl/medicina-santiago/malla-curricular/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "investigación",
+      "course": "Proyectos científicos biomédicos y epidemiológicos",
+      "coverage": "mentioned",
+      "location": "PDF, secuencia formativa",
+      "id": "MED-CL-UDD-E3",
+      "program_id": "MED-CL-UDD",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo, Santiago",
+      "scope": "Medicina; PDF con nombre 2023-07-18; página consultada 2026-11-01",
+      "source_url": "https://medicina.udd.cl/medicina-santiago/malla-curricular/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "salud digital",
+      "course": "Medicina digital",
+      "coverage": "mentioned",
+      "location": "PDF, contenidos formativos",
+      "id": "MED-CL-UDD-E4",
+      "program_id": "MED-CL-UDD",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo, Santiago",
+      "scope": "Medicina; PDF con nombre 2023-07-18; página consultada 2026-11-01",
+      "source_url": "https://medicina.udd.cl/medicina-santiago/malla-curricular/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "gestión sanitaria",
+      "course": "Gestión en Salud",
+      "coverage": "mentioned",
+      "location": "PDF, línea de formación",
+      "id": "MED-CL-UDD-E5",
+      "program_id": "MED-CL-UDD",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo, Santiago",
+      "scope": "Medicina; PDF con nombre 2023-07-18; página consultada 2026-11-01",
+      "source_url": "https://medicina.udd.cl/medicina-santiago/malla-curricular/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "ética y comunicación",
+      "course": "Bioética; Comunicación",
+      "coverage": "mentioned",
+      "location": "PDF, contenidos y ejes transversales",
+      "id": "MED-CL-UDD-E6",
+      "program_id": "MED-CL-UDD",
+      "field": "medicina",
+      "country": "Chile",
+      "institution": "Universidad del Desarrollo, Santiago",
+      "scope": "Medicina; PDF con nombre 2023-07-18; página consultada 2026-11-01",
+      "source_url": "https://medicina.udd.cl/medicina-santiago/malla-curricular/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "métodos cuantitativos",
+      "course": "Métodos Quantitativos em Medicina",
+      "coverage": "explicit_required",
+      "location": "MPT0164, semestre IV, 60 horas",
+      "id": "MED-BR-USP-HIST2017-E1",
+      "program_id": "MED-BR-USP-HIST2017",
+      "field": "medicina",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, Faculdade de Medicina (São Paulo)",
+      "scope": "Medicina, código 5042; Inicio 2017-01-01; referencia histórica pública, NO acreditada como malla de ingreso 2026",
+      "source_url": "https://portalservicos.usp.br/jupiterweb/listarGradeCurricular?codcg=5&codcur=5042&codhab=0&tipo=V",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "epidemiología e investigación",
+      "course": "Epidemiología I y II (traducción)",
+      "coverage": "explicit_required",
+      "location": "MPR0110 y MPR0131; semestres III y V",
+      "id": "MED-BR-USP-HIST2017-E2",
+      "program_id": "MED-BR-USP-HIST2017",
+      "field": "medicina",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, Faculdade de Medicina (São Paulo)",
+      "scope": "Medicina, código 5042; Inicio 2017-01-01; referencia histórica pública, NO acreditada como malla de ingreso 2026",
+      "source_url": "https://portalservicos.usp.br/jupiterweb/listarGradeCurricular?codcg=5&codcur=5042&codhab=0&tipo=V",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "humanidades",
+      "course": "Medicina e Humanidades",
+      "coverage": "explicit_required",
+      "location": "MSP0678, semestre II, 75 horas",
+      "id": "MED-BR-USP-HIST2017-E3",
+      "program_id": "MED-BR-USP-HIST2017",
+      "field": "medicina",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, Faculdade de Medicina (São Paulo)",
+      "scope": "Medicina, código 5042; Inicio 2017-01-01; referencia histórica pública, NO acreditada como malla de ingreso 2026",
+      "source_url": "https://portalservicos.usp.br/jupiterweb/listarGradeCurricular?codcg=5&codcur=5042&codhab=0&tipo=V",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "atención primaria",
+      "course": "Atención primaria I (traducción)",
+      "coverage": "explicit_required",
+      "location": "MSP0670, semestre I, 135 horas",
+      "id": "MED-BR-USP-HIST2017-E4",
+      "program_id": "MED-BR-USP-HIST2017",
+      "field": "medicina",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, Faculdade de Medicina (São Paulo)",
+      "scope": "Medicina, código 5042; Inicio 2017-01-01; referencia histórica pública, NO acreditada como malla de ingreso 2026",
+      "source_url": "https://portalservicos.usp.br/jupiterweb/listarGradeCurricular?codcg=5&codcur=5042&codhab=0&tipo=V",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "salud digital e IA",
+      "course": null,
+      "coverage": "not_verifiable",
+      "location": "Plan histórico inspeccionado",
+      "id": "MED-BR-USP-HIST2017-E5",
+      "program_id": "MED-BR-USP-HIST2017",
+      "field": "medicina",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, Faculdade de Medicina (São Paulo)",
+      "scope": "Medicina, código 5042; Inicio 2017-01-01; referencia histórica pública, NO acreditada como malla de ingreso 2026",
+      "source_url": "https://portalservicos.usp.br/jupiterweb/listarGradeCurricular?codcg=5&codcur=5042&codhab=0&tipo=V",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "malla vigente de ingreso 2026",
+      "course": null,
+      "coverage": "not_verifiable",
+      "location": "Versión 5043 consultada declara inicio 2027-01-01",
+      "id": "MED-BR-USP-HIST2017-E6",
+      "program_id": "MED-BR-USP-HIST2017",
+      "field": "medicina",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, Faculdade de Medicina (São Paulo)",
+      "scope": "Medicina, código 5042; Inicio 2017-01-01; referencia histórica pública, NO acreditada como malla de ingreso 2026",
+      "source_url": "https://portalservicos.usp.br/jupiterweb/listarGradeCurricular?codcg=5&codcur=5042&codhab=0&tipo=V",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "investigación",
+      "course": "Scholarly Concentration",
+      "coverage": "explicit_required",
+      "location": "Sección de concentración: requisito para todos, 12 unidades y producto escrito/presentación",
+      "id": "MED-US-STANFORD-2026-E1",
+      "program_id": "MED-US-STANFORD-2026",
+      "field": "medicina",
+      "country": "Estados Unidos",
+      "institution": "Stanford University",
+      "scope": "Doctor of Medicine (MD); Bulletin 2026–2027 consultado 2026-11-01",
+      "source_url": "https://bulletin.stanford.edu/programs/MED-MD",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "informática y datos",
+      "course": "Informatics and Data-Driven Medicine",
+      "coverage": "explicit_elective",
+      "location": "Una de las áreas de concentración elegibles",
+      "id": "MED-US-STANFORD-2026-E2",
+      "program_id": "MED-US-STANFORD-2026",
+      "field": "medicina",
+      "country": "Estados Unidos",
+      "institution": "Stanford University",
+      "scope": "Doctor of Medicine (MD); Bulletin 2026–2027 consultado 2026-11-01",
+      "source_url": "https://bulletin.stanford.edu/programs/MED-MD",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "ética",
+      "course": "Área de concentración en ética y humanidades (traducción)",
+      "coverage": "explicit_elective",
+      "location": "Opciones de concentración",
+      "id": "MED-US-STANFORD-2026-E3",
+      "program_id": "MED-US-STANFORD-2026",
+      "field": "medicina",
+      "country": "Estados Unidos",
+      "institution": "Stanford University",
+      "scope": "Doctor of Medicine (MD); Bulletin 2026–2027 consultado 2026-11-01",
+      "source_url": "https://bulletin.stanford.edu/programs/MED-MD",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "sistemas y política sanitaria",
+      "course": "Área de servicios y políticas de salud (traducción)",
+      "coverage": "explicit_elective",
+      "location": "Opciones de concentración",
+      "id": "MED-US-STANFORD-2026-E4",
+      "program_id": "MED-US-STANFORD-2026",
+      "field": "medicina",
+      "country": "Estados Unidos",
+      "institution": "Stanford University",
+      "scope": "Doctor of Medicine (MD); Bulletin 2026–2027 consultado 2026-11-01",
+      "source_url": "https://bulletin.stanford.edu/programs/MED-MD",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "comunicación académica",
+      "course": "Presentación del trabajo de concentración",
+      "coverage": "explicit_required",
+      "location": "Requisitos de la concentración",
+      "id": "MED-US-STANFORD-2026-E5",
+      "program_id": "MED-US-STANFORD-2026",
+      "field": "medicina",
+      "country": "Estados Unidos",
+      "institution": "Stanford University",
+      "scope": "Doctor of Medicine (MD); Bulletin 2026–2027 consultado 2026-11-01",
+      "source_url": "https://bulletin.stanford.edu/programs/MED-MD",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "evaluación práctica",
+      "course": "CPX y Mini-CPX",
+      "coverage": "explicit_required",
+      "location": "Requisitos de evaluación del MD",
+      "id": "MED-US-STANFORD-2026-E6",
+      "program_id": "MED-US-STANFORD-2026",
+      "field": "medicina",
+      "country": "Estados Unidos",
+      "institution": "Stanford University",
+      "scope": "Doctor of Medicine (MD); Bulletin 2026–2027 consultado 2026-11-01",
+      "source_url": "https://bulletin.stanford.edu/programs/MED-MD",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "investigación y evidencia",
+      "course": "Objetivos de investigación y evaluación crítica (traducción)",
+      "coverage": "mentioned",
+      "location": "Perfil de conocimientos y capacidades",
+      "id": "MED-CN-SJTU-INT2026-E1",
+      "program_id": "MED-CN-SJTU-INT2026",
+      "field": "medicina",
+      "country": "China",
+      "institution": "Shanghai Jiao Tong University School of Medicine",
+      "scope": "临床医学专业五年制留学生培养方案 — Medicina clínica, cinco años, estudiantes internacionales; Página fechada 2026-03-23",
+      "source_url": "https://www.shsmu.edu.cn/iso/info/1083/1442.htm",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "gestión de información",
+      "course": "Búsqueda y análisis con redes y bases de datos (traducción)",
+      "coverage": "mentioned",
+      "location": "Objetivos formativos",
+      "id": "MED-CN-SJTU-INT2026-E2",
+      "program_id": "MED-CN-SJTU-INT2026",
+      "field": "medicina",
+      "country": "China",
+      "institution": "Shanghai Jiao Tong University School of Medicine",
+      "scope": "临床医学专业五年制留学生培养方案 — Medicina clínica, cinco años, estudiantes internacionales; Página fechada 2026-03-23",
+      "source_url": "https://www.shsmu.edu.cn/iso/info/1083/1442.htm",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "alfabetización computacional",
+      "course": "程序设计基础 — fundamentos de programación",
+      "coverage": "mentioned",
+      "location": "Lista resumida de cursos principales; requisito individual no confirmado",
+      "id": "MED-CN-SJTU-INT2026-E3",
+      "program_id": "MED-CN-SJTU-INT2026",
+      "field": "medicina",
+      "country": "China",
+      "institution": "Shanghai Jiao Tong University School of Medicine",
+      "scope": "临床医学专业五年制留学生培养方案 — Medicina clínica, cinco años, estudiantes internacionales; Página fechada 2026-03-23",
+      "source_url": "https://www.shsmu.edu.cn/iso/info/1083/1442.htm",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "comunicación y colaboración",
+      "course": "Relación médico-paciente y trabajo colectivo (traducción)",
+      "coverage": "mentioned",
+      "location": "Objetivos de capacidades y actitudes",
+      "id": "MED-CN-SJTU-INT2026-E4",
+      "program_id": "MED-CN-SJTU-INT2026",
+      "field": "medicina",
+      "country": "China",
+      "institution": "Shanghai Jiao Tong University School of Medicine",
+      "scope": "临床医学专业五年制留学生培养方案 — Medicina clínica, cinco años, estudiantes internacionales; Página fechada 2026-03-23",
+      "source_url": "https://www.shsmu.edu.cn/iso/info/1083/1442.htm",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "ética y calidad",
+      "course": "Responsabilidad profesional y calidad asistencial (traducción)",
+      "coverage": "mentioned",
+      "location": "Objetivos formativos",
+      "id": "MED-CN-SJTU-INT2026-E5",
+      "program_id": "MED-CN-SJTU-INT2026",
+      "field": "medicina",
+      "country": "China",
+      "institution": "Shanghai Jiao Tong University School of Medicine",
+      "scope": "临床医学专业五年制留学生培养方案 — Medicina clínica, cinco años, estudiantes internacionales; Página fechada 2026-03-23",
+      "source_url": "https://www.shsmu.edu.cn/iso/info/1083/1442.htm",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "experiencia clínica estructural",
+      "course": "Rotaciones de 52 semanas y evaluaciones prácticas",
+      "coverage": "explicit_required",
+      "location": "Organización del programa y evaluación; un año de internado",
+      "id": "MED-CN-SJTU-INT2026-E6",
+      "program_id": "MED-CN-SJTU-INT2026",
+      "field": "medicina",
+      "country": "China",
+      "institution": "Shanghai Jiao Tong University School of Medicine",
+      "scope": "临床医学专业五年制留学生培养方案 — Medicina clínica, cinco años, estudiantes internacionales; Página fechada 2026-03-23",
+      "source_url": "https://www.shsmu.edu.cn/iso/info/1083/1442.htm",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Programación y algoritmos",
+      "course": "CC1002; CC3001; CC4102",
+      "coverage": "explicit_required",
+      "location": "Semestres II, V y VII",
+      "id": "CS-CL-UCH-E1",
+      "program_id": "CS-CL-UCH",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Ingeniería Civil en Computación; Malla 2019 publicada en página oficial consultada al corte; no equivale a fecha de última revisión de cada curso",
+      "source_url": "https://dcc.uchile.cl/pregrado/malla/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Datos y analítica",
+      "course": "CC3201; CC5205",
+      "coverage": "explicit_required",
+      "location": "Semestres VI y VII",
+      "id": "CS-CL-UCH-E2",
+      "program_id": "CS-CL-UCH",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Ingeniería Civil en Computación; Malla 2019 publicada en página oficial consultada al corte; no equivale a fecha de última revisión de cada curso",
+      "source_url": "https://dcc.uchile.cl/pregrado/malla/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Construcción de software",
+      "course": "CC4401",
+      "coverage": "explicit_required",
+      "location": "Semestre VII",
+      "id": "CS-CL-UCH-E3",
+      "program_id": "CS-CL-UCH",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Ingeniería Civil en Computación; Malla 2019 publicada en página oficial consultada al corte; no equivale a fecha de última revisión de cada curso",
+      "source_url": "https://dcc.uchile.cl/pregrado/malla/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Sistemas y redes",
+      "course": "CC4302; CC4303",
+      "coverage": "explicit_required",
+      "location": "Semestres VII y VIII",
+      "id": "CS-CL-UCH-E4",
+      "program_id": "CS-CL-UCH",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Ingeniería Civil en Computación; Malla 2019 publicada en página oficial consultada al corte; no equivale a fecha de última revisión de cada curso",
+      "source_url": "https://dcc.uchile.cl/pregrado/malla/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Aplicación profesional",
+      "course": "CC4901; CC5901; CC5402",
+      "coverage": "explicit_required",
+      "location": "Prácticas y proyecto",
+      "id": "CS-CL-UCH-E5",
+      "program_id": "CS-CL-UCH",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Ingeniería Civil en Computación; Malla 2019 publicada en página oficial consultada al corte; no equivale a fecha de última revisión de cada curso",
+      "source_url": "https://dcc.uchile.cl/pregrado/malla/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA generativa, MLOps y evaluación de resultados de IA",
+      "course": "No verificable con la lista troncal revisada",
+      "coverage": "not_verifiable",
+      "location": "Malla; electivos sin detalle en esta fuente",
+      "id": "CS-CL-UCH-E6",
+      "program_id": "CS-CL-UCH",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Universidad de Chile",
+      "scope": "Ingeniería Civil en Computación; Malla 2019 publicada en página oficial consultada al corte; no equivale a fecha de última revisión de cada curso",
+      "source_url": "https://dcc.uchile.cl/pregrado/malla/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Programación y algoritmos",
+      "course": "Secuencia de programación y análisis algorítmico",
+      "coverage": "explicit_required",
+      "location": "Diagrama, p.2",
+      "id": "CS-CL-UC-E1",
+      "program_id": "CS-CL-UC",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Licenciatura en Ingeniería en Ciencia de la Computación; Resolución VRA 269/2023 dentro del PDF enlazado por admisión al corte; ruta del archivo contiene 2022 pero no se usa como versión",
+      "source_url": "https://admision.uc.cl/htdocs/content/uploads/2022/08/41.-Licenciatura-Ingenieria-Ciencia-de-la-Computacion.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Datos",
+      "course": "Bases de Datos",
+      "coverage": "explicit_required",
+      "location": "Diagrama, p.2",
+      "id": "CS-CL-UC-E2",
+      "program_id": "CS-CL-UC",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Licenciatura en Ingeniería en Ciencia de la Computación; Resolución VRA 269/2023 dentro del PDF enlazado por admisión al corte; ruta del archivo contiene 2022 pero no se usa como versión",
+      "source_url": "https://admision.uc.cl/htdocs/content/uploads/2022/08/41.-Licenciatura-Ingenieria-Ciencia-de-la-Computacion.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Construcción de software",
+      "course": "Ingeniería de Software",
+      "coverage": "explicit_required",
+      "location": "Diagrama, p.2",
+      "id": "CS-CL-UC-E3",
+      "program_id": "CS-CL-UC",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Licenciatura en Ingeniería en Ciencia de la Computación; Resolución VRA 269/2023 dentro del PDF enlazado por admisión al corte; ruta del archivo contiene 2022 pero no se usa como versión",
+      "source_url": "https://admision.uc.cl/htdocs/content/uploads/2022/08/41.-Licenciatura-Ingenieria-Ciencia-de-la-Computacion.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA",
+      "course": "Inteligencia Artificial",
+      "coverage": "explicit_required",
+      "location": "Diagrama, semestre VI",
+      "id": "CS-CL-UC-E4",
+      "program_id": "CS-CL-UC",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Licenciatura en Ingeniería en Ciencia de la Computación; Resolución VRA 269/2023 dentro del PDF enlazado por admisión al corte; ruta del archivo contiene 2022 pero no se usa como versión",
+      "source_url": "https://admision.uc.cl/htdocs/content/uploads/2022/08/41.-Licenciatura-Ingenieria-Ciencia-de-la-Computacion.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Seguridad y ética",
+      "course": "Seguridad Computacional; formación ética disciplinar",
+      "coverage": "explicit_required",
+      "location": "Diagrama, p.2",
+      "id": "CS-CL-UC-E5",
+      "program_id": "CS-CL-UC",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Licenciatura en Ingeniería en Ciencia de la Computación; Resolución VRA 269/2023 dentro del PDF enlazado por admisión al corte; ruta del archivo contiene 2022 pero no se usa como versión",
+      "source_url": "https://admision.uc.cl/htdocs/content/uploads/2022/08/41.-Licenciatura-Ingenieria-Ciencia-de-la-Computacion.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Aplicación profesional",
+      "course": "Práctica y proyecto de innovación computacional",
+      "coverage": "explicit_required",
+      "location": "Diagrama, p.2",
+      "id": "CS-CL-UC-E6",
+      "program_id": "CS-CL-UC",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Pontificia Universidad Católica de Chile",
+      "scope": "Licenciatura en Ingeniería en Ciencia de la Computación; Resolución VRA 269/2023 dentro del PDF enlazado por admisión al corte; ruta del archivo contiene 2022 pero no se usa como versión",
+      "source_url": "https://admision.uc.cl/htdocs/content/uploads/2022/08/41.-Licenciatura-Ingenieria-Ciencia-de-la-Computacion.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Programación y desarrollo web",
+      "course": "FPY1101; DSY1102–1104",
+      "coverage": "explicit_required",
+      "location": "Malla p.1, especialidad",
+      "id": "CS-CL-DUOC-E1",
+      "program_id": "CS-CL-DUOC",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Duoc UC",
+      "scope": "Ingeniería en Informática, mención Inteligencia Artificial; Currículum 1446111; documento 2025",
+      "source_url": "https://www.duoc.cl/wp-content/uploads/2025/09/Malla-Curricular-1446111-2025-Ingenieroa-en-Informatica-Especializacion-Inteligencia-Artificial.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Datos y nube",
+      "course": "BDY1101–1103; ITY1101; DSY1101",
+      "coverage": "explicit_required",
+      "location": "Malla p.1",
+      "id": "CS-CL-DUOC-E2",
+      "program_id": "CS-CL-DUOC",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Duoc UC",
+      "scope": "Ingeniería en Informática, mención Inteligencia Artificial; Currículum 1446111; documento 2025",
+      "source_url": "https://www.duoc.cl/wp-content/uploads/2025/09/Malla-Curricular-1446111-2025-Ingenieroa-en-Informatica-Especializacion-Inteligencia-Artificial.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA y aprendizaje automático",
+      "course": "TLY1101–1105; IAY4610",
+      "coverage": "explicit_required",
+      "location": "Malla p.1, mención IA",
+      "id": "CS-CL-DUOC-E3",
+      "program_id": "CS-CL-DUOC",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Duoc UC",
+      "scope": "Ingeniería en Informática, mención Inteligencia Artificial; Currículum 1446111; documento 2025",
+      "source_url": "https://www.duoc.cl/wp-content/uploads/2025/09/Malla-Curricular-1446111-2025-Ingenieroa-en-Informatica-Especializacion-Inteligencia-Artificial.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Operación de modelos",
+      "course": "MOY1102 (MLOps)",
+      "coverage": "explicit_required",
+      "location": "Malla p.1, nivel VIII",
+      "id": "CS-CL-DUOC-E4",
+      "program_id": "CS-CL-DUOC",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Duoc UC",
+      "scope": "Ingeniería en Informática, mención Inteligencia Artificial; Currículum 1446111; documento 2025",
+      "source_url": "https://www.duoc.cl/wp-content/uploads/2025/09/Malla-Curricular-1446111-2025-Ingenieroa-en-Informatica-Especializacion-Inteligencia-Artificial.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Ética de IA y profesional",
+      "course": "IAY1101; EAY4615",
+      "coverage": "explicit_required",
+      "location": "Malla p.1",
+      "id": "CS-CL-DUOC-E5",
+      "program_id": "CS-CL-DUOC",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Duoc UC",
+      "scope": "Ingeniería en Informática, mención Inteligencia Artificial; Currículum 1446111; documento 2025",
+      "source_url": "https://www.duoc.cl/wp-content/uploads/2025/09/Malla-Curricular-1446111-2025-Ingenieroa-en-Informatica-Especializacion-Inteligencia-Artificial.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Aplicación profesional",
+      "course": "PPY4610; IAY4610",
+      "coverage": "explicit_required",
+      "location": "Práctica y taller aplicado",
+      "id": "CS-CL-DUOC-E6",
+      "program_id": "CS-CL-DUOC",
+      "field": "computacion",
+      "country": "Chile",
+      "institution": "Duoc UC",
+      "scope": "Ingeniería en Informática, mención Inteligencia Artificial; Currículum 1446111; documento 2025",
+      "source_url": "https://www.duoc.cl/wp-content/uploads/2025/09/Malla-Curricular-1446111-2025-Ingenieroa-en-Informatica-Especializacion-Inteligencia-Artificial.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Programación y algoritmos",
+      "course": "MAC0110; MAC0121; MAC0323; MAC0338",
+      "coverage": "explicit_required",
+      "location": "Semestres I–IV",
+      "id": "CS-BR-USP-E1",
+      "program_id": "CS-BR-USP",
+      "field": "computacion",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, IME",
+      "scope": "Bacharelado em Ciência da Computação; Ingresos 2020–2026; se excluye plan 2027 como implementación actual",
+      "source_url": "https://bcc.ime.usp.br/grade-2020-2026/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Estadística y modelamiento",
+      "course": "MAE0119; MAC0209",
+      "coverage": "explicit_required",
+      "location": "Semestres II–III",
+      "id": "CS-BR-USP-E2",
+      "program_id": "CS-BR-USP",
+      "field": "computacion",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, IME",
+      "scope": "Bacharelado em Ciência da Computação; Ingresos 2020–2026; se excluye plan 2027 como implementación actual",
+      "source_url": "https://bcc.ime.usp.br/grade-2020-2026/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Verificación de programas",
+      "course": "MAC0239",
+      "coverage": "explicit_required",
+      "location": "Semestre II",
+      "id": "CS-BR-USP-E3",
+      "program_id": "CS-BR-USP",
+      "field": "computacion",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, IME",
+      "scope": "Bacharelado em Ciência da Computação; Ingresos 2020–2026; se excluye plan 2027 como implementación actual",
+      "source_url": "https://bcc.ime.usp.br/grade-2020-2026/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Construcción de software",
+      "course": "MAC0350",
+      "coverage": "explicit_required",
+      "location": "Semestre IV",
+      "id": "CS-BR-USP-E4",
+      "program_id": "CS-BR-USP",
+      "field": "computacion",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, IME",
+      "scope": "Bacharelado em Ciência da Computação; Ingresos 2020–2026; se excluye plan 2027 como implementación actual",
+      "source_url": "https://bcc.ime.usp.br/grade-2020-2026/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Aplicación e investigación",
+      "course": "MAC0499 o MAC0500",
+      "coverage": "required_group_option",
+      "location": "Trabajo final, últimos dos semestres",
+      "id": "CS-BR-USP-E5",
+      "program_id": "CS-BR-USP",
+      "field": "computacion",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, IME",
+      "scope": "Bacharelado em Ciência da Computação; Ingresos 2020–2026; se excluye plan 2027 como implementación actual",
+      "source_url": "https://bcc.ime.usp.br/grade-2020-2026/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA como formación universal",
+      "course": "No verificable como requisito universal en tronco revisado",
+      "coverage": "not_verifiable",
+      "location": "Fuente deriva a listas de electivos",
+      "id": "CS-BR-USP-E6",
+      "program_id": "CS-BR-USP",
+      "field": "computacion",
+      "country": "Brasil",
+      "institution": "Universidade de São Paulo, IME",
+      "scope": "Bacharelado em Ciência da Computação; Ingresos 2020–2026; se excluye plan 2027 como implementación actual",
+      "source_url": "https://bcc.ime.usp.br/grade-2020-2026/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Programación y algoritmos",
+      "course": "6.1010; 6.1210; ruta introductoria a elegir",
+      "coverage": "explicit_required",
+      "location": "Departmental Program",
+      "id": "CS-US-MIT-E1",
+      "program_id": "CS-US-MIT",
+      "field": "computacion",
+      "country": "Estados Unidos",
+      "institution": "Massachusetts Institute of Technology",
+      "scope": "SB Computer Science and Engineering, 6-3; Catálogo web consultado al corte; sujeto a cambios del año académico",
+      "source_url": "https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Construcción y verificación de software",
+      "course": "6.1020: pruebas, especificaciones y proyectos grupales",
+      "coverage": "explicit_required",
+      "location": "Departmental Program; descripción https://catalog.mit.edu/search/?P=6.1020",
+      "id": "CS-US-MIT-E2",
+      "program_id": "CS-US-MIT",
+      "field": "computacion",
+      "country": "Estados Unidos",
+      "institution": "Massachusetts Institute of Technology",
+      "scope": "SB Computer Science and Engineering, 6-3; Catálogo web consultado al corte; sujeto a cambios del año académico",
+      "source_url": "https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Sistemas o bases de datos",
+      "course": "6.1800 / 6.1810 / 6.5831",
+      "coverage": "required_group_option",
+      "location": "Departmental Program; alternativas",
+      "id": "CS-US-MIT-E3",
+      "program_id": "CS-US-MIT",
+      "field": "computacion",
+      "country": "Estados Unidos",
+      "institution": "Massachusetts Institute of Technology",
+      "scope": "SB Computer Science and Engineering, 6-3; Catálogo web consultado al corte; sujeto a cambios del año académico",
+      "source_url": "https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "IA",
+      "course": "Al menos 12 unidades de lista de asignaturas IA",
+      "coverage": "required_group_option",
+      "location": "Nota 2",
+      "id": "CS-US-MIT-E4",
+      "program_id": "CS-US-MIT",
+      "field": "computacion",
+      "country": "Estados Unidos",
+      "institution": "Massachusetts Institute of Technology",
+      "scope": "SB Computer Science and Engineering, 6-3; Catálogo web consultado al corte; sujeto a cambios del año académico",
+      "source_url": "https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Comunicación disciplinar",
+      "course": "Dos asignaturas CI-M",
+      "coverage": "explicit_required",
+      "location": "Requisito departamental",
+      "id": "CS-US-MIT-E5",
+      "program_id": "CS-US-MIT",
+      "field": "computacion",
+      "country": "Estados Unidos",
+      "institution": "Massachusetts Institute of Technology",
+      "scope": "SB Computer Science and Engineering, 6-3; Catálogo web consultado al corte; sujeto a cambios del año académico",
+      "source_url": "https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Profundización flexible",
+      "course": "Selecciones de tracks CS, AI o EE",
+      "coverage": "explicit_elective",
+      "location": "Elective Subjects",
+      "id": "CS-US-MIT-E6",
+      "program_id": "CS-US-MIT",
+      "field": "computacion",
+      "country": "Estados Unidos",
+      "institution": "Massachusetts Institute of Technology",
+      "scope": "SB Computer Science and Engineering, 6-3; Catálogo web consultado al corte; sujeto a cambios del año académico",
+      "source_url": "https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Programación y algoritmos",
+      "course": "30240233; 30240532; 30240184",
+      "coverage": "required_group_option",
+      "location": "p.2, bloque núcleo: mínimo 51 de 57 créditos",
+      "id": "CS-CN-THU-E1",
+      "program_id": "CS-CN-THU",
+      "field": "computacion",
+      "country": "China",
+      "institution": "Tsinghua University",
+      "scope": "计算机科学与技术 — Computación y tecnología; Plan de cohorte 2025 en chino; prevalece sobre descripción inglesa 2024 con estructura distinta",
+      "source_url": "https://www.cs.tsinghua.edu.cn/__local/6/15/61/AFBB5BAF0518D6005689D5BCAFC_834D3C50_33583.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Construcción de software y sistemas",
+      "course": "30240163; 30240243",
+      "coverage": "required_group_option",
+      "location": "pp.2–3, bloque núcleo con selección",
+      "id": "CS-CN-THU-E2",
+      "program_id": "CS-CN-THU",
+      "field": "computacion",
+      "country": "China",
+      "institution": "Tsinghua University",
+      "scope": "计算机科学与技术 — Computación y tecnología; Plan de cohorte 2025 en chino; prevalece sobre descripción inglesa 2024 con estructura distinta",
+      "source_url": "https://www.cs.tsinghua.edu.cn/__local/6/15/61/AFBB5BAF0518D6005689D5BCAFC_834D3C50_33583.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Introducción a IA y seguridad",
+      "course": "30240042; 30240573",
+      "coverage": "required_group_option",
+      "location": "p.3, bloque núcleo con selección",
+      "id": "CS-CN-THU-E3",
+      "program_id": "CS-CN-THU",
+      "field": "computacion",
+      "country": "China",
+      "institution": "Tsinghua University",
+      "scope": "计算机科学与技术 — Computación y tecnología; Plan de cohorte 2025 en chino; prevalece sobre descripción inglesa 2024 con estructura distinta",
+      "source_url": "https://www.cs.tsinghua.edu.cn/__local/6/15/61/AFBB5BAF0518D6005689D5BCAFC_834D3C50_33583.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Datos y aprendizaje automático",
+      "course": "30240262; 40240492; 40240532",
+      "coverage": "explicit_elective",
+      "location": "pp.3–4, grupos de optativas restringidas",
+      "id": "CS-CN-THU-E4",
+      "program_id": "CS-CN-THU",
+      "field": "computacion",
+      "country": "China",
+      "institution": "Tsinghua University",
+      "scope": "计算机科学与技术 — Computación y tecnología; Plan de cohorte 2025 en chino; prevalece sobre descripción inglesa 2024 con estructura distinta",
+      "source_url": "https://www.cs.tsinghua.edu.cn/__local/6/15/61/AFBB5BAF0518D6005689D5BCAFC_834D3C50_33583.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Seguridad y gobernanza de IA",
+      "course": "40241052",
+      "coverage": "explicit_elective",
+      "location": "p.4, grupo A3",
+      "id": "CS-CN-THU-E5",
+      "program_id": "CS-CN-THU",
+      "field": "computacion",
+      "country": "China",
+      "institution": "Tsinghua University",
+      "scope": "计算机科学与技术 — Computación y tecnología; Plan de cohorte 2025 en chino; prevalece sobre descripción inglesa 2024 con estructura distinta",
+      "source_url": "https://www.cs.tsinghua.edu.cn/__local/6/15/61/AFBB5BAF0518D6005689D5BCAFC_834D3C50_33583.pdf",
+      "observed_date": "2026-11-01"
+    },
+    {
+      "competency": "Aplicación profesional",
+      "course": "30240522; 40240972; trabajo final",
+      "coverage": "explicit_required",
+      "location": "p.4, prácticas y tesis",
+      "id": "CS-CN-THU-E6",
+      "program_id": "CS-CN-THU",
+      "field": "computacion",
+      "country": "China",
+      "institution": "Tsinghua University",
+      "scope": "计算机科学与技术 — Computación y tecnología; Plan de cohorte 2025 en chino; prevalece sobre descripción inglesa 2024 con estructura distinta",
+      "source_url": "https://www.cs.tsinghua.edu.cn/__local/6/15/61/AFBB5BAF0518D6005689D5BCAFC_834D3C50_33583.pdf",
+      "observed_date": "2026-11-01"
+    }
+  ],
+  "employers": [
+    {
+      "id": "EMP-COM-PRIZE",
+      "type": "tradicional",
+      "company": "Prize",
+      "role": "Analista de Inteligencia de Negocios",
+      "location": "Chile; aviso Santiago/Requínoa, ficha Lo Barnechea",
+      "seniority": "Desde 1 año; admite explícitamente recién titulados con base analítica",
+      "url": "https://www.takealuk.com/job_offers/analista-de-inteligencia-de-negocios-santiago-requinoa-prize",
+      "skills": [
+        "Excel y Power BI",
+        "SQL/automatización/modelamiento",
+        "ETL y calidad de datos",
+        "KPIs y visualización",
+        "Levantamiento de requerimientos",
+        "Trabajo con diversas áreas"
+      ],
+      "observed_date": "2026-11-01",
+      "source_kind": "Anuncio nominativo de empleador en portal de reclutamiento Buk/Luk; perfil empresa enlazado",
+      "limits": [
+        "Clasificación tradicional por actividad agrícola/exportadora, no por falta de tecnología.",
+        "Sitio corporativo tuvo timeout; no se verificó enlace recíproco al portal.",
+        "Fecha relativa de publicación, no se transforma en fecha exacta.",
+        "No informa escasez, salario, contratación efectiva ni tiempo para cubrir."
+      ],
+      "field": "comercial",
+      "status": "Documento accesible durante investigación; vigencia requiere revalidación"
+    },
+    {
+      "id": "EMP-COM-AMAZON",
+      "type": "tecnologica_lider",
+      "company": "Amazon Serviços de Varejo do Brasil",
+      "role": "Business Analyst Intern, Job ID 10404487",
+      "location": "São Paulo, Brasil",
+      "seniority": "Práctica; estudiante con egreso desde julio 2027, 12 meses, 30h/semana",
+      "url": "https://www.amazon.jobs/en/jobs/10404487/business-analyst-intern-amazon-university-talent-acquisition",
+      "skills": [
+        "Excel: tablas dinámicas, búsquedas, gráficos",
+        "SQL",
+        "Inglés intermedio",
+        "Análisis de procesos y recomendaciones",
+        "Comunicación de hallazgos",
+        "Colaboración multifuncional"
+      ],
+      "observed_date": "2026-11-01",
+      "source_kind": "Portal oficial Amazon.jobs",
+      "limits": [
+        "Práctica, no empleo graduado; separar estratos al comparar.",
+        "Admite Administración y otras carreras; no representa exclusiva demanda de Ingeniería Comercial.",
+        "No se obtuvo fecha absoluta en la página del aviso.",
+        "No prueba escasez, reemplazo de personas por IA ni prevalencia nacional."
+      ],
+      "field": "comercial",
+      "status": "Contenido leído en primera consulta; reapertura posterior devolvió 404. Disponibilidad no verificable; excluir de recomendaciones activas."
+    },
+    {
+      "id": "EMP-COM-FLASH",
+      "type": "startup_scaleup",
+      "company": "Flash",
+      "role": "Analista de Sucesso do Cliente Júnior (Engajamento)",
+      "location": "São Paulo, Brasil; híbrido",
+      "seniority": "Junior explícito; pide experiencia previa B2B sin número de años",
+      "url": "https://jobs.lever.co/flashapp/04673a0b-39f2-43f3-8faf-e90bfd73fd73",
+      "skills": [
+        "CRM, HubSpot o similar",
+        "Excel/Google Sheets",
+        "Interpretar uso y comportamiento de clientes",
+        "Comunicación consultiva y escrita",
+        "Diagnóstico y priorización",
+        "Aprender sistemas y trabajar en equipo"
+      ],
+      "observed_date": "2026-11-01",
+      "source_kind": "ATS de empresa en Lever, con enlace a Flash",
+      "limits": [
+        "Startup/scaleup es estrato operativo de empresa tecnológica, no indicador de tamaño certificado.",
+        "No confundir aviso de IA en selección de candidatos con requisito de IA para este trabajo.",
+        "No consta publicación exacta ni garantiza vacante aún disponible al momento de una postulación.",
+        "Experiencia previa solicitada impide tratarlo como equivalente a práctica."
+      ],
+      "field": "comercial",
+      "status": "Documento accesible durante investigación; vigencia requiere revalidación"
+    },
+    {
+      "id": "JOB-ACC-ANTONPAAR-CL",
+      "type": "tradicional_industrial",
+      "company": "Anton Paar",
+      "role": "Accounting and Administrative Assistant",
+      "location": "Santiago, Chile",
+      "seniority": "Inicial; 0–2 años de experiencia",
+      "url": "https://jobs.smartrecruiters.com/AntonPaar1/744000145652799-accounting-and-administrative-assistant",
+      "skills": [
+        "Conciliaciones, registros y cierres contables",
+        "Excel requerido",
+        "SAP en las tareas; experiencia previa deseable",
+        "Comunicación y coordinación interáreas",
+        "Inglés intermedio preferido"
+      ],
+      "publication_date": null,
+      "observed_date": "2026-11-01",
+      "observed_status": "Página del empleador legible con acción de postulación; sin verificar cierre o vigencia mediante contacto",
+      "limits": [
+        "Una vacante; no frecuencia poblacional.",
+        "Clasificación industrial tradicional analítica: empresa fabricante de instrumentos, no categoría declarada por aviso.",
+        "No usar requisitos normativos locales como equivalencia internacional."
+      ],
+      "field": "contabilidad",
+      "status": "Página del empleador legible con acción de postulación; sin verificar cierre o vigencia mediante contacto"
+    },
+    {
+      "id": "JOB-ACC-SAP-BR-458380",
+      "type": "tecnologica_lider",
+      "company": "SAP",
+      "role": "SAP iXp Intern – Topline & Customer Controlling Sales Americas",
+      "location": "São Paulo, Brasil",
+      "seniority": "Práctica universitaria; Career Status Student",
+      "url": "https://careers.sap.com/job/Sao-Paulo-SAP-iXp-Intern-Topline-%26-Customer-Controlling-Sales-Americas-04795-100/1426297133/",
+      "skills": [
+        "Excel y PowerPoint; inglés fluido",
+        "Cierres, forecasting y presupuesto",
+        "Calidad de datos, tableros y reportes",
+        "SAP Analytics Cloud y S/4HANA en tareas",
+        "Familiaridad o curiosidad por analítica/Power BI como plus",
+        "Disposición a experimentar con IA, incluyendo Joule, generativa y Claude Code",
+        "Comunicación y trabajo en equipo"
+      ],
+      "publication_date": "2026-10-10",
+      "observed_date": "2026-11-01",
+      "observed_status": "Página oficial legible con Apply now; requisición 458380",
+      "limits": [
+        "Práctica de controlling, no puesto de auditor externo ni contratación de graduado.",
+        "Pide disposición/curiosidad hacia IA; no certifica requisito de dominio experto.",
+        "Acepta diversas carreras, incluida contabilidad; no demanda exclusiva de contadores.",
+        "Es una señal de frontera localizada, no una estimación de adopción general del mercado."
+      ],
+      "field": "contabilidad",
+      "status": "Página oficial legible con Apply now; requisición 458380"
+    },
+    {
+      "id": "JOB-ACC-XEPELIN-MX",
+      "type": "startup_scaleup_latinoamericana",
+      "company": "Xepelin",
+      "role": "Analista de Contabilidad",
+      "location": "Ciudad de México, México; híbrido",
+      "seniority": "Inicial con experiencia; 1–2 años",
+      "url": "https://jobs.lever.co/xepelin/50a165ac-e56c-49ff-9760-cba1d3c663e2",
+      "skills": [
+        "Cierres y conciliaciones",
+        "Preparación de evidencia de auditoría",
+        "Análisis de variaciones y recomendaciones",
+        "Controles internos",
+        "Office y ERP",
+        "Gestión de grandes volúmenes de datos",
+        "Comunicación, colaboración y cumplimiento de plazos"
+      ],
+      "publication_date": null,
+      "observed_date": "2026-11-01",
+      "observed_status": "Aviso original en Lever abierto y legible con postulación",
+      "limits": [
+        "Empresa tecnológica financiera de Latinoamérica en expansión; no se verificó etapa actual de financiamiento para una clasificación estricta startup.",
+        "Vacante de México, no de Chile.",
+        "La descripción no exige explícitamente Python, SQL ni IA; el uso de IA en selección mencionado al pie no es requisito laboral.",
+        "Un aviso no caracteriza a todas las startups."
+      ],
+      "field": "contabilidad",
+      "status": "Aviso original en Lever abierto y legible con postulación"
+    },
+    {
+      "id": "EMP-MED-TARAPACA-2025",
+      "type": "traditional_public_provider",
+      "company": "Servicio de Salud Tarapacá",
+      "role": "Médico(a) General de Salud del Trabajador",
+      "location": "Tarapacá, Chile",
+      "seniority": "Sin mínimo de años publicado; experiencia en atención primaria deseable. Incluye coordinación y supervisión, no es simplemente una pasantía.",
+      "url": "https://www.saludtarapaca.gob.cl/wp-content/uploads/2025/03/AVISO-PRESENTACION-DE-ANTECEDENTES-MEDICO-GENERAL-SALUD-DEL-TRABAJADOR.pdf",
+      "skills": [
+        "Título y habilitación exigidos por la convocatoria; EUNACOM excluyente",
+        "Uso básico de informática",
+        "Registro y reporte de información sanitaria",
+        "Coordinación multidisciplinaria y trabajo en red",
+        "Conocimiento del contexto de atención primaria"
+      ],
+      "observed_date": "2026-11-01",
+      "publication_window": "2025-03-28/2025-04-08",
+      "status": "historical_closed",
+      "limits": [
+        "Convocatoria cerrada; no mide volumen actual de demanda.",
+        "Los requisitos regulatorios se transcriben como condición de esta oferta, no como asesoría de habilitación."
+      ],
+      "field": "medicina"
+    },
+    {
+      "id": "EMP-MED-REDSALUD",
+      "type": "traditional_private_provider",
+      "company": "RedSalud CCHC",
+      "role": "Médico general de telemedicina",
+      "location": "Chile, remoto",
+      "seniority": "La plataforma etiqueta 'Sin experiencia'; el cuerpo no especifica años. No prueba aceptación universal de recién titulados.",
+      "url": "https://cl.linkedin.com/jobs/view/m%C3%A9dico-general-at-redsalud-cchc-4277459107",
+      "skills": [
+        "Atención a distancia",
+        "Empatía y servicio",
+        "Título registrado y seguro exigidos en anuncio",
+        "Conectividad y computador para atención remota"
+      ],
+      "observed_date": "2026-11-01",
+      "publication_window": "La página mostraba 'Hace 1 año', sin fecha absoluta recuperada",
+      "status": "historical_closed",
+      "limits": [
+        "Publicación atribuida al empleador en LinkedIn, no convocatoria vigente.",
+        "El requisito de disponer de computador no equivale a demostrar alfabetización digital clínica."
+      ],
+      "field": "medicina"
+    },
+    {
+      "id": "EMP-MED-GOOGLE",
+      "type": "established_technology_company",
+      "company": "Google",
+      "role": "Clinical Specialist, Mental Health",
+      "location": "Estados Unidos; varias ciudades",
+      "seniority": "Intermedio: doctorado clínico, tres años de práctica posterior incluyendo entrenamiento y un año en evaluación de IA o desarrollo de producto de salud digital; especialización adicional en prevención de suicidio.",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/85740983550911174-clinical-specialist/",
+      "skills": [
+        "Evaluación de productos de IA en seguridad y calidad",
+        "Desarrollo de productos de salud digital",
+        "Comunicación y colaboración con equipos de producto",
+        "Uso de evidencia clínica en diseño de producto"
+      ],
+      "observed_date": "2026-11-01",
+      "status": "indexed_primary_source_but_live_job_removed",
+      "limits": [
+        "Texto detallado recuperado del índice de búsqueda de la página oficial; apertura directa devolvió Job not found.",
+        "Conservar como señal histórica de frontera con confianza menor; excluir de vacantes vigentes.",
+        "Acepta varios grados clínicos; no representa exclusivamente médicos.",
+        "No trasladar experiencia especializada requerida a todo egresado de medicina."
+      ],
+      "field": "medicina"
+    },
+    {
+      "id": "EMP-MED-ALICE-PROFILE",
+      "type": "latin_american_healthtech",
+      "company": "Alice",
+      "role": "Perfil público de selección de médicos especialistas de la red",
+      "location": "São Paulo y región metropolitana, Brasil",
+      "seniority": "Especialistas con trayectoria; experiencia, formación y cualificaciones son criterios de selección, sin umbral único de años en esta página.",
+      "url": "https://alice.com.br/para-medicos",
+      "source_urls": [
+        "https://carreira.inhire.com.br/alice/",
+        "https://alice.inhire.app/vagas"
+      ],
+      "skills": [
+        "Práctica apoyada en evidencia",
+        "Colaboración entre especialidades",
+        "Coordinación longitudinal del cuidado",
+        "Uso de información clínica y tecnología del sistema",
+        "Responsabilidad ética y actualización"
+      ],
+      "observed_date": "2026-11-01",
+      "status": "public_selection_profile_not_specific_vacancy",
+      "limits": [
+        "Healthtech latinoamericana en crecimiento; no demuestra demanda de médicos recién titulados.",
+        "Página corporativa promocional; no valida resultados, remuneraciones ni eficacia de IA.",
+        "Portal de vacantes exige JavaScript; no se pudo verificar vacante concreta original.",
+        "No usar este perfil como frecuencia de habilidades en ofertas."
+      ],
+      "field": "medicina"
+    },
+    {
+      "id": "CS-E-BANCOLOMBIA",
+      "type": "tradicional",
+      "company": "Grupo Bancolombia",
+      "role": "Ingeniería de software nivel 1, integración de datos",
+      "location": "Colombia",
+      "seniority": "Junior explícito; título o formación afín",
+      "url": "https://empleo.grupobancolombia.com/bancolombia/job/Etipani-IngenieroA-Software-(Nivel-1-Junior)-L%C3%ADnea-De-Conocimiento-Foco-Integraci%C3%B3n-Datos-Y-Archivos-TI-COL/1443383900/",
+      "skills": [
+        "SQL intermedio y Python básico",
+        "ciclo de desarrollo, pruebas y documentación",
+        "colaboración y resolución de problemas",
+        "ETL, Spark, ML e inglés como deseables"
+      ],
+      "observed_date": "2026-11-01",
+      "published_date": "2026-10-23",
+      "limits": "Un aviso para Colombia; no mide prevalencia ni contratación efectiva. Deseables separados de mínimos.",
+      "field": "computacion",
+      "status": "Documento accesible durante investigación; vigencia requiere revalidación"
+    },
+    {
+      "id": "CS-E-GOOGLE",
+      "type": "tecnologica_lider",
+      "company": "Google",
+      "role": "Software Engineer, Early Career (Women in Tech)",
+      "location": "Belo Horizonte / São Paulo, Brasil",
+      "seniority": "Early; un año de desarrollo requerido",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/80313547497579206-software-engineer-early-career-for-women-in-tech-candidates",
+      "skills": [
+        "formación computacional o experiencia equivalente",
+        "desarrollo en al menos un lenguaje",
+        "inglés",
+        "ML como preferencia, no mínimo",
+        "buenas prácticas de desarrollo"
+      ],
+      "observed_date": "2026-11-01",
+      "limits": "Aviso de acción afirmativa para candidatas mujeres, no muestra universal de contratación. No acredita demanda interna de EEUU o China.",
+      "field": "computacion",
+      "status": "Documento accesible durante investigación; vigencia requiere revalidación"
+    },
+    {
+      "id": "CS-E-FINTUAL",
+      "type": "startup_scaleup",
+      "company": "Fintual",
+      "role": "Software Engineer",
+      "location": "Chile / México",
+      "seniority": "Más de tres años de programación formal; referencia de trayectoria, no de egreso",
+      "url": "https://jobs.lever.co/fintual/9c863695-5fdd-40f3-a907-fc8db1227036",
+      "skills": [
+        "programación y razonamiento algorítmico",
+        "resolver ambigüedad y aprender nuevas herramientas",
+        "comunicación e inglés",
+        "entrega de código documentado",
+        "uso de LLM permitido en prueba con conversaciones compartidas"
+      ],
+      "observed_date": "2026-11-01",
+      "limits": "No se usa como umbral obligatorio para recién egresados. Una prueba de selección publicada no demuestra desempeño contratado ni escasez. Clasificación startup/scaleup descriptiva.",
+      "field": "computacion",
+      "status": "Documento accesible durante investigación; vigencia requiere revalidación"
+    }
+  ],
+  "counts": {
+    "programs": 24,
+    "curricular_evidence": 156,
+    "employer_records": 13
+  },
+  "limitations": [
+    "No mide aprendizaje individual, escasez, causas de desempleo ni años de atraso.",
+    "Versiones históricas, especializaciones, etapas de carrera y requisitos territoriales no son equivalentes.",
+    "Los registros de medicina no constituyen una muestra de vacantes vigentes."
+  ]
+}

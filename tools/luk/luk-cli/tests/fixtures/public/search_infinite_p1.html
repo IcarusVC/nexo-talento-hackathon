@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- Minimized skeleton of Luk's search page after the 2026-09-29 redesign (split view, infinite
+     scroll), verified live 2026-10-21. Structure, ids and classes are Luk's; every offer, company and
+     amount is fake. -->
+<html class="h-full bg-primary font-sans" lang="es-CL">
+<head><title>Ofertas de trabajo en Chile | Luk</title></head>
+<body>
+<header id="main-header"><a href="/users/sign_in">Ingresar</a></header>
+<main>
+  <form action="/job_offers" method="get">
+    <input data-no-results-text="No encontramos ofertas en esta ubicación" data-areas-search-url="/flexible_search/areas"
+      data-placeholder-has-items="Escribe otra y presiona <span class=&quot;keyboard-hint&quot;>Enter</span>"
+      data-initial-area-options="[{&quot;id&quot;:1021,&quot;name&quot;:&quot;Chile&quot;,&quot;display_path&quot;:&quot;Chile&quot;,&quot;area_type&quot;:&quot;country&quot;,&quot;area_type_label&quot;:&quot;País&quot;}]"
+      value="1021" type="hidden" name="locations" id="locations">
+  </form>
+  <div class="card job-offers-results-count-card">
+    <p class="job-offers-results-count text-gray"> <b>2298</b> <span>ofertas de trabajo</span> </p>
+  </div>
+  <div class="job-offers-results-count job-offers-results-count--mobile md:hidden"> <b class="text-gray-dark">2298</b> <span>ofertas</span> </div>
+  <turbo-frame class="job-offers-results-frame" data-turbo-action="advance" data-scroll-top-on-load="true" id="job_offers_listing">
+    <turbo-frame class="job-offers-page-frame stack-sm" id="job_offers_page_1">
+      <div class="card job-offer-card relative" data-scroll-restore-slug="analista-contable-empresa-demo-spa">
+        <div class="stack-md">
+          <div class="job-offer-card__listing">
+            <div class="job-offer-card__copy stack-xxs">
+              <h2 class="card-title job-offer-card__title min-w-0" title="Analista Contable ">
+                Analista   Contable
+              </h2>
+              <p class="item-title text-secondary-dark job-offer-card__company" title="Empresa Demo SpA">Empresa Demo SpA</p>
+            </div>
+            <div class="job-offer-card__location-row flex items-center inline-gap-xxs item-subtitle text-gray min-w-0">
+              <svg aria-hidden="true"></svg>
+              <span class="job-offer-card__location">Las Condes, Región Metropolitana</span>
+            </div>
+          </div>
+          <div class="stack-xs">
+            <div class="flex flex-wrap items-center inline-gap-xs">
+              <span class="tag-primary">CLP $1.200.000 - $1.500.000</span>
+              <span class="tag-navy"><svg aria-hidden="true"></svg> Jornada Completa</span>
+              <span class="tag-navy">Híbrido</span>
+            </div>
+            <div class="flex items-center inline-gap-xxs item-subtitle text-gray"><svg aria-hidden="true"></svg> <span>Hace 2 días</span></div>
+          </div>
+        </div>
+        <a class="job-offer-card__hit" data-turbo-frame="_top" aria-label="Analista Contable" href="/job_offers/analista-contable-empresa-demo-spa"></a>
+      </div>
+      <div class="card job-offer-card relative" data-scroll-restore-slug="vendedor-en-terreno-comercial-ejemplo">
+        <div class="stack-md">
+          <div class="job-offer-card__listing">
+            <div class="job-offer-card__copy stack-xxs">
+              <h2 class="card-title job-offer-card__title min-w-0" title="Vendedor en terreno">Vendedor en terreno</h2>
+              <p class="item-title text-secondary-dark job-offer-card__company" title="Comercial Ejemplo Ltda.">Comercial Ejemplo Ltda.</p>
+            </div>
+            <div class="job-offer-card__location-row flex items-center inline-gap-xxs item-subtitle text-gray min-w-0">
+              <span class="job-offer-card__location">Chile</span>
+            </div>
+          </div>
+          <div class="stack-xs">
+            <div class="flex flex-wrap items-center inline-gap-xs">
+              <span class="tag-navy">Jornada Completa</span>
+              <span class="tag-navy">Plazo fijo</span>
+              <span class="tag-navy">Presencial</span>
+            </div>
+            <div class="flex items-center inline-gap-xxs item-subtitle text-gray"><span>Hace menos de 1 hora</span></div>
+          </div>
+        </div>
+        <a class="job-offer-card__hit" data-turbo-frame="_top" aria-label="Vendedor en terreno" href="/job_offers/vendedor-en-terreno-comercial-ejemplo"></a>
+      </div>
+      <div class="card job-offer-card relative" data-scroll-restore-slug="practicante-de-mantencion-confidencial">
+        <div class="stack-md">
+          <div class="job-offer-card__listing">
+            <div class="job-offer-card__copy stack-xxs">
+              <h2 class="card-title job-offer-card__title min-w-0" title="Practicante de Mantención">Practicante de Mantención</h2>
+              <p class="item-title text-secondary-dark job-offer-card__company" title=""></p>
+            </div>
+          </div>
+          <div class="stack-xs">
+            <div class="flex flex-wrap items-center inline-gap-xs">
+              <span class="tag-navy">Prácticas</span>
+            </div>
+          </div>
+        </div>
+        <a class="job-offer-card__hit" data-turbo-frame="_top" aria-label="Practicante de Mantención" href="/job_offers/practicante-de-mantencion-confidencial"></a>
+      </div>
+      <turbo-frame loading="lazy" class="job-offers-page-frame" id="job_offers_page_2" src="/job_offers?locations=1021&amp;page=2">
+        <a class="sr-only" href="/job_offers?locations=1021&amp;page=2">Cargando más ofertas...</a>
+        <div class="loading loading--spinner job-offers-infinite-loader" role="status" aria-live="polite" aria-label="Cargando más ofertas..."></div>
+      </turbo-frame>
+    </turbo-frame>
+  </turbo-frame>
+  <turbo-frame id="job_offer_preview"></turbo-frame>
+  <turbo-frame id="modal"></turbo-frame>
+</main>
+<footer><a href="/job_offers?locale=en">English</a></footer>
+</body>
+</html>
